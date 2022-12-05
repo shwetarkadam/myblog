@@ -19,7 +19,7 @@ jobs:
     - name: Setup emacs
       uses: purcell/setup-emacs@master
       with:
-        version: 27.2
+        version: 26.3
 
     - name: Export Org file to Markdown
       run: emacs ./config.org --batch -L ./ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
