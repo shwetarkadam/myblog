@@ -22,7 +22,7 @@ jobs:
         version: 26.3
 
     - name: Add ox-hugo directory to load-path
-      run: emacs --batch --eval="(add-to-list 'load-path \"./ox-hugo\")  && (require 'ox-hugo)"
+      run: emacs --batch --eval="(add-to-list 'load-path \"./ox-hugo\") && (require 'ox-hugo)"
       
 #     - name: Cd into the directory
 #       run: cd "$(pwd)/ox-hugo"
