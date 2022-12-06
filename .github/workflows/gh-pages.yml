@@ -26,6 +26,9 @@ jobs:
       
     - name: Cd into the directory
       run: cd "$(pwd)/ox-hugo"
+      
+    - name: echo directory
+      run: echo "$(pwd)/ox-hugo"
 
     - name: Load ox-hugo package
       run: emacs --batch --eval="(require 'ox-hugo)"
