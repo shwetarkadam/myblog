@@ -33,6 +33,9 @@ jobs:
 #     - name: Load ox-hugo package
 #       run: emacs --batch --eval="(require 'ox-hugo)"
 
+    - name: Clone Org-mode exporter
+      run: git clone https://github.com/kaushalmodi/tomelr tomelr
+
     - name: Export Org file to Markdown
       run: emacs ./config.org --batch -L tomelr -L ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
       
