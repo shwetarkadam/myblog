@@ -27,14 +27,14 @@ jobs:
 #     - name: Cd into the directory
 #       run: cd "$(pwd)/ox-hugo"
       
-    - name: echo directory
-      run: echo "$(pwd)/ox-hugo"
+#     - name: echo directory
+#       run: echo "$(pwd)/ox-hugo"
 
 #     - name: Load ox-hugo package
 #       run: emacs --batch --eval="(require 'ox-hugo)"
 
     - name: Export Org file to Markdown
-      run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+      run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval="(org-hugo-export-wim-to-md t)" --kill
       
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
