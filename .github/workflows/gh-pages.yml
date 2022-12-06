@@ -1,4 +1,4 @@
-name: github pages
+name: Deploy website
 
 on:
   push:
@@ -21,6 +21,12 @@ jobs:
       with:
         version: 27.2
 
+    - name: Add ox-hugo directory to load-path
+      run: emacs --batch --eval '(add-to-list (quote load-path) "./ox-hugo")'
+
+    - name: Load ox-hugo package
+      run: emacs --batch --eval '(require (quote ox-hugo))'
+
     - name: Export Org file to Markdown
       run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md :all-subtrees)' --kill
 
@@ -31,7 +37,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify --theme=hugo-bearblog
+      run: hugo --minify --theme=hugo-papermod
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
@@ -40,4 +46,3 @@ jobs:
         publish_branch: master
         publish_dir: ./public
         cname: blog.codeklutz.com
-          
