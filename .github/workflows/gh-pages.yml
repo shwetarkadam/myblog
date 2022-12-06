@@ -19,10 +19,10 @@ jobs:
     - name: Setup emacs
       uses: purcell/setup-emacs@master
       with:
-        version: 26.3
+        version: 27.2
 
     - name: Export Org file to Markdown
-      run: emacs ./config.org --batch  ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+      run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
