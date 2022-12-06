@@ -26,7 +26,7 @@ jobs:
 
 
     - name: Load ox-hugo package
-      run: emacs --batch --eval="(require \'ox-hugo)"
+      run: emacs --batch --eval="(require \"'ox-hugo\")"
 
     - name: Export Org file to Markdown
       run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md :all-subtrees)' --kill
