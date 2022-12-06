@@ -22,10 +22,10 @@ jobs:
         version: 27.2
 
     - name: Add ox-hugo directory to load-path
-      run: emacs --batch --eval '(add-to-list (quote load-path) "./ox-hugo")'
+      run: emacs --batch --eval '(add-to-list ('load-path) "./ox-hugo")'
 
     - name: Load ox-hugo package
-      run: emacs --batch --eval '(require (quote ox-hugo))'
+      run: emacs --batch --eval '(require ('ox-hugo))'
 
     - name: Export Org file to Markdown
       run: emacs ./config.org --batch -L ./ox-hugo -L ox-hugo.el --eval='(org-hugo-export-wim-to-md :all-subtrees)' --kill
