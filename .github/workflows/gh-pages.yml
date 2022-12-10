@@ -46,7 +46,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify --theme=hugo-papermod
+      run: hugo --minify
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
