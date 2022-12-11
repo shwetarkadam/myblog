@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://notes.codeklutz.com/sitemap.xml
+Sitemap: https://shwetarkadam.github.io/myblog/sitemap.xml

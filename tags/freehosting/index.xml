@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>freehosting on Codeklutz</title>
-    <link>https://notes.codeklutz.com/tags/freehosting/</link>
+    <link>https://shwetarkadam.github.io/myblog/tags/freehosting/</link>
     <description>Recent content in freehosting on Codeklutz</description>
     <image>
-      <url>https://notes.codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://notes.codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetarkadam.github.io/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetarkadam.github.io/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0000</lastBuildDate><atom:link href="https://notes.codeklutz.com/tags/freehosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0000</lastBuildDate><atom:link href="https://shwetarkadam.github.io/myblog/tags/freehosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploying my portfolio website for free on Github Pages using GitHub actions</title>
-      <link>https://notes.codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>
+      <link>https://shwetarkadam.github.io/myblog/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>
       <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
+      <guid>https://shwetarkadam.github.io/myblog/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
       <description>I deployed my portfolio site and wanted to try out github actions and this is my experience of automating the deployment. This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.</description>
     </item>
     
