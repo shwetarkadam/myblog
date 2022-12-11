@@ -9,11 +9,11 @@
       <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0530</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>freehosting</title>
       <link>https://examplesite.com/tags/freehosting/</link>
-      <pubDate>Mon, 05 Dec 2022 23:23:00 +0530</pubDate>
+      <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/freehosting/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>github</title>
       <link>https://examplesite.com/tags/github/</link>
-      <pubDate>Mon, 05 Dec 2022 23:23:00 +0530</pubDate>
+      <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/github/</guid>
       <description></description>
@@ -31,7 +31,7 @@
     <item>
       <title>githubactions</title>
       <link>https://examplesite.com/tags/githubactions/</link>
-      <pubDate>Mon, 05 Dec 2022 23:23:00 +0530</pubDate>
+      <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/githubactions/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     <item>
       <title>portfolio</title>
       <link>https://examplesite.com/tags/portfolio/</link>
-      <pubDate>Mon, 05 Dec 2022 23:23:00 +0530</pubDate>
+      <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/portfolio/</guid>
       <description></description>
@@ -49,7 +49,7 @@
     <item>
       <title>java</title>
       <link>https://examplesite.com/tags/java/</link>
-      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/java/</guid>
       <description></description>
@@ -58,7 +58,7 @@
     <item>
       <title>polymorphism</title>
       <link>https://examplesite.com/tags/polymorphism/</link>
-      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/polymorphism/</guid>
       <description></description>
@@ -67,7 +67,7 @@
     <item>
       <title>programming</title>
       <link>https://examplesite.com/tags/programming/</link>
-      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
       <guid>https://examplesite.com/tags/programming/</guid>
       <description></description>

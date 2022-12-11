@@ -9,11 +9,11 @@
       <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0530</lastBuildDate><atom:link href="https://examplesite.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0000</lastBuildDate><atom:link href="https://examplesite.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polymorphism in Java</title>
       <link>https://examplesite.com/posts/polymorphism-in-java/</link>
-      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
       <guid>https://examplesite.com/posts/polymorphism-in-java/</guid>
       <description>Just revisiting and explaining myself Polymorphism concept here through a blog post. The words Polymorphism means multiple forms.
