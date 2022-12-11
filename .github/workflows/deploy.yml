@@ -12,6 +12,7 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: true
+        fetch-depth: 0
 
     - name: Clone Org-mode exporter
       run: git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
@@ -47,6 +48,7 @@ jobs:
       with:
         hugo-version: 'latest'
         extended: true
+        
 
     - name: Build
       run: hugo --minify
@@ -60,5 +62,5 @@ jobs:
         publish_dir: ./content
       
 #         keep_files: true
-#         cname: notes.codeklutz.com
+        cname: notes.codeklutz.com/myblog
         
