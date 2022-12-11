@@ -1,8 +1,8 @@
 BASE_DIR=$(shell pwd)
-SOURCE_ORG_FILES=$(BASE_DIR)/notes
+SOURCE_ORG_FILES=$(BASE_DIR)/
 EMACS_BUILD_DIR=/tmp/notes-home-build/
 BUILD_DIR=/tmp/notes-home-build/.cache/org-persist/
-HUGO_SECTION=notes
+HUGO_SECTION=posts
 
 all: org2hugo
 
