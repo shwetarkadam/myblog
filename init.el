@@ -43,7 +43,7 @@
 ;;; Public functions
 (defun build/export-all ()
   "Export all org-files (including nested) under notes-org-files."
-(setq org-id-extra-files (directory-files-recursively notes-org-files "\.org$"))
+(setq org-id-extra-files (find-lisp-find-files notes-org-files "\.org$"))
 
   (setq org-hugo-base-dir
     (let* ((env-key "HUGO_BASE_DIR")
