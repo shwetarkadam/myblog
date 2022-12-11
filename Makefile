@@ -1,5 +1,5 @@
 BASE_DIR=$(shell pwd)
-SOURCE_ORG_FILES=$(BASE_DIR)/config.org
+SOURCE_ORG_FILES=$(BASE_DIR)
 EMACS_BUILD_DIR=/tmp/notes-home-build/
 BUILD_DIR=/tmp/notes-home-build/.cache/org-persist/
 HUGO_SECTION=posts
