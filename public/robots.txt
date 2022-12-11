@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://shwetarkadam.github.io/myblog/sitemap.xml
