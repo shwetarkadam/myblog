@@ -59,4 +59,4 @@ jobs:
 #         publish_branch: main
         publish_dir: ./public
         keep_files: true
-        cname: codeklutz.com
+        cname: notes.codeklutz.com/myblog
