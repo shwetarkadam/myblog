@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://codeklutz.com/</loc>
+    <loc>https://notes.codeklutz.com/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
+    <loc>https://notes.codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/freehosting/</loc>
+    <loc>https://notes.codeklutz.com/tags/freehosting/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/github/</loc>
+    <loc>https://notes.codeklutz.com/tags/github/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/githubactions/</loc>
+    <loc>https://notes.codeklutz.com/tags/githubactions/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/portfolio/</loc>
+    <loc>https://notes.codeklutz.com/tags/portfolio/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
+    <loc>https://notes.codeklutz.com/posts/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
+    <loc>https://notes.codeklutz.com/tags/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/java/</loc>
+    <loc>https://notes.codeklutz.com/tags/java/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/polymorphism/</loc>
+    <loc>https://notes.codeklutz.com/tags/polymorphism/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/polymorphism-in-java/</loc>
+    <loc>https://notes.codeklutz.com/posts/polymorphism-in-java/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/programming/</loc>
+    <loc>https://notes.codeklutz.com/tags/programming/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/archives/</loc>
+    <loc>https://notes.codeklutz.com/archives/</loc>
   </url><url>
-    <loc>https://codeklutz.com/categories/</loc>
+    <loc>https://notes.codeklutz.com/categories/</loc>
   </url><url>
-    <loc>https://codeklutz.com/search/</loc>
+    <loc>https://notes.codeklutz.com/search/</loc>
   </url>
 </urlset>
