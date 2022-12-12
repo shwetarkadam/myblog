@@ -63,5 +63,5 @@ jobs:
         publish_dir: ./content
       
 #         keep_files: true
-        cname: notes.codeklutz.com/myblog
+#         cname: notes.codeklutz.com/myblog
         
