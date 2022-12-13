@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.notes.codeklutz.com/myblog/sitemap.xml
