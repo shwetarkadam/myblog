@@ -1,4 +1,4 @@
-baseURL= "https://codeklutz.com"
+baseURL= "https://www.codeklutz.com"
 title = "Codeklutz"
 paginate = 5
 theme = "PaperMod"
