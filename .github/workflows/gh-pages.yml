@@ -60,7 +60,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
        # publish_branch: main
 #         BRANCH: main
-        publish_dir: ./content
+        publish_dir: ./public 
       
 #         keep_files: true
        # cname: codeklutz.com
