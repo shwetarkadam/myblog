@@ -1,4 +1,4 @@
-baseURL= "https://www.notes.codeklutz.com/myblog"
+baseURL= "https://notes.codeklutz.com/myblog"
 title = "Codeklutz"
 paginate = 5
 theme = "PaperMod"
