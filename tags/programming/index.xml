@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>programming on Codeklutz</title>
-    <link>https://www.notes.codeklutz.com/myblog/tags/programming/</link>
+    <link>https://notes.codeklutz.com/myblog/tags/programming/</link>
     <description>Recent content in programming on Codeklutz</description>
     <image>
-      <url>https://www.notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0000</lastBuildDate><atom:link href="https://www.notes.codeklutz.com/myblog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0000</lastBuildDate><atom:link href="https://notes.codeklutz.com/myblog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polymorphism in Java</title>
-      <link>https://www.notes.codeklutz.com/myblog/posts/polymorphism-in-java/</link>
+      <link>https://notes.codeklutz.com/myblog/posts/polymorphism-in-java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
-      <guid>https://www.notes.codeklutz.com/myblog/posts/polymorphism-in-java/</guid>
+      <guid>https://notes.codeklutz.com/myblog/posts/polymorphism-in-java/</guid>
       <description>Just revisiting and explaining myself Polymorphism concept here through a blog post. The words Polymorphism means multiple forms.
 In Java ,Polymorphism means multiple forms of an object. We shall divide this article into 3 sections.
 1.Syntax
