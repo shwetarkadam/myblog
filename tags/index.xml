@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Codeklutz</title>
-    <link>https://notes.codeklutz.com/myblog/tags/</link>
+    <link>https://codeklutz.com/tags/</link>
     <description>Recent content in Tags on Codeklutz</description>
     <image>
-      <url>https://notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://notes.codeklutz.com/myblog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0000</lastBuildDate><atom:link href="https://notes.codeklutz.com/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 23:23:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>freehosting</title>
-      <link>https://notes.codeklutz.com/myblog/tags/freehosting/</link>
+      <link>https://codeklutz.com/tags/freehosting/</link>
       <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/freehosting/</guid>
+      <guid>https://codeklutz.com/tags/freehosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://notes.codeklutz.com/myblog/tags/github/</link>
+      <link>https://codeklutz.com/tags/github/</link>
       <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/github/</guid>
+      <guid>https://codeklutz.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>githubactions</title>
-      <link>https://notes.codeklutz.com/myblog/tags/githubactions/</link>
+      <link>https://codeklutz.com/tags/githubactions/</link>
       <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/githubactions/</guid>
+      <guid>https://codeklutz.com/tags/githubactions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>portfolio</title>
-      <link>https://notes.codeklutz.com/myblog/tags/portfolio/</link>
+      <link>https://codeklutz.com/tags/portfolio/</link>
       <pubDate>Mon, 05 Dec 2022 23:23:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/portfolio/</guid>
+      <guid>https://codeklutz.com/tags/portfolio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://notes.codeklutz.com/myblog/tags/java/</link>
+      <link>https://codeklutz.com/tags/java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/java/</guid>
+      <guid>https://codeklutz.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>polymorphism</title>
-      <link>https://notes.codeklutz.com/myblog/tags/polymorphism/</link>
+      <link>https://codeklutz.com/tags/polymorphism/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/polymorphism/</guid>
+      <guid>https://codeklutz.com/tags/polymorphism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>https://notes.codeklutz.com/myblog/tags/programming/</link>
+      <link>https://codeklutz.com/tags/programming/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
       
-      <guid>https://notes.codeklutz.com/myblog/tags/programming/</guid>
+      <guid>https://codeklutz.com/tags/programming/</guid>
       <description></description>
     </item>
     
