@@ -69,7 +69,7 @@ run npm start
 
 so you should get your output in localhost something like this
 
-{{< figure src="/posts/img/portfolio-githubactions.png" >}}
+{{< figure src="/img/portfolio-githubactions.PNG" >}}
 
 Now that you have ensured that the project runs properly in your local machine,it is ready to be deployed to GitHub pages. You will only need to commit and push your changes to the main branch of a repo and ensure that the settings are pointing to the correct branch to display a site for that.
 Now the file that does this is that deploy.yml file which we will use to create the workflow.
@@ -107,14 +107,14 @@ You could go to your github repo Actions Tab -&gt; Create Simple Workflow and co
 
 Once you have a site ready for GitHub Pages, and your project includes the `.github/workflows/deploy.yml` file, you only need to commit and push your changes to the main branch of your repository. You can the ongoing workflow by going to Actions=&gt;build and deploy.Also this is the place where you can debug what went wrong in case your workflow fails.
 
-{{< figure src="/posts/img/githubaction-build.PNG" >}}
+{{< figure src="/img/githubaction-build.PNG" >}}
 
-{{< figure src="/posts/img/githubaction-build2.png" >}}
+{{< figure src="/img/githubaction-build2.png" >}}
 
 After the GitHub Actions have run, ensure settings are pointing to the correct branch to display your site.
 Go to the settings of your repository and ensure that the source for GitHub Pages is using the correct branch. It is close to the bottom of the main settings page.
 
-{{< figure src="/posts/img/gh-pages.PNG" >}}
+{{< figure src="/img/gh-pages.PNG" >}}
 
 It does take some time at the start to load in the browser but once available you can click on the link in the green bar above.
 Now every time you make a push to the main branch ,the changes are reflected in the main site.
