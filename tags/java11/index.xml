@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>java11 on Codeklutz</title>
+    <link>https://codeklutz.com/tags/java11/</link>
+    <description>Recent content in java11 on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Nov 2022 18:48:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/java11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt: Interesting Things in Java 11</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
+Today’s TIL : Crazy things to do with Java 11+
+Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
+    </item>
+    
+  </channel>
+</rss>

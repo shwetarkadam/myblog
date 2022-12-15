@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>notes on Codeklutz</title>
+    <link>https://codeklutz.com/tags/notes/</link>
+    <description>Recent content in notes on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tackling procrastination and kubernetes study</title>
+      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -26,6 +26,96 @@
     <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
+    <loc>https://codeklutz.com/tags/422/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/422unprocessableentity/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/http/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/httperrorcode/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/arrays/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/blog/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/java11/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/primitives/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/var/</loc>
+    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/databaseschemachanges/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/databaseversioncontrol/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/flyway/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/liquibase/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/til/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt-database-version-control/</loc>
+    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/basics/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/kubeapiserver/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/kubernetes/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/learning/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/notes/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</loc>
+    <lastmod>2022-02-25T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/debugging/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/domain/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/experiment/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/lessions/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/note/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/retrospect/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/tech-recap-journal-january/</loc>
+    <lastmod>2022-02-01T15:15:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/tags/config/</loc>
     <lastmod>2022-01-21T23:41:00+00:00</lastmod>
   </url><url>
@@ -74,9 +164,6 @@
     <loc>https://codeklutz.com/tags/cronjob/</loc>
     <lastmod>2022-01-12T23:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/debugging/</loc>
-    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/development/</loc>
     <lastmod>2022-01-12T23:49:00+00:00</lastmod>
   </url><url>
@@ -118,22 +205,8 @@
   </url><url>
     <loc>https://codeklutz.com/archives/</loc>
   </url><url>
-    <loc>https://codeklutz.com/tags/blog/</loc>
-  </url><url>
     <loc>https://codeklutz.com/categories/</loc>
   </url><url>
-    <loc>https://codeklutz.com/tags/domain/</loc>
-  </url><url>
-    <loc>https://codeklutz.com/tags/experiment/</loc>
-  </url><url>
-    <loc>https://codeklutz.com/tags/lessions/</loc>
-  </url><url>
-    <loc>https://codeklutz.com/tags/note/</loc>
-  </url><url>
-    <loc>https://codeklutz.com/tags/retrospect/</loc>
-  </url><url>
     <loc>https://codeklutz.com/search/</loc>
-  </url><url>
-    <loc>https://codeklutz.com/posts/tech-recap-journal-january/</loc>
   </url>
 </urlset>

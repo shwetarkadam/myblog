@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>databaseschemachanges on Codeklutz</title>
+    <link>https://codeklutz.com/tags/databaseschemachanges/</link>
+    <description>Recent content in databaseschemachanges on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Nov 2022 15:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/databaseschemachanges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt: Database Version Control</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-database-version-control/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-database-version-control/</guid>
+      <description>Upon stumbling upon this motivating HN post by Simon Willison I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</description>
+    </item>
+    
+  </channel>
+</rss>

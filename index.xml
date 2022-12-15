@@ -20,6 +20,56 @@
     </item>
     
     <item>
+      <title>Today I learnt:422 HTTP Error code</title>
+      <link>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</link>
+      <pubDate>Sun, 20 Nov 2022 19:38:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</guid>
+      <description>Today while testing a soap API at work, I came across this HTTP error code called HTTP/1.1 422 Unprocessable Entity . According to MDN Web docs, it means the following :
+The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.</description>
+    </item>
+    
+    <item>
+      <title>Today I learnt: Interesting Things in Java 11</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
+Today’s TIL : Crazy things to do with Java 11+
+Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
+    </item>
+    
+    <item>
+      <title>Today I learnt: Database Version Control</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-database-version-control/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-database-version-control/</guid>
+      <description>Upon stumbling upon this motivating HN post by Simon Willison I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</description>
+    </item>
+    
+    <item>
+      <title>Tackling procrastination and kubernetes study</title>
+      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Tech Recap Journal- January📓</title>
+      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
+However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
+My Blog! codeklutz.com I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.</description>
+    </item>
+    
+    <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
       <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0000</pubDate>
@@ -75,16 +125,6 @@ A constructor is used to initialize instance variables When an object of an clas
     </item>
     
     
-    
-    <item>
-      <title>Tech Recap Journal- January📓</title>
-      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
-      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
-However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February. My Blog! codeklutz.com</description>
-    </item>
     
   </channel>
 </rss>
