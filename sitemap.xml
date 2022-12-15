@@ -2,40 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://codeklutz.com/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/freehosting/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/github/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/githubactions/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/portfolio/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
-    <lastmod>2022-12-05T23:23:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/422/</loc>
     <lastmod>2022-11-20T19:38:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/422unprocessableentity/</loc>
     <lastmod>2022-11-20T19:38:00+00:00</lastmod>
   </url><url>
+    <loc>https://codeklutz.com/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/tags/http/</loc>
     <lastmod>2022-11-20T19:38:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/httperrorcode/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2022-11-20T19:38:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</loc>
@@ -184,6 +169,21 @@
   </url><url>
     <loc>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</loc>
     <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
+    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/freehosting/</loc>
+    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/github/</loc>
+    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/githubactions/</loc>
+    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/portfolio/</loc>
+    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/polymorphism/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
