@@ -359,7 +359,7 @@ In layman’s terms, Swagger OpenAPI specification provides API documentation fo
 
 Available endpoints can be /projectApi and all operations on each endpoint which can GET /getProjectApi , POST /insertProjectApi , DELETE /deleteProjectApi .
 
-[[]]
+[[/img/swaggerui.PNG]]
 Also, integration of swagger open API is pretty painless in spring boot and it lets users try out the APIs within the browser without any installation of any software from the user (sounds pretty convenient and sweet to me)
 
 In this post, I will describe how I integrated swagger open API in Spring boot project.First you need a spring boot project having basic dependcies using Spring Initializr https://start.spring.io/ or you could use this project used in the example here
@@ -378,13 +378,14 @@ Then run the application and check the below url to check open api specification
 http://localhost:8080/v3/api-docs/
 #+end_src
 You should be able to see something like this
-
+[[/img/open-apidocs.PNG]]
 You can also add a custom path by adding entry in **application.properties** file
  #+begin_src bash
 springdoc.api-docs.path=/api
 springdoc.swagger-ui.path=/swagger
 springdoc.swagger-ui.operationsSorter=method
  #+end_src
+ [[/img/custom-open-apidocs.PNG]]
  Check http://localhost:8080/swagger for web UI.To show you in this example we have a following apis in the controller
  #+begin_src java
 package com.TestDocker.BooksDocker.Controllers;
@@ -482,10 +483,18 @@ avigation, editing, development using terminal and zsh . But recently due to unf
 But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!
 
 So this is just a blog post on how I customized my terminal on windows 10 using wsl, windows terminal,zsh, and many more fun plugins which I use on my Linux as well as windows for development(work or home).
+[[/img/zsh.PNG]]
 *** What is wsl?
 It stands for windows subsystem for Linux and it's a feature of Windows that allows developers to run Linux file systems,command-line tools etc directly on windows!(Goodbye painful windows mouse navigation) First, you need the wsl feature on windows 10 by going to =Start ->Type windows feature on search and below checkbox should be checked for enabling windows subsystem for Linux.=
+[[/img/windowsfeaturecheck.PNG]]
 Now you need to install wsl which you can by going =Start-> Microsoft store ->type ubuntu=.Im installing Ubuntu wsl since I'm familiar with it you can also change distros. I'm also installing another app called windows terminal because it's much better in terms of ui to me as compared to Ubuntu terminal.This is optional.
-At this point, it's your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell. Now by default windows terminal opens the power shell, to set to Ubuntu .Go to settings as shown below
+[[/img/terminalcomparision.PNG]]
+At this point, it's your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell.
+[[/img/windowstermsettings.PNG]]
+
+Now by default windows terminal opens the power shell, to set to Ubuntu
+[[/img/setdefaultshell.PNG]]
+Go to settings as shown below
 
 Now you have a Ubuntu shell that has bash. I personally use zsh with OhMyZsh for my work for that beautiful productivity. Using OhMyZsh features like navigating without using cd, usage of ll, easier tab-click based navigation, and much more!
 
@@ -515,6 +524,7 @@ It's a fuzzy finder command-line tool that lets your fuzzy find anything (files 
 git clone - depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 #+end_src
+[[/img/fzf.PNG]]
 Here is a small example of small WIP config for reference.
 ***** Zsh Auto-suggestions
 This one Autocompletes while you type a command.This is useful especially when you type commands which you use daily but need to to try multiple times such as navigating and printing log at a specific long location. Git Clone the zsh-autocomplete plugin in the OhMyZsh plugin folder.
@@ -528,6 +538,7 @@ plugins=(
  zsh-autosuggestions
 )
 #+end_src
+[[/img/zshautosuggest.PNG]]
 ***** Zsh Syntax highlighting
 This one automatically highlights zsh commands as you type. This saves a lot of typing on my part. Git Clone the zsh-syntax-highlighting plugin in the OhMyZsh plugin folder.
 #+begin_src bash
@@ -610,7 +621,7 @@ public class Application {
 }
 
 #+end_src
-*** Scheduling using CRON expressions Permalink
+*** Scheduling using CRON expressions
 #+begin_src java
 @Component
 public class SchedulerService {
@@ -623,6 +634,7 @@ public class SchedulerService {
 
 #+end_src
  A guide for cron jobs: cron Image source :Java Techonline
+ [[/img/cron.PNG]]
  #+begin_src bash
 SEC  MIN   HOURS   DAY  MONTH  WEEKDAY
  *    *      *      *     *      *

@@ -11,13 +11,21 @@ avigation, editing, development using terminal and zsh . But recently due to unf
 But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!
 
 So this is just a blog post on how I customized my terminal on windows 10 using wsl, windows terminal,zsh, and many more fun plugins which I use on my Linux as well as windows for development(work or home).
+![](/img/zsh.PNG)
 
 
 ## What is wsl? {#what-is-wsl}
 
 It stands for windows subsystem for Linux and it's a feature of Windows that allows developers to run Linux file systems,command-line tools etc directly on windows!(Goodbye painful windows mouse navigation) First, you need the wsl feature on windows 10 by going to `Start ->Type windows feature on search and below checkbox should be checked for enabling windows subsystem for Linux.`
+![](/img/windowsfeaturecheck.PNG)
 Now you need to install wsl which you can by going `Start-> Microsoft store ->type ubuntu`.Im installing Ubuntu wsl since I'm familiar with it you can also change distros. I'm also installing another app called windows terminal because it's much better in terms of ui to me as compared to Ubuntu terminal.This is optional.
-At this point, it's your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell. Now by default windows terminal opens the power shell, to set to Ubuntu .Go to settings as shown below
+![](/img/terminalcomparision.PNG)
+At this point, it's your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell.
+![](/img/windowstermsettings.PNG)
+
+Now by default windows terminal opens the power shell, to set to Ubuntu
+![](/img/setdefaultshell.PNG)
+Go to settings as shown below
 
 Now you have a Ubuntu shell that has bash. I personally use zsh with OhMyZsh for my work for that beautiful productivity. Using OhMyZsh features like navigating without using cd, usage of ll, easier tab-click based navigation, and much more!
 
@@ -63,6 +71,7 @@ git clone - depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
+![](/img/fzf.PNG)
 Here is a small example of small WIP config for reference.
 
 
@@ -82,6 +91,8 @@ plugins=(
  zsh-autosuggestions
 )
 ```
+
+{{< figure src="/img/zshautosuggest.PNG" >}}
 
 
 #### Zsh Syntax highlighting {#zsh-syntax-highlighting}

@@ -14,7 +14,7 @@ In layman’s terms, Swagger OpenAPI specification provides API documentation fo
 
 Available endpoints can be /projectApi and all operations on each endpoint which can GET /getProjectApi , POST /insertProjectApi , DELETE /deleteProjectApi .
 
-[[]]
+![](/img/swaggerui.PNG)
 Also, integration of swagger open API is pretty painless in spring boot and it lets users try out the APIs within the browser without any installation of any software from the user (sounds pretty convenient and sweet to me)
 
 In this post, I will describe how I integrated swagger open API in Spring boot project.First you need a spring boot project having basic dependcies using Spring Initializr <https://start.spring.io/> or you could use this project used in the example here
@@ -37,7 +37,7 @@ http://localhost:8080/v3/api-docs/
 ```
 
 You should be able to see something like this
-
+![](/img/open-apidocs.PNG)
 You can also add a custom path by adding entry in ****application.properties**** file
 
 ```bash
@@ -46,6 +46,7 @@ springdoc.swagger-ui.path=/swagger
 springdoc.swagger-ui.operationsSorter=method
 ```
 
+![](/img/custom-open-apidocs.PNG)
 Check <http://localhost:8080/swagger> for web UI.To show you in this example we have a following apis in the controller
 
 ```java

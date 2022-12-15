@@ -60,7 +60,7 @@ public class Application {
 ```
 
 
-## Scheduling using CRON expressions Permalink {#scheduling-using-cron-expressions-permalink}
+## Scheduling using CRON expressions {#scheduling-using-cron-expressions}
 
 ```java
 @Component
@@ -74,6 +74,7 @@ public class SchedulerService {
 ```
 
 A guide for cron jobs: cron Image source :Java Techonline
+![](/img/cron.PNG)
 
 ```bash
 SEC  MIN   HOURS   DAY  MONTH  WEEKDAY
