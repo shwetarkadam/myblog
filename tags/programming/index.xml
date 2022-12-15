@@ -25,5 +25,15 @@ In Java ,Polymorphism means multiple forms of an object. We shall divide this ar
 super = subPermalink Meaning the variable reference (LHS) must always be a super class reference and the object initialization(RHS) must a sub class.</description>
     </item>
     
+    <item>
+      <title>How constructors work in Java</title>
+      <link>https://codeklutz.com/posts/how-constructors-work-in-java/</link>
+      <pubDate>Mon, 14 Jun 2021 21:41:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/how-constructors-work-in-java/</guid>
+      <description>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.
+A constructor is used to initialize instance variables When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error. By default every class has a constructor called default no argument constructor.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>api on Codeklutz</title>
+    <link>https://codeklutz.com/tags/api/</link>
+    <description>Recent content in api on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Jan 2022 22:53:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating Swagger OpenAPI for easy API documentation in spring boot</title>
+      <link>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
+      <description>These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.
+Both do the job brilliantly but what if I wanted some user who doesn’t want to install postman or use curl and still wants to test my live APIs thru the browser? I came across this swagger open API specification and this is a really handy tool!</description>
+    </item>
+    
+  </channel>
+</rss>

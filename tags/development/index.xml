@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>development on Codeklutz</title>
+    <link>https://codeklutz.com/tags/development/</link>
+    <description>Recent content in development on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 23:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
+      <link>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
+      <description>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.
+But first I shall tell you a little about my use case and why I thought about cron jobs in the first place….</description>
+    </item>
+    
+  </channel>
+</rss>

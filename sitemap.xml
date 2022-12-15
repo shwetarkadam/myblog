@@ -26,8 +26,77 @@
     <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2022-12-05T23:23:00+00:00</lastmod>
   </url><url>
+    <loc>https://codeklutz.com/tags/config/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/fzf/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/git/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/ohmyzsh/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/powerlevel10k/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/productivity/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/wsl/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/zsh/</loc>
+    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/api/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/apidocumentation/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/restapi/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/springboot/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/swaggeropenapi/</loc>
+    <lastmod>2022-01-16T22:53:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/cronjob/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/debugging/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/development/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/events/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/tags/java/</loc>
-    <lastmod>2021-07-14T23:28:00+00:00</lastmod>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/mysql/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/spring/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/sql/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</loc>
+    <lastmod>2022-01-12T23:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/polymorphism/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
@@ -38,10 +107,33 @@
     <loc>https://codeklutz.com/tags/programming/</loc>
     <lastmod>2021-07-14T23:28:00+00:00</lastmod>
   </url><url>
+    <loc>https://codeklutz.com/tags/concepts/</loc>
+    <lastmod>2021-06-14T21:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/constructors/</loc>
+    <lastmod>2021-06-14T21:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/how-constructors-work-in-java/</loc>
+    <lastmod>2021-06-14T21:41:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/archives/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/blog/</loc>
   </url><url>
     <loc>https://codeklutz.com/categories/</loc>
   </url><url>
+    <loc>https://codeklutz.com/tags/domain/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/experiment/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/lessions/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/note/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/retrospect/</loc>
+  </url><url>
     <loc>https://codeklutz.com/search/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/posts/tech-recap-journal-january/</loc>
   </url>
 </urlset>

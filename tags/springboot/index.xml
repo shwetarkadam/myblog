@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>springboot on Codeklutz</title>
+    <link>https://codeklutz.com/tags/springboot/</link>
+    <description>Recent content in springboot on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Jan 2022 22:53:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating Swagger OpenAPI for easy API documentation in spring boot</title>
+      <link>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
+      <description>These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.
+Both do the job brilliantly but what if I wanted some user who doesn’t want to install postman or use curl and still wants to test my live APIs thru the browser? I came across this swagger open API specification and this is a really handy tool!</description>
+    </item>
+    
+    <item>
+      <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
+      <link>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
+      <description>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.
+But first I shall tell you a little about my use case and why I thought about cron jobs in the first place….</description>
+    </item>
+    
+  </channel>
+</rss>

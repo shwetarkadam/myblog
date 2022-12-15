@@ -20,6 +20,36 @@
     </item>
     
     <item>
+      <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
+      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
+      <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
+But Thanks to WSL, windows terminal, and the beautiful zsh .</description>
+    </item>
+    
+    <item>
+      <title>Integrating Swagger OpenAPI for easy API documentation in spring boot</title>
+      <link>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
+      <description>These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.
+Both do the job brilliantly but what if I wanted some user who doesn’t want to install postman or use curl and still wants to test my live APIs thru the browser? I came across this swagger open API specification and this is a really handy tool!</description>
+    </item>
+    
+    <item>
+      <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
+      <link>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
+      <description>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.
+But first I shall tell you a little about my use case and why I thought about cron jobs in the first place….</description>
+    </item>
+    
+    <item>
       <title>Polymorphism in Java</title>
       <link>https://codeklutz.com/posts/polymorphism-in-java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0000</pubDate>
@@ -32,6 +62,26 @@ In Java ,Polymorphism means multiple forms of an object. We shall divide this ar
 3.Calling a method polymorphically.
 1.SyntaxPermalink Now in polymorphism in Java, the thumb key rule to remember is
 super = subPermalink Meaning the variable reference (LHS) must always be a super class reference and the object initialization(RHS) must a sub class.</description>
+    </item>
+    
+    <item>
+      <title>How constructors work in Java</title>
+      <link>https://codeklutz.com/posts/how-constructors-work-in-java/</link>
+      <pubDate>Mon, 14 Jun 2021 21:41:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/how-constructors-work-in-java/</guid>
+      <description>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.
+A constructor is used to initialize instance variables When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error. By default every class has a constructor called default no argument constructor.</description>
+    </item>
+    
+    <item>
+      <title>Tech Recap Journal- January📓</title>
+      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
+However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February. My Blog! codeklutz.com</description>
     </item>
     
   </channel>

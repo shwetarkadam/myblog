@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lessions on Codeklutz</title>
+    <link>https://codeklutz.com/tags/lessions/</link>
+    <description>Recent content in lessions on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://codeklutz.com/tags/lessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Recap Journal- January📓</title>
+      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
+However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February. My Blog! codeklutz.com</description>
+    </item>
+    
+  </channel>
+</rss>
