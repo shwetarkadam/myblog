@@ -13,7 +13,7 @@
 :hugo_section: posts
 :end:
 ** DONE Deploying my portfolio website for free on Github Pages using GitHub actions      :githubactions:github:portfolio:freehosting:
-CLOSED: [2022-12-05 Mon 23:23]
+CLOSED: [2021-12-05 Mon 23:23]
  :properties:
  :hugo_section: posts/2020/12
  :export_file_name: Deploying my portfolio website for free on Github Pages using Github Actions.md

@@ -1,7 +1,7 @@
 +++
 title = "Deploying my portfolio website for free on Github Pages using GitHub actions"
 author = ["Shweta Kadam"]
-date = 2022-12-05T23:23:00+05:30
+date = 2021-12-05T23:23:00+05:30
 tags = ["githubactions", "github", "portfolio", "freehosting"]
 draft = false
 +++
