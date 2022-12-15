@@ -63,5 +63,5 @@ jobs:
         publish_dir: ./public 
       
 #         keep_files: true
-       # cname: codeklutz.com
+        cname: codeklutz.com
         
