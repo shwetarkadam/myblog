@@ -655,7 +655,8 @@ public class SchedulerService {
 }
  #+end_src
 That’s all folks.Learning about events and cron jobs and where could be applied was interesting to learn when applied on some small practical application.
-** Tech Recap Journal- January📓             :blog:debugging:domain:retrospect:lessions:note:experiment:
+** DONE Tech Recap Journal- January📓 :blog:debugging:domain:retrospect:lessions:note:experiment:
+CLOSED: [2022-02-01 Thu 15:15]
 :properties:
 :hugo_section: posts/2022/02
 :export_file_name: Tech Recap Journal- January.md
@@ -663,4 +664,294 @@ That’s all folks.Learning about events and cron jobs and where could be applie
  I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
 
 However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
- My Blog! codeklutz.com
+*** My Blog! [[https://codeklutz.com][codeklutz.com]]
+I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.I didn’t want to opt for WordPress for the same reason.
+
+Jekyll with GitHub pages is a life saver here! Also learnt a lot on custom domains after buying my own domain,about Google analytic and SEO.Plus customising Jekyll site with themes has been fun.
+*** Letters to me
+This idea struck me in the wee hours at night.I always get some random tech ideas or where I am curious about something and think about it as to how I would do this particular task.
+
+I think of this site as an idea jar 💡 or tech journal 📝 where I jot down my wacky, scrambling thoughts.Something which I can look back on for ideas when I don’t feel creative or as starting thinking point for my small side projects.Some tech thoughts which aren’t polished enough for a blog but are useful tiny ideas which provide insight.
+Also since it’s on the internet maybe someone might find it useful or insightful? I’m thinking of adding an rss feed to this in the future if anyone would be interested in following this.
+
+*** Expiermenting with audio in blogs
+Based on the idea mentioned in letters.codeklutz.com decided to implement an audio feature for this blog.I tried finding some open source or free alternative.And I did find one but sadly this one proved to be a failure at the current moment.
+
+The audio is decent but the voices which I found are too mechanical and monotonous to listen continuously.I shall still try finding some open source alternative because I don’t want to invest in paid alternatives for this small blog at the moment.
+*** NoteKlutz [[https://note.codeklutz.com]]
+This mini project is again a part of implementation of the idea mentioned in letters.codeklutz.com It already proving to be useful;) I realised I write more markdown (for creating study notes +writing this blog) so I felt the need to create my own editor which is suited for myself and at the same time not fear giving my data to someone or idk?(lmao)
+
+But main focus was not to use another app just to create notes and since I use browser more than anything else this seemed like a good idea
+
+It’s a small,minimal project which does exactly what I need it to do and does it right (at least for me biased here🤫) It’s like my second organising brain 🧠.The code is an absolute mess and needs heavy work which I will do my pushing small updates on weekends🤭.
+
+So this was all for January and Mid Feb
+** DONE Tackling procrastination and kubernetes study :kubernetes:basics:blog:notes:learning:kubeapiserver:
+CLOSED: [2022-02-25 Thu 15:45]
+:properties:
+:hugo_section: posts/2022/02
+:export_file_name: Tackling procrastination and kubernetes study.md
+:end:
+After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-
+******** Pre requisite
+You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.
+******** What is kubernetes?
+Kubernetes is an open-source technology that is used for container orchestration. And what is container orchestration exactly? It is the process of continuous deployment ,scaling and management of containers.
+
+Lets first look at the kubernetes architecture and the individual components in it.
+******** Node:
+A Node is either a physical or virtual machine on wihc kubernetes is installed. A node is like a worker machine on which containers (having our application) will be running by Kubernetes.And like any other machine ,nodes can crash for a number of reasons ;) .So once the node crashes the application will be go down as well. So tackle this we need multiple nodes rather than 1 node.
+
+And mulitple nodes come together to form a group known as the cluster.So even if one node inside the cluster fails,we have our application accessible and running from the other nodes.Plus it helps in sharing load!
+******** * Master Node :
+
+So now we have our cluster running on a group of nodes which are running our containerised apps.But who is responsible to manage this cluster:?Also when a node goes down how to direct the traffic of the failed node to other working nodes?Also who stores the information about these worker nodes stored? and How are the nodes monitored?
+
+The master node!
+
+The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.
+#+begin_quote
+Note that a cluster can have multiple master nodes depending on the size of the cluster.
+
+
+#+end_quote
+because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.
+******** Other components:
+When you install kubernetes in your system,you are actually installing the follwing components:
+
+- An Kube api server (Master)
+- An etcd service (Master)
+-A kubelet service (Worker)
+- Controller (Master)
+- Scheduler (Master)
+- Container Runtime
+******** Kube API server:
+Kubeapi server acts as a frontend for kubernetes.The users,commandline tools,managment devices all interact with the cluster via the Kube API server.
+******** etcd
+etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.
+
+#+begin_quote
+Note that your application data is not stored in etcd only logs and information about the cluster.
+#+end_quote
+******** Scheduler
+Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.
+******** Controllers
+Controllers are the brain behind the orchestration. They are responsible for notcining and responding nodes,containers or endpoint goes down.The controller takes decsions to bring up new nodes in this case.
+
+******** Container Runtime
+The container runtime is the underying software that runs the containers.Most of the times,its docker.I have used docker but there are other runtimes such as CRI-O
+
+******** KubeletPermalink
+Kubelet is an agent that runs on each worker node in the cluster. The agent is in charge of making sure that containers are running on the nodes as expected.
+
+******** Master vs Worker nodesPermalink
+So now we know there are 2 types of nodes : Masternode and Worker node. How does a node become master or a worker node? A worker node has the containers are hosted and running .Hence to run these containers we need a Container Runtime such as docker installed in these machines.
+
+The master has a kube API server and this is what differentiates the master from worker nodes. The worker node have the kubelet agent that interacts with the master to proivide health information about the worker nodes and carries out the instrcutions given by the master node on worker nodes.The master has all this information stored in key value store (etcd) known as the etcd.The master also has the controller and scheduler.
+
+********   KubectlPermalink
+kubectl is a commandline tool is used to deploy and manage applications in a cluster.Basically we are going to use these commands from the kubectl tool to get us information (kubectl get,status describe) about the nodes and other components in the cluster and to manage many other operations.
+
+=kubectl run= –Used to deploy an application onto the cluster
+
+=kubectl get cluster-info= –Used to fetch the cluster information
+
+=kubectl get nodes= –Used to fetch information about nodes.
+
+That is all on basic overview.Next article will be focused on pod and how pods work in nodes in kubernetes.
+** DONE Today I learnt: Database Version Control :til:flyway:liquibase:databaseversioncontrol:databaseschemachanges:
+CLOSED: [2022-11-07 Thu 15:49]
+:properties:
+:hugo_section: posts/2022/11
+:export_file_name: Today I learnt: Database Version Control.md
+:end:
+Upon stumbling upon this motivating HN post by [[https://simonwillison.net/2022/Nov/6/what-to-blog-about/][Simon Willison]] I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.
+
+Starting with Today’s TIL : **Database Version Control**
+
+What it is : A practice or form of maintining and tracking every change made to database schema, just like git version control(But this is specifically for Database). It acts like a single source of truth (like a git code repository)
+
+This concept solves a lot of problems we face as developers such as :
+
+As a developer,One must have faced a situation where to solve a particular problem statement or feature , you need to do database changes,however for those changes to reflect application needs to be restarted or you might have database and application code changes, an organization already has some processes defined for deployment. In development phase, one usually runs the db changes or sql queries in local generally via a sql client application.For example,Update some existing db property.
+
+But for that same change to be reflected in production db, CICD processes are define fdd for deployment or a seperate team might be responsible for deployment altogether.Hence we cant expect a seperate db team to always be in sync with deployment team or that particular CICD process. Hence, DB schema changes should be deployed as a part of application code changes.
+
+This is where database version control comes in handy where :
+
+You need traceability and a commit history of db schema changes done before.
+Protect prodcution database tables from unwanted or uncontrolled changes
+Help in communication between teams regarding data(where a member can look at the query and provide feedback as a part of Pull request)
+Applications such as liquidbase,flyway scripts come in handy Speaking of liquibase which works on changelog concept where you have
+
+#+begin_quote
+A Changelog file which inside has -> ChangeSet (which are used to define Db changes)- > Which can include SQL Queries and Rollback queries if the changes dont work in that specific environment.
+#+end_quote
+#+begin_src xml
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+
+     <changeSet  id="1"  author="XYZ">
+        <comment>
+
+        </comment>
+        <sql>
+        INSERT INTO Exampledb.exampletable('id','name,'serial')
+        VALUES("1","test","serial");
+        </sql>
+
+        <rollback>
+        DELETE FROM  Exampledb.exampletable where id="1";
+        </rollback>
+ </databaseChangeLog>
+
+
+#+end_src
+This changelog file needs to be included in a master changelog file which consists a list of all change log files (Similar to how a git commit history consists of all commit ids)
+** DONE Today I learnt: Interesting Things in Java 11 :arrays:blog:primitives:var:java11:
+CLOSED: [2022-11-20 Thu 18:48]
+:properties:
+:hugo_section: posts/2022/11
+:export_file_name: Today I learnt: Interesting Things in Java 11.md
+:end:
+I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
+
+Today’s TIL : **Crazy things to do with Java 11+**
+
+**** Initializing Array and var keywordPermalink
+Having the =var= keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :). But we never thought we would use it to initialize such as
+#+begin_src java
+var element =new int[2];       //WORKS
+var [] element=new int[2];      // COMPILE ERROR :error: 'var' is not allowed as an element type of an array
+Since var is a generic element type, giving it array [] provides an error since rather than being generic we are giving it an array type.
+
+#+end_src
+
+**** C style ArrayPermalink
+What is a c style array? Java supports providing [] before and after the variable name in an array
+#+begin_src java
+ int []arr=new int[2];
+ int arr1[]=new int[2];
+
+#+end_src
+In C style array, we provide [] after the variable name that is ~int arr1[].
+
+So in Java, suppose we have the following code:
+#+begin_src java
+       int arr1[],arr2;
+       arr1=new int[1];
+       arr2=new int[1];        //COMPILE ERROR : error: incompatible types: int[] cannot be converted to int
+
+#+end_src
+The above code will result in COMPILE ERROR for arr2 since arr2 is not an array but a primitive int variable. But if we want to want both arr1 and arr12 as array type we need to change the declaration to
+#+begin_src java
+       int [] arr1,arr2; //Notice how [] are
+       arr1=new int[1];
+       arr2=new int[1];
+
+#+end_src
+**** Arrays.asList and Primitives
+Let’s look at the following example :
+#+begin_src java
+String [] strArr={"one","two","three"};
+var stringList= Arrays.asList(strArr);
+
+int [] intArray = {1,2,3};
+var intList = Arrays.asList(intArray);
+
+System.out.println(stringList.contains("one")+" ");
+System.out.print(intList.contains(1));
+
+Output: true false
+
+#+end_src
+
+Signature of Arrays.asList is var-args or List of T’s.
+#+begin_src java
+      public static <T> List<T> asList(T... a)
+
+#+end_src
+
+T is of generic type so that means it needs to reference a Type such as Integer,Float and not reference Array of Ints
+
+But next question is Can they boxed ? (Autoboxing: Converting primitive to Class Type example : int -> Integer) Answer is no Array of ints -> Cannot be boxed -> Array of Integer
+#+begin_quote
+Don’t use Arrays.asList on primitives
+
+#+end_quote
+
+**** No structural changes allowed in ArrayPermalink
+#+begin_src java
+String [] ints ={"a","b","c",null};
+List<String> strings= Arrays.asList(ints);
+strings.removeIf(Objects :: isNull);
+System.out.println(strings.size());
+Output: Exception in thread “main” java.lang.UnsupportedOperationException: remove at java.base/java.util.Iterator.remove(Iterator.java:102)
+
+#+end_src
+
+Because the array does not allow any structural changes to it
+
+**** A Unique way to remove null values from Map
+#+begin_src java
+Map<Integer,String> map=new HashMap();
+map.put(4,null); //currently map has key:4 value: null
+System.out.println(map.getOrDefault(4,"four"));
+map.putIfAbsent(4,"four");     //key key:4 value:four
+System.out.println(map.get(4));
+
+Output: null,four
+
+
+#+end_src
+##
+#+begin_src java
+var numbers = List.of(-1,0,1);
+Map<Integer,List<Integer>> map=new HashMap<>();
+numbers.forEach(number-> map.putIfAbsent(number,new ArrayList<>())
+               .add(number));
+System.out.println(map.get(0));
+
+Output: NullPointerException: Exception in thread “main” java.lang.NullPointerException at HelloWorld.lambda$main$0(HelloWorld.java:33)
+
+#+end_src
+
+Because map.putIfAbsent returns null if no value is present
+** DONE Today I learnt:422 HTTP Error code :http:422:422unprocessableentity:httperrorcode:
+CLOSED: [2022-11-20 Thu 19:38]
+:properties:
+:hugo_section: posts/2022/11
+:export_file_name: Today I learnt:422 HTTP Error code.md
+:end:
+Today while testing a soap API at work, I came across this HTTP error code called **HTTP/1.1 422 Unprocessable Entity** . According to MDN Web docs, it means the following :
+#+begin_quote
+
+The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.
+
+#+end_quote
+
+It means that the syntax of the request is correct and well-formed but it has semantic, logical errors. Meaning the soap body xml format will be correct but the issue arises because of the content inside the XML tags*. In this case, it could be the following:
+
+- Wrong character within the code.
+- The server doesn’t understand the content within a particular XML tag.
+- Or it refuses to process any other content inside the tag other than a fixed decided value).
+Difference between 422,404 and 415 Error codes .Permalink
+According to [[https://www.rfc-editor.org/rfc/rfc4918#section-11.2][RFC]],
+#+begin_quote
+
+The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions.
+
+
+#+end_quote
+In testing a soap API, the content type of the request body was correct. I checked for Content-Type header while testing) – Hence 415(Unsupported Media Type) was not valid. For soap,it was Content-Type: text/xml; charset=UTF-8. And the syntax of the request body was also correct– Hence 404(Bad request) was not valid.
+
+The error occurred due to an incorrect value in the XML tag in my case. Value should have been =<ns8:exampleTag>123</ns8:exampleTag>= instead of =<ns8:exampleTag>456</ns8:exampleTag>=
