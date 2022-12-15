@@ -47,12 +47,12 @@ tocopen = true
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Home"
+  text = "CodeKlutz"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
   [params.profileMode]
-  enabled = true
+  enabled = false
   title = "CodeKlutz"
   subtitle = "Tech blog by Shweta Kadam"
   imageUrl = "<img location>"
@@ -82,8 +82,8 @@ tocopen = true
 
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "Shweta Kadam"
+  Content = "Coding & drinking coffee"
 
   [[params.socialIcons]]
   name = "twitter"
@@ -95,7 +95,12 @@ tocopen = true
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/shwetarkadam"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://github.com/shwetarkadam"
+
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -112,7 +117,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/myblog/content"
   Text = "Suggest Changes"
   appendFilePath = true
 

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       76FF95B7-7784-418B-9B46-5126F6B69BA2
 :END:
-#+title: Random Geekery Life
+#+title: Codeklutz
 #+author: Shweta Kadam
 #+hugo_base_dir: .
 #+HUGO_SECTION: posts
@@ -97,7 +97,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install and Build
+      - name: Install and 06Build
         run: |
           npm install
           npm run build
@@ -231,3 +231,436 @@ B
 So that’s all for polymorphism in java.
 
 Happy Learning :)
+** DONE How constructors work in Java :constructors:java:programming::concepts:
+CLOSED: [2021-06-14 Wed 21:41]
+:properties:
+:hugo_section: posts/2021/06
+:export_file_name: How constructors work in Java.md
+:end:
+Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.
+************** A constructor is used to initialize instance variables
+************** When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error.
+************** By default every class has a constructor called default no argument constructor.
+#+begin_src java
+class A{
+A(){ //default no arg constructor
+}}
+#+end_src
+************** A programmer can have multiple constructors in a class provided their signatures are different this is called constructor overloading.
+#+begin_src java
+class A{
+A(){
+//some code
+}
+
+A(int x){
+//some code
+}
+
+A(float x){
+//some code
+}
+
+A(float x,int y){
+//some code
+}
+A(int x,float y){
+}
+A(int z){}//THIS WILL GIVE COMPILE ERROR SInce its already defined on top.
+
+}
+
+A a=new A();
+new A();//goes to first matching constructor
+
+#+end_src
+************** JVM always calls the matching constructor from the class.HOWEVER,a programmer can call other constructors of this class by using the the this() method.
+#+begin_src java
+class A{
+A(){
+System.out.println("A");    //I
+A(int x){
+this();                     //this will go to constructor A();
+System.out.println("AA");   //II
+}
+}
+class App{
+public static void main(String[]args){
+new A(5);
+}}
+
+OUTPUT:
+A
+AA
+
+
+#+end_src
+************** If a programmer desires it can call the constructor of the super class as well from its own constructor using the super() method.
+#+begin_src java
+class A{
+A(){
+System.out.println("A");    //I
+}
+}
+class B extends A{
+B(){
+super();             //this is called implicitly refer next point also
+System.out.println("B");
+}}
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        new B();
+    }
+}
+OUTPUT:
+A
+B
+#+end_src
+************** Whenever a programmer creates a constructor ,JVM writes super() in every constructor implicitly as its first line.
+Note:If a class does not extend any class it by default extends the Object class. Do Try this code in your ide to see it for yourself
+#+begin_src java
+class A{
+A(){
+//super will be called implicitly at the first line of this constructor and here since it does not extend any class it will extend the Object class
+System.out.println("A");    //I
+}
+
+A(int x){
+//super will be called implicitly at the first line of this constructor
+System.out.println("AA");
+}}
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        new A(5);
+    }
+}
+OUTPUT:
+A
+AA
+#+end_src
+That’s all for constructors in Java.
+
+Happy Learning :)
+** DONE Integrating Swagger OpenAPI for easy API documentation in spring boot :api:apidocumentation:restapi:springboot:swaggeropenapi:
+CLOSED: [2022-01-16 Wed 22:53]
+:properties:
+:hugo_section: posts/2022/01
+:export_file_name: Integrating Swagger OpenAPI for easy API documentation in spring boot.md
+:end:
+These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.
+
+Both do the job brilliantly but what if I wanted some user who doesn’t want to install postman or use curl and still wants to test my live APIs thru the browser? I came across this **swagger open API specification**  and this is a really handy tool!
+
+In layman’s terms, Swagger OpenAPI specification provides API documentation for REST APIs. An OpenAPI file allows you to describe all the APIs within the project and even lets you try out the APIs!
+
+Available endpoints can be /projectApi and all operations on each endpoint which can GET /getProjectApi , POST /insertProjectApi , DELETE /deleteProjectApi .
+
+[[]]
+Also, integration of swagger open API is pretty painless in spring boot and it lets users try out the APIs within the browser without any installation of any software from the user (sounds pretty convenient and sweet to me)
+
+In this post, I will describe how I integrated swagger open API in Spring boot project.First you need a spring boot project having basic dependcies using Spring Initializr https://start.spring.io/ or you could use this project used in the example here
+
+First add the springdoc-openapi-ui dependency to pom.xml:
+#+begin_src xml
+<dependency>
+   <groupId>org.springdoc</groupId>
+   <artifactId>springdoc-openapi-ui</artifactId>
+   <version>1.6.4</version>
+</dependency>
+<dependency>
+#+end_src
+Then run the application and check the below url to check open api specification
+#+begin_src bash
+http://localhost:8080/v3/api-docs/
+#+end_src
+You should be able to see something like this
+
+You can also add a custom path by adding entry in **application.properties** file
+ #+begin_src bash
+springdoc.api-docs.path=/api
+springdoc.swagger-ui.path=/swagger
+springdoc.swagger-ui.operationsSorter=method
+ #+end_src
+ Check http://localhost:8080/swagger for web UI.To show you in this example we have a following apis in the controller
+ #+begin_src java
+package com.TestDocker.BooksDocker.Controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
+
+import com.TestDocker.BooksDocker.Models.Book;
+import com.TestDocker.BooksDocker.Repository.BookRepository;
+
+@RestController
+public class MainController {
+	@Autowired
+	public BookRepository bookRepository;
+
+	@GetMapping("/test")
+	public String test() {
+		return new String("Working from DOcker Bopoks proj ");
+	}
+	@GetMapping("/")
+	public List<Book> fetchAllBooks() {
+		List<Book> books;
+		try {
+			books = bookRepository.findAll();
+
+		} catch (Exception ex) {
+			throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error occured in fetchAllBooks", ex);
+
+		}
+		return books;
+	}
+
+	@GetMapping("/{bookID}")
+	public Book fetchBookfromID(@PathVariable("bookID") Long bookID) {
+		Book book;
+		try {
+			book = bookRepository.getById(bookID);
+
+		} catch (Exception ex) {
+			throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error Occured in fetchBookfromID", ex);
+
+		}
+		return book;
+	}
+
+	@GetMapping("/search/{title}")
+	public List<Book> searchBookByTitle(@PathVariable("title") String title) {
+		List<Book> books;
+		try {
+			//System.out.println(title);
+			books = bookRepository.fuzzySearchByTitle(title);
+			System.out.println(books);
+
+		} catch (Exception ex) {
+			throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Error Occured in searchBookByTitle", ex);
+		}
+		return books;
+	}
+
+	@PostMapping("/insertBooks")
+	public String insertBooks(@RequestBody List<Book> books) {
+
+		for (Book b : books) {
+			System.out.println(b.toString());
+			Book b1 = bookRepository.save(b);
+			if (b1 == null)
+				return "Book object is null";
+		}
+		return null;
+	}
+}
+ #+end_src
+ So the swagger ui look something like this.
+ Also json docs will be available at http://localhost:8080/api springdoc.swagger-ui.operationsSorter=method sorts the API paths in order of their HTTP methods.
+You can try and test the apis from web ui too.It also shows schema information!
+Overall this is a much convenient way of setting up documentation for your apis which can be handy in some situations.
+
+That’s all folks!
+** DONE Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf & many more fun plugins for easy development :zsh:wsl:productivity:git:ohmyzsh:config:fzf:powerlevel10k:
+CLOSED: [2022-01-21 Wed 23:41]
+:properties:
+:hugo_section: posts/2022/01
+:export_file_name: Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf & many more fun plugins for easy development.md
+:end:
+avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
+
+But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!
+
+So this is just a blog post on how I customized my terminal on windows 10 using wsl, windows terminal,zsh, and many more fun plugins which I use on my Linux as well as windows for development(work or home).
+*** What is wsl?
+It stands for windows subsystem for Linux and it's a feature of Windows that allows developers to run Linux file systems,command-line tools etc directly on windows!(Goodbye painful windows mouse navigation) First, you need the wsl feature on windows 10 by going to =Start ->Type windows feature on search and below checkbox should be checked for enabling windows subsystem for Linux.=
+Now you need to install wsl which you can by going =Start-> Microsoft store ->type ubuntu=.Im installing Ubuntu wsl since I'm familiar with it you can also change distros. I'm also installing another app called windows terminal because it's much better in terms of ui to me as compared to Ubuntu terminal.This is optional.
+At this point, it's your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell. Now by default windows terminal opens the power shell, to set to Ubuntu .Go to settings as shown below
+
+Now you have a Ubuntu shell that has bash. I personally use zsh with OhMyZsh for my work for that beautiful productivity. Using OhMyZsh features like navigating without using cd, usage of ll, easier tab-click based navigation, and much more!
+
+Note that zsh and OhMyZsh are different. When you install OhMyZsh, many plugins come with it for your rescue! So to install zsh. Update the libraries first then install zsh.
+#+begin_src bash
+sudo apt-get install update
+sudo apt install -y zsh
+#+end_src
+Then Install ohmy zsh
+#+begin_src bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#+end_src
+Now your previous~/.zshrc config will be replaced by ohmyzsh To customize the shell next install powerlevel10k.
+#+begin_src bash
+git clone - depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+#+end_src
+This command clones the repo and now go to your ~/.zshrc and set the theme as power level 10k And then
+#+begin_src bash
+source ~/ .zshrc 
+#+end_src
+Note: To reflect every change you make, do =source ~/.zshrc= in the terminal. And then this will give you a set of options to configure which you can decide for your customization.
+**** My favourite plugins
+I use these plugins daily and they make my life super smooth !
+***** Fzf
+It's a fuzzy finder command-line tool that lets your fuzzy find anything (files directories git branches you name it )across file system. You can use ti write your custom fuzzy find scripts to find anything.I have posted a link if my current config and aliases for reference. Clone the repo from any directory and just run the install script.
+#+begin_src bash
+git clone - depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+#+end_src
+Here is a small example of small WIP config for reference.
+***** Zsh Auto-suggestions
+This one Autocompletes while you type a command.This is useful especially when you type commands which you use daily but need to to try multiple times such as navigating and printing log at a specific long location. Git Clone the zsh-autocomplete plugin in the OhMyZsh plugin folder.
+#+begin_src bash
+$ sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#+end_src
+Once that is done, add the plugin in the ~/.zshrc file's plugin list.
+#+begin_src bash
+plugins=(
+ …
+ zsh-autosuggestions
+)
+#+end_src
+***** Zsh Syntax highlighting
+This one automatically highlights zsh commands as you type. This saves a lot of typing on my part. Git Clone the zsh-syntax-highlighting plugin in the OhMyZsh plugin folder.
+#+begin_src bash
+$ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+#+end_src
+And once again add it to the plugins list of the .zshrc file.
+#+begin_src bash
+plugins=(
+ …
+ zsh-syntax-highlighting
+)
+#+end_src
+Note: To reflect every change you make, do source ~/.zshrc in the terminal.
+***** Readymade Github Aliases from Oh My Zsh
+Usually one defines short github aliases such as g.b forgit branch or g.c for git checkout in ~/.zshrc but you know by using ohMyZsh already has a list of easy git aliases configured. The format is first 2–3 letters of the first letter of the command such as
+#+begin_src bash
+gb git branch List of local branches
+gba git branch -a List of local and remote branches
+gcam git commit -am Add all files to stage and commit
+gcmsg git commit -m Git commit message
+gco git checkout Change branch
+gco - git checkout to the previous branch Change branch to the previous one
+gd git diff Files differences in staging
+gfa git fetch - all - prune Fetch all remote branches, delete branch if upstream is gone
+gl git pull Pull from remote
+gp git push Push to remote
+gpsup git push - set-upstream origin [currentbranch] Set upstream branch
+gst git status Local files to commit
+#+end_src
+I use these git aliases daily and they make working super fun.I recommend going through oh-my-zsh git aliases cheatsheets
+
+That's all folks! This is my current setup in windows for development and this is still a work in progress that can keep changing but these plugins and zsh are something that has made the experience of using windows quite fun.
+** DONE Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql. :cronjob:debugging:development:events:java:mysql:spring:springboot:sql:
+CLOSED: [2022-01-12 Wed 23:49]
+:properties:
+:hugo_section: posts/2022/01
+:export_file_name: Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.md
+:end:
+I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.
+
+But first I shall tell you a little about my use case and why I thought about cron jobs in the first place…..
+*** Use case
+My application was inserting data (let’s call it smash data for simplicity for now)in the database.Each smash data has a certain expiry period and after that expiry period, that data should no longer remain in the database.But the expiry period will be different for each smash data.
+
+Example:
+
+smash 1, expiryperiod :10mins
+
+smash 2 ,expiryperiod :60mins
+
+smash 3 ,expiryperiod :150mins . . . etc.
+
+Now my first line of thinking ended up being cron jobs which led to me studying about cron jobs and scheduled in spring boot.To answer it simply I didn’t end up taking this route is because cron jobs or scheduled tasks are suited when we expect the task to execute at only a particular point of time or where we expect functionality to be executed at w particular time on an hourly/daily /weekly/monthly basis. I could get the cron job to delete the data but to delete WHICH data smash 1 or smash 2? That would mean I would have to check the DB. So the process would be something like:-
+
+Fetch all rows from DB.
+Check timestamp of each row data against current timestamp and delete accordingly.
+I wanted to avoid writing the searching, comparing time logic (dates, in general, can be a pain sometimes).The logic which I did ended up going through was events in SQL since I’m using MySQL db for the use case
+#+begin_quote
+Mysql events are tasks that run according to a particular schedule …hence they can be called as scheduled events
+#+end_quote
+When an event is created in MySQL, a named database object is created and this object consists of one or more SQL statements to be executed at some regular intervals.Using events,I didn’t have to retrieve and search the data (as I had to do in the spring boot controller ) . I could just write an event such as
+#+begin_src sql
+Delete from table1 where
+expiry period < NOW();
+#+end_src
+And schedule this to execute =every minute=. Which was would check for that expiryPeriod column in each row and compare with time NOW() So any rows whose expiryperiod has passed will be deleted from db.
+
+The only thing to note I see in this approach, for now, is that this is database dependent so when I host this side project (a hopeful dream) I need to make sure events is configured for the same. So this was the use case now back to cron jobs!
+*** Cron jobs or schedule tasks in spring boot.Permalink
+When a situation arises where we expect the task to execute at only a particular point of time or where we expect functionality to be executed at a particular time on an hourly/daily /weekly/monthly basis. Cron jobs are suitable for this use case. In spring this sort of scheduled task can be achieved through @Scheduled annotation.
+
+There are a few rules while using the @Scheduled annotation:  1. The method should typically have a void return type else the returned value will be ignored.
+
+the method should not expect any parameters. First, to enable scheduling in the spring boot project, use @EnableScheduling in the main class.
+#+begin_src java
+public class Application {
+ public static void main(String[] args) {
+ SpringApplication.run(PasteBinApplication.class, args);
+ }
+}
+
+#+end_src
+*** Scheduling using CRON expressions Permalink
+#+begin_src java
+@Component
+public class SchedulerService {
+    @Scheduled(cron="*/15 * * * * ?")
+    public void testScheduled()
+    {
+        System.out.println("Method executed at every 15 seconds. Current time is :: "+ new Date());
+    }
+}
+
+#+end_src
+ A guide for cron jobs: cron Image source :Java Techonline
+ #+begin_src bash
+SEC  MIN   HOURS   DAY  MONTH  WEEKDAY
+ *    *      *      *     *      *
+
+ #+end_src
+*** Scheduling using initial delay,Fixed Delay or Fixed Rate
+ The main difference between Fixed Delay and Fixed Rate is : Fixed Delay : controls the next execution time when the last execution finishes. Fixed Rate : makes Spring run the task on periodic intervals even if the last invocation may be still running.
+
+Fixed Delay
+#+begin_src java
+@Component
+public class SchedulerService {
+    @Scheduled(fixedDelay = 1000, initialDelay = 5000)
+    public void testScheduled()
+    {
+        System.out.println("Method executed with fixed delay and initial delay . Current time is :: "+ new Date());
+    }
+}
+#+end_src
+ Also Fixed Delay can take input in String and Integer. @Scheduled(fixedDelayString = “7000”) @Scheduled(fixedDelayString = 7000)
+ Fixed Rate:
+ #+begin_src java
+@Component
+public class SchedulerService {
+    @Scheduled(fixedRate = 1000)
+    public void testScheduled()
+    {
+        System.out.println("Method executed with fixed rate . Current time is :: "+ new Date());
+    }
+}
+ #+end_src
+That’s all folks.Learning about events and cron jobs and where could be applied was interesting to learn when applied on some small practical application.
+** Tech Recap Journal- January📓             :blog:debugging:domain:retrospect:lessions:note:experiment:
+:properties:
+:hugo_section: posts/2022/02
+:export_file_name: Tech Recap Journal- January.md
+ :end:
+ I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
+
+However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
+ My Blog! codeklutz.com

@@ -89,7 +89,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install and Build
+      - name: Install and 06Build
         run: |
           npm install
           npm run build
