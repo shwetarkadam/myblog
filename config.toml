@@ -6,7 +6,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+googleAnalytics = "G-3JJ1TEHZ1S"
 pygmentsUseClasses = true
 
 [minify]
@@ -30,6 +30,7 @@ ShowBreadCrumbs = false
 ShowCodeCopyButtons = true
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
+ShowFullTextinRSS=true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
@@ -87,7 +88,7 @@ tocopen = true
 
   [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/"
+  url = "https://twitter.com/ShwetaRKadam"
 
   [[params.socialIcons]]
   name = "stackoverflow"
@@ -99,7 +100,11 @@ tocopen = true
 
   [[params.socialIcons]]
   name = "linkedin"
-  url = "https://github.com/shwetarkadam"
+  url = "https://www.linkedin.com/in/shweta-kadam-81404512a/"
+
+  [[params.socialIcons]]
+  name = "rss"
+  url = "https://codeklutz.com/index.xml"
 
 
 [params.analytics.google]
