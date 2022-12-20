@@ -9,43 +9,33 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Nov 2022 19:38:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>422</title>
-      <link>https://codeklutz.com/tags/422/</link>
-      <pubDate>Sun, 20 Nov 2022 19:38:00 +0000</pubDate>
+      <title>jq</title>
+      <link>https://codeklutz.com/tags/jq/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/422/</guid>
+      <guid>https://codeklutz.com/tags/jq/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>422unprocessableentity</title>
-      <link>https://codeklutz.com/tags/422unprocessableentity/</link>
-      <pubDate>Sun, 20 Nov 2022 19:38:00 +0000</pubDate>
+      <title>json</title>
+      <link>https://codeklutz.com/tags/json/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/422unprocessableentity/</guid>
+      <guid>https://codeklutz.com/tags/json/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>http</title>
-      <link>https://codeklutz.com/tags/http/</link>
-      <pubDate>Sun, 20 Nov 2022 19:38:00 +0000</pubDate>
+      <title>til</title>
+      <link>https://codeklutz.com/tags/til/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/http/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>httperrorcode</title>
-      <link>https://codeklutz.com/tags/httperrorcode/</link>
-      <pubDate>Sun, 20 Nov 2022 19:38:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/tags/httperrorcode/</guid>
+      <guid>https://codeklutz.com/tags/til/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -136,16 +126,6 @@
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/tags/liquibase/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>til</title>
-      <link>https://codeklutz.com/tags/til/</link>
-      <pubDate>Mon, 07 Nov 2022 15:49:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/tags/til/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

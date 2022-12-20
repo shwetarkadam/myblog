@@ -2,29 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://codeklutz.com/tags/422/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/422unprocessableentity/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/http/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <loc>https://codeklutz.com/tags/jq/</loc>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/httperrorcode/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <loc>https://codeklutz.com/tags/json/</loc>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</loc>
-    <lastmod>2022-11-20T19:38:00+00:00</lastmod>
+    <loc>https://codeklutz.com/tags/til/</loc>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/til-jq/</loc>
+    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/arrays/</loc>
     <lastmod>2022-11-20T18:48:00+00:00</lastmod>
@@ -54,9 +51,6 @@
     <lastmod>2022-11-07T15:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/liquibase/</loc>
-    <lastmod>2022-11-07T15:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/til/</loc>
     <lastmod>2022-11-07T15:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/today-i-learnt-database-version-control/</loc>
