@@ -771,7 +771,7 @@ kubectl is a commandline tool is used to deploy and manage applications in a clu
 =kubectl get nodes= –Used to fetch information about nodes.
 
 That is all on basic overview.Next article will be focused on pod and how pods work in nodes in kubernetes.
-** DONE Today I learnt: Database Version Control :til:flyway:liquibase:databaseversioncontrol:databaseschemachanges:
+** DONE Today I learnt: Database Version Control :til:flyway:liquibase:databaseversioncontrol:databaseschemachanges:til:
 CLOSED: [2022-11-07 Thu 15:49]
 :properties:
 :hugo_section: posts/2022/11
@@ -829,7 +829,7 @@ A Changelog file which inside has -> ChangeSet (which are used to define Db chan
 
 #+end_src
 This changelog file needs to be included in a master changelog file which consists a list of all change log files (Similar to how a git commit history consists of all commit ids)
-** DONE Today I learnt: Interesting Things in Java 11 :arrays:blog:primitives:var:java11:
+** DONE Today I learnt: Interesting Things in Java 11 :arrays:blog:primitives:var:java11:til:
 CLOSED: [2022-11-20 Thu 18:48]
 :properties:
 :hugo_section: posts/2022/11
@@ -938,8 +938,8 @@ Output: NullPointerException: Exception in thread “main” java.lang.NullPoint
 #+end_src
 
 Because map.putIfAbsent returns null if no value is present
-** DONE Today I learnt:422 HTTP Error code :http:422:422unprocessableentity:httperrorcode:
-CLOSED: [2022-11-20 Thu 19:38]
+** DONE Today I learnt:422 HTTP Error code :http:422:422unprocessableentity:httperrorcode::til:
+CLOSED: [2022-12-20 Tue 19:17]
 :properties:
 :hugo_section: posts/2022/11
 :export_file_name: Today I learnt:422 HTTP Error code.md
@@ -967,3 +967,43 @@ The 422 (Unprocessable Entity) status code means the server understands the cont
 In testing a soap API, the content type of the request body was correct. I checked for Content-Type header while testing) – Hence 415(Unsupported Media Type) was not valid. For soap,it was Content-Type: text/xml; charset=UTF-8. And the syntax of the request body was also correct– Hence 404(Bad request) was not valid.
 
 The error occurred due to an incorrect value in the XML tag in my case. Value should have been =<ns8:exampleTag>123</ns8:exampleTag>= instead of =<ns8:exampleTag>456</ns8:exampleTag>=
+** DONE Today I learnt (TIL): jq :til:jq:json:
+CLOSED: [2022-12-20 Tue 21:24]
+:properties:
+:hugo_section: posts/2022/12
+:export_file_name: TIL jq.md
+:end:
+
+ Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
+       But my mac cried and was freezing in instances begging for me to not open more application :(
+       This is where I came across a nifty tool called  **jq**
+       
+       jq is a lightweight and flexible command-line JSON processor. It is like sed for JSON data. It can used to transform json data into more readableformat.
+       For example :
+       #+begin_src json
+         ❯ echo  '{"fullName": {"firstName": "Bruce","middleName": "Clark", "lastName": "Wayne" }}' | jq .
+       {
+         "fullName": {
+           "firstName": "Bruce",
+           "middleName": "Clark",
+           "lastName": "Wayne"
+         }
+       }
+       #+end_src
+       
+       ********* Where and why would you use it?
+       There are a few reasons I could think of why I would use jq regularly:
+       ************* Similarly like my situation above, if you want to avoid opening gui apps or online code beautifiers ,this is a great option.
+       ************* Once can prettify a curl output with jq.
+       This is a great option when you pretty json output on the go for example =healthcheck= urls of your application apis.
+       #+begin_src json
+        curl http://example-api-url-you-are-calling.com | jq .
+        curl http://example-api-healthcheck.com/healthcheck | jq .
+       #+end_src
+       ************* jq is ubiquitous means it is pre-installed in most machines (even cloud vms such as aws and microsoft vms).
+       So next time you want pretty output of a json which is present in an ec2 instance.
+       You dont need to do the manual work of copy and paste and json and figuring it out later.
+       ************* Also I think its pretty secure than the online third party websites developers tend to use to prettify json ,xml while working. Especially when dealing with secret private data which is sometimes pasted on to a random code beautifier website.
+       ************* And pretty handy when you lose internet connection ;)
+       ************* When used in shell scripts , it can save a lot of time and manual effort.
+       This is useful cheat sheet with good example to refer https://lzone.de/cheat-sheet/jq

@@ -2,7 +2,7 @@
 title = "Today I learnt: Interesting Things in Java 11"
 author = ["Shweta Kadam"]
 date = 2022-11-20T18:48:00+05:30
-tags = ["arrays", "blog", "primitives", "var", "java11"]
+tags = ["arrays", "blog", "primitives", "var", "java11", "til"]
 draft = false
 +++
 

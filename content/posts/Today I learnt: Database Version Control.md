@@ -2,7 +2,7 @@
 title = "Today I learnt: Database Version Control"
 author = ["Shweta Kadam"]
 date = 2022-11-07T15:49:00+05:30
-tags = ["til", "flyway", "liquibase", "databaseversioncontrol", "databaseschemachanges"]
+tags = ["flyway", "liquibase", "databaseversioncontrol", "databaseschemachanges", "til"]
 draft = false
 +++
 

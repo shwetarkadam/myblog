@@ -1,8 +1,8 @@
 +++
 title = "Today I learnt:422 HTTP Error code"
 author = ["Shweta Kadam"]
-date = 2022-11-20T19:38:00+05:30
-tags = ["http", 422, "422unprocessableentity", "httperrorcode"]
+date = 2022-12-20T19:17:00+05:30
+tags = ["http", 422, "422unprocessableentity", "httperrorcode", "", "til"]
 draft = false
 +++
 
