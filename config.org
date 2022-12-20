@@ -967,17 +967,17 @@ The 422 (Unprocessable Entity) status code means the server understands the cont
 In testing a soap API, the content type of the request body was correct. I checked for Content-Type header while testing) – Hence 415(Unsupported Media Type) was not valid. For soap,it was Content-Type: text/xml; charset=UTF-8. And the syntax of the request body was also correct– Hence 404(Bad request) was not valid.
 
 The error occurred due to an incorrect value in the XML tag in my case. Value should have been =<ns8:exampleTag>123</ns8:exampleTag>= instead of =<ns8:exampleTag>456</ns8:exampleTag>=
-** DONE Today I learnt (TIL): jq :til:jq:json:
-CLOSED: [2022-12-20 Tue 21:24]
+** DONE Today I learnt TIL: jq :til:jq:json:
+CLOSED: [2022-12-20 Tue 21:45]
 :properties:
 :hugo_section: posts/2022/12
-:export_file_name: TIL jq.md
+:export_file_name:  Today I learnt TIL: jq.md
 :end:
 
  Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
        But my mac cried and was freezing in instances begging for me to not open more application :(
        This is where I came across a nifty tool called  **jq**
-       
+
        jq is a lightweight and flexible command-line JSON processor. It is like sed for JSON data. It can used to transform json data into more readableformat.
        For example :
        #+begin_src json
@@ -990,7 +990,7 @@ CLOSED: [2022-12-20 Tue 21:24]
          }
        }
        #+end_src
-       
+
        ********* Where and why would you use it?
        There are a few reasons I could think of why I would use jq regularly:
        ************* Similarly like my situation above, if you want to avoid opening gui apps or online code beautifiers ,this is a great option.
