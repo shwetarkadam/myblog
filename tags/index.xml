@@ -9,11 +9,11 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 21:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>jq</title>
       <link>https://codeklutz.com/tags/jq/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <pubDate>Tue, 20 Dec 2022 21:45:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/tags/jq/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>json</title>
       <link>https://codeklutz.com/tags/json/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <pubDate>Tue, 20 Dec 2022 21:45:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/tags/json/</guid>
       <description></description>
@@ -33,9 +33,49 @@
     <item>
       <title>til</title>
       <link>https://codeklutz.com/tags/til/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <pubDate>Tue, 20 Dec 2022 21:45:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/tags/til/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>422</title>
+      <link>https://codeklutz.com/tags/422/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/422/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>422unprocessableentity</title>
+      <link>https://codeklutz.com/tags/422unprocessableentity/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/422unprocessableentity/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>https://codeklutz.com/tags/http/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/http/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>httperrorcode</title>
+      <link>https://codeklutz.com/tags/httperrorcode/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/httperrorcode/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
