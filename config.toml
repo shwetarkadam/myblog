@@ -39,18 +39,20 @@ hidemeta = false
 hideSummary = false
 showtoc = true
 tocopen = true
+favicon = "/cat.gif"
 
   [params.assets]
   favicon = "<link / abs url>"
   favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
+  favicon32x32 = "/cat.gif"
   apple_touch_icon = "<link / abs url>"
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
   text = "CodeKlutz"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
+  icon = "/cat.gif"
+  iconHeight = 40
+
 
   [params.profileMode]
   enabled = false
@@ -84,19 +86,24 @@ tocopen = true
 
   [params.homeInfoParams]
   Title = "Shweta Kadam"
-  Content = "Coding & drinking coffee"
+  Content = "Coding & drinking coffee <img src='static/cat.gif'>"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/shwetarkadam"
 
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/ShwetaRKadam"
 
   [[params.socialIcons]]
+  name = "mastodon"
+  url = "https://techhub.social/@tomoko"
+
+  [[params.socialIcons]]
   name = "stackoverflow"
   url = "https://stackoverflow.com"
 
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/shwetarkadam"
 
   [[params.socialIcons]]
   name = "linkedin"

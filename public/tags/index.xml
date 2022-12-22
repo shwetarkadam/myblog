@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Codeklutz</title>
+    <link>https://codeklutz.com/tags/</link>
+    <description>Recent content in Tags on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jq</title>
+      <link>https://codeklutz.com/tags/jq/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/jq/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>json</title>
+      <link>https://codeklutz.com/tags/json/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/json/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>til</title>
+      <link>https://codeklutz.com/tags/til/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/til/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>422</title>
+      <link>https://codeklutz.com/tags/422/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/422/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>422unprocessableentity</title>
+      <link>https://codeklutz.com/tags/422unprocessableentity/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/422unprocessableentity/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>https://codeklutz.com/tags/http/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/http/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>httperrorcode</title>
+      <link>https://codeklutz.com/tags/httperrorcode/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/httperrorcode/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>arrays</title>
+      <link>https://codeklutz.com/tags/arrays/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/arrays/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://codeklutz.com/tags/blog/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>java11</title>
+      <link>https://codeklutz.com/tags/java11/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/java11/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>primitives</title>
+      <link>https://codeklutz.com/tags/primitives/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/primitives/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>var</title>
+      <link>https://codeklutz.com/tags/var/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/var/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>databaseschemachanges</title>
+      <link>https://codeklutz.com/tags/databaseschemachanges/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/databaseschemachanges/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>databaseversioncontrol</title>
+      <link>https://codeklutz.com/tags/databaseversioncontrol/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/databaseversioncontrol/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>flyway</title>
+      <link>https://codeklutz.com/tags/flyway/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/flyway/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>liquibase</title>
+      <link>https://codeklutz.com/tags/liquibase/</link>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/liquibase/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>basics</title>
+      <link>https://codeklutz.com/tags/basics/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/basics/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>kubeapiserver</title>
+      <link>https://codeklutz.com/tags/kubeapiserver/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/kubeapiserver/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://codeklutz.com/tags/kubernetes/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/kubernetes/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://codeklutz.com/tags/learning/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/learning/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://codeklutz.com/tags/notes/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/notes/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>debugging</title>
+      <link>https://codeklutz.com/tags/debugging/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/debugging/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>domain</title>
+      <link>https://codeklutz.com/tags/domain/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/domain/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>experiment</title>
+      <link>https://codeklutz.com/tags/experiment/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/experiment/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>lessions</title>
+      <link>https://codeklutz.com/tags/lessions/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/lessions/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>note</title>
+      <link>https://codeklutz.com/tags/note/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/note/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>retrospect</title>
+      <link>https://codeklutz.com/tags/retrospect/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/retrospect/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>config</title>
+      <link>https://codeklutz.com/tags/config/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/config/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>fzf</title>
+      <link>https://codeklutz.com/tags/fzf/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/fzf/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://codeklutz.com/tags/git/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/git/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>ohmyzsh</title>
+      <link>https://codeklutz.com/tags/ohmyzsh/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/ohmyzsh/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>powerlevel10k</title>
+      <link>https://codeklutz.com/tags/powerlevel10k/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/powerlevel10k/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://codeklutz.com/tags/productivity/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/productivity/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>wsl</title>
+      <link>https://codeklutz.com/tags/wsl/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/wsl/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://codeklutz.com/tags/zsh/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/zsh/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://codeklutz.com/tags/api/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/api/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>apidocumentation</title>
+      <link>https://codeklutz.com/tags/apidocumentation/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/apidocumentation/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>restapi</title>
+      <link>https://codeklutz.com/tags/restapi/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/restapi/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>springboot</title>
+      <link>https://codeklutz.com/tags/springboot/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/springboot/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>swaggeropenapi</title>
+      <link>https://codeklutz.com/tags/swaggeropenapi/</link>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/swaggeropenapi/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cronjob</title>
+      <link>https://codeklutz.com/tags/cronjob/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/cronjob/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://codeklutz.com/tags/development/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/development/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://codeklutz.com/tags/events/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/events/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://codeklutz.com/tags/java/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/java/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://codeklutz.com/tags/mysql/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/mysql/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>https://codeklutz.com/tags/spring/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/spring/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://codeklutz.com/tags/sql/</link>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/sql/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>freehosting</title>
+      <link>https://codeklutz.com/tags/freehosting/</link>
+      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/freehosting/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://codeklutz.com/tags/github/</link>
+      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/github/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>githubactions</title>
+      <link>https://codeklutz.com/tags/githubactions/</link>
+      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/githubactions/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://codeklutz.com/tags/portfolio/</link>
+      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/portfolio/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>polymorphism</title>
+      <link>https://codeklutz.com/tags/polymorphism/</link>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/polymorphism/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://codeklutz.com/tags/programming/</link>
+      <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/programming/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>concepts</title>
+      <link>https://codeklutz.com/tags/concepts/</link>
+      <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/concepts/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>constructors</title>
+      <link>https://codeklutz.com/tags/constructors/</link>
+      <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/constructors/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

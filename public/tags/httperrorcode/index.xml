@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>httperrorcode on Codeklutz</title>
+    <link>https://codeklutz.com/tags/httperrorcode/</link>
+    <description>Recent content in httperrorcode on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Dec 2022 19:17:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/httperrorcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt:422 HTTP Error code</title>
+      <link>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</link>
+      <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</guid>
+      <description>Today while testing a soap API at work, I came across this HTTP error code called HTTP/1.1 422 Unprocessable Entity . According to MDN Web docs, it means the following :
+The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.</description>
+      <content:encoded><![CDATA[<p>Today while testing a soap API at work, I came across this HTTP error code called <strong><strong>HTTP/1.1 422 Unprocessable Entity</strong></strong> . According to MDN Web docs, it means the following :</p>
+<blockquote>
+<p>The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.</p>
+</blockquote>
+<p>It means that the syntax of the request is correct and well-formed but it has semantic, logical errors. Meaning the soap body xml format will be correct but the issue arises because of the content inside the XML tags*. In this case, it could be the following:</p>
+<ul>
+<li>Wrong character within the code.</li>
+<li>The server doesn’t understand the content within a particular XML tag.</li>
+<li>Or it refuses to process any other content inside the tag other than a fixed decided value).</li>
+</ul>
+<p>Difference between 422,404 and 415 Error codes .Permalink
+According to <a href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">RFC</a>,</p>
+<blockquote>
+<p>The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions.</p>
+</blockquote>
+<p>In testing a soap API, the content type of the request body was correct. I checked for Content-Type header while testing) – Hence 415(Unsupported Media Type) was not valid. For soap,it was Content-Type: text/xml; charset=UTF-8. And the syntax of the request body was also correct– Hence 404(Bad request) was not valid.</p>
+<p>The error occurred due to an incorrect value in the XML tag in my case. Value should have been <code>&lt;ns8:exampleTag&gt;123&lt;/ns8:exampleTag&gt;</code> instead of <code>&lt;ns8:exampleTag&gt;456&lt;/ns8:exampleTag&gt;</code></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>portfolio on Codeklutz</title>
+    <link>https://codeklutz.com/tags/portfolio/</link>
+    <description>Recent content in portfolio on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Dec 2021 23:23:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying my portfolio website for free on Github Pages using GitHub actions</title>
+      <link>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>
+      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
+      <description>I deployed my portfolio site and wanted to try out github actions and this is my experience of automating the deployment. This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.</description>
+      <content:encoded><![CDATA[<p>I deployed my <a href="https://shwetarkadam.github.io/portfolio/">portfolio site</a> and wanted to try out github actions and this is my experience of automating the deployment.
+This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.</p>
+<p>The way GitHub action works is you create actions in your repositories by creating one or more yaml files and these are called workflows.Workflows now can handle build tasks like CI CD. This means you use the action to test your code and push the site to the desired hosting platform (in this case GitHub pages ) when the main branch changes .
+First step assuming that you have a GitHub account is to create a repository having your website code in it.Now I have a bootstrap website but in the future I do plan on adding node JS so I already added package.json.</p>
+<p>{% gist 7fc9e560ec958d6fb9876019e298e02f %}</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;shwetarkadam.github.io&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;1.0.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Portfolio&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;main&#34;</span><span class="p">:</span> <span class="s2">&#34;index.html&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;scripts&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build&#34;</span><span class="p">:</span> <span class="s2">&#34;npm run clean &amp;&amp; npm run imagemin &amp;&amp; npm run copyfonts &amp;&amp; npm run copydata &amp;&amp; npm run usemin&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;clean&#34;</span><span class="p">:</span> <span class="s2">&#34;rimraf dist&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;copyfonts&#34;</span><span class="p">:</span> <span class="s2">&#34;copyfiles -f node_modules/font-awesome/fonts/* dist/fonts&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;copydata&#34;</span><span class="p">:</span> <span class="s2">&#34;copyfiles -f src/js/* dist/js&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;imagemin&#34;</span><span class="p">:</span> <span class="s2">&#34;imagemin src/img/* -o dist/img&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;lite&#34;</span><span class="p">:</span> <span class="s2">&#34;lite-server&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;start&#34;</span><span class="p">:</span> <span class="s2">&#34;npm run lite&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;test&#34;</span><span class="p">:</span> <span class="s2">&#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;usemin&#34;</span><span class="p">:</span> <span class="s2">&#34;usemin index.html -d dist --htmlmin -o dist/index.html&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;repository&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;git&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;git@github.com:shwetarkadam/portfolio.git&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;author&#34;</span><span class="p">:</span> <span class="s2">&#34;Shweta Kadam&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;license&#34;</span><span class="p">:</span> <span class="s2">&#34;MIT&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;dependencies&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;bootstrap&#34;</span><span class="p">:</span> <span class="s2">&#34;^4.4.1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;font-awesome&#34;</span><span class="p">:</span> <span class="s2">&#34;^4.7.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;jquery&#34;</span><span class="p">:</span> <span class="s2">&#34;^3.5.1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;popper.js&#34;</span><span class="p">:</span> <span class="s2">&#34;^1.16.0&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;devDependencies&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;copyfiles&#34;</span><span class="p">:</span> <span class="s2">&#34;^2.2.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;imagemin-cli&#34;</span><span class="p">:</span> <span class="s2">&#34;^5.1.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;lite-server&#34;</span><span class="p">:</span> <span class="s2">&#34;^2.5.4&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;rimraf&#34;</span><span class="p">:</span> <span class="s2">&#34;^3.0.2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;usemin-cli&#34;</span><span class="p">:</span> <span class="s2">&#34;^0.6.0&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Verify all your changes as correct by first in your root folder running the command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm install
+</span></span></code></pre></div><p>npm install</p>
+<p>and after installing node modules run the command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">run npm start
+</span></span></code></pre></div><p>so you should get your output in localhost something like this</p>
+<figure>
+    <img loading="lazy" src="/img/portfolio-githubactions.PNG"/> 
+</figure>
+
+<p>Now that you have ensured that the project runs properly in your local machine,it is ready to be deployed to GitHub pages. You will only need to commit and push your changes to the main branch of a repo and ensure that the settings are pointing to the correct branch to display a site for that.
+Now the file that does this is that deploy.yml file which we will use to create the workflow.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build and Deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build-and-deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">persist-credentials</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install and 06Build</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          npm install
+</span></span></span><span class="line"><span class="cl"><span class="sd">          npm run build</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">JamesIves/github-pages-deploy-action@releases/v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">GITHUB_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.GITHUB_TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">gh-pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">FOLDER</span><span class="p">:</span><span class="w"> </span><span class="l">dist</span><span class="w">
+</span></span></span></code></pre></div><p>Now this yaml file which can be found <code>.github/workflows/deploy.yml</code> file in local ,you can rename the file whatever you like.It tells the github actions to install the project dependencies run a build script and put that required files in a output folder name dist and upload the contents of the dist folder to the gh-pages branch and if the branch does not exist it will create that branch.The workflow to deploy the site to github-pages you can find that from James Ives GitHub pages deploy action.
+If you have any existing site or code and you want to publish it to get pages you only need this file to be added into your project.
+You could go to your github repo Actions Tab -&gt; Create Simple Workflow and copy paste the above content in your yaml file.</p>
+<p>Once you have a site ready for GitHub Pages, and your project includes the <code>.github/workflows/deploy.yml</code> file, you only need to commit and push your changes to the main branch of your repository. You can the ongoing workflow by going to Actions=&gt;build and deploy.Also this is the place where you can debug what went wrong in case your workflow fails.</p>
+<figure>
+    <img loading="lazy" src="/img/githubaction-build.PNG"/> 
+</figure>
+
+<figure>
+    <img loading="lazy" src="/img/githubaction-build2.png"/> 
+</figure>
+
+<p>After the GitHub Actions have run, ensure settings are pointing to the correct branch to display your site.
+Go to the settings of your repository and ensure that the source for GitHub Pages is using the correct branch. It is close to the bottom of the main settings page.</p>
+<figure>
+    <img loading="lazy" src="/img/gh-pages.PNG"/> 
+</figure>
+
+<p>It does take some time at the start to load in the browser but once available you can click on the link in the green bar above.
+Now every time you make a push to the main branch ,the changes are reflected in the main site.</p>
+<p>My Portfolio Site: <a href="https://shwetarkadam.github.io/portfolio/">Click Here</a></p>
+<p>That’s all folks.
+Happy Learning.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on Codeklutz</title>
+    <link>https://codeklutz.com/tags/git/</link>
+    <description>Recent content in git on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 21 Jan 2022 23:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
+      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
+      <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
+But Thanks to WSL, windows terminal, and the beautiful zsh .</description>
+      <content:encoded><![CDATA[<p>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭</p>
+<p>But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!</p>
+<p>So this is just a blog post on how I customized my terminal on windows 10 using wsl, windows terminal,zsh, and many more fun plugins which I use on my Linux as well as windows for development(work or home).
+<img loading="lazy" src="/img/zsh.PNG" alt=""  />
+</p>
+<h2 id="what-is-wsl">What is wsl?</h2>
+<p>It stands for windows subsystem for Linux and it&rsquo;s a feature of Windows that allows developers to run Linux file systems,command-line tools etc directly on windows!(Goodbye painful windows mouse navigation) First, you need the wsl feature on windows 10 by going to <code>Start -&gt;Type windows feature on search and below checkbox should be checked for enabling windows subsystem for Linux.</code>
+<img loading="lazy" src="/img/windowsfeaturecheck.PNG" alt=""  />
+
+Now you need to install wsl which you can by going <code>Start-&gt; Microsoft store -&gt;type ubuntu</code>.Im installing Ubuntu wsl since I&rsquo;m familiar with it you can also change distros. I&rsquo;m also installing another app called windows terminal because it&rsquo;s much better in terms of ui to me as compared to Ubuntu terminal.This is optional.
+<img loading="lazy" src="/img/terminalcomparision.PNG" alt=""  />
+
+At this point, it&rsquo;s your choice whether you want to continue with the Ubuntu terminal or use the windows terminal.If you decide with the former,skip the next para and if you decide with the latter then you need to set windows terminal as your default shell.
+<img loading="lazy" src="/img/windowstermsettings.PNG" alt=""  />
+</p>
+<p>Now by default windows terminal opens the power shell, to set to Ubuntu
+<img loading="lazy" src="/img/setdefaultshell.PNG" alt=""  />
+
+Go to settings as shown below</p>
+<p>Now you have a Ubuntu shell that has bash. I personally use zsh with OhMyZsh for my work for that beautiful productivity. Using OhMyZsh features like navigating without using cd, usage of ll, easier tab-click based navigation, and much more!</p>
+<p>Note that zsh and OhMyZsh are different. When you install OhMyZsh, many plugins come with it for your rescue! So to install zsh. Update the libraries first then install zsh.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install update
+</span></span><span class="line"><span class="cl">sudo apt install -y zsh
+</span></span></code></pre></div><p>Then Install ohmy zsh</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></div><p>Now your previous~/.zshrc config will be replaced by ohmyzsh To customize the shell next install powerlevel10k.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone - <span class="nv">depth</span><span class="o">=</span><span class="m">1</span> https://github.com/romkatv/powerlevel10k.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="si">}</span>/themes/powerlevel10k
+</span></span></code></pre></div><p>This command clones the repo and now go to your ~/.zshrc and set the theme as power level 10k And then</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">source</span> ~/ .zshrc
+</span></span></code></pre></div><p>Note: To reflect every change you make, do <code>source ~/.zshrc</code> in the terminal. And then this will give you a set of options to configure which you can decide for your customization.</p>
+<h3 id="my-favourite-plugins">My favourite plugins</h3>
+<p>I use these plugins daily and they make my life super smooth !</p>
+<h4 id="fzf">Fzf</h4>
+<p>It&rsquo;s a fuzzy finder command-line tool that lets your fuzzy find anything (files directories git branches you name it )across file system. You can use ti write your custom fuzzy find scripts to find anything.I have posted a link if my current config and aliases for reference. Clone the repo from any directory and just run the install script.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone - depth <span class="m">1</span> https://github.com/junegunn/fzf.git ~/.fzf
+</span></span><span class="line"><span class="cl">~/.fzf/install
+</span></span></code></pre></div><p><img loading="lazy" src="/img/fzf.PNG" alt=""  />
+
+Here is a small example of small WIP config for reference.</p>
+<h4 id="zsh-auto-suggestions">Zsh Auto-suggestions</h4>
+<p>This one Autocompletes while you type a command.This is useful especially when you type commands which you use daily but need to to try multiple times such as navigating and printing log at a specific long location. Git Clone the zsh-autocomplete plugin in the OhMyZsh plugin folder.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions
+</span></span></code></pre></div><p>Once that is done, add the plugin in the ~/.zshrc file&rsquo;s plugin list.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
+</span></span><span class="line"><span class="cl"> …
+</span></span><span class="line"><span class="cl"> zsh-autosuggestions
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></div><figure>
+    <img loading="lazy" src="/img/zshautosuggest.PNG"/> 
+</figure>
+
+<h4 id="zsh-syntax-highlighting">Zsh Syntax highlighting</h4>
+<p>This one automatically highlights zsh commands as you type. This saves a lot of typing on my part. Git Clone the zsh-syntax-highlighting plugin in the OhMyZsh plugin folder.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-syntax-highlighting
+</span></span></code></pre></div><p>And once again add it to the plugins list of the .zshrc file.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
+</span></span><span class="line"><span class="cl"> …
+</span></span><span class="line"><span class="cl"> zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
+</span></span></code></pre></div><p>Note: To reflect every change you make, do source ~/.zshrc in the terminal.</p>
+<h4 id="readymade-github-aliases-from-oh-my-zsh">Readymade Github Aliases from Oh My Zsh</h4>
+<p>Usually one defines short github aliases such as g.b forgit branch or g.c for git checkout in ~/.zshrc but you know by using ohMyZsh already has a list of easy git aliases configured. The format is first 2–3 letters of the first letter of the command such as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gb git branch List of <span class="nb">local</span> branches
+</span></span><span class="line"><span class="cl">gba git branch -a List of <span class="nb">local</span> and remote branches
+</span></span><span class="line"><span class="cl">gcam git commit -am Add all files to stage and commit
+</span></span><span class="line"><span class="cl">gcmsg git commit -m Git commit message
+</span></span><span class="line"><span class="cl">gco git checkout Change branch
+</span></span><span class="line"><span class="cl">gco - git checkout to the previous branch Change branch to the previous one
+</span></span><span class="line"><span class="cl">gd git diff Files differences in staging
+</span></span><span class="line"><span class="cl">gfa git fetch - all - prune Fetch all remote branches, delete branch <span class="k">if</span> upstream is gone
+</span></span><span class="line"><span class="cl">gl git pull Pull from remote
+</span></span><span class="line"><span class="cl">gp git push Push to remote
+</span></span><span class="line"><span class="cl">gpsup git push - set-upstream origin <span class="o">[</span>currentbranch<span class="o">]</span> Set upstream branch
+</span></span><span class="line"><span class="cl">gst git status Local files to commit
+</span></span></code></pre></div><p>I use these git aliases daily and they make working super fun.I recommend going through oh-my-zsh git aliases cheatsheets</p>
+<p>That&rsquo;s all folks! This is my current setup in windows for development and this is still a work in progress that can keep changing but these plugins and zsh are something that has made the experience of using windows quite fun.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

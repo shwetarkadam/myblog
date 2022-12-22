@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blog on Codeklutz</title>
+    <link>https://codeklutz.com/tags/blog/</link>
+    <description>Recent content in blog on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Nov 2022 18:48:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt: Interesting Things in Java 11</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
+Today’s TIL : Crazy things to do with Java 11+
+Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
+      <content:encoded><![CDATA[<p>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.</p>
+<p>Today’s TIL : <strong><strong>Crazy things to do with Java 11+</strong></strong></p>
+<h2 id="initializing-array-and-var-keywordpermalink">Initializing Array and var keywordPermalink</h2>
+<p>Having the <code>var</code> keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :). But we never thought we would use it to initialize such as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">element</span> <span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">];</span>       <span class="c1">//WORKS
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">var</span> <span class="o">[]</span> <span class="n">element</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">];</span>      <span class="c1">// COMPILE ERROR :error: &#39;var&#39; is not allowed as an element type of an array
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">Since</span> <span class="n">var</span> <span class="n">is</span> <span class="n">a</span> <span class="n">generic</span> <span class="n">element</span> <span class="n">type</span><span class="o">,</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">array</span> <span class="o">[]</span> <span class="n">provides</span> <span class="n">an</span> <span class="n">error</span> <span class="n">since</span> <span class="n">rather</span> <span class="n">than</span> <span class="n">being</span> <span class="n">generic</span> <span class="n">we</span> <span class="n">are</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">an</span> <span class="n">array</span> <span class="n">type</span><span class="o">.</span>
+</span></span></code></pre></div><h2 id="c-style-arraypermalink">C style ArrayPermalink</h2>
+<p>What is a c style array? Java supports providing [] before and after the variable name in an array</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="kt">int</span> <span class="o">[]</span><span class="n">arr</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl"> <span class="kt">int</span> <span class="n">arr1</span><span class="o">[]=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">];</span>
+</span></span></code></pre></div><p>In C style array, we provide [] after the variable name that is ~int arr1[].</p>
+<p>So in Java, suppose we have the following code:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">arr1</span><span class="o">[],</span><span class="n">arr2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">];</span>        <span class="c1">//COMPILE ERROR : error: incompatible types: int[] cannot be converted to int
+</span></span></span></code></pre></div><p>The above code will result in COMPILE ERROR for arr2 since arr2 is not an array but a primitive int variable. But if we want to want both arr1 and arr12 as array type we need to change the declaration to</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="o">[]</span> <span class="n">arr1</span><span class="o">,</span><span class="n">arr2</span><span class="o">;</span> <span class="c1">//Notice how [] are
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">];</span>
+</span></span></code></pre></div><h2 id="arrays-dot-aslist-and-primitives">Arrays.asList and Primitives</h2>
+<p>Let’s look at the following example :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="o">[]</span> <span class="n">strArr</span><span class="o">={</span><span class="s">&#34;one&#34;</span><span class="o">,</span><span class="s">&#34;two&#34;</span><span class="o">,</span><span class="s">&#34;three&#34;</span><span class="o">};</span>
+</span></span><span class="line"><span class="cl"><span class="n">var</span> <span class="n">stringList</span><span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">strArr</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">[]</span> <span class="n">intArray</span> <span class="o">=</span> <span class="o">{</span><span class="n">1</span><span class="o">,</span><span class="n">2</span><span class="o">,</span><span class="n">3</span><span class="o">};</span>
+</span></span><span class="line"><span class="cl"><span class="n">var</span> <span class="n">intList</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">intArray</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">stringList</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="s">&#34;one&#34;</span><span class="o">)+</span><span class="s">&#34; &#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">intList</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">1</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl"><span class="nl">
+</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="kc">true</span> <span class="kc">false</span>
+</span></span></code></pre></div><p>Signature of Arrays.asList is var-args or List of T’s.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">      <span class="kd">public</span> <span class="kd">static</span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="nf">asList</span><span class="o">(</span><span class="n">T</span><span class="o">...</span> <span class="n">a</span><span class="o">)</span>
+</span></span></code></pre></div><p>T is of generic type so that means it needs to reference a Type such as Integer,Float and not reference Array of Ints</p>
+<p>But next question is Can they boxed ? (Autoboxing: Converting primitive to Class Type example : int -&gt; Integer) Answer is no Array of ints -&gt; Cannot be boxed -&gt; Array of Integer</p>
+<blockquote>
+<p>Don’t use Arrays.asList on primitives</p>
+</blockquote>
+<h2 id="no-structural-changes-allowed-in-arraypermalink">No structural changes allowed in ArrayPermalink</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="o">[]</span> <span class="n">ints</span> <span class="o">={</span><span class="s">&#34;a&#34;</span><span class="o">,</span><span class="s">&#34;b&#34;</span><span class="o">,</span><span class="s">&#34;c&#34;</span><span class="o">,</span><span class="kc">null</span><span class="o">};</span>
+</span></span><span class="line"><span class="cl"><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">strings</span><span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">ints</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">strings</span><span class="o">.</span><span class="na">removeIf</span><span class="o">(</span><span class="n">Objects</span> <span class="o">::</span> <span class="n">isNull</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">strings</span><span class="o">.</span><span class="na">size</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="n">Exception</span> <span class="n">in</span> <span class="n">thread</span> <span class="err">“</span><span class="n">main</span><span class="err">”</span> <span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">UnsupportedOperationException</span><span class="o">:</span> <span class="n">remove</span> <span class="n">at</span> <span class="n">java</span><span class="o">.</span><span class="na">base</span><span class="o">/</span><span class="n">java</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">Iterator</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">Iterator</span><span class="o">.</span><span class="na">java</span><span class="o">:</span><span class="n">102</span><span class="o">)</span>
+</span></span></code></pre></div><p>Because the array does not allow any structural changes to it</p>
+<h2 id="a-unique-way-to-remove-null-values-from-map">A Unique way to remove null values from Map</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">,</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">=</span><span class="k">new</span> <span class="n">HashMap</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">4</span><span class="o">,</span><span class="kc">null</span><span class="o">);</span> <span class="c1">//currently map has key:4 value: null
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">getOrDefault</span><span class="o">(</span><span class="n">4</span><span class="o">,</span><span class="s">&#34;four&#34;</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="o">(</span><span class="n">4</span><span class="o">,</span><span class="s">&#34;four&#34;</span><span class="o">);</span>     <span class="c1">//key key:4 value:four
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">4</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl"><span class="nl">
+</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="kc">null</span><span class="o">,</span><span class="n">four</span>
+</span></span></code></pre></div><p>##</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">numbers</span> <span class="o">=</span> <span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(-</span><span class="n">1</span><span class="o">,</span><span class="n">0</span><span class="o">,</span><span class="n">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">,</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span> <span class="n">map</span><span class="o">=</span><span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="o">.</span><span class="na">forEach</span><span class="o">(</span><span class="n">number</span><span class="o">-&gt;</span> <span class="n">map</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="o">(</span><span class="n">number</span><span class="o">,</span><span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;())</span>
+</span></span><span class="line"><span class="cl">               <span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">number</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">0</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl"><span class="nl">
+</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="n">NullPointerException</span><span class="o">:</span> <span class="n">Exception</span> <span class="n">in</span> <span class="n">thread</span> <span class="err">“</span><span class="n">main</span><span class="err">”</span> <span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">NullPointerException</span> <span class="n">at</span> <span class="n">HelloWorld</span><span class="o">.</span><span class="na">lambda$main$0</span><span class="o">(</span><span class="n">HelloWorld</span><span class="o">.</span><span class="na">java</span><span class="o">:</span><span class="n">33</span><span class="o">)</span>
+</span></span></code></pre></div><p>Because map.putIfAbsent returns null if no value is present</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tackling procrastination and kubernetes study</title>
+      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+      <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
+<h2 id="pre-requisite">Pre requisite</h2>
+<p>You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.</p>
+<h2 id="what-is-kubernetes">What is kubernetes?</h2>
+<p>Kubernetes is an open-source technology that is used for container orchestration. And what is container orchestration exactly? It is the process of continuous deployment ,scaling and management of containers.</p>
+<p>Lets first look at the kubernetes architecture and the individual components in it.</p>
+<h2 id="node">Node:</h2>
+<p>A Node is either a physical or virtual machine on wihc kubernetes is installed. A node is like a worker machine on which containers (having our application) will be running by Kubernetes.And like any other machine ,nodes can crash for a number of reasons ;) .So once the node crashes the application will be go down as well. So tackle this we need multiple nodes rather than 1 node.</p>
+<p>And mulitple nodes come together to form a group known as the cluster.So even if one node inside the cluster fails,we have our application accessible and running from the other nodes.Plus it helps in sharing load!</p>
+<h2 id="master-node">* Master Node :</h2>
+<p>So now we have our cluster running on a group of nodes which are running our containerised apps.But who is responsible to manage this cluster:?Also when a node goes down how to direct the traffic of the failed node to other working nodes?Also who stores the information about these worker nodes stored? and How are the nodes monitored?</p>
+<p>The master node!</p>
+<p>The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.</p>
+<blockquote>
+<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p>
+</blockquote>
+<p>because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.</p>
+<h2 id="other-components">Other components:</h2>
+<p>When you install kubernetes in your system,you are actually installing the follwing components:</p>
+<ul>
+<li>An Kube api server (Master)</li>
+<li>An etcd service (Master)</li>
+</ul>
+<p>-A kubelet service (Worker)</p>
+<ul>
+<li>Controller (Master)</li>
+<li>Scheduler (Master)</li>
+<li>Container Runtime</li>
+</ul>
+<h2 id="kube-api-server">Kube API server:</h2>
+<p>Kubeapi server acts as a frontend for kubernetes.The users,commandline tools,managment devices all interact with the cluster via the Kube API server.</p>
+<h2 id="etcd">etcd</h2>
+<p>etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.</p>
+<blockquote>
+<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p>
+</blockquote>
+<h2 id="scheduler">Scheduler</h2>
+<p>Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.</p>
+<h2 id="controllers">Controllers</h2>
+<p>Controllers are the brain behind the orchestration. They are responsible for notcining and responding nodes,containers or endpoint goes down.The controller takes decsions to bring up new nodes in this case.</p>
+<h2 id="container-runtime">Container Runtime</h2>
+<p>The container runtime is the underying software that runs the containers.Most of the times,its docker.I have used docker but there are other runtimes such as CRI-O</p>
+<h2 id="kubeletpermalink">KubeletPermalink</h2>
+<p>Kubelet is an agent that runs on each worker node in the cluster. The agent is in charge of making sure that containers are running on the nodes as expected.</p>
+<h2 id="master-vs-worker-nodespermalink">Master vs Worker nodesPermalink</h2>
+<p>So now we know there are 2 types of nodes : Masternode and Worker node. How does a node become master or a worker node? A worker node has the containers are hosted and running .Hence to run these containers we need a Container Runtime such as docker installed in these machines.</p>
+<p>The master has a kube API server and this is what differentiates the master from worker nodes. The worker node have the kubelet agent that interacts with the master to proivide health information about the worker nodes and carries out the instrcutions given by the master node on worker nodes.The master has all this information stored in key value store (etcd) known as the etcd.The master also has the controller and scheduler.</p>
+<h2 id="kubectlpermalink">KubectlPermalink</h2>
+<p>kubectl is a commandline tool is used to deploy and manage applications in a cluster.Basically we are going to use these commands from the kubectl tool to get us information (kubectl get,status describe) about the nodes and other components in the cluster and to manage many other operations.</p>
+<p><code>kubectl run</code> –Used to deploy an application onto the cluster</p>
+<p><code>kubectl get cluster-info</code> –Used to fetch the cluster information</p>
+<p><code>kubectl get nodes</code> –Used to fetch information about nodes.</p>
+<p>That is all on basic overview.Next article will be focused on pod and how pods work in nodes in kubernetes.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tech Recap Journal- January📓</title>
+      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
+However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
+My Blog! codeklutz.com I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.</description>
+      <content:encoded><![CDATA[<p>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.</p>
+<p>However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.</p>
+<h2 id="my-blog-codeklutz-dot-com">My Blog! <a href="https://codeklutz.com">codeklutz.com</a></h2>
+<p>I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.I didn’t want to opt for WordPress for the same reason.</p>
+<p>Jekyll with GitHub pages is a life saver here! Also learnt a lot on custom domains after buying my own domain,about Google analytic and SEO.Plus customising Jekyll site with themes has been fun.</p>
+<h2 id="letters-to-me">Letters to me</h2>
+<p>This idea struck me in the wee hours at night.I always get some random tech ideas or where I am curious about something and think about it as to how I would do this particular task.</p>
+<p>I think of this site as an idea jar 💡 or tech journal 📝 where I jot down my wacky, scrambling thoughts.Something which I can look back on for ideas when I don’t feel creative or as starting thinking point for my small side projects.Some tech thoughts which aren’t polished enough for a blog but are useful tiny ideas which provide insight.
+Also since it’s on the internet maybe someone might find it useful or insightful? I’m thinking of adding an rss feed to this in the future if anyone would be interested in following this.</p>
+<h2 id="expiermenting-with-audio-in-blogs">Expiermenting with audio in blogs</h2>
+<p>Based on the idea mentioned in letters.codeklutz.com decided to implement an audio feature for this blog.I tried finding some open source or free alternative.And I did find one but sadly this one proved to be a failure at the current moment.</p>
+<p>The audio is decent but the voices which I found are too mechanical and monotonous to listen continuously.I shall still try finding some open source alternative because I don’t want to invest in paid alternatives for this small blog at the moment.</p>
+<h2 id="noteklutz-https-note-dot-codeklutz-dot-com">NoteKlutz <a href="https://note.codeklutz.com">https://note.codeklutz.com</a></h2>
+<p>This mini project is again a part of implementation of the idea mentioned in letters.codeklutz.com It already proving to be useful;) I realised I write more markdown (for creating study notes +writing this blog) so I felt the need to create my own editor which is suited for myself and at the same time not fear giving my data to someone or idk?(lmao)</p>
+<p>But main focus was not to use another app just to create notes and since I use browser more than anything else this seemed like a good idea</p>
+<p>It’s a small,minimal project which does exactly what I need it to do and does it right (at least for me biased here🤫) It’s like my second organising brain 🧠.The code is an absolute mess and needs heavy work which I will do my pushing small updates on weekends🤭.</p>
+<p>So this was all for January and Mid Feb</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

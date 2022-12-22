@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>constructors on Codeklutz</title>
+    <link>https://codeklutz.com/tags/constructors/</link>
+    <description>Recent content in constructors on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Jun 2021 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/constructors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How constructors work in Java</title>
+      <link>https://codeklutz.com/posts/how-constructors-work-in-java/</link>
+      <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/how-constructors-work-in-java/</guid>
+      <description>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.
+A constructor is used to initialize instance variables When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error. By default every class has a constructor called default no argument constructor.</description>
+      <content:encoded><![CDATA[<p>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.</p>
+<h2 id="a-constructor-is-used-to-initialize-instance-variables">A constructor is used to initialize instance variables</h2>
+<h2 id="when-an-object-of-an-class-is-created-jvm-goes-to-the-class-and-searches-for-that-matching-constructor-dot-if-constructor-is-not-present-it-gives-a-compile-error-dot">When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error.</h2>
+<h2 id="by-default-every-class-has-a-constructor-called-default-no-argument-constructor-dot">By default every class has a constructor called default no argument constructor.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span> <span class="c1">//default no arg constructor
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}}</span>
+</span></span></code></pre></div><h2 id="a-programmer-can-have-multiple-constructors-in-a-class-provided-their-signatures-are-different-this-is-called-constructor-overloading-dot">A programmer can have multiple constructors in a class provided their signatures are different this is called constructor overloading.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//some code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//some code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">float</span> <span class="n">x</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//some code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">float</span> <span class="n">x</span><span class="o">,</span><span class="kt">int</span> <span class="n">y</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//some code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">,</span><span class="kt">float</span> <span class="n">y</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">z</span><span class="o">){}</span><span class="c1">//THIS WILL GIVE COMPILE ERROR SInce its already defined on top.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">A</span> <span class="n">a</span><span class="o">=</span><span class="k">new</span> <span class="n">A</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl"><span class="k">new</span> <span class="n">A</span><span class="o">();</span><span class="c1">//goes to first matching constructor
+</span></span></span></code></pre></div><h2 id="jvm-always-calls-the-matching-constructor-from-the-class-dot-however-a-programmer-can-call-other-constructors-of-this-class-by-using-the-the-this-method-dot">JVM always calls the matching constructor from the class.HOWEVER,a programmer can call other constructors of this class by using the the this() method.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="o">();</span>                     <span class="c1">//this will go to constructor A();
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;AA&#34;</span><span class="o">);</span>   <span class="c1">//II
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">App</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="k">new</span> <span class="n">A</span><span class="o">(</span><span class="n">5</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="nl">
+</span></span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span>
+</span></span><span class="line"><span class="cl"><span class="n">AA</span>
+</span></span></code></pre></div><h2 id="if-a-programmer-desires-it-can-call-the-constructor-of-the-super-class-as-well-from-its-own-constructor-using-the-super-method-dot">If a programmer desires it can call the constructor of the super class as well from its own constructor using the super() method.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">B</span> <span class="kd">extends</span> <span class="n">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl"><span class="kd">super</span><span class="o">();</span>             <span class="c1">//this is called implicitly refer next point also
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;B&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">new</span> <span class="n">B</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span>
+</span></span><span class="line"><span class="cl"><span class="n">B</span>
+</span></span></code></pre></div><h2 id="whenever-a-programmer-creates-a-constructor-jvm-writes-super-in-every-constructor-implicitly-as-its-first-line-dot">Whenever a programmer creates a constructor ,JVM writes super() in every constructor implicitly as its first line.</h2>
+<p>Note:If a class does not extend any class it by default extends the Object class. Do Try this code in your ide to see it for yourself</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//super will be called implicitly at the first line of this constructor and here since it does not extend any class it will extend the Object class
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//super will be called implicitly at the first line of this constructor
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;AA&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="o">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">new</span> <span class="n">A</span><span class="o">(</span><span class="n">5</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
+</span></span><span class="line"><span class="cl"><span class="n">A</span>
+</span></span><span class="line"><span class="cl"><span class="n">AA</span>
+</span></span></code></pre></div><p>That’s all for constructors in Java.</p>
+<p>Happy Learning :)</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
