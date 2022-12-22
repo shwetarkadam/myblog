@@ -16,7 +16,7 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Codeklutz"
-description = "Blog by Shweta Kadam"
+description = "CodeKlutz : My Developer journey & learnings"
 keywords = [ "Blog", "Portfolio", "PaperMod", "TechBlog" ]
 author = "Shweta Kadam"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -40,6 +40,7 @@ hideSummary = false
 showtoc = true
 tocopen = true
 favicon = "/cat.gif"
+
 
   [params.assets]
   favicon = "<link / abs url>"
@@ -86,7 +87,7 @@ favicon = "/cat.gif"
 
   [params.homeInfoParams]
   Title = "Shweta Kadam"
-  Content = "Coding & drinking coffee <img src='static/cat.gif'>"
+  Content = "Fixing more things than I break, creating new things that don't break as often! <img src='https://codeklutz.com/cat.gif'>"
 
   [[params.socialIcons]]
   name = "github"
