@@ -9,11 +9,11 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 21:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL: jq</title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-jq/</link>
-      <pubDate>Tue, 20 Dec 2022 21:45:00 +0000</pubDate>
+      <pubDate>Thu, 22 Dec 2022 21:45:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-til-jq/</guid>
       <description>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option. But my mac cried and was freezing in instances begging for me to not open more application :( This is where I came across a nifty tool called jq
