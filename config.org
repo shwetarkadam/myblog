@@ -1007,11 +1007,6 @@ CLOSED: [2022-12-20 Tue 21:45]
        ************* And pretty handy when you lose internet connection ;)
        ************* When used in shell scripts , it can save a lot of time and manual effort.
        This is useful cheat sheet with good example to refer https://lzone.de/cheat-sheet/jq
-** TODO Migrating my blog from Jekyll to Hugo   :blog:jekyll:hugo:
-:properties:
-:hugo_section: 2022/12/
-:export_file_name: Migrating my blog from Jekyll to Hugo.md
-:end:
 ** DONE My 2022 Year Review :blog:yearreview:review:2022:techreview:
 CLOSED: [2022-12-26 Mon 01:49]
 :properties:
