@@ -968,7 +968,7 @@ In testing a soap API, the content type of the request body was correct. I check
 
 The error occurred due to an incorrect value in the XML tag in my case. Value should have been =<ns8:exampleTag>123</ns8:exampleTag>= instead of =<ns8:exampleTag>456</ns8:exampleTag>=
 ** DONE Today I learnt TIL: jq :til:jq:json:
-CLOSED: [2022-12-20 Tue 21:45]
+CLOSED: [2022-12-22 Tue 21:45]
 :properties:
 :hugo_section: posts/2022/12
 :export_file_name:  Today I learnt TIL: jq.md
