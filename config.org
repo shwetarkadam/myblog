@@ -1085,3 +1085,8 @@ But diagram making tends to be a long time consuming task. I am currently trying
 While explaining a concept to a friend or colleague helped in finding out the gaps in my learning. Though I tried to explain a concept to myself while learning, I tend to find it awkward or sometimes lazy to re-iterate to explain the concept back to myself. One of my goals is to get better at speaking and hopefully not bore my little audience.
 
 And that's all for my year end review  for 2022 !
+** TODO Today I learnt TIL : How to effectively remove submodules :git:submodule:gitsubmodule:github:til:
+:properties:
+:hugo_section: posts/2023/01
+:export_file_name: The Annoying Case of Git Submodules.md
+ :end:
