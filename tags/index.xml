@@ -9,7 +9,57 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2022 01:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://codeklutz.com/tags/2022/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/2022/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://codeklutz.com/tags/blog/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://codeklutz.com/tags/review/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/review/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>techreview</title>
+      <link>https://codeklutz.com/tags/techreview/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/techreview/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>yearreview</title>
+      <link>https://codeklutz.com/tags/yearreview/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/tags/yearreview/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>jq</title>
       <link>https://codeklutz.com/tags/jq/</link>
@@ -86,16 +136,6 @@
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/tags/arrays/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://codeklutz.com/tags/blog/</link>
-      <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/tags/blog/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

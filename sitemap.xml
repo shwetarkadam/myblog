@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codeklutz.com/tags/2022/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/blog/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/</loc>
-    <lastmod>2022-12-22T21:45:00+00:00</lastmod>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/my-2022-year-review/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/review/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/techreview/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/yearreview/</loc>
+    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/jq/</loc>
     <lastmod>2022-12-22T21:45:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/json/</loc>
-    <lastmod>2022-12-22T21:45:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2022-12-22T21:45:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2022-12-22T21:45:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/til/</loc>
@@ -42,9 +60,6 @@
     <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/arrays/</loc>
-    <lastmod>2022-11-20T18:48:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/blog/</loc>
     <lastmod>2022-11-20T18:48:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/java11/</loc>
