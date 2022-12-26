@@ -9,7 +9,72 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Feb 2022 15:15:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/retrospect/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Dec 2022 01:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/retrospect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 2022 Year Revieiw📓</title>
+      <link>https://codeklutz.com/posts/my-2022-year-review/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/my-2022-year-review/</guid>
+      <description>It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.
+Work New friends and mentors I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
+I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.
+Promoted to Software Engineer 2 The title says all and I am grateful for it.</description>
+      <content:encoded><![CDATA[<p>It&rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.</p>
+<figure>
+    <img loading="lazy" src="/img/giphy.webp"/> 
+</figure>
+
+<h2 id="work">Work</h2>
+<h3 id="new-friends-and-mentors">New friends and mentors</h3>
+<p>I joined Boku in September 2021 &amp; had the pleasure to meet some amazing developers and colleagues.</p>
+<p>I got the opportunity to learn a lot while on the job, through mentors, environment &amp; infrastructure itself.</p>
+<h3 id="promoted-to-software-engineer-2">Promoted to Software Engineer 2</h3>
+<p>The title says all and I am grateful for it. Without such an awesome environment, I wouldn&rsquo;t have faced the challenges, support and mentorship that I did.</p>
+<h2 id="blogging">Blogging</h2>
+<h3 id="migrating-my-blog-from-jekyll-to-hugo">Migrating my  blog from Jekyll to Hugo</h3>
+<p>I regretted not writing more posts in 2019 even though I had my blog setup on Jekyll .
+It was not the lack of time that bothered me but more of lack of proper process.</p>
+<p>As atomic habits books rightly said to develop a habit ,the habit must be easier to execute.After shifting to Doom
+Emacs this year to make documentation, it made sense to shift my blog from Jekyll to Hugo(Incoming blog post stay tuned!).</p>
+<p>Writing my posts in markdown just for my blog was creating the friction in my writing process.
+Writing all my posts in .org mode helped me reduced that friction and made my process better.</p>
+<p>Also by introducing small Today I learnt concepts (tils) posts helped me further in being consistent in writing. As I wrote about the the things I learnt while working and didn&rsquo;t need to invest extra time and effort into researching and writing separate posts.</p>
+<h2 id="lessons-learnt">Lessons learnt:</h2>
+<h3 id="do-one-thing-at-a-time">Do one thing at a time</h3>
+<p>One of the biggest lessons I have learnt this year is not to take on too many projects at once .To focus on one thing and to do that properly.
+I have realised doing too many things at once , made me rush to one project haphazardly so I could complete the next one .
+This is reminder to myself to complete a project to a satisfactory stage  and then move on.</p>
+<h3 id="document-your-software-process-journey-before-while-doing-it-dot">Document your software process/journey before/while doing it.</h3>
+<p>Documentation  about the work I has always felt like a daunting task to me.But not having proper docs has been more painful.</p>
+<p>One of key lessons, I am still learning is to make the document while working on the project.
+To treat writing as a part of the development process and not as an afterthought.
+One way I recently realised how to do this is to write the titles and subtitles about dos .This helps in breaking down a big problem into a small one.
+Example:
+Im trying to put in place this strategy for blog writing too.</p>
+<h3 id="be-organised">Be organised</h3>
+<p>I found my old diary of 2013 (when I was still preparing for JEE mains ).  It showed me a reflection of how I used to organize content for my studies so why not for learning while working and for blogging?
+<img loading="lazy" src="/img/diary.jpg" alt=""  />
+</p>
+<p>This is why I made the decision to learn doom Emacs and vim and use org-mode as a part of being organized.
+There is a steep learning curve in Emacs. I myself have given up many times on Emacs and have come back because of the useful features it provides.</p>
+<h3 id="done-is-better-than-perfect">Done is better than perfect</h3>
+<p>A lesson I learnt the hard way.
+All the planning and over thinking can do no good if you don&rsquo;t execute the plan.
+Just start with an initial plan and start executing it.  Putting a little thought into the execution can lead to remarkable results.</p>
+<h2 id="what-s-next">What&rsquo;s next?</h2>
+<h3 id="automation-of-content-creation-flow">Automation of content creation flow</h3>
+<p>Continuing to refine my blog content creation post workflow, I will explore ways to reach out to wider audience. To do this in such a way that it doesn&rsquo;t take much mental effort from my side.
+And to find a way to reduce my time and effort in the proof reading &amp; editing process.(Any advice or suggestions are welcome!)</p>
+<h3 id="getting-better-at-note-taking-and-diagram-making">Getting better at note taking and diagram making</h3>
+<p>One of the key goals for 2023 is taking the effort to make quick diagrams. I have understood concepts quicker by looking at diagrams than reading blocks of text .
+But diagram making tends to be a long time consuming task. I am currently trying out draw.io and excalidraw for this purpose ,still at experimental stage tho.</p>
+<h3 id="trying-out-public-speaking-or-podcast-of-my-learning">Trying out public speaking or podcast of my learning</h3>
+<p>While explaining a concept to a friend or colleague helped in finding out the gaps in my learning. Though I tried to explain a concept to myself while learning, I tend to find it awkward or sometimes lazy to re-iterate to explain the concept back to myself. One of my goals is to get better at speaking and hopefully not bore my little audience.</p>
+<p>And that&rsquo;s all for my year end review  for 2022 !</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tech Recap Journal- January📓</title>
       <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
