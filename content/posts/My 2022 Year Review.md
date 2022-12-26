@@ -1,5 +1,5 @@
 +++
-title = "My 2022 Year Revieiw📓"
+title = "My 2022 Year Review📓"
 author = ["Shweta Kadam"]
 date = 2022-12-26T01:49:00+05:30
 tags = ["blog", "yearreview", "review", 2022, "techreview", "retrospect"]
