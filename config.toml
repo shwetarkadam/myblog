@@ -41,13 +41,12 @@ showtoc = true
 tocopen = true
 favicon = "/cat.gif"
 
-
   [params.assets]
   favicon = "<link / abs url>"
   favicon16x16 = "<link / abs url>"
   favicon32x32 = "/cat.gif"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  apple_touch_icon = "/cat.gif"
+  safari_pinned_tab = "/cat.gif"
 
   [params.label]
   text = "CodeKlutz"

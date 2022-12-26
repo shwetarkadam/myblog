@@ -1,12 +1,14 @@
 +++
-title = "My 2022 Year Review"
+title = "My 2022 Year Revieiw📓"
 author = ["Shweta Kadam"]
 date = 2022-12-26T01:49:00+05:30
-tags = ["blog", "yearreview", "review", 2022, "techreview"]
+tags = ["blog", "yearreview", "review", 2022, "techreview", "retrospect"]
 draft = false
 +++
 
 It's been a fruitful and amazing year.And that means documenting my small journey as a blog post.
+
+{{< figure src="/img/giphy.webp" >}}
 
 
 ## Work {#work}
@@ -15,10 +17,11 @@ It's been a fruitful and amazing year.And that means documenting my small journe
 ### New friends and mentors {#new-friends-and-mentors}
 
 I joined Boku in September 2021 &amp; had the pleasure to meet some amazing developers and colleagues.
+
 I got the opportunity to learn a lot while on the job, through mentors, environment &amp; infrastructure itself.
 
 
-## Promoted to Software Engineer 2 {#promoted-to-software-engineer-2}
+### Promoted to Software Engineer 2 {#promoted-to-software-engineer-2}
 
 The title says all and I am grateful for it. Without such an awesome environment, I wouldn't have faced the challenges, support and mentorship that I did.
 
@@ -29,12 +32,15 @@ The title says all and I am grateful for it. Without such an awesome environment
 ### Migrating my  blog from Jekyll to Hugo {#migrating-my-blog-from-jekyll-to-hugo}
 
 I regretted not writing more posts in 2019 even though I had my blog setup on Jekyll .
-It was not the lack of time that bothered me but more of lack of proper process.As atomic habits books rightly said to develop a habit ,the habit must be easier to execute.After shifting to Doom Emacs this year to make documentation, it made sense to shift my blog from Jekyll to Hugo(Incoming blog post stay tuned!).
+It was not the lack of time that bothered me but more of lack of proper process.
+
+As atomic habits books rightly said to develop a habit ,the habit must be easier to execute.After shifting to Doom
+Emacs this year to make documentation, it made sense to shift my blog from Jekyll to Hugo(Incoming blog post stay tuned!).
 
 Writing my posts in markdown just for my blog was creating the friction in my writing process.
 Writing all my posts in .org mode helped me reduced that friction and made my process better.
 
-Also by introducing small Today I learnt concepts (tils) posts helped me further  in being consistent in writing. As I wrote about the the things I learnt while working and didn't need to invest extra time and effort into researching and writing separate posts.
+Also by introducing small Today I learnt concepts (tils) posts helped me further in being consistent in writing. As I wrote about the the things I learnt while working and didn't need to invest extra time and effort into researching and writing separate posts.
 
 
 ## Lessons learnt: {#lessons-learnt}
@@ -61,6 +67,8 @@ Im trying to put in place this strategy for blog writing too.
 ### Be organised {#be-organised}
 
 I found my old diary of 2013 (when I was still preparing for JEE mains ).  It showed me a reflection of how I used to organize content for my studies so why not for learning while working and for blogging?
+![](/img/diary.jpg)
+
 This is why I made the decision to learn doom Emacs and vim and use org-mode as a part of being organized.
 There is a steep learning curve in Emacs. I myself have given up many times on Emacs and have come back because of the useful features it provides.
 
