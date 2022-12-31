@@ -1086,8 +1086,7 @@ While explaining a concept to a friend or colleague helped in finding out the ga
 
 And that's all for my year end review  for 2022 !
 ** DONE Today I learnt TIL :Git Modules & How to effectively remove submodules :git:submodule:gitsubmodule:github:til:
-CLOSED: [2023-01-01 Sun 00:03]
-
+CLOSED: [2023-01-01 Sun 00:30]
 :properties:
 :hugo_section: posts/2023/01
 :export_file_name: Today I learnt TIL :Git Modules & How to effectively remove submodules.md
