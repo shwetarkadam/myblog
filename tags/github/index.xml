@@ -9,7 +9,96 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Dec 2021 23:23:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt TIL :Git Modules &amp; How to effectively remove submodules</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
+      <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
+what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
+It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>
+      <content:encoded><![CDATA[<p>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.</p>
+<h2 id="what-is-a-git-submodule">what is a git submodule?</h2>
+<p>Git submodule is a way to include another repository in Git as a sub directory in one repository.</p>
+<p>It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory
+It is useful for track that repo&rsquo;s  changes and use that project repo as a reference.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule add https://github.com/username/repo-name.git
+</span></span></code></pre></div><p>It’s important to note the <code>username</code> of the repo you are adding.
+Because whose username is present in the repo, the repo belongs to them. So they have ownership of the repo and the changes over it.</p>
+<h2 id="what-issue-i-faced">What issue I faced ?</h2>
+<p>I use Hugo Papermod theme for this website.
+I used the git submodule method for installing this theme in my Hugo repo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule https://github.com/adityatelange/hugo-PaperMod.git --depth<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></div><p>Instead of</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule https://github.com/MY-GITHUB-USERNAME/hugo-PaperMod.git --depth<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></div><h2 id="what-did-this-lead-to">What did this lead to?</h2>
+<p>For adding  GitHub comments feature, the changes had to be done inside <code>layout/partials/comments.html</code></p>
+<p>This file is present in the submodule directory.This lead to the below error:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">warning: adding embedded git repository: themes/PaperMod
+</span></span><span class="line"><span class="cl">hint: You’ve added another git repository inside your current repository.
+</span></span><span class="line"><span class="cl">hint: Clones of the outer repository will not contain the contents of
+</span></span><span class="line"><span class="cl">hint: the embedded repository and will not know how to obtain it.
+</span></span><span class="line"><span class="cl">hint: If you meant to add a submodule, use:
+</span></span><span class="line"><span class="cl">hint:
+</span></span><span class="line"><span class="cl">hint:     git submodule add &lt;url&gt; themes/PaperMod
+</span></span><span class="line"><span class="cl">hint:
+</span></span><span class="line"><span class="cl">hint: If you added this path by mistake, you can remove it from the
+</span></span><span class="line"><span class="cl">hint: index with:
+</span></span><span class="line"><span class="cl">hint:
+</span></span><span class="line"><span class="cl">hint:     git rm --cached themes/PaperMod
+</span></span><span class="line"><span class="cl">hint:
+</span></span><span class="line"><span class="cl">hint: See “git <span class="nb">help</span> submodule” <span class="k">for</span> more information.
+</span></span></code></pre></div><p>I couldn’t push my changes into repo since I did not have ownership over it</p>
+<h2 id="how-to-solve-this">How to solve this?</h2>
+<p>There were two ways to solve this:-</p>
+<ol>
+<li>I make a PR of my changes in aditya subdirectory.</li>
+</ol>
+<p>The owner approves my changes.
+This is not possible in this case since these changes are custom to my repo and not feature enhancement or bug fix</p>
+<ol>
+<li>I remove all git submodule of Aditya ’s changes .Fork Aditya papermod theme(so now the forked repo belong to me ) and link the git submodule to my forked repo.</li>
+</ol>
+<p>I went with the second route.</p>
+<p>But turns out removing all references of git submodule can be quite annoying.</p>
+<p>Every time I thought I removed all submodule references using stackoverflow answers I ended up on the same above error.
+This meant there were still submodule references present.</p>
+<p>Found this useful <a href="https://gist.github.com/myusuf3/7f645819ded92bda6677">Github Gist</a></p>
+<ul>
+<li>Delete the relevant section from the .gitmodules file. Delete the relevant section from the <code>.gitmodules</code> file.</li>
+</ul>
+<p>In my case entries looked like</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">│ <span class="o">[</span>submodule “themes/PaperMod”<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="m">2</span>   │     <span class="nv">path</span> <span class="o">=</span> themes/PaperMod
+</span></span><span class="line"><span class="cl">    <span class="m">3</span>   │     <span class="nv">url</span> <span class="o">=</span> https://github.com/adityatelange/hugo-PaperMod.git
+</span></span></code></pre></div><ul>
+<li>
+<p>Stage the .gitmodules <code>changes git add .gitmodules</code></p>
+</li>
+<li>
+<p>Delete the relevant section from <code>.git/config</code>
+For me no submodule entries were present.</p>
+</li>
+<li>
+<p>Run <code>git rm --cached path_to_submodule</code> (no trailing slash).In my case it was <code>git rm --cached themes/Papermod</code></p>
+</li>
+<li>
+<p>Run <code>rm -rf .git/modules/path_to_submodule</code> (no trailing slash).</p>
+</li>
+<li>
+<p>Commit <code>git commit -m “Removed submodule ”</code></p>
+</li>
+<li>
+<p>Delete the now untracked submodule files <code>rm -rf path_to_submodule</code></p>
+</li>
+</ul>
+<p>This removed my git submodules entries.
+And then again created a submodule entry with my usernameAnd that&rsquo;s how the git submodule error was solved.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Deploying my portfolio website for free on Github Pages using GitHub actions</title>
       <link>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>

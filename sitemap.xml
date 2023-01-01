@@ -2,28 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codeklutz.com/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/git/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/github/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/gitsubmodule/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/submodule/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/til/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</loc>
+    <lastmod>2023-01-01T00:30:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/tags/2022/</loc>
     <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/blog/</loc>
     <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/</loc>
-    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/posts/my-2022-year-review/</loc>
-    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
     <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/retrospect/</loc>
     <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/review/</loc>
-    <lastmod>2022-12-26T01:49:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2022-12-26T01:49:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/techreview/</loc>
@@ -36,9 +54,6 @@
     <lastmod>2022-12-22T21:45:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/json/</loc>
-    <lastmod>2022-12-22T21:45:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/til/</loc>
     <lastmod>2022-12-22T21:45:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/today-i-learnt-til-jq/</loc>
@@ -134,9 +149,6 @@
     <loc>https://codeklutz.com/tags/fzf/</loc>
     <lastmod>2022-01-21T23:41:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/git/</loc>
-    <lastmod>2022-01-21T23:41:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</loc>
     <lastmod>2022-01-21T23:41:00+00:00</lastmod>
   </url><url>
@@ -201,9 +213,6 @@
     <lastmod>2021-12-05T23:23:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/freehosting/</loc>
-    <lastmod>2021-12-05T23:23:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/github/</loc>
     <lastmod>2021-12-05T23:23:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/githubactions/</loc>
