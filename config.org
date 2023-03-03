@@ -1184,7 +1184,7 @@ And then again created a submodule entry with my usernameAnd that's how the git 
 ** DONE Learning Angular as a Java Developer
 CLOSED: [2023-03-03 Fri 21:03]
 :properties:
-:hugo_section: posts/2023/02
+:hugo_section: posts/2023/03
 :export_file_name: Learning Angular as a Java Developer.md
 :end:
 Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
@@ -1233,7 +1233,7 @@ When a code change is made, HMR only updates the module that has been modified, 
 ** DONE Today I learnt : Kubectl commands for debugging
 CLOSED: [2023-03-03 Fri 21:03]
 :properties:
-:hugo_section: posts/2023/02
+:hugo_section: posts/2023/03
 :export_file_name: Today I learnt Kubectl commands for debugging.md
 :end:
 Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
@@ -1269,7 +1269,7 @@ If your company uses Jenkins to make builds and then deploys them uses kubernete
 ** DONE When to ask for help as a Software Engineer?
 CLOSED: [2023-03-03 Fri 21:03]
 :properties:
-:hugo_section: posts/2023/02
+:hugo_section: posts/2023/03
 :export_file_name: When to ask for help as a software engineer.md
 :end:
 We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
