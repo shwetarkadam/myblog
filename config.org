@@ -1182,7 +1182,7 @@ This removed my git submodules entries.
 And then again created a submodule entry with my usernameAnd that's how the git submodule error was solved.
 **
 ** DONE Learning Angular as a Java Developer
-CLOSED: [2023-03-03 Fri 21:03]
+CLOSED: [2023-03-03 Fri 22:26]
 :properties:
 :hugo_section: posts/2023/03
 :export_file_name: Learning Angular as a Java Developer.md
@@ -1231,7 +1231,7 @@ Like java has a main file. Similarly in angular, there is a =main.ts= file which
 Hot Module Replacement (HMR) is a feature of webpack that allows developers to update code changes without the need for a full page reload.
 When a code change is made, HMR only updates the module that has been modified, which means the application can continue running while the changes are applied.
 ** DONE Today I learnt : Kubectl commands for debugging
-CLOSED: [2023-03-03 Fri 21:03]
+CLOSED: [2023-03-03 Fri 22:26]
 :properties:
 :hugo_section: posts/2023/03
 :export_file_name: Today I learnt Kubectl commands for debugging.md
@@ -1267,7 +1267,7 @@ This commands gives general information regarding image IDs.
 If your company uses Jenkins to make builds and then deploys them uses kubernetes,and if you need a way to verify if Jenkins deployed that particular build.This one helps as you can cross verify that information using attributes such as (sha)
 
 ** DONE When to ask for help as a Software Engineer?
-CLOSED: [2023-03-03 Fri 21:03]
+CLOSED: [2023-03-03 Fri 22:26]
 :properties:
 :hugo_section: posts/2023/03
 :export_file_name: When to ask for help as a software engineer.md
