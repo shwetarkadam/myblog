@@ -1093,7 +1093,7 @@ CLOSED: [2023-01-01 Sun 00:30]
 :end:
 While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
 
-*************************** what is a git submodule?
+************************* what is a git submodule?
 Git submodule is a way to include another repository in Git as a sub directory in one repository.
 
 It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory
@@ -1105,7 +1105,7 @@ git submodule add https://github.com/username/repo-name.git
 
 It’s important to note the =username= of the repo you are adding.
 Because whose username is present in the repo, the repo belongs to them. So they have ownership of the repo and the changes over it.
-*************************** What issue I faced ?
+************************* What issue I faced ?
 I use Hugo Papermod theme for this website.
 I used the git submodule method for installing this theme in my Hugo repo.
 
@@ -1121,7 +1121,7 @@ git submodule https://github.com/MY-GITHUB-USERNAME/hugo-PaperMod.git --depth=1
 #+end_src
 
 
-***************************  What did this lead to?
+*************************  What did this lead to?
 For adding  GitHub comments feature, the changes had to be done inside =layout/partials/comments.html=
 
 This file is present in the submodule directory.This lead to the below error:
@@ -1143,7 +1143,7 @@ hint: See “git help submodule” for more information.
 #+end_src
 I couldn’t push my changes into repo since I did not have ownership over it
 
-*************************** How to solve this?
+************************* How to solve this?
 There were two ways to solve this:-
 1. I make a PR of my changes in aditya subdirectory.
 The owner approves my changes.
@@ -1180,3 +1180,105 @@ In my case entries looked like
 
 This removed my git submodules entries.
 And then again created a submodule entry with my usernameAnd that's how the git submodule error was solved.
+**
+** DONE Learning Angular as a Java Developer
+CLOSED: [2023-03-03 Fri 21:03]
+:properties:
+:hugo_section: posts/2023/02
+:export_file_name: Learning Angular as a Java Developer.md
+:end:
+Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
+*** What is Angular ?
+Framework to build client side applications.
+
+*** Why would you use Angular?
+Vanilla JQuery code gets harder to maintain,harder to test.
+
+And like all most of the frameworks Junction, Angular provides:
+****  Angular gave our applications clean structure.
+**** Includes lots of Reusable code
+**** Makes the application more testable
+*** Also easier to co-relate to learn from Java perspective because of 2 features
+****  Dependency Injection
+**** Typescript
+ gives our plain JS applications some structure & enables static typing.
+*** 3 Handles Server-side Rendering
+We don't save the data in client. We save it in server. Example:  Data is wiped clean when user creates form.
+
+Frontend Backend           -->     Backend
+(Presentation logic)                Data APIs Business
+
+Let's get familiar with some terms in Angular first. Below is small comparison to co relate between Java and angular.
+|----------------------------+---------------+---------------------------------------|
+| What                       | Java          | Angular                               |
+|----------------------------+---------------+---------------------------------------|
+| Dependency management      | Maven         | npm(node package manager )            |
+| Build/package              | Maven         | webpack                               |
+| Library  Repo              | Maven Central | npmjs.org                             |
+| Project Descriptor         | pom.xml       | package.json                          |
+| Programming language       | Java          | Typescript ,HTML                      |
+| Platform runtime           | JVM           | Browser/NodeJS                        |
+| Unit Testing               | Junit         | Karma/jasmine                         |
+| Reactive Programming       | RxJava        | RxJS                                  |
+| Code style checks          | Sonar         | eslint                                |
+| Browser End-to-end testing | Webdriver     | Protractor (Layer on top of selenium) |
+|----------------------------+---------------+---------------------------------------|
+Like java has a main file. Similarly in angular, there is a =main.ts= file which is the starting point of our application.It is present in bootstrapmodule(Appmodule).
+
+*** Webpack
+**** Angular uses a tool called =webpack= which is a static module bundler.It takes all our HTML,CSS and JS files and bundles them into a single file which is loaded by the browser. It bundles application source code into convenient chunks, to improve performance and load times.
+*** Hot Module replacement
+Hot Module Replacement (HMR) is a feature of webpack that allows developers to update code changes without the need for a full page reload.
+When a code change is made, HMR only updates the module that has been modified, which means the application can continue running while the changes are applied.
+** DONE Today I learnt : Kubectl commands for debugging
+CLOSED: [2023-03-03 Fri 21:03]
+:properties:
+:hugo_section: posts/2023/02
+:export_file_name: Today I learnt Kubectl commands for debugging.md
+:end:
+Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
+*** To check logs
+#+begin_src kubectl
+kubectl logs  -f pod_name
+#+end_src
+Useful when you need to check logs inside a pod.
+
+*** To get the bin bash inside a pod
+#+begin_src kubectl
+kubectl --exec --stdin --tty podname --bin/bash
+#+end_src
+This is useful command to check for certain versions or debugging which is done
+This command was helpful for determining Java versions inside the pod which was used in a particular environment.
+Anytime you want to run terminal commands such as =java --version= Or something similar to execute commands which need a bash shell.This is a good approach.
+Helps to know which dependencies a pod uses.
+
+*** Scale up and downscale your pod
+#+begin_src kubectl
+kubectl scale deployment <application-name> --replicas=0
+kubectl scale deployment <application-name> --replicas=1
+#+end_src
+If your company uses a UI to scale up application pods and that UI tests your patience then this is a quick fix(Not recommended in PROD).
+
+*** Get description of your pod.
+#+begin_src kubectl
+kubectl describe services
+#+end_src
+This commands gives general information regarding image IDs.
+If your company uses Jenkins to make builds and then deploys them uses kubernetes,and if you need a way to verify if Jenkins deployed that particular build.This one helps as you can cross verify that information using attributes such as (sha)
+
+** DONE When to ask for help as a Software Engineer?
+CLOSED: [2023-03-03 Fri 21:03]
+:properties:
+:hugo_section: posts/2023/02
+:export_file_name: When to ask for help as a software engineer.md
+:end:
+We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.
+
+Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.
+
+The best resolution no matter how much hesitation or shame is to ASK NOW!
+It does two things:-
+- Filters out your misunderstandings and gives you clarity.
+- Always end up learning something new.
+- Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.
