@@ -1,5 +1,5 @@
 +++
-title = "Today I learnt TIL :Git Modules & How to effectively remove submodules"
+title = "Today I learnt TIL :GIT Modules & How to effectively remove submodules"
 author = ["Shweta Kadam"]
 date = 2023-01-01T00:30:00+05:30
 tags = ["git", "submodule", "gitsubmodule", "github", "til"]
@@ -108,3 +108,4 @@ In my case entries looked like
 
 This removed my git submodules entries.
 And then again created a submodule entry with my usernameAnd that's how the git submodule error was solved.
+\*\*
