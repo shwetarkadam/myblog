@@ -1231,6 +1231,8 @@ Like java has a main file. Similarly in angular, there is a =main.ts= file which
 Hot Module Replacement (HMR) is a feature of webpack that allows developers to update code changes without the need for a full page reload.
 When a code change is made, HMR only updates the module that has been modified, which means the application can continue running while the changes are applied.
 ** DRAFT Today I learnt : Kubectl commands for debugging :til:kubectl:debugging:
+
+CLOSED: [2023-03-03 Fri 03:
 :properties:
 :hugo_section: posts/2023/03
 :export_file_name: Today I learnt Kubectl commands for debugging.md
@@ -1265,7 +1267,10 @@ kubectl describe services
 This commands gives general information regarding image IDs.
 If your company uses Jenkins to make builds and then deploys them uses kubernetes,and if you need a way to verify if Jenkins deployed that particular build.This one helps as you can cross verify that information using attributes such as (sha)
 
-** DRAFT When to ask for help as a Software Engineer? :softwareengineer:help:watercooler:learning:
+** DONE When to ask for help as a Software Engineer? :softwareengineer:help:watercooler:learning:
+
+
+CLOSED: [2023-03-14 Tue 14:
 :properties:
 :hugo_section: posts/2023/03
 :export_file_name: When to ask for help as a software engineer.md
