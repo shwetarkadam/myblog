@@ -9,7 +9,37 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Feb 2022 15:15:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt : Kubectl commands for debugging</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
+      <description>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
+To check logs kubectl logs -f pod_name Useful when you need to check logs inside a pod.
+To get the bin bash inside a pod kubectl --exec --stdin --tty podname --bin/bash This is useful command to check for certain versions or debugging which is done This command was helpful for determining Java versions inside the pod which was used in a particular environment.</description>
+      <content:encoded><![CDATA[<p>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.</p>
+<h2 id="to-check-logs">To check logs</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl logs  -f pod_name
+</code></pre><p>Useful when you need to check logs inside a pod.</p>
+<h2 id="to-get-the-bin-bash-inside-a-pod">To get the bin bash inside a pod</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl --exec --stdin --tty podname --bin/bash
+</code></pre><p>This is useful command to check for certain versions or debugging which is done
+This command was helpful for determining Java versions inside the pod which was used in a particular environment.
+Anytime you want to run terminal commands such as <code>java --version</code> Or something similar to execute commands which need a bash shell.This is a good approach.
+Helps to know which dependencies a pod uses.</p>
+<h2 id="scale-up-and-downscale-your-pod">Scale up and downscale your pod</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl scale deployment &lt;application-name&gt; --replicas=0
+kubectl scale deployment &lt;application-name&gt; --replicas=1
+</code></pre><p>If your company uses a UI to scale up application pods and that UI tests your patience then this is a quick fix(Not recommended in PROD).</p>
+<h2 id="get-description-of-your-pod-dot">Get description of your pod.</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl describe services
+</code></pre><p>This commands gives general information regarding image IDs.
+If your company uses Jenkins to make builds and then deploys them uses kubernetes,and if you need a way to verify if Jenkins deployed that particular build.This one helps as you can cross verify that information using attributes such as (sha)</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tech Recap Journal- January📓</title>
       <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>

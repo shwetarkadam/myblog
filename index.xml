@@ -9,7 +9,157 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 23:03:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Angular as a Java Developer</title>
+      <link>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</link>
+      <pubDate>Wed, 22 Mar 2023 23:03:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</guid>
+      <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
+What is Angular ? Framework to build client side applications.
+Why would you use Angular? Vanilla JQuery code gets harder to maintain,harder to test.
+And like all most of the frameworks Junction, Angular provides:
+Angular gave our applications clean structure.</description>
+      <content:encoded><![CDATA[<p>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.</p>
+<h2 id="what-is-angular">What is Angular ?</h2>
+<p>Framework to build client side applications.</p>
+<h2 id="why-would-you-use-angular">Why would you use Angular?</h2>
+<p>Vanilla JQuery code gets harder to maintain,harder to test.</p>
+<p>And like all most of the frameworks Junction, Angular provides:</p>
+<h3 id="angular-gave-our-applications-clean-structure-dot">Angular gave our applications clean structure.</h3>
+<h3 id="includes-lots-of-reusable-code">Includes lots of Reusable code</h3>
+<h3 id="makes-the-application-more-testable">Makes the application more testable</h3>
+<h2 id="also-easier-to-co-relate-to-learn-from-java-perspective-because-of-2-features">Also easier to co-relate to learn from Java perspective because of 2 features</h2>
+<h3 id="dependency-injection">Dependency Injection</h3>
+<h3 id="typescript">Typescript</h3>
+<p>gives our plain JS applications some structure &amp; enables static typing.</p>
+<h2 id="3-handles-server-side-rendering">3 Handles Server-side Rendering</h2>
+<p>We don&rsquo;t save the data in client. We save it in server. Example:  Data is wiped clean when user creates form.</p>
+<p>Frontend Backend           &ndash;&gt;     Backend
+(Presentation logic)                Data APIs Business</p>
+<p>Let&rsquo;s get familiar with some terms in Angular first. Below is small comparison to co relate between Java and angular.</p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Java</th>
+<th>Angular</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dependency management</td>
+<td>Maven</td>
+<td>npm(node package manager )</td>
+</tr>
+<tr>
+<td>Build/package</td>
+<td>Maven</td>
+<td>webpack</td>
+</tr>
+<tr>
+<td>Library  Repo</td>
+<td>Maven Central</td>
+<td>npmjs.org</td>
+</tr>
+<tr>
+<td>Project Descriptor</td>
+<td>pom.xml</td>
+<td>package.json</td>
+</tr>
+<tr>
+<td>Programming language</td>
+<td>Java</td>
+<td>Typescript ,HTML</td>
+</tr>
+<tr>
+<td>Platform runtime</td>
+<td>JVM</td>
+<td>Browser/NodeJS</td>
+</tr>
+<tr>
+<td>Unit Testing</td>
+<td>Junit</td>
+<td>Karma/jasmine</td>
+</tr>
+<tr>
+<td>Reactive Programming</td>
+<td>RxJava</td>
+<td>RxJS</td>
+</tr>
+<tr>
+<td>Code style checks</td>
+<td>Sonar</td>
+<td>eslint</td>
+</tr>
+<tr>
+<td>Browser End-to-end testing</td>
+<td>Webdriver</td>
+<td>Protractor (Layer on top of selenium)</td>
+</tr>
+</tbody>
+</table>
+<p>Like java has a main file. Similarly in angular, there is a <code>main.ts</code> file which is the starting point of our application.It is present in bootstrapmodule(Appmodule).</p>
+<h2 id="webpack">Webpack</h2>
+<h3 id="angular-uses-a-tool-called-webpack-which-is-a-static-module-bundler-dot-it-takes-all-our-html-css-and-js-files-and-bundles-them-into-a-single-file-which-is-loaded-by-the-browser-dot-it-bundles-application-source-code-into-convenient-chunks-to-improve-performance-and-load-times-dot">Angular uses a tool called <code>webpack</code> which is a static module bundler.It takes all our HTML,CSS and JS files and bundles them into a single file which is loaded by the browser. It bundles application source code into convenient chunks, to improve performance and load times.</h3>
+<h2 id="hot-module-replacement">Hot Module replacement</h2>
+<p>Hot Module Replacement (HMR) is a feature of webpack that allows developers to update code changes without the need for a full page reload.
+When a code change is made, HMR only updates the module that has been modified, which means the application can continue running while the changes are applied.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Today I learnt : Kubectl commands for debugging</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
+      <description>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
+To check logs kubectl logs -f pod_name Useful when you need to check logs inside a pod.
+To get the bin bash inside a pod kubectl --exec --stdin --tty podname --bin/bash This is useful command to check for certain versions or debugging which is done This command was helpful for determining Java versions inside the pod which was used in a particular environment.</description>
+      <content:encoded><![CDATA[<p>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.</p>
+<h2 id="to-check-logs">To check logs</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl logs  -f pod_name
+</code></pre><p>Useful when you need to check logs inside a pod.</p>
+<h2 id="to-get-the-bin-bash-inside-a-pod">To get the bin bash inside a pod</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl --exec --stdin --tty podname --bin/bash
+</code></pre><p>This is useful command to check for certain versions or debugging which is done
+This command was helpful for determining Java versions inside the pod which was used in a particular environment.
+Anytime you want to run terminal commands such as <code>java --version</code> Or something similar to execute commands which need a bash shell.This is a good approach.
+Helps to know which dependencies a pod uses.</p>
+<h2 id="scale-up-and-downscale-your-pod">Scale up and downscale your pod</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl scale deployment &lt;application-name&gt; --replicas=0
+kubectl scale deployment &lt;application-name&gt; --replicas=1
+</code></pre><p>If your company uses a UI to scale up application pods and that UI tests your patience then this is a quick fix(Not recommended in PROD).</p>
+<h2 id="get-description-of-your-pod-dot">Get description of your pod.</h2>
+<pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl describe services
+</code></pre><p>This commands gives general information regarding image IDs.
+If your company uses Jenkins to make builds and then deploys them uses kubernetes,and if you need a way to verify if Jenkins deployed that particular build.This one helps as you can cross verify that information using attributes such as (sha)</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>When to ask for help as a Software Engineer?</title>
+      <link>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
+Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
+      <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.</p>
+<p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
+<p>The best resolution no matter how much hesitation or shame is to ASK NOW!
+It does two things:-</p>
+<ul>
+<li>Filters out your misunderstandings and gives you clarity.</li>
+<li>Always end up learning something new.</li>
+<li>Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>typescript on Codeklutz</title>
+    <link>https://codeklutz.com/tags/typescript/</link>
+    <description>Recent content in typescript on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Mar 2023 23:03:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Angular as a Java Developer</title>
+      <link>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</link>
+      <pubDate>Wed, 22 Mar 2023 23:03:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</guid>
+      <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
+What is Angular ? Framework to build client side applications.
+Why would you use Angular? Vanilla JQuery code gets harder to maintain,harder to test.
+And like all most of the frameworks Junction, Angular provides:
+Angular gave our applications clean structure.</description>
+      <content:encoded><![CDATA[<p>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.</p>
+<h2 id="what-is-angular">What is Angular ?</h2>
+<p>Framework to build client side applications.</p>
+<h2 id="why-would-you-use-angular">Why would you use Angular?</h2>
+<p>Vanilla JQuery code gets harder to maintain,harder to test.</p>
+<p>And like all most of the frameworks Junction, Angular provides:</p>
+<h3 id="angular-gave-our-applications-clean-structure-dot">Angular gave our applications clean structure.</h3>
+<h3 id="includes-lots-of-reusable-code">Includes lots of Reusable code</h3>
+<h3 id="makes-the-application-more-testable">Makes the application more testable</h3>
+<h2 id="also-easier-to-co-relate-to-learn-from-java-perspective-because-of-2-features">Also easier to co-relate to learn from Java perspective because of 2 features</h2>
+<h3 id="dependency-injection">Dependency Injection</h3>
+<h3 id="typescript">Typescript</h3>
+<p>gives our plain JS applications some structure &amp; enables static typing.</p>
+<h2 id="3-handles-server-side-rendering">3 Handles Server-side Rendering</h2>
+<p>We don&rsquo;t save the data in client. We save it in server. Example:  Data is wiped clean when user creates form.</p>
+<p>Frontend Backend           &ndash;&gt;     Backend
+(Presentation logic)                Data APIs Business</p>
+<p>Let&rsquo;s get familiar with some terms in Angular first. Below is small comparison to co relate between Java and angular.</p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Java</th>
+<th>Angular</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dependency management</td>
+<td>Maven</td>
+<td>npm(node package manager )</td>
+</tr>
+<tr>
+<td>Build/package</td>
+<td>Maven</td>
+<td>webpack</td>
+</tr>
+<tr>
+<td>Library  Repo</td>
+<td>Maven Central</td>
+<td>npmjs.org</td>
+</tr>
+<tr>
+<td>Project Descriptor</td>
+<td>pom.xml</td>
+<td>package.json</td>
+</tr>
+<tr>
+<td>Programming language</td>
+<td>Java</td>
+<td>Typescript ,HTML</td>
+</tr>
+<tr>
+<td>Platform runtime</td>
+<td>JVM</td>
+<td>Browser/NodeJS</td>
+</tr>
+<tr>
+<td>Unit Testing</td>
+<td>Junit</td>
+<td>Karma/jasmine</td>
+</tr>
+<tr>
+<td>Reactive Programming</td>
+<td>RxJava</td>
+<td>RxJS</td>
+</tr>
+<tr>
+<td>Code style checks</td>
+<td>Sonar</td>
+<td>eslint</td>
+</tr>
+<tr>
+<td>Browser End-to-end testing</td>
+<td>Webdriver</td>
+<td>Protractor (Layer on top of selenium)</td>
+</tr>
+</tbody>
+</table>
+<p>Like java has a main file. Similarly in angular, there is a <code>main.ts</code> file which is the starting point of our application.It is present in bootstrapmodule(Appmodule).</p>
+<h2 id="webpack">Webpack</h2>
+<h3 id="angular-uses-a-tool-called-webpack-which-is-a-static-module-bundler-dot-it-takes-all-our-html-css-and-js-files-and-bundles-them-into-a-single-file-which-is-loaded-by-the-browser-dot-it-bundles-application-source-code-into-convenient-chunks-to-improve-performance-and-load-times-dot">Angular uses a tool called <code>webpack</code> which is a static module bundler.It takes all our HTML,CSS and JS files and bundles them into a single file which is loaded by the browser. It bundles application source code into convenient chunks, to improve performance and load times.</h3>
+<h2 id="hot-module-replacement">Hot Module replacement</h2>
+<p>Hot Module Replacement (HMR) is a feature of webpack that allows developers to update code changes without the need for a full page reload.
+When a code change is made, HMR only updates the module that has been modified, which means the application can continue running while the changes are applied.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

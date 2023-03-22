@@ -9,7 +9,28 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When to ask for help as a Software Engineer?</title>
+      <link>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
+Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
+      <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.</p>
+<p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
+<p>The best resolution no matter how much hesitation or shame is to ASK NOW!
+It does two things:-</p>
+<ul>
+<li>Filters out your misunderstandings and gives you clarity.</li>
+<li>Always end up learning something new.</li>
+<li>Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tackling procrastination and kubernetes study</title>
       <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
