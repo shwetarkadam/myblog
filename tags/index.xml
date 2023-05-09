@@ -690,15 +690,5 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
-    <item>
-      <title>sidebug</title>
-      <link>https://codeklutz.com/tags/sidebug/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/tags/sidebug/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
   </channel>
 </rss>
