@@ -1285,3 +1285,21 @@ It does two things:-
 - Filters out your misunderstandings and gives you clarity.
 - Always end up learning something new.
 - Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.
+** DONE Beware of the side bug :softwareengineer:sidebug:watercooler:learning:
+CLOSED: [2023-05-09 Tue 23:57]
+
+:properties:
+:hugo_section: posts/2023/05
+:export_file_name: Beware of the side bug.md
+:end:
+Often while debugging when are browsing code getting familiar with the code base and the context it is trying to say.We notice and observe several things which may need refactoring such as dependency may be out of date , outdated design pattern, a better way to handle exceptions and adding comments where necessary.The urge to leave the code in a better state than it was
+
+Another situation could also be coming across a concept or bug for which you might have got the solution for but not understood it completely or would like to study it further.
+
+While these things are what makes us feel good about ourselves.It is important to not lose sight of the main goal or bug you are trying to solve.
+
+One thing I find myself doing these days  is focusing on the prioritised issue at hand first.Ask a senior or engineer who has more context and information about the issue at hand.
+ And simultaneously note down the topics which I didn't understand completely in another place (sublime or self slack) for me to refer later and learn once the work storm calms down.
+
+This is one way I could to get back to learning new things.....
+
