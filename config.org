@@ -1284,7 +1284,7 @@ It does two things:-
 - Always end up learning something new.
 - Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.
 ** DONE Beware of the side bug :softwareengineer:sidebug:watercooler:learning:
-CLOSED: [2023-05-09 Tue 23:57]
+CLOSED: [2023-05-09 Tue 23:57:
 :properties:
 :hugo_section: posts/2023/05
 :export_file_name: Beware of the side bug.md
