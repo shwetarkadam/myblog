@@ -271,8 +271,12 @@
   </url><url>
     <loc>https://codeklutz.com/archives/</loc>
   </url><url>
+    <loc>https://codeklutz.com/posts/beware-of-the-side-bug/</loc>
+  </url><url>
     <loc>https://codeklutz.com/categories/</loc>
   </url><url>
     <loc>https://codeklutz.com/search/</loc>
+  </url><url>
+    <loc>https://codeklutz.com/tags/sidebug/</loc>
   </url>
 </urlset>
