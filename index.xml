@@ -9,7 +9,24 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Mar 2023 23:03:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beware of the side bug</title>
+      <link>https://codeklutz.com/posts/beware-of-the-side-bug/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/beware-of-the-side-bug/</guid>
+      <description>Often while debugging when are browsing code getting familiar with the code base and the context it is trying to say.We notice and observe several things which may need refactoring such as dependency may be out of date , outdated design pattern, a better way to handle exceptions and adding comments where necessary.The urge to leave the code in a better state than it was
+Another situation could also be coming across a concept or bug for which you might have got the solution for but not understood it completely or would like to study it further.</description>
+      <content:encoded><![CDATA[<p>Often while debugging when are browsing code getting familiar with the code base and the context it is trying to say.We notice and observe several things which may need refactoring such as dependency may be out of date , outdated design pattern, a better way to handle exceptions and adding comments where necessary.The urge to leave the code in a better state than it was</p>
+<p>Another situation could also be coming across a concept or bug for which you might have got the solution for but not understood it completely or would like to study it further.</p>
+<p>While these things are what makes us feel good about ourselves.It is important to not lose sight of the main goal or bug you are trying to solve.</p>
+<p>One thing I find myself doing these days  is focusing on the prioritised issue at hand first.Ask a senior or engineer who has more context and information about the issue at hand.
+And simultaneously note down the topics which I didn&rsquo;t understand completely in another place (sublime or self slack) for me to refer later and learn once the work storm calms down.</p>
+<p>This is one way I could to get back to learning new things&hellip;..</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Learning Angular as a Java Developer</title>
       <link>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</link>

@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codeklutz.com/posts/beware-of-the-side-bug/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/learning/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/sidebug/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/softwareengineer/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/watercooler/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/tags/angular/</loc>
     <lastmod>2023-03-22T23:03:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/blog/</loc>
-    <lastmod>2023-03-22T23:03:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/</loc>
     <lastmod>2023-03-22T23:03:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/guide/</loc>
@@ -17,25 +38,10 @@
     <loc>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</loc>
     <lastmod>2023-03-22T23:03:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2023-03-22T23:03:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
-    <lastmod>2023-03-22T23:03:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/typescript/</loc>
     <lastmod>2023-03-22T23:03:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/help/</loc>
-    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/learning/</loc>
-    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/softwareengineer/</loc>
-    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/watercooler/</loc>
     <lastmod>2023-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</loc>

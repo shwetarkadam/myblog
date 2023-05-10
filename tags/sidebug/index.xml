@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>softwareengineer on Codeklutz</title>
-    <link>https://codeklutz.com/tags/softwareengineer/</link>
-    <description>Recent content in softwareengineer on Codeklutz</description>
+    <title>sidebug on Codeklutz</title>
+    <link>https://codeklutz.com/tags/sidebug/</link>
+    <description>Recent content in sidebug on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/softwareengineer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/sidebug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beware of the side bug</title>
       <link>https://codeklutz.com/posts/beware-of-the-side-bug/</link>
@@ -24,27 +24,6 @@ Another situation could also be coming across a concept or bug for which you mig
 <p>One thing I find myself doing these days  is focusing on the prioritised issue at hand first.Ask a senior or engineer who has more context and information about the issue at hand.
 And simultaneously note down the topics which I didn&rsquo;t understand completely in another place (sublime or self slack) for me to refer later and learn once the work storm calms down.</p>
 <p>This is one way I could to get back to learning new things&hellip;..</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>When to ask for help as a Software Engineer?</title>
-      <link>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
-      <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
-Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
-      <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
-The feeling of doing some research before reaching out to someone.</p>
-<p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
-<p>The best resolution no matter how much hesitation or shame is to ASK NOW!
-It does two things:-</p>
-<ul>
-<li>Filters out your misunderstandings and gives you clarity.</li>
-<li>Always end up learning something new.</li>
-<li>Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.</li>
-</ul>
 ]]></content:encoded>
     </item>
     
