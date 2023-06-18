@@ -1469,7 +1469,6 @@ The client (browser or curl) must select the correct client certificate from its
 And this client key is stored any location your application or somewhere else.
 
    #+begin_src bash
-$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 Acceptable client certificate CA names
 C = US, O = Example CA, CN = Example Root CA
 C = US, O = Example CA, CN = Example Intermediate CA
@@ -1477,6 +1476,7 @@ C = US, O = Example CA, CN = Example Intermediate CA
    #+end_src
 
   #+begin_src bash
+openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 CONNECTED(00000003)
 depth=2 C = US, O = Example CA, CN = Example Root CA
 verify return:1
