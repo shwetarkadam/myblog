@@ -78,34 +78,29 @@ From the response, make a note of the line with <code>Request CERT</code> (examp
 So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 way SSL.</p>
 <p>For a 2-way SSL, the server would ask for a client certificate. <code>(TLSv1.2 (IN), TLS handshake, Request CERT (13)</code> in this case, example in code block below</p>
 <p>In this example, we didn&rsquo;t pass any certificate in curl with flags such as <code>--key</code> and <code>--cert</code>, and hence it resulted in handshake failure below <code>* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</code></p>
-<p>#+begin_src bash</p>
-<p>curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
-<ul>
-<li>  Trying 82.133.101.34..</li>
-<li>TCP_NODELAY set</li>
-<li>Connected to 2WaySSLExample.com (82.133.101.34) port 443 (#0)</li>
-<li>ALPN, offering h2</li>
-<li>ALPN, offering http/1.1</li>
-<li>successfully set certificate verify locations:</li>
-<li>  CAfile: /etc/ssl/cert.pem</li>
-</ul>
-<p>  CApath: none</p>
-<ul>
-<li>TLSv1.2 (OUT), TLS handshake, Client hello (1):</li>
-<li>TLSv1.2 (IN), TLS handshake, Server hello (2):</li>
-<li>TLSv1.2 (IN), TLS handshake, Certificate (11):</li>
-<li>TLSv1.2 (IN), TLS handshake, Request CERT (13):</li>
-<li>TLSv1.2 (IN), TLS handshake, Server finished (14):</li>
-<li>TLSv1.2 (OUT), TLS handshake, Certificate (11):</li>
-<li>TLSv1.2 (OUT), TLS handshake, Client key exchange (16):</li>
-<li>TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):</li>
-<li>TLSv1.2 (OUT), TLS handshake, Finished (20):</li>
-<li>TLSv1.2 (IN), TLS alert, handshake failure (552):</li>
-<li>error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</li>
-<li>Closing connection 0</li>
-</ul>
-<p>#+end_src bash</p>
-<p><strong><!-- raw HTML omitted -->The server would ask for a client certificate in this case<!-- raw HTML omitted --></strong></p>
+<pre tabindex="0"><code class="language-nil" data-lang="nil">
+  curl -v -k https://2WaySSLExample.com
+   *   Trying 82.133.101.34..
+   * TCP_NODELAY set
+   * Connected to 2WaySSLExample.com (82.133.101.34) port 443 (#0)
+   * ALPN, offering h2
+   * ALPN, offering http/1.1
+   * successfully set certificate verify locations:
+   *   CAfile: /etc/ssl/cert.pem
+   CApath: none
+   * TLSv1.2 (OUT), TLS handshake, Client hello (1):
+   * TLSv1.2 (IN), TLS handshake, Server hello (2):
+   * TLSv1.2 (IN), TLS handshake, Certificate (11):
+   * TLSv1.2 (IN), TLS handshake, Request CERT (13):
+   * TLSv1.2 (IN), TLS handshake, Server finished (14):
+   * TLSv1.2 (OUT), TLS handshake, Certificate (11):
+   * TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+   * TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+   * TLSv1.2 (OUT), TLS handshake, Finished (20):
+   * TLSv1.2 (IN), TLS alert, handshake failure (552):
+   * error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure
+   * Closing connection 0
+</code></pre><p><strong><!-- raw HTML omitted -->The server would ask for a client certificate in this case<!-- raw HTML omitted --></strong></p>
 <p>In some unusual cases; it&rsquo;s possible a server doesn&rsquo;t directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.</p>
 <h3 id="curl-fails-without-passing-any-client-cert--nss-is-used">curl fails without passing any client cert(NSS is used)</h3>
 <p>Similar to <code>/etc/ssl/cert.pem</code>, NSS(Network Security Services) as a trusted CA certificate location. Another example of trusted CA cert location is jdk cacerts for java applications.</p>
@@ -128,32 +123,27 @@ So while using curl output of ssl handshake failure might look like this :</p>
 curl -v &lt;url&gt; &ndash;cacert ca.crt &ndash;key private.key  &ndash;cert client.cer</p>
 <h3 id="happy-curl-case-where-we-pass-the-client-cert-and-key">Happy curl case where we pass the client cert and key</h3>
 <p>The happy case of a curl call where we pass client cert and key would look like this <code>curl -v &lt;url&gt; --cacert ca.crt --key private.key  --cert client.cer</code></p>
-<p>#+begin_src bash</p>
-<p>$ curl -v <a href="https://happycurlcase.com">https://happycurlcase.com</a> &ndash;key ./myKey.key &ndash;cert ./myCert-cert.crt</p>
-<ul>
-<li>About to connect() toHappyCurlCase.com  port 443 (#0)</li>
-<li>Trying 82.133.101.34&hellip;..</li>
-<li>Connected to HappyCurlCase.com ( 82.133.101.34) port 443 (#0)</li>
-<li>Initializing NSS with certpath: sql:/etc/pki/nssdb</li>
-<li>CAfile: /etc/pki/tls/certs/ca-bundle.crt
-CApath: none</li>
-<li>NSS: client certificate from file</li>
-<li>subject: E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_</li>
-<li>start date: Mar 24 13:31:56 2026 GMT</li>
-<li>expire date: Mar 31 23:59:59 2029 GMT</li>
-<li>common name: &lt;some_common_name&gt;</li>
-</ul>
-<p>issuer:E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_</p>
-<ul>
-<li>SSL connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</li>
-<li>Server certificate:</li>
-<li>subject: CN=&lt;some_common_name&gt;,O=&lt;some_organization&gt;</li>
-<li>start date: Mar 24 13:31:56 2026 GMT</li>
-<li>expire date: Mar 31 23:59:59 2029 GMT</li>
-<li>common name: &lt;some_common_name&gt;</li>
-<li>issuer: CN=DigiCert Global G1 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US</li>
-</ul>
-<p>&gt; GET / HTTP/1.1
+<pre tabindex="0"><code class="language-nil" data-lang="nil">curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
+ * About to connect() toHappyCurlCase.com  port 443 (#0)
+ *   Trying 82.133.101.34.....
+ * Connected to HappyCurlCase.com ( 82.133.101.34) port 443 (#0)
+ * Initializing NSS with certpath: sql:/etc/pki/nssdb
+ *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+   CApath: none
+ * NSS: client certificate from file
+ *   subject: E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_
+ *   start date: Mar 24 13:31:56 2026 GMT
+ *   expire date: Mar 31 23:59:59 2029 GMT
+ *   common name: &lt;some_common_name&gt;
+ issuer:E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_
+ * SSL connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ * Server certificate:
+ *   subject: CN=&lt;some_common_name&gt;,O=&lt;some_organization&gt;
+ *   start date: Mar 24 13:31:56 2026 GMT
+ * expire date: Mar 31 23:59:59 2029 GMT
+ *    common name: &lt;some_common_name&gt;
+ *   issuer: CN=DigiCert Global G1 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US
+&gt; GET / HTTP/1.1
 &gt; User-Agent: curl/7.29.0
 &gt; Host: HappyCurlCase.com
 &gt; Accept: /
@@ -164,9 +154,8 @@ CApath: none</li>
 &lt; Connection: keep-alive
 &lt; Keep-Alive: timeout=5
 &lt; Content-Length: 41
-&lt;</p>
-<p>#+end_src bash</p>
-<h3 id="verifying-if-client-key-is-being-used-in-authentication">Verifying if Client key is being used in authentication</h3>
+&lt;
+</code></pre><h3 id="verifying-if-client-key-is-being-used-in-authentication">Verifying if Client key is being used in authentication</h3>
 <p>Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.</p>
 <h4 id="using-openssl-command-dot">Using openssl command.</h4>
 <p>When trying to verify via openssl command, <code>openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443</code> ,for a happy case look for <code>Acceptable client certificate CA names</code>
