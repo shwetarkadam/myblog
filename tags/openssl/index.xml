@@ -30,46 +30,40 @@ In this case, only the client authenticates the server.</p>
 <h3 id="if-one-makes-a-curl-call-and-it-succeeds-without-passing-any-client-cert-with-flags-such-as-key-and-cert-dot-then-it-is-on-1-way-ssl-dot">If one makes a curl call  and it succeeds without passing any client cert with flags such as &ndash;key and &ndash;cert. then it is on 1-way SSL.</h3>
 <h3 id="if-the-postman-api-call-succeeds-without-passing-any-client-certificate-in-postman--preferences-certificates-tab-client-certificate-tab--with-enable-ssl-certificate-verification-toggled-on-it-is-on-1-way-ssl-dot">If the Postman API call succeeds without passing any client certificate in Postman (Preferences -&gt; Certificates tab -&gt; Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.</h3>
 <p>The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):</p>
-<p>#+begin_src bash</p>
-<p>❯ curl -v <a href="https://exampleof1wayyssl.com">https://exampleof1wayyssl.com</a>
-Trying 82.133.101.34&hellip;</p>
-<ul>
-<li>TCP_NODELAY set</li>
-<li>Connected to  exampleOf1wayySSL.com (10.10.10.10.10) port 443 (#0)</li>
-<li>ALPN, offering h2</li>
-<li>ALPN, offering http/1.1</li>
-<li>successfully set certificate verify locations:</li>
-<li>  CAfile: /etc/ssl/cert.pem</li>
-</ul>
-<p>  CApath: none</p>
-<ul>
-<li>TLSv1.2 (OUT), TLS handshake, Client hello (1):</li>
-<li>TLSv1.2 (IN), TLS handshake, Server hello (2):</li>
-<li>TLSv1.2 (IN), TLS handshake, Certificate (11):</li>
-<li>TLSv1.2 (IN), TLS handshake, Server key exchange (12):</li>
-<li>TLSv1.2 (IN), TLS handshake, Server finished (14):</li>
-<li>TLSv1.2 (OUT), TLS handshake, Client key exchange (16):</li>
-<li>TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):</li>
-<li>TLSv1.2 (OUT), TLS handshake, Finished (20):</li>
-<li>TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):</li>
-<li>TLSv1.2 (IN), TLS handshake, Finished (20):</li>
-<li>SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256</li>
-<li>ALPN, server did not agree to a protocol</li>
-<li>Server certificate:</li>
-<li> subject: C=RANDOM; L=RANDOM; O=EXAMPLE. OHG; CN=*exampleof1wayssl</li>
-<li> start date: Feb 11 00:00:00 2012 GMT</li>
-<li> expire date: Mar  8 23:59:59 2024 GMT</li>
-<li> subjectAltName: host &ldquo;exampleOf1wayssl.com&rdquo; matched cert&rsquo;s &ldquo;*.exampleof1wayssl&rdquo;</li>
-<li> issuer: C=US; O=DigiCert Inc; CN=DigiCert TLS RSA SHA256 2020 CA1</li>
-<li> SSL certificate verify ok.</li>
-</ul>
-<p>&gt; GET / HTTP/1.1
-&gt; Host:  exampleOf1wayySSL.com
-&gt; User-Agent: curl/7.64.1
-&gt; Accept: /
-&gt;</p>
-<p>#+end_src bash</p>
-<p>In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
+<pre tabindex="0"><code class="language-nil" data-lang="nil">  ❯ curl -v https://exampleOf1wayySSL.com
+  Trying 82.133.101.34...
+   * TCP_NODELAY set
+   * Connected to  exampleOf1wayySSL.com (10.10.10.10.10) port 443 (#0)
+   * ALPN, offering h2
+   * ALPN, offering http/1.1
+   * successfully set certificate verify locations:
+   *   CAfile: /etc/ssl/cert.pem
+   CApath: none
+   * TLSv1.2 (OUT), TLS handshake, Client hello (1):
+   * TLSv1.2 (IN), TLS handshake, Server hello (2):
+   * TLSv1.2 (IN), TLS handshake, Certificate (11):
+   * TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+   * TLSv1.2 (IN), TLS handshake, Server finished (14):
+   * TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+   * TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+   * TLSv1.2 (OUT), TLS handshake, Finished (20):
+   * TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+   * TLSv1.2 (IN), TLS handshake, Finished (20):
+   * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+   * ALPN, server did not agree to a protocol
+   * Server certificate:
+   *  subject: C=RANDOM; L=RANDOM; O=EXAMPLE. OHG; CN=*exampleof1wayssl
+   *  start date: Feb 11 00:00:00 2012 GMT
+   *  expire date: Mar  8 23:59:59 2024 GMT
+   *  subjectAltName: host &#34;exampleOf1wayssl.com&#34; matched cert&#39;s &#34;*.exampleof1wayssl&#34;
+   *  issuer: C=US; O=DigiCert Inc; CN=DigiCert TLS RSA SHA256 2020 CA1
+   *  SSL certificate verify ok.
+  &gt; GET / HTTP/1.1
+  &gt; Host:  exampleOf1wayySSL.com
+  &gt; User-Agent: curl/7.64.1
+  &gt; Accept: /
+  &gt;
+</code></pre><p>In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
 <h2 id="2-way-ssl--client-server">2 way SSL (Client &lt;-&gt; Server)</h2>
 <p>In 2 way ssl Both client and server ask for the certificate during SSL validation.So while validating the scenarios should look like this:</p>
 <h3 id="curl-fails-without-passing-any-client-cert-dot">curl fails without passing any client cert.</h3>
