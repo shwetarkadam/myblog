@@ -30,8 +30,8 @@ In this case, only the client authenticates the server.</p>
 <h3 id="if-one-makes-a-curl-call-and-it-succeeds-without-passing-any-client-cert-with-flags-such-as-key-and-cert-dot-then-it-is-on-1-way-ssl-dot">If one makes a curl call  and it succeeds without passing any client cert with flags such as &ndash;key and &ndash;cert. then it is on 1-way SSL.</h3>
 <h3 id="if-the-postman-api-call-succeeds-without-passing-any-client-certificate-in-postman--preferences-certificates-tab-client-certificate-tab--with-enable-ssl-certificate-verification-toggled-on-it-is-on-1-way-ssl-dot">If the Postman API call succeeds without passing any client certificate in Postman (Preferences -&gt; Certificates tab -&gt; Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.</h3>
 <p>The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):</p>
-<p>#+begin_src bash
-❯ curl -v <a href="https://exampleof1wayyssl.com">https://exampleof1wayyssl.com</a>
+<p>#+begin_src bash</p>
+<p>❯ curl -v <a href="https://exampleof1wayyssl.com">https://exampleof1wayyssl.com</a>
 Trying 82.133.101.34&hellip;</p>
 <ul>
 <li>TCP_NODELAY set</li>
@@ -67,8 +67,8 @@ Trying 82.133.101.34&hellip;</p>
 &gt; Host:  exampleOf1wayySSL.com
 &gt; User-Agent: curl/7.64.1
 &gt; Accept: /
-&gt;
-#+end_src bash</p>
+&gt;</p>
+<p>#+end_src bash</p>
 <p>In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
 <h2 id="2-way-ssl--client-server">2 way SSL (Client &lt;-&gt; Server)</h2>
 <p>In 2 way ssl Both client and server ask for the certificate during SSL validation.So while validating the scenarios should look like this:</p>
@@ -78,8 +78,8 @@ From the response, make a note of the line with <code>Request CERT</code> (examp
 So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 way SSL.</p>
 <p>For a 2-way SSL, the server would ask for a client certificate. <code>(TLSv1.2 (IN), TLS handshake, Request CERT (13)</code> in this case, example in code block below</p>
 <p>In this example, we didn&rsquo;t pass any certificate in curl with flags such as <code>--key</code> and <code>--cert</code>, and hence it resulted in handshake failure below <code>* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</code></p>
-<p>#+begin_src bash
-curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
+<p>#+begin_src bash</p>
+<p>curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
 <ul>
 <li>  Trying 82.133.101.34..</li>
 <li>TCP_NODELAY set</li>
@@ -111,7 +111,8 @@ curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></
 <p>Similar to <code>/etc/ssl/cert.pem</code>, NSS(Network Security Services) as a trusted CA certificate location. Another example of trusted CA cert location is jdk cacerts for java applications.</p>
 <p>All three <code>/etc/ssl/cert.pem</code>, <code>NSS</code>, and <code>JDK cacerts</code> are used to store trusted root certificates but differ in their implementation and usage.
 So while using curl output of ssl handshake failure might look like this :</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -v https://2WaySSLExampleUsingNSS.com
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">curl -v https://2WaySSLExampleUsingNSS.com
 </span></span><span class="line"><span class="cl"> * About to connect<span class="o">()</span> to 2WaySSLExampleUsingNSS.com port <span class="m">443</span> <span class="o">(</span><span class="c1">#0)</span>
 </span></span><span class="line"><span class="cl"> * Trying 82.133.101.34.....
 </span></span><span class="line"><span class="cl"> * Connected to 2WaySSLExampleUsingNSS.com <span class="o">(</span>82.133.101.34<span class="o">)</span> port <span class="m">443</span> <span class="o">(</span><span class="c1">#0)</span>
@@ -127,8 +128,8 @@ So while using curl output of ssl handshake failure might look like this :</p>
 curl -v &lt;url&gt; &ndash;cacert ca.crt &ndash;key private.key  &ndash;cert client.cer</p>
 <h3 id="happy-curl-case-where-we-pass-the-client-cert-and-key">Happy curl case where we pass the client cert and key</h3>
 <p>The happy case of a curl call where we pass client cert and key would look like this <code>curl -v &lt;url&gt; --cacert ca.crt --key private.key  --cert client.cer</code></p>
-<p>#+begin_src bash
-$ curl -v <a href="https://happycurlcase.com">https://happycurlcase.com</a> &ndash;key ./myKey.key &ndash;cert ./myCert-cert.crt</p>
+<p>#+begin_src bash</p>
+<p>$ curl -v <a href="https://happycurlcase.com">https://happycurlcase.com</a> &ndash;key ./myKey.key &ndash;cert ./myCert-cert.crt</p>
 <ul>
 <li>About to connect() toHappyCurlCase.com  port 443 (#0)</li>
 <li>Trying 82.133.101.34&hellip;..</li>
@@ -163,18 +164,20 @@ CApath: none</li>
 &lt; Connection: keep-alive
 &lt; Keep-Alive: timeout=5
 &lt; Content-Length: 41
-&lt;
-#+end_src bash</p>
+&lt;</p>
+<p>#+end_src bash</p>
 <h3 id="verifying-if-client-key-is-being-used-in-authentication">Verifying if Client key is being used in authentication</h3>
 <p>Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.</p>
 <h4 id="using-openssl-command-dot">Using openssl command.</h4>
 <p>When trying to verify via openssl command, <code>openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443</code> ,for a happy case look for <code>Acceptable client certificate CA names</code>
 The client (browser or curl) must select the correct client certificate from its keystore location based on the rules below. If this doesn&rsquo;t exist then it won&rsquo;t use the client key.
 And this client key is stored any location your application or somewhere else.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Acceptable client certificate CA names
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Acceptable client certificate CA names
 </span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
 </span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 </span></span><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">2</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
 </span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
@@ -223,7 +226,8 @@ And this client key is stored any location your application or somewhere else.</
 </span></span></code></pre></div><p>If you don&rsquo;t see your CA(client&rsquo;s CA) mentioned in the above <code>Acceptable client certificate CA names</code> section then that means the URL is not using the client key for authentication and there might have been misconfiguration.
 Another example of a client key not being used during SSL handshake is indicated by <code>No client certificate CA names sent</code>
 Example output :</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 </span></span><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">2</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
 </span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
@@ -278,14 +282,16 @@ Example output :</p>
 </span></span></code></pre></div><h4 id="using-java-flags-in-application-logs">Using Java Flags in application logs</h4>
 <p>One can also verify the same in Java by checking your application logs and enabling a flag <code>-Djavax.net.debug=ssl</code> or in some cases <code>-Djavax.net.debug=all</code> which gives more verbose logs.
 If the client key is not being during ssl handshake, the error log might look like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
 </span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
 </span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>                                        <span class="o">....</span>
 </span></span><span class="line"><span class="cl"> <span class="n">Warning</span><span class="o">:</span> <span class="n">no</span> <span class="n">suitable</span> <span class="n">certificate</span> <span class="n">found</span> <span class="o">-</span> <span class="n">continuing</span> <span class="n">without</span> <span class="n">client</span> <span class="n">authentication</span>
 </span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
 </span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">Empty</span><span class="o">&gt;</span>
 </span></span></code></pre></div><p>During a happy case you should see the chain below ServerHelloDone</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
 </span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
 </span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>
 </span></span><span class="line"><span class="cl"> <span class="n">matching</span> <span class="n">alias</span><span class="o">:</span> <span class="o">&lt;</span><span class="n">some_random_alias</span><span class="o">&gt;</span>
