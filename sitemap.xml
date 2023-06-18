@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codeklutz.com/tags/2wayssl/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/curl/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/openssl/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/ssl/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/til/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</loc>
+    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/posts/beware-of-the-side-bug/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/</loc>
-    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/learning/</loc>
-    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/sidebug/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/softwareengineer/</loc>
-    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/watercooler/</loc>
@@ -51,9 +69,6 @@
     <lastmod>2023-03-03T23:10:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/kubectl/</loc>
-    <lastmod>2023-03-03T23:10:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/til/</loc>
     <lastmod>2023-03-03T23:10:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</loc>

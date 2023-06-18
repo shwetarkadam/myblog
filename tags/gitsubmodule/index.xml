@@ -9,6 +9,7 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/gitsubmodule/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>

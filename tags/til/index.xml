@@ -9,7 +9,294 @@
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Mar 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt : How to check if a url is on 2 way SSL or not ?</title>
+      <link>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
+      <description>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.
+1 way ssl Client -&amp;gt; Server When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl. In this case, only the client authenticates the server.</description>
+      <content:encoded><![CDATA[<p>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.</p>
+<h2 id="1-way-ssl-client-server">1 way ssl Client -&gt; Server</h2>
+<p>When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl.
+In this case, only the client authenticates the server.</p>
+<blockquote>
+<p>If an API call(curl/postman) succeeds without passing any certificate, it&rsquo;s on 1-way ssl.</p>
+</blockquote>
+<p>So the situations might look like :</p>
+<h3 id="if-one-makes-a-curl-call-and-it-succeeds-without-passing-any-client-cert-with-flags-such-as-key-and-cert-dot-then-it-is-on-1-way-ssl-dot">If one makes a curl call  and it succeeds without passing any client cert with flags such as &ndash;key and &ndash;cert. then it is on 1-way SSL.</h3>
+<h3 id="if-the-postman-api-call-succeeds-without-passing-any-client-certificate-in-postman--preferences-certificates-tab-client-certificate-tab--with-enable-ssl-certificate-verification-toggled-on-it-is-on-1-way-ssl-dot">If the Postman API call succeeds without passing any client certificate in Postman (Preferences -&gt; Certificates tab -&gt; Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.</h3>
+<p>The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
+#+begin_src bash
+❯ curl -v <a href="https://exampleof1wayyssl.com">https://exampleof1wayyssl.com</a>
+Trying 82.133.101.34&hellip;</p>
+<ul>
+<li>TCP_NODELAY set</li>
+<li>Connected to  exampleOf1wayySSL.com (10.10.10.10.10) port 443 (#0)</li>
+<li>ALPN, offering h2</li>
+<li>ALPN, offering http/1.1</li>
+<li>successfully set certificate verify locations:</li>
+<li>  CAfile: /etc/ssl/cert.pem</li>
+</ul>
+<p>  CApath: none</p>
+<ul>
+<li>TLSv1.2 (OUT), TLS handshake, Client hello (1):</li>
+<li>TLSv1.2 (IN), TLS handshake, Server hello (2):</li>
+<li>TLSv1.2 (IN), TLS handshake, Certificate (11):</li>
+<li>TLSv1.2 (IN), TLS handshake, Server key exchange (12):</li>
+<li>TLSv1.2 (IN), TLS handshake, Server finished (14):</li>
+<li>TLSv1.2 (OUT), TLS handshake, Client key exchange (16):</li>
+<li>TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):</li>
+<li>TLSv1.2 (OUT), TLS handshake, Finished (20):</li>
+<li>TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):</li>
+<li>TLSv1.2 (IN), TLS handshake, Finished (20):</li>
+<li>SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256</li>
+<li>ALPN, server did not agree to a protocol</li>
+<li>Server certificate:</li>
+<li> subject: C=RANDOM; L=RANDOM; O=EXAMPLE. OHG; CN=*exampleof1wayssl</li>
+<li> start date: Feb 11 00:00:00 2012 GMT</li>
+<li> expire date: Mar  8 23:59:59 2024 GMT</li>
+<li> subjectAltName: host &ldquo;exampleOf1wayssl.com&rdquo; matched cert&rsquo;s &ldquo;*.exampleof1wayssl&rdquo;</li>
+<li> issuer: C=US; O=DigiCert Inc; CN=DigiCert TLS RSA SHA256 2020 CA1</li>
+<li> SSL certificate verify ok.</li>
+</ul>
+<p>&gt; GET / HTTP/1.1
+&gt; Host:  exampleOf1wayySSL.com
+&gt; User-Agent: curl/7.64.1
+&gt; Accept: /
+&gt;
+#+end_src bash
+In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
+<h2 id="2-way-ssl--client-server">2 way SSL (Client &lt;-&gt; Server)</h2>
+<p>In 2 way ssl Both client and server ask for the certificate during SSL validation.So while validating the scenarios should look like this:</p>
+<h3 id="curl-fails-without-passing-any-client-cert-dot">curl fails without passing any client cert.</h3>
+<p>When one makes a CURL call to API/Endpoint (curl -v -k &lt;baseURL/endpoint&gt;) without passing flags such as <code>--key</code> and <code>--cert</code>, the curl call should fail with a handshake failure.
+From the response, make a note of the line with <code>Request CERT</code> (example below)
+So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 way SSL.</p>
+<p>For a 2-way SSL, the server would ask for a client certificate. <code>(TLSv1.2 (IN), TLS handshake, Request CERT (13)</code> in this case, example in code block below</p>
+<p>In this example, we didn&rsquo;t pass any certificate in curl with flags such as <code>--key</code> and <code>--cert</code>, and hence it resulted in handshake failure below <code>* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</code></p>
+<!-- raw HTML omitted -->
+<p>curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
+<ul>
+<li>  Trying 82.133.101.34..</li>
+<li>TCP_NODELAY set</li>
+<li>Connected to 2WaySSLExample.com (82.133.101.34) port 443 (#0)</li>
+<li>ALPN, offering h2</li>
+<li>ALPN, offering http/1.1</li>
+<li>successfully set certificate verify locations:</li>
+<li>  CAfile: /etc/ssl/cert.pem</li>
+</ul>
+<p>  CApath: none</p>
+<ul>
+<li>TLSv1.2 (OUT), TLS handshake, Client hello (1):</li>
+<li>TLSv1.2 (IN), TLS handshake, Server hello (2):</li>
+<li>TLSv1.2 (IN), TLS handshake, Certificate (11):</li>
+<li>TLSv1.2 (IN), TLS handshake, Request CERT (13):</li>
+<li>TLSv1.2 (IN), TLS handshake, Server finished (14):</li>
+<li>TLSv1.2 (OUT), TLS handshake, Certificate (11):</li>
+<li>TLSv1.2 (OUT), TLS handshake, Client key exchange (16):</li>
+<li>TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):</li>
+<li>TLSv1.2 (OUT), TLS handshake, Finished (20):</li>
+<li>TLSv1.2 (IN), TLS alert, handshake failure (552):</li>
+<li>error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</li>
+<li>Closing connection 0</li>
+</ul>
+<!-- raw HTML omitted -->
+<p><strong><!-- raw HTML omitted -->The server would ask for a client certificate in this case<!-- raw HTML omitted --></strong></p>
+<p>In some unusual cases; it&rsquo;s possible a server doesn&rsquo;t directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.</p>
+<h3 id="curl-fails-without-passing-any-client-cert--nss-is-used">curl fails without passing any client cert(NSS is used)</h3>
+<p>Similar to <code>/etc/ssl/cert.pem</code>, NSS(Network Security Services) as a trusted CA certificate location. Another example of trusted CA cert location is jdk cacerts for java applications.</p>
+<p>All three <code>/etc/ssl/cert.pem</code>, <code>NSS</code>, and <code>JDK cacerts</code> are used to store trusted root certificates but differ in their implementation and usage.
+So while using curl output of ssl handshake failure might look like this :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -v https://2WaySSLExampleUsingNSS.com
+</span></span><span class="line"><span class="cl"> * About to connect<span class="o">()</span> to 2WaySSLExampleUsingNSS.com port <span class="m">443</span> <span class="o">(</span><span class="c1">#0)</span>
+</span></span><span class="line"><span class="cl"> * Trying 82.133.101.34.....
+</span></span><span class="line"><span class="cl"> * Connected to 2WaySSLExampleUsingNSS.com <span class="o">(</span>82.133.101.34<span class="o">)</span> port <span class="m">443</span> <span class="o">(</span><span class="c1">#0)</span>
+</span></span><span class="line"><span class="cl"> * Initializing NSS with certpath: sql:/etc/pki/nssdb
+</span></span><span class="line"><span class="cl"> * CAfile: /etc/pki/tls/certs/ca-bundle.crt
+</span></span><span class="line"><span class="cl"> CApath: none
+</span></span><span class="line"><span class="cl"> * NSS: client certificate not found <span class="o">(</span>nickname not specified<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> * NSS error -12227 <span class="o">(</span>SSL_ERROR_HANDSHAKE_FAILURE_ALERT<span class="o">)</span>
+</span></span><span class="line"><span class="cl"> * SSL peer was unable to negotiate an acceptable <span class="nb">set</span> of security parameters.
+</span></span><span class="line"><span class="cl"> * Closing connection <span class="m">0</span>
+</span></span><span class="line"><span class="cl">curl: <span class="o">(</span>35<span class="o">)</span> NSS: client certificate not found <span class="o">(</span>nickname not specified
+</span></span></code></pre></div><p>Make note of <code>curl: (35) NSS: client certificate not found (nickname not specified)</code> where we are not passing any client cert or key and get the expected error.
+curl -v &lt;url&gt; &ndash;cacert ca.crt &ndash;key private.key  &ndash;cert client.cer</p>
+<h3 id="happy-curl-case-where-we-pass-the-client-cert-and-key">Happy curl case where we pass the client cert and key</h3>
+<p>The happy case of a curl call where we pass client cert and key would look like this <code>curl -v &lt;url&gt; --cacert ca.crt --key private.key  --cert client.cer</code>
+#+begin_src bash
+$ curl -v <a href="https://happycurlcase.com">https://happycurlcase.com</a> &ndash;key ./myKey.key &ndash;cert ./myCert-cert.crt</p>
+<ul>
+<li>About to connect() toHappyCurlCase.com  port 443 (#0)</li>
+<li>Trying 82.133.101.34&hellip;..</li>
+<li>Connected to HappyCurlCase.com ( 82.133.101.34) port 443 (#0)</li>
+<li>Initializing NSS with certpath: sql:/etc/pki/nssdb</li>
+<li>CAfile: /etc/pki/tls/certs/ca-bundle.crt
+CApath: none</li>
+<li>NSS: client certificate from file</li>
+<li>subject: E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_</li>
+<li>start date: Mar 24 13:31:56 2026 GMT</li>
+<li>expire date: Mar 31 23:59:59 2029 GMT</li>
+<li>common name: &lt;some_common_name&gt;</li>
+</ul>
+<p>issuer:E=&lt;SOME_ISSUER&gt; ,CN=&lt;SOME_CN&gt;,OU=&lt;SOME_OU&gt;&gt;,O=&lt;SOME_RANDOM_VALUE&gt;_</p>
+<ul>
+<li>SSL connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</li>
+<li>Server certificate:</li>
+<li>subject: CN=&lt;some_common_name&gt;,O=&lt;some_organization&gt;</li>
+<li>start date: Mar 24 13:31:56 2026 GMT</li>
+<li>expire date: Mar 31 23:59:59 2029 GMT</li>
+<li>common name: &lt;some_common_name&gt;</li>
+<li>issuer: CN=DigiCert Global G1 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US</li>
+</ul>
+<p>&gt; GET / HTTP/1.1
+&gt; User-Agent: curl/7.29.0
+&gt; Host: HappyCurlCase.com
+&gt; Accept: /
+&gt;
+&lt; HTTP/1.1 404 Not Found
+&lt; Content-Type: application/json; charset=utf-8
+&lt; Date: Tue, 28 Mar 2023 14:36:34 GMT
+&lt; Connection: keep-alive
+&lt; Keep-Alive: timeout=5
+&lt; Content-Length: 41
+&lt;
+#+end_src bash</p>
+<h3 id="verifying-if-client-key-is-being-used-in-authentication">Verifying if Client key is being used in authentication</h3>
+<p>Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.</p>
+<h4 id="using-openssl-command-dot">Using openssl command.</h4>
+<p>When trying to verify via openssl command, <code>openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443</code> ,for a happy case look for <code>Acceptable client certificate CA names</code>
+The client (browser or curl) must select the correct client certificate from its keystore location based on the rules below. If this doesn&rsquo;t exist then it won&rsquo;t use the client key.
+And this client key is stored any location your application or somewhere else.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+</span></span><span class="line"><span class="cl">Acceptable client certificate CA names
+</span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">2</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">1</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">0</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">Certificate chain
+</span></span><span class="line"><span class="cl"> <span class="m">0</span> s: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl">   i: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl"> <span class="m">1</span> s: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">   i: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">Server certificate
+</span></span><span class="line"><span class="cl">-----BEGIN CERTIFICATE-----
+</span></span><span class="line"><span class="cl">MIIFzDCCBLSgAwIBAgIRAKBYEa+5G0pMFMWcTPWdDb8wDQYJKoZIhvcNAQELBQAw
+</span></span><span class="line"><span class="cl">gYsxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1DYWxpZm9ybmlhMRYwFAYDVQQHDA1T
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;...Random Certificate content...&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">fUeyIkVJ17E4wj1jv7dwD2NW9/Jg2U4vA5s2nRO2fX0CXU1IK1WueBq/AVhUo+3E
+</span></span><span class="line"><span class="cl"><span class="nv">cGxfJyzCvujpBT9tpH4twQ</span><span class="o">==</span>
+</span></span><span class="line"><span class="cl">-----END CERTIFICATE-----
+</span></span><span class="line"><span class="cl"><span class="nv">subject</span><span class="o">=</span><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl"><span class="nv">issuer</span><span class="o">=</span><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">Acceptable client certificate CA names
+</span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">---Server Temp Key: ECDH, P-256, <span class="m">256</span> bits
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">SSL handshake has <span class="nb">read</span> <span class="m">2498</span> bytes and written <span class="m">304</span> bytes
+</span></span><span class="line"><span class="cl">Verification: OK
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+</span></span><span class="line"><span class="cl">Server public key is <span class="m">2048</span> bit
+</span></span><span class="line"><span class="cl">Secure Renegotiation IS supported
+</span></span><span class="line"><span class="cl">Compression: NONE
+</span></span><span class="line"><span class="cl">Expansion: NONE
+</span></span><span class="line"><span class="cl">No ALPN negotiated
+</span></span><span class="line"><span class="cl">Early data was not sent
+</span></span><span class="line"><span class="cl">Verify <span class="k">return</span> code: <span class="m">0</span> <span class="o">(</span>ok<span class="o">)</span>
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><p>If you don&rsquo;t see your CA(client&rsquo;s CA) mentioned in the above <code>Acceptable client certificate CA names</code> section then that means the URL is not using the client key for authentication and there might have been misconfiguration.
+Another example of a client key not being used during SSL handshake is indicated by <code>No client certificate CA names sent</code>
+Example output :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+</span></span><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">2</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">1</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">0</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">Certificate chain
+</span></span><span class="line"><span class="cl"> <span class="m">0</span> s: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl">   i: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl"> <span class="m">1</span> s: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">   i: <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">Server certificate
+</span></span><span class="line"><span class="cl">-----BEGIN CERTIFICATE-----
+</span></span><span class="line"><span class="cl">MIIFzDCCBLSgAwIBAgIRAKBYEa+5G0pMFMWcTPWdDb8wDQYJKoZIhvcNAQELBQAw
+</span></span><span class="line"><span class="cl">gYsxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1DYWxpZm9ybmlhMRYwFAYDVQQHDA1T
+</span></span><span class="line"><span class="cl">YW4gRnJhbmNpc2NvMRMwEQYDVQQKDApFeGFtcGxlIENBMRIwEAYDVQQDDAlleGFt
+</span></span><span class="line"><span class="cl">cGxlLmNvbTAeFw0yMTA5MTUwMzQzMjNaFw0yMTA5MTYwMzQzMjNaMEwxCzAJBgNV
+</span></span><span class="line"><span class="cl">BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRMwEQYDVQQHEwpTYW4gRnJhbmNp
+</span></span><span class="line"><span class="cl">c2NvMRMwEQYDVQQKEwpFeGFtcGxlIEluYy4xEjAQBgNVBAMTCXNvbWVFeGFtcGxl
+</span></span><span class="line"><span class="cl">LmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJDEi5WSU95UTq0A
+</span></span><span class="line"><span class="cl">LanrVthBLYAmgU7X5D3HFF+T8Ghz9MbYa1Mw/eXxiC0vBo2eM1YyTS2JDLum56KU
+</span></span><span class="line"><span class="cl">E3Moc5Vcm8yBtBgU2amKazSxS7VzQsEj5+lzp6f9yyzm32HeMeiTY4W31ehobLkj
+</span></span><span class="line"><span class="cl">QYb6ChhQqWd0qXnoy9UoT2Cn1lRfIAYoJy1l2a/8Vt0Zk44MTKm4EGkmzRFm7JCu
+</span></span><span class="line"><span class="cl">NyFNU5iR8p9yUmmupzDMDlum3VwsbtmYmLwib9EBK0rAF9DkR9QJcYeeV4bZiQv1
+</span></span><span class="line"><span class="cl">wjJthoPQ1sFIZsXdJCTUUK9l25H4xXHmWmpNfn9JlD5vGe
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;...Certificate content...&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">fUeyIkVJ17E4wj1jv7dwD2NW9/Jg2U4vA5s2nRO2fX0CXU1IK1WueBq/AVhUo+3E
+</span></span><span class="line"><span class="cl"><span class="nv">cGxfJyzCvujpBT9tpH4twQ</span><span class="o">==</span>
+</span></span><span class="line"><span class="cl">-----END CERTIFICATE-----
+</span></span><span class="line"><span class="cl"><span class="nv">subject</span><span class="o">=</span><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">ST</span> <span class="o">=</span> California, <span class="nv">L</span> <span class="o">=</span> San Francisco, <span class="nv">O</span> <span class="o">=</span> Example Inc., <span class="nv">CN</span> <span class="o">=</span> someExampleDomain.com
+</span></span><span class="line"><span class="cl"><span class="nv">issuer</span><span class="o">=</span><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">No client certificate CA names sent
+</span></span><span class="line"><span class="cl">Server Temp Key: ECDH, P-256, <span class="m">256</span> bits
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">SSL handshake has <span class="nb">read</span> <span class="m">2498</span> bytes and written <span class="m">304</span> bytes
+</span></span><span class="line"><span class="cl">Verification: OK
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+</span></span><span class="line"><span class="cl">Server public key is <span class="m">2048</span> bit
+</span></span><span class="line"><span class="cl">Secure Renegotiation IS supported
+</span></span><span class="line"><span class="cl">Compression: NONE
+</span></span><span class="line"><span class="cl">Expansion: NONE
+</span></span><span class="line"><span class="cl">No ALPN negotiated
+</span></span><span class="line"><span class="cl">Early data was not sent
+</span></span><span class="line"><span class="cl">Verify <span class="k">return</span> code: <span class="m">0</span> <span class="o">(</span>ok<span class="o">)</span>
+</span></span></code></pre></div><h4 id="using-java-flags-in-application-logs">Using Java Flags in application logs</h4>
+<p>One can also verify the same in Java by checking your application logs and enabling a flag <code>-Djavax.net.debug=ssl</code> or in some cases <code>-Djavax.net.debug=all</code> which gives more verbose logs.
+If the client key is not being during ssl handshake, the error log might look like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+</span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>                                        <span class="o">....</span>
+</span></span><span class="line"><span class="cl"> <span class="n">Warning</span><span class="o">:</span> <span class="n">no</span> <span class="n">suitable</span> <span class="n">certificate</span> <span class="n">found</span> <span class="o">-</span> <span class="n">continuing</span> <span class="n">without</span> <span class="n">client</span> <span class="n">authentication</span>
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">Empty</span><span class="o">&gt;</span>
+</span></span></code></pre></div><p>During a happy case you should see the chain below ServerHelloDone</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+</span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">E</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>                                        <span class="o">....</span>
+</span></span><span class="line"><span class="cl"> <span class="n">matching</span> <span class="n">alias</span><span class="o">:</span> <span class="n">fuse</span><span class="o">-</span><span class="n">mtn</span><span class="o">-</span><span class="n">ng</span>
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
+</span></span><span class="line"><span class="cl"><span class="n">chain</span> <span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="o">[</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>
+</span></span></code></pre></div><p>These were some of the tricks I used to verify.In future blog posts, I will include how to test using Postman too.
+Happy Learning!</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Today I learnt : Kubectl commands for debugging</title>
       <link>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
