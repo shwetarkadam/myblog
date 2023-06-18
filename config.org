@@ -1319,6 +1319,7 @@ So the situations might look like :
 **** If one makes a curl call  and it succeeds without passing any client cert with flags such as --key and --cert. then it is on 1-way SSL.
 **** If the Postman API call succeeds without passing any client certificate in Postman (Preferences -> Certificates tab -> Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.
 The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
+
 #+begin_src bash
 ❯ curl -v https://exampleOf1wayySSL.com  
 Trying 82.133.101.34...
@@ -1354,6 +1355,7 @@ Trying 82.133.101.34...
 > Accept: /
 >
 #+end_src bash
+
 In this example as you can see only the client asked for the certificate with line =TLSv1.2 (IN), TLS handshake, Certificate (11):=
 
 *** 2 way SSL (Client <-> Server)
@@ -1367,7 +1369,8 @@ So if a curl call succeeds without passing any flags, then it's not on 2 way SSL
 For a 2-way SSL, the server would ask for a client certificate. =(TLSv1.2 (IN), TLS handshake, Request CERT (13)= in this case, example in code block below
 
 In this example, we didn't pass any certificate in curl with flags such as =--key= and =--cert=, and hence it resulted in handshake failure below =* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure=
-#+begin_bash options
+
+#+begin_src bash
 curl -v -k https://2WaySSLExample.com
  *   Trying 82.133.101.34..
  * TCP_NODELAY set
@@ -1389,7 +1392,8 @@ curl -v -k https://2WaySSLExample.com
  * TLSv1.2 (IN), TLS alert, handshake failure (552):
  * error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure
  * Closing connection 0
-#+end_bash
+#+end_src bash
+
 *_The server would ask for a client certificate in this case_*
 
 In some unusual cases; it's possible a server doesn't directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.
@@ -1400,6 +1404,7 @@ Similar to =/etc/ssl/cert.pem=, NSS(Network Security Services) as a trusted CA c
 
 All three =/etc/ssl/cert.pem=, =NSS=, and =JDK cacerts= are used to store trusted root certificates but differ in their implementation and usage.
 So while using curl output of ssl handshake failure might look like this :
+
 #+begin_src bash
 curl -v https://2WaySSLExampleUsingNSS.com
  * About to connect() to 2WaySSLExampleUsingNSS.com port 443 (#0)
@@ -1414,10 +1419,12 @@ curl -v https://2WaySSLExampleUsingNSS.com
  * Closing connection 0
 curl: (35) NSS: client certificate not found (nickname not specified
 #+end_src
+
 Make note of =curl: (35) NSS: client certificate not found (nickname not specified)= where we are not passing any client cert or key and get the expected error.
 curl -v <url> --cacert ca.crt --key private.key  --cert client.cer
 **** Happy curl case where we pass the client cert and key
 The happy case of a curl call where we pass client cert and key would look like this =curl -v <url> --cacert ca.crt --key private.key  --cert client.cer=
+
 #+begin_src bash
 $ curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
  * About to connect() toHappyCurlCase.com  port 443 (#0)
@@ -1452,6 +1459,7 @@ $ curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
 < Content-Length: 41
 <
 #+end_src bash
+
 **** Verifying if Client key is being used in authentication
 Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.
 ***** Using openssl command.
@@ -1459,6 +1467,7 @@ Many times I have faced a scenario where the other party claims that they config
 When trying to verify via openssl command, =openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443= ,for a happy case look for =Acceptable client certificate CA names=
 The client (browser or curl) must select the correct client certificate from its keystore location based on the rules below. If this doesn't exist then it won't use the client key.
 And this client key is stored any location your application or somewhere else.
+
    #+begin_src bash
 $ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 Acceptable client certificate CA names
@@ -1466,6 +1475,7 @@ C = US, O = Example CA, CN = Example Root CA
 C = US, O = Example CA, CN = Example Intermediate CA
 
    #+end_src
+
   #+begin_src bash
 CONNECTED(00000003)
 depth=2 C = US, O = Example CA, CN = Example Root CA
@@ -1513,9 +1523,11 @@ Early data was not sent
 Verify return code: 0 (ok)
 ---
   #+end_src
+
 If you don't see your CA(client's CA) mentioned in the above =Acceptable client certificate CA names= section then that means the URL is not using the client key for authentication and there might have been misconfiguration.
 Another example of a client key not being used during SSL handshake is indicated by =No client certificate CA names sent=
 Example output :
+
 #+begin_src bash
 $ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
 CONNECTED(00000003)
@@ -1570,9 +1582,12 @@ No ALPN negotiated
 Early data was not sent
 Verify return code: 0 (ok)
 #+end_src
+
+
 ***** Using Java Flags in application logs
 One can also verify the same in Java by checking your application logs and enabling a flag =-Djavax.net.debug=ssl= or in some cases =-Djavax.net.debug=all= which gives more verbose logs.
 If the client key is not being during ssl handshake, the error log might look like this:
+
 #+begin_src java
  *** ServerHelloDone
  [read] MD5 and SHA1 hashes:  len = 4
@@ -1581,16 +1596,19 @@ If the client key is not being during ssl handshake, the error log might look li
  *** Certificate chain
 <Empty>
 #+end_src
+
  During a happy case you should see the chain below ServerHelloDone
+
 #+begin_src java
  *** ServerHelloDone
  [read] MD5 and SHA1 hashes:  len = 4
- 0000: 0E 00 00 00                                        ....
- matching alias: fuse-mtn-ng
+ 0000: 0Z 00 00 00                                        
+ matching alias: <some_random_alias>
  *** Certificate chain
 chain [0] = [
 [
 #+end_src
+
 These were some of the tricks I used to verify.In future blog posts, I will include how to test using Postman too.
 Happy Learning!
 
