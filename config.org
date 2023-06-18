@@ -1316,8 +1316,8 @@ If an API call(curl/postman) succeeds without passing any certificate, it's on 1
 #+end_quote
 
 So the situations might look like :
-**** If one makes a curl call  and it succeeds without passing any client cert with flags such as --key and --cert. then it is on 1-way SSL.
-**** If the Postman API call succeeds without passing any client certificate in Postman (Preferences -> Certificates tab -> Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.
+****** If one makes a curl call  and it succeeds without passing any client cert with flags such as --key and --cert. then it is on 1-way SSL.
+******* If the Postman API call succeeds without passing any client certificate in Postman (Preferences -> Certificates tab -> Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.
 The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
 
 #+begin_src 
