@@ -1372,7 +1372,7 @@ For a 2-way SSL, the server would ask for a client certificate. =(TLSv1.2 (IN), 
 
 In this example, we didn't pass any certificate in curl with flags such as =--key= and =--cert=, and hence it resulted in handshake failure below =* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure=
 
-#+begin_src bash
+#+begin_src 
 
 curl -v -k https://2WaySSLExample.com
  *   Trying 82.133.101.34..
@@ -1396,7 +1396,7 @@ curl -v -k https://2WaySSLExample.com
  * error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure
  * Closing connection 0
 
-#+end_src bash
+#+end_src 
 
 *_The server would ask for a client certificate in this case_*
 
@@ -1431,9 +1431,8 @@ curl -v <url> --cacert ca.crt --key private.key  --cert client.cer
 **** Happy curl case where we pass the client cert and key
 The happy case of a curl call where we pass client cert and key would look like this =curl -v <url> --cacert ca.crt --key private.key  --cert client.cer=
 
-#+begin_src bash
-
-$ curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
+#+begin_src 
+curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
  * About to connect() toHappyCurlCase.com  port 443 (#0)
  *   Trying 82.133.101.34.....
  * Connected to HappyCurlCase.com ( 82.133.101.34) port 443 (#0)
@@ -1465,8 +1464,7 @@ $ curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
 < Keep-Alive: timeout=5
 < Content-Length: 41
 <
-
-#+end_src bash
+#+end_src 
 
 **** Verifying if Client key is being used in authentication
 Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.
