@@ -1299,4 +1299,299 @@ One thing I find myself doing these days  is focusing on the prioritised issue a
  And simultaneously note down the topics which I didn't understand completely in another place (sublime or self slack) for me to refer later and learn once the work storm calms down.
 
 This is one way I could to get back to learning new things.....
+** DONE Today I learnt : How to check if a url is on 2 way SSL or not ? :til:ssl:2wayssl:openssl:curl:
+CLOSED: [2023-06-18 Sun ]
+:properties:
+:hugo_section: posts/2023/06
+:export_file_name: Today I learnt : How to check if a url is on 2 way SSL or not.md
+:end:
+Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.
+*** 1 way ssl Client -> Server
+
+When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl.
+In this case, only the client authenticates the server.
+
+#+begin_quote
+If an API call(curl/postman) succeeds without passing any certificate, it's on 1-way ssl.
+#+end_quote
+
+So the situations might look like :
+**** If one makes a curl call  and it succeeds without passing any client cert with flags such as --key and --cert. then it is on 1-way SSL.
+**** If the Postman API call succeeds without passing any client certificate in Postman (Preferences -> Certificates tab -> Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.
+The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
+#+begin_src bash
+❯ curl -v https://exampleOf1wayySSL.com  
+Trying 82.133.101.34...
+ * TCP_NODELAY set
+ * Connected to  exampleOf1wayySSL.com (10.10.10.10.10) port 443 (#0)
+ * ALPN, offering h2
+ * ALPN, offering http/1.1
+ * successfully set certificate verify locations:
+ *   CAfile: /etc/ssl/cert.pem
+   CApath: none
+ * TLSv1.2 (OUT), TLS handshake, Client hello (1):
+ * TLSv1.2 (IN), TLS handshake, Server hello (2):
+ * TLSv1.2 (IN), TLS handshake, Certificate (11):
+ * TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+ * TLSv1.2 (IN), TLS handshake, Server finished (14):
+ * TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+ * TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+ * TLSv1.2 (OUT), TLS handshake, Finished (20):
+ * TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+ * TLSv1.2 (IN), TLS handshake, Finished (20):
+ * SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+ * ALPN, server did not agree to a protocol
+ * Server certificate:
+ *  subject: C=RANDOM; L=RANDOM; O=EXAMPLE. OHG; CN=*exampleof1wayssl
+ *  start date: Feb 11 00:00:00 2012 GMT
+ *  expire date: Mar  8 23:59:59 2024 GMT
+ *  subjectAltName: host "exampleOf1wayssl.com" matched cert's "*.exampleof1wayssl"
+ *  issuer: C=US; O=DigiCert Inc; CN=DigiCert TLS RSA SHA256 2020 CA1
+ *  SSL certificate verify ok.
+> GET / HTTP/1.1
+> Host:  exampleOf1wayySSL.com
+> User-Agent: curl/7.64.1
+> Accept: /
+>
+#+end_src bash
+In this example as you can see only the client asked for the certificate with line =TLSv1.2 (IN), TLS handshake, Certificate (11):=
+
+*** 2 way SSL (Client <-> Server)
+In 2 way ssl Both client and server ask for the certificate during SSL validation.So while validating the scenarios should look like this:
+**** curl fails without passing any client cert.
+
+When one makes a CURL call to API/Endpoint (curl -v -k <baseURL/endpoint>) without passing flags such as =--key= and =--cert=, the curl call should fail with a handshake failure.
+From the response, make a note of the line with =Request CERT= (example below)
+So if a curl call succeeds without passing any flags, then it's not on 2 way SSL.
+
+For a 2-way SSL, the server would ask for a client certificate. =(TLSv1.2 (IN), TLS handshake, Request CERT (13)= in this case, example in code block below
+
+In this example, we didn't pass any certificate in curl with flags such as =--key= and =--cert=, and hence it resulted in handshake failure below =* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure=
+#+begin_bash options
+curl -v -k https://2WaySSLExample.com
+ *   Trying 82.133.101.34..
+ * TCP_NODELAY set
+ * Connected to 2WaySSLExample.com (82.133.101.34) port 443 (#0)
+ * ALPN, offering h2
+ * ALPN, offering http/1.1
+ * successfully set certificate verify locations:
+ *   CAfile: /etc/ssl/cert.pem
+   CApath: none
+ * TLSv1.2 (OUT), TLS handshake, Client hello (1):
+ * TLSv1.2 (IN), TLS handshake, Server hello (2):
+ * TLSv1.2 (IN), TLS handshake, Certificate (11):
+ * TLSv1.2 (IN), TLS handshake, Request CERT (13):
+ * TLSv1.2 (IN), TLS handshake, Server finished (14):
+ * TLSv1.2 (OUT), TLS handshake, Certificate (11):
+ * TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+ * TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+ * TLSv1.2 (OUT), TLS handshake, Finished (20):
+ * TLSv1.2 (IN), TLS alert, handshake failure (552):
+ * error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure
+ * Closing connection 0
+#+end_bash
+*_The server would ask for a client certificate in this case_*
+
+In some unusual cases; it's possible a server doesn't directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.
+
+**** curl fails without passing any client cert(NSS is used)
+
+Similar to =/etc/ssl/cert.pem=, NSS(Network Security Services) as a trusted CA certificate location. Another example of trusted CA cert location is jdk cacerts for java applications.
+
+All three =/etc/ssl/cert.pem=, =NSS=, and =JDK cacerts= are used to store trusted root certificates but differ in their implementation and usage.
+So while using curl output of ssl handshake failure might look like this :
+#+begin_src bash
+curl -v https://2WaySSLExampleUsingNSS.com
+ * About to connect() to 2WaySSLExampleUsingNSS.com port 443 (#0)
+ * Trying 82.133.101.34.....
+ * Connected to 2WaySSLExampleUsingNSS.com (82.133.101.34) port 443 (#0)
+ * Initializing NSS with certpath: sql:/etc/pki/nssdb
+ * CAfile: /etc/pki/tls/certs/ca-bundle.crt
+ CApath: none
+ * NSS: client certificate not found (nickname not specified)
+ * NSS error -12227 (SSL_ERROR_HANDSHAKE_FAILURE_ALERT)
+ * SSL peer was unable to negotiate an acceptable set of security parameters.
+ * Closing connection 0
+curl: (35) NSS: client certificate not found (nickname not specified
+#+end_src
+Make note of =curl: (35) NSS: client certificate not found (nickname not specified)= where we are not passing any client cert or key and get the expected error.
+curl -v <url> --cacert ca.crt --key private.key  --cert client.cer
+**** Happy curl case where we pass the client cert and key
+The happy case of a curl call where we pass client cert and key would look like this =curl -v <url> --cacert ca.crt --key private.key  --cert client.cer=
+#+begin_src bash
+$ curl -v https://HappyCurlCase.com --key ./myKey.key --cert ./myCert-cert.crt
+ * About to connect() toHappyCurlCase.com  port 443 (#0)
+ *   Trying 82.133.101.34.....
+ * Connected to HappyCurlCase.com ( 82.133.101.34) port 443 (#0)
+ * Initializing NSS with certpath: sql:/etc/pki/nssdb
+ *   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+   CApath: none
+ * NSS: client certificate from file
+ *   subject: E=<SOME_ISSUER> ,CN=<SOME_CN>,OU=<SOME_OU>>,O=<SOME_RANDOM_VALUE>_
+ *   start date: Mar 24 13:31:56 2026 GMT
+ *   expire date: Mar 31 23:59:59 2029 GMT
+ *   common name: <some_common_name>
+ issuer:E=<SOME_ISSUER> ,CN=<SOME_CN>,OU=<SOME_OU>>,O=<SOME_RANDOM_VALUE>_
+ * SSL connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ * Server certificate:
+ *   subject: CN=<some_common_name>,O=<some_organization>
+ *   start date: Mar 24 13:31:56 2026 GMT
+ * expire date: Mar 31 23:59:59 2029 GMT
+ *    common name: <some_common_name>
+ *   issuer: CN=DigiCert Global G1 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US
+> GET / HTTP/1.1
+> User-Agent: curl/7.29.0
+> Host: HappyCurlCase.com
+> Accept: /
+>
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json; charset=utf-8
+< Date: Tue, 28 Mar 2023 14:36:34 GMT
+< Connection: keep-alive
+< Keep-Alive: timeout=5
+< Content-Length: 41
+<
+#+end_src bash
+**** Verifying if Client key is being used in authentication
+Many times I have faced a scenario where the other party claims that they configured 2 way ssl correctly but actually the key is never used in the ssl authentication process.So there are way to figure if its actually being used by looking for certain outputs.
+***** Using openssl command.
+
+When trying to verify via openssl command, =openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443= ,for a happy case look for =Acceptable client certificate CA names=
+The client (browser or curl) must select the correct client certificate from its keystore location based on the rules below. If this doesn't exist then it won't use the client key.
+And this client key is stored any location your application or somewhere else.
+   #+begin_src bash
+$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+Acceptable client certificate CA names
+C = US, O = Example CA, CN = Example Root CA
+C = US, O = Example CA, CN = Example Intermediate CA
+
+   #+end_src
+  #+begin_src bash
+CONNECTED(00000003)
+depth=2 C = US, O = Example CA, CN = Example Root CA
+verify return:1
+depth=1 C = US, O = Example CA, CN = Example Intermediate CA
+verify return:1
+depth=0 C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+verify return:1
+---
+Certificate chain
+ 0 s: C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+   i: C = US, O = Example CA, CN = Example Intermediate CA
+ 1 s: C = US, O = Example CA, CN = Example Intermediate CA
+   i: C = US, O = Example CA, CN = Example Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFzDCCBLSgAwIBAgIRAKBYEa+5G0pMFMWcTPWdDb8wDQYJKoZIhvcNAQELBQAw
+gYsxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1DYWxpZm9ybmlhMRYwFAYDVQQHDA1T
+
+<...Random Certificate content...>
+
+fUeyIkVJ17E4wj1jv7dwD2NW9/Jg2U4vA5s2nRO2fX0CXU1IK1WueBq/AVhUo+3E
+cGxfJyzCvujpBT9tpH4twQ==
+-----END CERTIFICATE-----
+subject=C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+issuer=C = US, O = Example CA, CN = Example Intermediate CA
+---
+Acceptable client certificate CA names
+C = US, O = Example CA, CN = Example Root CA
+C = US, O = Example CA, CN = Example Intermediate CA
+
+---Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 2498 bytes and written 304 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+  #+end_src
+If you don't see your CA(client's CA) mentioned in the above =Acceptable client certificate CA names= section then that means the URL is not using the client key for authentication and there might have been misconfiguration.
+Another example of a client key not being used during SSL handshake is indicated by =No client certificate CA names sent=
+Example output :
+#+begin_src bash
+$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+CONNECTED(00000003)
+depth=2 C = US, O = Example CA, CN = Example Root CA
+verify return:1
+depth=1 C = US, O = Example CA, CN = Example Intermediate CA
+verify return:1
+depth=0 C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+verify return:1
+---
+Certificate chain
+ 0 s: C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+   i: C = US, O = Example CA, CN = Example Intermediate CA
+ 1 s: C = US, O = Example CA, CN = Example Intermediate CA
+   i: C = US, O = Example CA, CN = Example Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFzDCCBLSgAwIBAgIRAKBYEa+5G0pMFMWcTPWdDb8wDQYJKoZIhvcNAQELBQAw
+gYsxCzAJBgNVBAYTAlVTMRYwFAYDVQQIDA1DYWxpZm9ybmlhMRYwFAYDVQQHDA1T
+YW4gRnJhbmNpc2NvMRMwEQYDVQQKDApFeGFtcGxlIENBMRIwEAYDVQQDDAlleGFt
+cGxlLmNvbTAeFw0yMTA5MTUwMzQzMjNaFw0yMTA5MTYwMzQzMjNaMEwxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRMwEQYDVQQHEwpTYW4gRnJhbmNp
+c2NvMRMwEQYDVQQKEwpFeGFtcGxlIEluYy4xEjAQBgNVBAMTCXNvbWVFeGFtcGxl
+LmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJDEi5WSU95UTq0A
+LanrVthBLYAmgU7X5D3HFF+T8Ghz9MbYa1Mw/eXxiC0vBo2eM1YyTS2JDLum56KU
+E3Moc5Vcm8yBtBgU2amKazSxS7VzQsEj5+lzp6f9yyzm32HeMeiTY4W31ehobLkj
+QYb6ChhQqWd0qXnoy9UoT2Cn1lRfIAYoJy1l2a/8Vt0Zk44MTKm4EGkmzRFm7JCu
+NyFNU5iR8p9yUmmupzDMDlum3VwsbtmYmLwib9EBK0rAF9DkR9QJcYeeV4bZiQv1
+wjJthoPQ1sFIZsXdJCTUUK9l25H4xXHmWmpNfn9JlD5vGe
+
+<...Certificate content...>
+
+fUeyIkVJ17E4wj1jv7dwD2NW9/Jg2U4vA5s2nRO2fX0CXU1IK1WueBq/AVhUo+3E
+cGxfJyzCvujpBT9tpH4twQ==
+-----END CERTIFICATE-----
+subject=C = US, ST = California, L = San Francisco, O = Example Inc., CN = someExampleDomain.com
+issuer=C = US, O = Example CA, CN = Example Intermediate CA
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 2498 bytes and written 304 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+#+end_src
+***** Using Java Flags in application logs
+One can also verify the same in Java by checking your application logs and enabling a flag =-Djavax.net.debug=ssl= or in some cases =-Djavax.net.debug=all= which gives more verbose logs.
+If the client key is not being during ssl handshake, the error log might look like this:
+#+begin_src java
+ *** ServerHelloDone
+ [read] MD5 and SHA1 hashes:  len = 4
+ 0000: 0Z 00 00 00                                        ....
+ Warning: no suitable certificate found - continuing without client authentication
+ *** Certificate chain
+<Empty>
+#+end_src
+ During a happy case you should see the chain below ServerHelloDone
+#+begin_src java
+ *** ServerHelloDone
+ [read] MD5 and SHA1 hashes:  len = 4
+ 0000: 0E 00 00 00                                        ....
+ matching alias: fuse-mtn-ng
+ *** Certificate chain
+chain [0] = [
+[
+#+end_src
+These were some of the tricks I used to verify.In future blog posts, I will include how to test using Postman too.
+Happy Learning!
+
 
