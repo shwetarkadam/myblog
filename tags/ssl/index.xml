@@ -29,8 +29,8 @@ In this case, only the client authenticates the server.</p>
 <p>So the situations might look like :</p>
 <h3 id="if-one-makes-a-curl-call-and-it-succeeds-without-passing-any-client-cert-with-flags-such-as-key-and-cert-dot-then-it-is-on-1-way-ssl-dot">If one makes a curl call  and it succeeds without passing any client cert with flags such as &ndash;key and &ndash;cert. then it is on 1-way SSL.</h3>
 <h3 id="if-the-postman-api-call-succeeds-without-passing-any-client-certificate-in-postman--preferences-certificates-tab-client-certificate-tab--with-enable-ssl-certificate-verification-toggled-on-it-is-on-1-way-ssl-dot">If the Postman API call succeeds without passing any client certificate in Postman (Preferences -&gt; Certificates tab -&gt; Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.</h3>
-<p>The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
-#+begin_src bash
+<p>The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):</p>
+<p>#+begin_src bash
 ❯ curl -v <a href="https://exampleof1wayyssl.com">https://exampleof1wayyssl.com</a>
 Trying 82.133.101.34&hellip;</p>
 <ul>
@@ -68,8 +68,8 @@ Trying 82.133.101.34&hellip;</p>
 &gt; User-Agent: curl/7.64.1
 &gt; Accept: /
 &gt;
-#+end_src bash
-In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
+#+end_src bash</p>
+<p>In this example as you can see only the client asked for the certificate with line <code>TLSv1.2 (IN), TLS handshake, Certificate (11):</code></p>
 <h2 id="2-way-ssl--client-server">2 way SSL (Client &lt;-&gt; Server)</h2>
 <p>In 2 way ssl Both client and server ask for the certificate during SSL validation.So while validating the scenarios should look like this:</p>
 <h3 id="curl-fails-without-passing-any-client-cert-dot">curl fails without passing any client cert.</h3>
@@ -78,8 +78,8 @@ From the response, make a note of the line with <code>Request CERT</code> (examp
 So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 way SSL.</p>
 <p>For a 2-way SSL, the server would ask for a client certificate. <code>(TLSv1.2 (IN), TLS handshake, Request CERT (13)</code> in this case, example in code block below</p>
 <p>In this example, we didn&rsquo;t pass any certificate in curl with flags such as <code>--key</code> and <code>--cert</code>, and hence it resulted in handshake failure below <code>* error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</code></p>
-<!-- raw HTML omitted -->
-<p>curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
+<p>#+begin_src bash
+curl -v -k <a href="https://2waysslexample.com">https://2waysslexample.com</a></p>
 <ul>
 <li>  Trying 82.133.101.34..</li>
 <li>TCP_NODELAY set</li>
@@ -104,7 +104,7 @@ So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 w
 <li>error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure</li>
 <li>Closing connection 0</li>
 </ul>
-<!-- raw HTML omitted -->
+<p>#+end_src bash</p>
 <p><strong><!-- raw HTML omitted -->The server would ask for a client certificate in this case<!-- raw HTML omitted --></strong></p>
 <p>In some unusual cases; it&rsquo;s possible a server doesn&rsquo;t directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.</p>
 <h3 id="curl-fails-without-passing-any-client-cert--nss-is-used">curl fails without passing any client cert(NSS is used)</h3>
@@ -126,8 +126,8 @@ So while using curl output of ssl handshake failure might look like this :</p>
 </span></span></code></pre></div><p>Make note of <code>curl: (35) NSS: client certificate not found (nickname not specified)</code> where we are not passing any client cert or key and get the expected error.
 curl -v &lt;url&gt; &ndash;cacert ca.crt &ndash;key private.key  &ndash;cert client.cer</p>
 <h3 id="happy-curl-case-where-we-pass-the-client-cert-and-key">Happy curl case where we pass the client cert and key</h3>
-<p>The happy case of a curl call where we pass client cert and key would look like this <code>curl -v &lt;url&gt; --cacert ca.crt --key private.key  --cert client.cer</code>
-#+begin_src bash
+<p>The happy case of a curl call where we pass client cert and key would look like this <code>curl -v &lt;url&gt; --cacert ca.crt --key private.key  --cert client.cer</code></p>
+<p>#+begin_src bash
 $ curl -v <a href="https://happycurlcase.com">https://happycurlcase.com</a> &ndash;key ./myKey.key &ndash;cert ./myCert-cert.crt</p>
 <ul>
 <li>About to connect() toHappyCurlCase.com  port 443 (#0)</li>
@@ -287,8 +287,8 @@ If the client key is not being during ssl handshake, the error log might look li
 </span></span></code></pre></div><p>During a happy case you should see the chain below ServerHelloDone</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
 </span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">E</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>                                        <span class="o">....</span>
-</span></span><span class="line"><span class="cl"> <span class="n">matching</span> <span class="n">alias</span><span class="o">:</span> <span class="n">fuse</span><span class="o">-</span><span class="n">mtn</span><span class="o">-</span><span class="n">ng</span>
+</span></span><span class="line"><span class="cl"> <span class="mo">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>
+</span></span><span class="line"><span class="cl"> <span class="n">matching</span> <span class="n">alias</span><span class="o">:</span> <span class="o">&lt;</span><span class="n">some_random_alias</span><span class="o">&gt;</span>
 </span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
 </span></span><span class="line"><span class="cl"><span class="n">chain</span> <span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="o">[</span>
 </span></span><span class="line"><span class="cl"><span class="o">[</span>
