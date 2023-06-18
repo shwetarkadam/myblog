@@ -171,11 +171,11 @@ CApath: none</li>
 <p>When trying to verify via openssl command, <code>openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443</code> ,for a happy case look for <code>Acceptable client certificate CA names</code>
 The client (browser or curl) must select the correct client certificate from its keystore location based on the rules below. If this doesn&rsquo;t exist then it won&rsquo;t use the client key.
 And this client key is stored any location your application or somewhere else.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
-</span></span><span class="line"><span class="cl">Acceptable client certificate CA names
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Acceptable client certificate CA names
 </span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
 </span></span><span class="line"><span class="cl"><span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">openssl s_client -servername someExampleDomain -connect someExampleDomain.com:443
+</span></span><span class="line"><span class="cl">CONNECTED<span class="o">(</span>00000003<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">2</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Root CA
 </span></span><span class="line"><span class="cl">verify <span class="k">return</span>:1
 </span></span><span class="line"><span class="cl"><span class="nv">depth</span><span class="o">=</span><span class="m">1</span> <span class="nv">C</span> <span class="o">=</span> US, <span class="nv">O</span> <span class="o">=</span> Example CA, <span class="nv">CN</span> <span class="o">=</span> Example Intermediate CA
