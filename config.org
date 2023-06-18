@@ -1320,8 +1320,7 @@ So the situations might look like :
 **** If the Postman API call succeeds without passing any client certificate in Postman (Preferences -> Certificates tab -> Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.
 The curl output of 1 way SSL looks like this.(Data has been changed and added fake data for DEMO Purposes):
 
-#+begin_src bash
-
+#+begin_src 
 ❯ curl -v https://exampleOf1wayySSL.com  
 Trying 82.133.101.34...
  * TCP_NODELAY set
@@ -1355,8 +1354,7 @@ Trying 82.133.101.34...
 > User-Agent: curl/7.64.1
 > Accept: /
 >
-
-#+end_src bash
+#+end_src 
 
 In this example as you can see only the client asked for the certificate with line =TLSv1.2 (IN), TLS handshake, Certificate (11):=
 
