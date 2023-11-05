@@ -29,7 +29,7 @@ First step assuming that you have a GitHub account is to create a repository hav
 {
   "name": "shwetarkadam.github.io",
   "version": "1.0.0",
-  "description": "Portfolio",
+  "description": "Portfolio222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copydata && npm run usemin",
