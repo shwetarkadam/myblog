@@ -38,30 +38,30 @@ Meaning the variable reference (LHS) must always be a super class reference and 
 class C extends B{ }
 class D extends A{ }</p>
 <p>So valid and invalid syntax according to the thumb rule will be</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">A</span> <span class="n">a</span> <span class="o">=</span><span class="k">new</span> <span class="n">B</span><span class="o">();</span>           <span class="c1">//VALID
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">B</span> <span class="n">b</span><span class="o">=</span><span class="k">new</span> <span class="n">D</span><span class="o">();</span>            <span class="c1">//NOT VALID
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">C</span> <span class="n">c</span><span class="o">=</span><span class="k">new</span> <span class="n">A</span><span class="o">();</span>           <span class="c1">//VALID
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">A</span> <span class="n">a1</span><span class="o">=</span><span class="k">new</span> <span class="n">D</span><span class="o">();</span>           <span class="c1">//VALID
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">A</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">B</span><span class="p">();</span><span class="w">           </span><span class="c1">//VALID</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="w"> </span><span class="n">b</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">D</span><span class="p">();</span><span class="w">            </span><span class="c1">//NOT VALID</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">C</span><span class="w"> </span><span class="n">c</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">A</span><span class="p">();</span><span class="w">           </span><span class="c1">//VALID</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w"> </span><span class="n">a1</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">D</span><span class="p">();</span><span class="w">           </span><span class="c1">//VALID</span><span class="w">
 </span></span></span></code></pre></div><p>2.Calling a variable polymorphically.Permalink
 If a variable is called from a polymorphic object,we follow the reference i.e. the super class. And if the variable is not present in the super class ,it results in a COMPILE ERROR. EG:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span><span class="o">=</span><span class="mi">5</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">B</span> <span class="kd">extends</span> <span class="n">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">App</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span> <span class="n">a</span><span class="o">=</span><span class="k">new</span> <span class="n">B</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">.</span><span class="na">x</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//What do u think is the output class A x value (5)or class B x value(10)?Follow the rule.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">5</span>
-</span></span></code></pre></div><p>Calling a method polymorphically.Permalink
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="n">5</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">B</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">App</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w"> </span><span class="n">a</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">B</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="na">x</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//What do u think is the output class A x value (5)or class B x value(10)?Follow the rule.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">OUTPUT</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">5</span><span class="w">
+</span></span></span></code></pre></div><p>Calling a method polymorphically.Permalink
 If a method is called from a polymorphic object ,we follow a 2 step procedure: 1.We got to the super class and check whther the method is present or not.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="k">if</span><span class="o">(</span>present<span class="o">)</span>
 </span></span><span class="line"><span class="cl"> Goto to step <span class="m">2</span>
@@ -73,25 +73,25 @@ If a method is called from a polymorphic object ,we follow a 2 step procedure: 1
 </span></span><span class="line"><span class="cl"><span class="k">else</span>
 </span></span><span class="line"><span class="cl"> Call the super -class version.
 </span></span></code></pre></div><p>Eg:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">m1</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">B</span> <span class="kd">extends</span> <span class="n">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">m1</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;B&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">App</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span> <span class="n">a</span><span class="o">=</span><span class="k">new</span> <span class="n">B</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="o">.</span><span class="na">m1</span><span class="o">();</span>          <span class="c1">//Follow the rule
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">B</span><span class="o">=</span><span class="k">new</span> <span class="n">B</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">b</span><span class="o">.</span><span class="na">m1</span><span class="o">();</span>          <span class="c1">//Normal sub class object method call
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
-</span></span><span class="line"><span class="cl"><span class="n">B</span>
-</span></span><span class="line"><span class="cl"><span class="n">B</span>
-</span></span></code></pre></div><p>So that’s all for polymorphism in java.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">void</span><span class="w"> </span><span class="nf">m1</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;A&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">B</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">void</span><span class="w"> </span><span class="nf">m1</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;B&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">App</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w"> </span><span class="n">a</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">B</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">a</span><span class="p">.</span><span class="na">m1</span><span class="p">();</span><span class="w">          </span><span class="c1">//Follow the rule</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">B</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">b</span><span class="p">.</span><span class="na">m1</span><span class="p">();</span><span class="w">          </span><span class="c1">//Normal sub class object method call</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">OUTPUT</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="w">
+</span></span></span></code></pre></div><p>So that’s all for polymorphism in java.</p>
 <p>Happy Learning :)</p>
 ]]></content:encoded>
     </item>
@@ -108,95 +108,95 @@ A constructor is used to initialize instance variables When an object of an clas
 <h2 id="a-constructor-is-used-to-initialize-instance-variables">A constructor is used to initialize instance variables</h2>
 <h2 id="when-an-object-of-an-class-is-created-jvm-goes-to-the-class-and-searches-for-that-matching-constructor-dot-if-constructor-is-not-present-it-gives-a-compile-error-dot">When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error.</h2>
 <h2 id="by-default-every-class-has-a-constructor-called-default-no-argument-constructor-dot">By default every class has a constructor called default no argument constructor.</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span> <span class="c1">//default no arg constructor
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}}</span>
-</span></span></code></pre></div><h2 id="a-programmer-can-have-multiple-constructors-in-a-class-provided-their-signatures-are-different-this-is-called-constructor-overloading-dot">A programmer can have multiple constructors in a class provided their signatures are different this is called constructor overloading.</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//some code
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//some code
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">float</span> <span class="n">x</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//some code
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">float</span> <span class="n">x</span><span class="o">,</span><span class="kt">int</span> <span class="n">y</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//some code
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">,</span><span class="kt">float</span> <span class="n">y</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">z</span><span class="o">){}</span><span class="c1">//THIS WILL GIVE COMPILE ERROR SInce its already defined on top.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">A</span> <span class="n">a</span><span class="o">=</span><span class="k">new</span> <span class="n">A</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="k">new</span> <span class="n">A</span><span class="o">();</span><span class="c1">//goes to first matching constructor
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(){</span><span class="w"> </span><span class="c1">//default no arg constructor</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="a-programmer-can-have-multiple-constructors-in-a-class-provided-their-signatures-are-different-this-is-called-constructor-overloading-dot">A programmer can have multiple constructors in a class provided their signatures are different this is called constructor overloading.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//some code</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//some code</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">float</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//some code</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">float</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//some code</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="kt">float</span><span class="w"> </span><span class="n">y</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="p">){}</span><span class="c1">//THIS WILL GIVE COMPILE ERROR SInce its already defined on top.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w"> </span><span class="n">a</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">A</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">new</span><span class="w"> </span><span class="n">A</span><span class="p">();</span><span class="c1">//goes to first matching constructor</span><span class="w">
 </span></span></span></code></pre></div><h2 id="jvm-always-calls-the-matching-constructor-from-the-class-dot-however-a-programmer-can-call-other-constructors-of-this-class-by-using-the-the-this-method-dot">JVM always calls the matching constructor from the class.HOWEVER,a programmer can call other constructors of this class by using the the this() method.</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="k">this</span><span class="o">();</span>                     <span class="c1">//this will go to constructor A();
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;AA&#34;</span><span class="o">);</span>   <span class="c1">//II
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">App</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="k">new</span> <span class="n">A</span><span class="o">(</span><span class="mi">5</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="nl">
-</span></span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span>
-</span></span><span class="line"><span class="cl"><span class="n">AA</span>
-</span></span></code></pre></div><h2 id="if-a-programmer-desires-it-can-call-the-constructor-of-the-super-class-as-well-from-its-own-constructor-using-the-super-method-dot">If a programmer desires it can call the constructor of the super class as well from its own constructor using the super() method.</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">B</span> <span class="kd">extends</span> <span class="n">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">B</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="kd">super</span><span class="o">();</span>             <span class="c1">//this is called implicitly refer next point also
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;B&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="o">}}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">new</span> <span class="n">B</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl">    <span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span>
-</span></span><span class="line"><span class="cl"><span class="n">B</span>
-</span></span></code></pre></div><h2 id="whenever-a-programmer-creates-a-constructor-jvm-writes-super-in-every-constructor-implicitly-as-its-first-line-dot">Whenever a programmer creates a constructor ,JVM writes super() in every constructor implicitly as its first line.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;A&#34;</span><span class="p">);</span><span class="w">    </span><span class="c1">//I</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">this</span><span class="p">();</span><span class="w">                     </span><span class="c1">//this will go to constructor A();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;AA&#34;</span><span class="p">);</span><span class="w">   </span><span class="c1">//II</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">App</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="n">args</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">new</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="n">5</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">OUTPUT</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">AA</span><span class="w">
+</span></span></span></code></pre></div><h2 id="if-a-programmer-desires-it-can-call-the-constructor-of-the-super-class-as-well-from-its-own-constructor-using-the-super-method-dot">If a programmer desires it can call the constructor of the super class as well from its own constructor using the super() method.</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;A&#34;</span><span class="p">);</span><span class="w">    </span><span class="c1">//I</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">B</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">super</span><span class="p">();</span><span class="w">             </span><span class="c1">//this is called implicitly refer next point also</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;B&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">HelloWorld</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">new</span><span class="w"> </span><span class="n">B</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">OUTPUT</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">B</span><span class="w">
+</span></span></span></code></pre></div><h2 id="whenever-a-programmer-creates-a-constructor-jvm-writes-super-in-every-constructor-implicitly-as-its-first-line-dot">Whenever a programmer creates a constructor ,JVM writes super() in every constructor implicitly as its first line.</h2>
 <p>Note:If a class does not extend any class it by default extends the Object class. Do Try this code in your ide to see it for yourself</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="o">{</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//super will be called implicitly at the first line of this constructor and here since it does not extend any class it will extend the Object class
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;A&#34;</span><span class="o">);</span>    <span class="c1">//I
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">A</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">){</span>
-</span></span><span class="line"><span class="cl"><span class="c1">//super will be called implicitly at the first line of this constructor
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;AA&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="o">}}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	<span class="k">new</span> <span class="n">A</span><span class="o">(</span><span class="mi">5</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">    <span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="nl">OUTPUT:</span>
-</span></span><span class="line"><span class="cl"><span class="n">A</span>
-</span></span><span class="line"><span class="cl"><span class="n">AA</span>
-</span></span></code></pre></div><p>That’s all for constructors in Java.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">A</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//super will be called implicitly at the first line of this constructor and here since it does not extend any class it will extend the Object class</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;A&#34;</span><span class="p">);</span><span class="w">    </span><span class="c1">//I</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">//super will be called implicitly at the first line of this constructor</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;AA&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">class</span> <span class="nc">HelloWorld</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">new</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="n">5</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">OUTPUT</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">A</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">AA</span><span class="w">
+</span></span></span></code></pre></div><p>That’s all for constructors in Java.</p>
 <p>Happy Learning :)</p>
 ]]></content:encoded>
     </item>
