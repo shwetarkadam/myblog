@@ -55,7 +55,7 @@ favicon = "/cat.gif"
 
 
   [params.profileMode]
-  enabled = false
+  enabled = true
   title = "CodeKlutz"
   subtitle = "Tech blog by Shweta Kadam"
   imageUrl = "<img location>"
