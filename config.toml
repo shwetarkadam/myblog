@@ -42,8 +42,8 @@ tocopen = true
 favicon = "/cat.gif"
 
   [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
+  favicon = "/cat.gif"
+  favicon16x16 = "/cat.gif"
   favicon32x32 = "/cat.gif"
   apple_touch_icon = "/cat.gif"
   safari_pinned_tab = "/cat.gif"
@@ -58,7 +58,7 @@ favicon = "/cat.gif"
   enabled = true
   title = "CodeKlutz"
   subtitle = "Tech blog by Shweta Kadam"
-  imageUrl = "<img location>"
+  imageUrl = "/cat.gif"
   imageWidth = 120
   imageHeight = 120
   imageTitle = "my image"
@@ -81,7 +81,7 @@ favicon = "/cat.gif"
 
      [[params.profileMode.buttons]]
      name = "Github"
-     url = "https://github.com/"
+     url = "https://github.com/shwetarkadam"
 
 
   [params.homeInfoParams]
