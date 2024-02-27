@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ssl on Codeklutz</title>
+    <title>Ssl on Codeklutz</title>
     <link>https://codeklutz.com/tags/ssl/</link>
-    <description>Recent content in ssl on Codeklutz</description>
+    <description>Recent content in Ssl on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt : How to check if a url is on 2 way SSL or not ?</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
+      <link>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
+      <guid>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
       <description>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.
 1 way ssl Client -&amp;gt; Server When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl. In this case, only the client authenticates the server.</description>
       <content:encoded><![CDATA[<p>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.</p>

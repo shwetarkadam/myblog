@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt : How to check if a url is on 2 way SSL or not ?</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
+      <link>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
+      <guid>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
       <description>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.
 1 way ssl Client -&amp;gt; Server When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl. In this case, only the client authenticates the server.</description>
       <content:encoded><![CDATA[<p>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.</p>
@@ -465,10 +465,10 @@ If your company uses Jenkins to make builds and then deploys them uses kubernete
     
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
+      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
+      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
       <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
 what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
 It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>
@@ -960,10 +960,10 @@ Applications such as liquidbase,flyway scripts come in handy Speaking of liquiba
     
     <item>
       <title>Tech Recap Journal- January📓</title>
-      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <link>https://codeklutz.com/posts/tech-recap-journal--january/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <guid>https://codeklutz.com/posts/tech-recap-journal--january/</guid>
       <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
 However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
 My Blog! codeklutz.com I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.</description>
@@ -989,10 +989,10 @@ Also since it’s on the internet maybe someone might find it useful or insightf
     
     <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
-      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
+      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
+      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</guid>
       <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
 But Thanks to WSL, windows terminal, and the beautiful zsh .</description>
       <content:encoded><![CDATA[<p>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭</p>
