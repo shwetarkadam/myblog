@@ -144,6 +144,12 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
+  
+[[menu.main]]
+identifier = "Github"
+name = "Github"
+url = "https://github.com/shwetarkadam/shwetarkadam"
+weight = 5
 
 [[menu.main]]
 identifier = "tags"
@@ -161,7 +167,8 @@ weight = 30
 identifier = "archive"
 name = "Archive"
 url = "archives"
-weight = 5
+weight = 6
+
 
 
 [[menu.main]]
