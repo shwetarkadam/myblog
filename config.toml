@@ -17,7 +17,7 @@ minifyOutput = true
 env = "production"
 title = "Codeklutz"
 description = "CodeKlutz : My Developer journey & learnings"
-keywords = [ "Blog", "Portfolio", "PaperMod", "TechBlog" ]
+keywords = [ "Blog", "Portfolio", "PaperMod", "TechBlog" ,"Codeklutz","Shweta Kadam"]
 author = "Shweta Kadam"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
@@ -95,6 +95,10 @@ favicon = "/cat.gif"
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/ShwetaRKadam"
+  
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:hello@shweta.io"
 
   [[params.socialIcons]]
   name = "mastodon"
@@ -104,7 +108,6 @@ favicon = "/cat.gif"
   name = "stackoverflow"
   url = "https://stackoverflow.com"
 
-
   [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/shweta-kadam-81404512a/"
@@ -112,7 +115,6 @@ favicon = "/cat.gif"
   [[params.socialIcons]]
   name = "rss"
   url = "https://codeklutz.com/index.xml"
-
 
 [params.analytics.google]
 SiteVerificationTag = "G-3JJ1TEHZ1S"
