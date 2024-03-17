@@ -87,7 +87,10 @@ favicon = "/cat.gif"
 
   [params.homeInfoParams]
   Title = "Shweta Kadam"
-  Content = "Fixing more things than I break, creating new things that don't break as often! <img src='https://codeklutz.com/cat.gif'>"
+  Content = "My day job involves repairing more than I disrupt, and building new things that rarely fail with code .
+  However, the purpose of this blog is to spotlight my individual software engineering endeavors and to discuss a range of subjects that capture my interest. 
+  I'm keen on engaging with the community, so please do get in touch using any of the provided contact options below! 
+  For more insights into my background and interests, I invite you to explore my blog and linkdln page.! <img src='https://codeklutz.com/cat.gif'>"
 
   [[params.socialIcons]]
   name = "github"
@@ -111,7 +114,7 @@ favicon = "/cat.gif"
 
   [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/in/shweta-kadam-81404512a/"
+  url = "https://www.linkedin.com/in/shwetarkadam/"
 
   [[params.socialIcons]]
   name = "rss"
