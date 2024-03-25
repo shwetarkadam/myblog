@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Api on Codeklutz</title>
+    <title>api on Codeklutz</title>
     <link>https://codeklutz.com/tags/api/</link>
-    <description>Recent content in Api on Codeklutz</description>
+    <description>Recent content in api on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -46,84 +46,84 @@ You can also add a custom path by adding entry in <strong><strong>application.pr
 </span></span></code></pre></div><p><img loading="lazy" src="/img/custom-open-apidocs.PNG" alt=""  />
 
 Check <a href="http://localhost:8080/swagger">http://localhost:8080/swagger</a> for web UI.To show you in this example we have a following apis in the controller</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span><span class="w"> </span><span class="nn">com.TestDocker.BooksDocker.Controllers</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.beans.factory.annotation.Autowired</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.http.HttpStatus</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.bind.annotation.GetMapping</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.bind.annotation.PathVariable</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.bind.annotation.PostMapping</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.bind.annotation.RequestBody</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.bind.annotation.RestController</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.server.ResponseStatusException</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">com.TestDocker.BooksDocker.Models.Book</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">com.TestDocker.BooksDocker.Repository.BookRepository</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nd">@RestController</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MainController</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@Autowired</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">BookRepository</span><span class="w"> </span><span class="n">bookRepository</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@GetMapping</span><span class="p">(</span><span class="s">&#34;/test&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">test</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">String</span><span class="p">(</span><span class="s">&#34;Working from DOcker Bopoks proj &#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@GetMapping</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">fetchAllBooks</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span><span class="w"> </span><span class="n">books</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">books</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bookRepository</span><span class="p">.</span><span class="na">findAll</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">ex</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResponseStatusException</span><span class="p">(</span><span class="n">HttpStatus</span><span class="p">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Error occured in fetchAllBooks&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">ex</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">return</span><span class="w"> </span><span class="n">books</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@GetMapping</span><span class="p">(</span><span class="s">&#34;/{bookID}&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">Book</span><span class="w"> </span><span class="nf">fetchBookfromID</span><span class="p">(</span><span class="nd">@PathVariable</span><span class="p">(</span><span class="s">&#34;bookID&#34;</span><span class="p">)</span><span class="w"> </span><span class="n">Long</span><span class="w"> </span><span class="n">bookID</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="n">Book</span><span class="w"> </span><span class="n">book</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">book</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bookRepository</span><span class="p">.</span><span class="na">getById</span><span class="p">(</span><span class="n">bookID</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">ex</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResponseStatusException</span><span class="p">(</span><span class="n">HttpStatus</span><span class="p">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Error Occured in fetchBookfromID&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">ex</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">return</span><span class="w"> </span><span class="n">book</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@GetMapping</span><span class="p">(</span><span class="s">&#34;/search/{title}&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">searchBookByTitle</span><span class="p">(</span><span class="nd">@PathVariable</span><span class="p">(</span><span class="s">&#34;title&#34;</span><span class="p">)</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">title</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span><span class="w"> </span><span class="n">books</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="c1">//System.out.println(title);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">books</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bookRepository</span><span class="p">.</span><span class="na">fuzzySearchByTitle</span><span class="p">(</span><span class="n">title</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">books</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">ex</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ResponseStatusException</span><span class="p">(</span><span class="n">HttpStatus</span><span class="p">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Error Occured in searchBookByTitle&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">ex</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">return</span><span class="w"> </span><span class="n">books</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nd">@PostMapping</span><span class="p">(</span><span class="s">&#34;/insertBooks&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">insertBooks</span><span class="p">(</span><span class="nd">@RequestBody</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span><span class="w"> </span><span class="n">books</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Book</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">books</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="na">toString</span><span class="p">());</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="n">Book</span><span class="w"> </span><span class="n">b1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bookRepository</span><span class="p">.</span><span class="na">save</span><span class="p">(</span><span class="n">b</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">		      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">b1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">			      </span><span class="k">return</span><span class="w"> </span><span class="s">&#34;Book object is null&#34;</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">	      </span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div><p>So the swagger ui look something like this.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nn">com.TestDocker.BooksDocker.Controllers</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.List</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.beans.factory.annotation.Autowired</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.http.HttpStatus</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.bind.annotation.GetMapping</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.bind.annotation.PathVariable</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.bind.annotation.PostMapping</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.bind.annotation.RequestBody</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.bind.annotation.RestController</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">org.springframework.web.server.ResponseStatusException</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">com.TestDocker.BooksDocker.Models.Book</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">com.TestDocker.BooksDocker.Repository.BookRepository</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@RestController</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainController</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nd">@Autowired</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">BookRepository</span> <span class="n">bookRepository</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/test&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">String</span> <span class="nf">test</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="k">new</span> <span class="n">String</span><span class="o">(</span><span class="s">&#34;Working from DOcker Bopoks proj &#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">fetchAllBooks</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	      <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error occured in fetchAllBooks&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/{bookID}&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">Book</span> <span class="nf">fetchBookfromID</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;bookID&#34;</span><span class="o">)</span> <span class="n">Long</span> <span class="n">bookID</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	      <span class="n">Book</span> <span class="n">book</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="n">book</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">getById</span><span class="o">(</span><span class="n">bookID</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in fetchBookfromID&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">book</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/search/{title}&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">searchBookByTitle</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;title&#34;</span><span class="o">)</span> <span class="n">String</span> <span class="n">title</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	      <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="c1">//System.out.println(title);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		      <span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">fuzzySearchByTitle</span><span class="o">(</span><span class="n">title</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">		      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">books</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in searchBookByTitle&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="nd">@PostMapping</span><span class="o">(</span><span class="s">&#34;/insertBooks&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">String</span> <span class="nf">insertBooks</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	      <span class="k">for</span> <span class="o">(</span><span class="n">Book</span> <span class="n">b</span> <span class="o">:</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">b</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">		      <span class="n">Book</span> <span class="n">b1</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">		      <span class="k">if</span> <span class="o">(</span><span class="n">b1</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">			      <span class="k">return</span> <span class="s">&#34;Book object is null&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>So the swagger ui look something like this.
 Also json docs will be available at <a href="http://localhost:8080/api">http://localhost:8080/api</a> springdoc.swagger-ui.operationsSorter=method sorts the API paths in order of their HTTP methods.
 You can try and test the apis from web ui too.It also shows schema information!
 Overall this is a much convenient way of setting up documentation for your apis which can be handy in some situations.</p>

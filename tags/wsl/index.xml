@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Wsl on Codeklutz</title>
+    <title>wsl on Codeklutz</title>
     <link>https://codeklutz.com/tags/wsl/</link>
-    <description>Recent content in Wsl on Codeklutz</description>
+    <description>Recent content in wsl on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Fri, 21 Jan 2022 23:41:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
-      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</link>
+      <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</guid>
+      <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
       <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
 But Thanks to WSL, windows terminal, and the beautiful zsh .</description>
       <content:encoded><![CDATA[<p>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭</p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Submodule on Codeklutz</title>
+    <title>submodule on Codeklutz</title>
     <link>https://codeklutz.com/tags/submodule/</link>
-    <description>Recent content in Submodule on Codeklutz</description>
+    <description>Recent content in submodule on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/submodule/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
+      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
+      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
       <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
 what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
 It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>

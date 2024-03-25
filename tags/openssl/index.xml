@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Openssl on Codeklutz</title>
+    <title>openssl on Codeklutz</title>
     <link>https://codeklutz.com/tags/openssl/</link>
-    <description>Recent content in Openssl on Codeklutz</description>
+    <description>Recent content in openssl on Codeklutz</description>
     <image>
       <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt : How to check if a url is on 2 way SSL or not ?</title>
-      <link>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
+      <link>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt--how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
+      <guid>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</guid>
       <description>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.
 1 way ssl Client -&amp;gt; Server When a client (browser) hits the url and it gives success for example Google.com.It is usually on 1 way ssl. In this case, only the client authenticates the server.</description>
       <content:encoded><![CDATA[<p>Learning SSL itself is not a straight forward concept as it seems but even confirming if a particular url is on 2 way ssl requires some effort. I face some trouble with ssl in the past so just a blog post describing my pain.</p>
@@ -275,23 +275,23 @@ Example output :</p>
 </span></span></code></pre></div><h4 id="using-java-flags-in-application-logs">Using Java Flags in application logs</h4>
 <p>One can also verify the same in Java by checking your application logs and enabling a flag <code>-Djavax.net.debug=ssl</code> or in some cases <code>-Djavax.net.debug=all</code> which gives more verbose logs.
 If the client key is not being during ssl handshake, the error log might look like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">***</span><span class="w"> </span><span class="n">ServerHelloDone</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">[</span><span class="n">read</span><span class="o">]</span><span class="w"> </span><span class="n">MD5</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">SHA1</span><span class="w"> </span><span class="n">hashes</span><span class="p">:</span><span class="w">  </span><span class="n">len</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">4</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="n">0000</span><span class="p">:</span><span class="w"> </span><span class="n">0Z</span><span class="w"> </span><span class="n">00</span><span class="w"> </span><span class="n">00</span><span class="w"> </span><span class="n">00</span><span class="w">                                        </span><span class="p">....</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="n">Warning</span><span class="p">:</span><span class="w"> </span><span class="n">no</span><span class="w"> </span><span class="n">suitable</span><span class="w"> </span><span class="n">certificate</span><span class="w"> </span><span class="n">found</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">continuing</span><span class="w"> </span><span class="n">without</span><span class="w"> </span><span class="n">client</span><span class="w"> </span><span class="n">authentication</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">***</span><span class="w"> </span><span class="n">Certificate</span><span class="w"> </span><span class="n">chain</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">&lt;</span><span class="n">Empty</span><span class="o">&gt;</span><span class="w">
-</span></span></span></code></pre></div><p>During a happy case you should see the chain below ServerHelloDone</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">***</span><span class="w"> </span><span class="n">ServerHelloDone</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">[</span><span class="n">read</span><span class="o">]</span><span class="w"> </span><span class="n">MD5</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">SHA1</span><span class="w"> </span><span class="n">hashes</span><span class="p">:</span><span class="w">  </span><span class="n">len</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">4</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="n">0000</span><span class="p">:</span><span class="w"> </span><span class="n">0Z</span><span class="w"> </span><span class="n">00</span><span class="w"> </span><span class="n">00</span><span class="w"> </span><span class="n">00</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="n">matching</span><span class="w"> </span><span class="n">alias</span><span class="p">:</span><span class="w"> </span><span class="o">&lt;</span><span class="n">some_random_alias</span><span class="o">&gt;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="o">***</span><span class="w"> </span><span class="n">Certificate</span><span class="w"> </span><span class="n">chain</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">chain</span><span class="w"> </span><span class="o">[</span><span class="n">0</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">[</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">[</span><span class="w">
-</span></span></span></code></pre></div><p>These were some of the tricks I used to verify.In future blog posts, I will include how to test using Postman too.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+</span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mi">00</span> <span class="mi">00</span> <span class="mi">00</span>                                        <span class="o">....</span>
+</span></span><span class="line"><span class="cl"> <span class="n">Warning</span><span class="o">:</span> <span class="n">no</span> <span class="n">suitable</span> <span class="n">certificate</span> <span class="n">found</span> <span class="o">-</span> <span class="n">continuing</span> <span class="n">without</span> <span class="n">client</span> <span class="n">authentication</span>
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">Empty</span><span class="o">&gt;</span>
+</span></span></code></pre></div><p>During a happy case you should see the chain below ServerHelloDone</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">ServerHelloDone</span>
+</span></span><span class="line"><span class="cl"> <span class="o">[</span><span class="n">read</span><span class="o">]</span> <span class="n">MD5</span> <span class="n">and</span> <span class="n">SHA1</span> <span class="n">hashes</span><span class="o">:</span>  <span class="n">len</span> <span class="o">=</span> <span class="mi">4</span>
+</span></span><span class="line"><span class="cl"> <span class="mi">0000</span><span class="o">:</span> <span class="mi">0</span><span class="n">Z</span> <span class="mi">00</span> <span class="mi">00</span> <span class="mi">00</span>
+</span></span><span class="line"><span class="cl"> <span class="n">matching</span> <span class="n">alias</span><span class="o">:</span> <span class="o">&lt;</span><span class="n">some_random_alias</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"> <span class="o">***</span> <span class="n">Certificate</span> <span class="n">chain</span>
+</span></span><span class="line"><span class="cl"><span class="n">chain</span> <span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="o">[</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>
+</span></span></code></pre></div><p>These were some of the tricks I used to verify.In future blog posts, I will include how to test using Postman too.
 Happy Learning!</p>
 ]]></content:encoded>
     </item>
