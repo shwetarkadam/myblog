@@ -170,6 +170,12 @@ url = "archives"
 weight = 6
 
 
+[[menu.main]]
+identifier = "Portfolio"
+name = "Portfolio"
+url = "https://shweta.io"
+weight = 30
+
 
 [[menu.main]]
 identifier = "search"
