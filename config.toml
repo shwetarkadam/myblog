@@ -152,6 +152,13 @@ url = "/ShwetaKadamResume2024.pdf"
 weight = 5
 
 [[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 4
+
+
+[[menu.main]]
 identifier = "tags"
 name = "tags"
 url = "/tags/"
