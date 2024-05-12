@@ -1583,6 +1583,16 @@ The Bad parts are made by me.
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://codeklutz.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/about/</guid>
+      <description>about</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     
     
   </channel>
