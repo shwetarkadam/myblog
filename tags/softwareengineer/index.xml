@@ -10,7 +10,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/softwareengineer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 May 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/softwareengineer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Thinking Fast and Slow Concepts on Programming</title>
+      <link>https://codeklutz.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <pubDate>Fri, 12 May 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
+Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
+      <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.</p>
+<p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
+<p>The best resolution no matter how much hesitation or shame is to ASK NOW!
+It does two things:-</p>
+<ul>
+<li>Filters out your misunderstandings and gives you clarity.</li>
+<li>Always end up learning something new.</li>
+<li>Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Beware of the side bug</title>
       <link>https://codeklutz.com/posts/beware-of-the-side-bug/</link>
