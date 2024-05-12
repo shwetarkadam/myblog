@@ -1612,14 +1612,11 @@ The Bad parts are made by me.
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
       <content:encoded><![CDATA[<p>![DevPic](content/img/WhatsApp Image 2024-04-27 at 9.23.30 PM.jpeg)</p>
-<p>Main Skills:
-Fluent in English,Hindi and Marathi</p>
-<p>Extremely versatile, from architecture to deployment</p>
+<h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java,Spring,Angular and dabble a bit wih Kuberenetes.</p>
 <p>Experience: 4 years</p>
-<p>Education:
-Outstanding results at coding school 42 Paris.
-Engineering degree in Computer Branch from Mumbai University.
+<h2 id="education">Education:</h2>
+<p>Engineering degree in Computer Branch from Mumbai University.
 Skills
 Technical: Fixing more things than I break, creating new things that don&rsquo;t break as often.
 Social: Great communication | pleasant to work with | works great by myself &amp; in a team.</p>
