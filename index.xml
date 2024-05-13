@@ -1611,7 +1611,7 @@ The Bad parts are made by me.
       
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
-      <content:encoded><![CDATA[<p>![DevPic](public/img/WhatsApp Image 2024-04-27 at 9.23.30 PM.jpeg)</p>
+      <content:encoded><![CDATA[<p>![DevPic](/public/img/WhatsApp Image 2024-04-27 at 9.23.30 PM.jpeg)</p>
 <h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java,Spring,Angular and dabble a bit wih Kuberenetes.</p>
 <p>Experience: 4 years</p>
