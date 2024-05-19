@@ -1,7 +1,7 @@
 +++
 title = "Using Thinking Fast and Slow Concepts on Programming"
 author = ["Shweta Kadam"]
-date = 2023-05-12T23:10:00+05:30
+date = 2023-05-18T23:10:00+05:30
 tags = ["softwareengineer", "help", "watercooler", "learning"]
 draft = false
 +++
