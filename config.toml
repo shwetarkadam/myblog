@@ -146,7 +146,7 @@ SiteVerificationTag = "XYZabc"
 [[menu.main]]
 identifier = "Resume"
 name = "Resume"
-url = "/ShwetaKadamResume2024.pdf"
+url = "/shwetakadamresume2024.pdf"
 weight = 5
 
 [[menu.main]]
