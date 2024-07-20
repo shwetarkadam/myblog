@@ -5,7 +5,6 @@ url: "/about/"
 summary: about
 ---
 
-![DevPic](/public/img/WhatsApp Image 2024-04-27 at 9.23.30 PM.jpeg)
 
 ## Main Skills:
 
