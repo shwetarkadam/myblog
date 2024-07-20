@@ -4,6 +4,7 @@ layout: "about"
 url: "/about/"
 summary: about
 ---
+![About Me](../public/img/aboutme.jpeg)
 
 
 ## Main Skills:
