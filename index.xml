@@ -1622,7 +1622,9 @@ The Bad parts are made by me.
       
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
-      <content:encoded><![CDATA[<h2 id="main-skills">Main Skills:</h2>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="../public/img/aboutme.jpeg" alt="About Me"  />
+</p>
+<h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.</p>
 <p>Experience: 5 years</p>
 <h2 id="education">Education:</h2>
