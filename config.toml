@@ -143,11 +143,11 @@ SiteVerificationTag = "XYZabc"
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
   
-[[menu.main]]
-identifier = "Resume"
-name = "Resume"
-url = "/shwetakadamresume2024.pdf"
-weight = 5
+# [[menu.main]]
+# identifier = "Resume"
+# name = "Resume"
+# url = "/shwetakadamresume2024.pdf"
+# weight = 5
 
 [[menu.main]]
 identifier = "about"
