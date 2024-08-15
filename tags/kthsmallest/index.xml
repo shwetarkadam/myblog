@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kthsmallest on Codeklutz</title>
+    <link>https://codeklutz.com/tags/kthsmallest/</link>
+    <description>Recent content in kthsmallest on Codeklutz</description>
+    <image>
+      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/kthsmallest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
+      <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
+      <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
+      <content:encoded><![CDATA[<p>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
+Some mini tricks I learnt by doing the problem <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/">https://leetcode.com/problems/kth-largest-element-in-a-stream/description/</a>
+When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap.
+And for Kth largest element the opposite element (which is smallest in this case is on top).
+Typically when one says Heap, we usually remember the tree diagram on google. However when in it comes to solving DS leetcode style problem I found out just using a Priority queue is simply enough.
+In Priority Queue, you just add the elements and it gives them a priority and sorts it .</p>
+<p>In short,</p>
+<pre tabindex="0"><code>Kth largest --&gt; Min heap --&gt; where smallest element is at top --&gt; Uses Priority queue 
+Kth smallest --&gt; Max heap --&gt; where the Largest element is at top --&gt; Uses Priority queue in reverse Order
+</code></pre><p>Also
+Priority Queue</p>
+<ul>
+<li>add : when an element cannot be added in queue it throws an exception</li>
+<li>offer : when an element cannot be added in queue it returns false</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

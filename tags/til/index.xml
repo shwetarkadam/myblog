@@ -569,6 +569,31 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     </item>
     
     <item>
+      <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
+      <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
+      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
+      <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
+      <content:encoded><![CDATA[<p>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
+Some mini tricks I learnt by doing the problem <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/">https://leetcode.com/problems/kth-largest-element-in-a-stream/description/</a>
+When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap.
+And for Kth largest element the opposite element (which is smallest in this case is on top).
+Typically when one says Heap, we usually remember the tree diagram on google. However when in it comes to solving DS leetcode style problem I found out just using a Priority queue is simply enough.
+In Priority Queue, you just add the elements and it gives them a priority and sorts it .</p>
+<p>In short,</p>
+<pre tabindex="0"><code>Kth largest --&gt; Min heap --&gt; where smallest element is at top --&gt; Uses Priority queue 
+Kth smallest --&gt; Max heap --&gt; where the Largest element is at top --&gt; Uses Priority queue in reverse Order
+</code></pre><p>Also
+Priority Queue</p>
+<ul>
+<li>add : when an element cannot be added in queue it throws an exception</li>
+<li>offer : when an element cannot be added in queue it returns false</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
       <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
