@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://codeklutz.com/tags/2wayssl/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/heap/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/kthlargest/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/kthsmallest/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/leetcode/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/priorityqueue/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/til/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/2wayssl/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/curl/</loc>
@@ -14,16 +41,7 @@
     <loc>https://codeklutz.com/tags/openssl/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/ssl/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
-    <lastmod>2023-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/til/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/posts/today-i-learnt-how-to-check-if-a-url-is-on-2-way-ssl-or-not/</loc>
@@ -134,25 +152,7 @@
     <loc>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</loc>
     <lastmod>2022-12-20T19:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/heap/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/kthlargest/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/kthsmallest/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/leetcode/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/priorityqueue/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/posts/til-jq/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</loc>
     <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/arrays/</loc>

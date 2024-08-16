@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/heap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/heap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
       <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
