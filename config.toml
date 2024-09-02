@@ -55,7 +55,7 @@ favicon = "/cat.gif"
 
 
   [params.profileMode]
-  enabled = true
+  enabled = false 
   title = "CodeKlutz"
   imageUrl = "/cat.gif"
   imageWidth = 120
