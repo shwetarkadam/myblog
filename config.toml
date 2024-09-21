@@ -86,6 +86,7 @@ favicon = "/cat.gif"
 
   [params.homeInfoParams]
   Title = "Shweta Kadam"
+  Content = "Fixing more things than I break, creating new things that don't break as often"
  
   [[params.socialIcons]]
   name = "github"
