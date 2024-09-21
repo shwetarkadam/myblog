@@ -1652,29 +1652,50 @@ The Bad parts are made by me.
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://codeklutz.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/about/</guid>
-      <description>about</description>
-      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+      <description>title: &amp;ldquo;About&amp;rdquo; layout: &amp;ldquo;about&amp;rdquo; url: &amp;ldquo;/about/&amp;rdquo; summary: about Main Skills: Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.
+Experience: 5 years
+Programming Languages: Java
+Databases: MySQL, MongoDB
+Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)
+Cloud: Amazon Web Services
+Operating Systems: macOS, Linux (Ubuntu), Windows 10
+Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbucket)
+Education: Engineering degree in Computer Branch from Mumbai University.</description>
+      <content:encoded><![CDATA[<hr>
+<h2 id="summary-about">title: &ldquo;About&rdquo;
+layout: &ldquo;about&rdquo;
+url: &ldquo;/about/&rdquo;
+summary: about</h2>
+<!-- raw HTML omitted -->
 <h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.</p>
 <p>Experience: 5 years</p>
+<p>Programming Languages: Java</p>
+<p>Databases: MySQL, MongoDB</p>
+<p>Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)</p>
+<p>Cloud: Amazon Web Services</p>
+<p>Operating Systems: macOS, Linux (Ubuntu), Windows 10</p>
+<p>Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbucket)</p>
 <h2 id="education">Education:</h2>
 <p>Engineering degree in Computer Branch from Mumbai University.
 Skills
 Technical: I fix more things than I break and create new things that don&rsquo;t break as often.
 Social: Great communication | pleasant to work with | works great by myself &amp; in a team.</p>
 <p>Check out my work
-Examples on my Portfolio.
-Code on my Github.
-Articles on Dev.to or this very blog.
+Code on my Github
 I love
 Coding - Music - Anime - Writing.</p>
+<h2 id="links">Links</h2>
+<p><a href="https://github.com/shwetarkadam">GitHub</a>
+<a href="https://www.linkedin.com/shwetarkadam">LinkedIn</a>
+<a href="https://codeklutz.com/index.xml">RSS Feed</a></p>
 <p>Contact Me
-<a href="mailto:hello@shweta.io">hello@shweta.io</a>  or LinkedIn</p>
+<a href="mailto:hello@shweta.io">hello@shweta.io</a>  or <a href="https://www.linkedin.com/shwetarkadam">LinkedIn</a></p>
 ]]></content:encoded>
     </item>
     
