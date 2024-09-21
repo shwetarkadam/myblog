@@ -1,1 +1,1 @@
-Entering Talk content
+Incoming Talk link coming soon!
