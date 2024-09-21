@@ -1,16 +1,10 @@
-+++
-title = "About Me"
-ShowReadingTime = false
-ShowWordCount = false
-ShowToc = true
-TocOpen = true
-+++
-
 ---
 title: "About"
 layout: "about"
 url: "/about/"
 summary: about
+ShowReadingTime : false
+ShowWordCount :false
 ---
 <!--![About Me](../img/aboutme.jpeg)-->
 
