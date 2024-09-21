@@ -163,7 +163,6 @@ weight = 5
 
 
 
-
 [[menu.main]]
 identifier = "tags"
 name = "tags"
@@ -187,8 +186,14 @@ weight = 6
 identifier = "Portfolio"
 name = "Portfolio"
 url = "https://shweta.io"
-weight = 30
+weight = 31
 
+  
+[[menu.main]]
+identifier = "Talk"
+name = "Talk"
+url = "/talk/"
+weight = 32
 
 [[menu.main]]
 identifier = "search"
