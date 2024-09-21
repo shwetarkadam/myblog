@@ -150,8 +150,8 @@ SiteVerificationTag = "XYZabc"
 # weight = 5
 
 [[menu.main]]
-identifier = "about"
-name = "about"
+identifier = "About"
+name = "About"
 url = "/about/"
 weight = 4
 
