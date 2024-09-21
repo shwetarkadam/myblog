@@ -1641,6 +1641,17 @@ The Bad parts are made by me.
     </item>
     
     <item>
+      <title></title>
+      <link>https://codeklutz.com/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/talk/</guid>
+      <description>Entering Talk content</description>
+      <content:encoded><![CDATA[<p>Entering Talk content</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://codeklutz.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
