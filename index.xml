@@ -1652,26 +1652,13 @@ The Bad parts are made by me.
     </item>
     
     <item>
-      <title>About Me</title>
+      <title>About</title>
       <link>https://codeklutz.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/about/</guid>
-      <description>title: &amp;ldquo;About&amp;rdquo; layout: &amp;ldquo;about&amp;rdquo; url: &amp;ldquo;/about/&amp;rdquo; summary: about Main Skills: Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.
-Experience: 5 years
-Programming Languages: Java
-Databases: MySQL, MongoDB
-Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)
-Cloud: Amazon Web Services
-Operating Systems: macOS, Linux (Ubuntu), Windows 10
-Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbucket)
-Education: Engineering degree in Computer Branch from Mumbai University.</description>
-      <content:encoded><![CDATA[<hr>
-<h2 id="summary-about">title: &ldquo;About&rdquo;
-layout: &ldquo;about&rdquo;
-url: &ldquo;/about/&rdquo;
-summary: about</h2>
-<!-- raw HTML omitted -->
+      <description>about</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.</p>
 <p>Experience: 5 years</p>
