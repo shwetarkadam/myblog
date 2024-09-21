@@ -3,8 +3,8 @@ title: "About"
 layout: "about"
 url: "/about/"
 summary: about
-ShowReadingTime : false
-ShowWordCount :false
+showReadingTime: "false"
+showWordCount : "false"
 ---
 <!--![About Me](../img/aboutme.jpeg)-->
 
