@@ -1,3 +1,11 @@
++++
+title = "About Me"
+ShowReadingTime = false
+ShowWordCount = false
+ShowToc = true
+TocOpen = true
++++
+
 ---
 title: "About"
 layout: "about"
@@ -6,14 +14,23 @@ summary: about
 ---
 <!--![About Me](../img/aboutme.jpeg)-->
 
-
 ## Main Skills:
 
 Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.
 
-
 Experience: 5 years
 
+Programming Languages: Java
+
+Databases: MySQL, MongoDB
+
+Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)
+
+Cloud: Amazon Web Services
+
+Operating Systems: macOS, Linux (Ubuntu), Windows 10
+
+Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbucket)
 
 ## Education:
 Engineering degree in Computer Branch from Mumbai University.
@@ -22,11 +39,14 @@ Technical: I fix more things than I break and create new things that don't break
 Social: Great communication | pleasant to work with | works great by myself & in a team.
 
 Check out my work
-Examples on my Portfolio.
-Code on my Github.
-Articles on Dev.to or this very blog.
+Code on my Github
 I love
 Coding - Music - Anime - Writing.
 
+## Links
+[GitHub](https://github.com/shwetarkadam)
+[LinkedIn](https://www.linkedin.com/shwetarkadam)
+[RSS Feed](https://codeklutz.com/index.xml)
+
 Contact Me
-hello@shweta.io  or LinkedIn
+hello@shweta.io  or [LinkedIn](https://www.linkedin.com/shwetarkadam)
