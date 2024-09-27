@@ -1646,12 +1646,8 @@ The Bad parts are made by me.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://codeklutz.com/talk/</guid>
-      <description>Incoming Talk link coming soon!
-{{ youtube j_D0SG0yMEksi=ZmsUPh1ULTEIZ05r }}
-https://youtu.be/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r</description>
-      <content:encoded><![CDATA[<p>Incoming Talk link coming soon!</p>
-<p>{{ youtube j_D0SG0yMEksi=ZmsUPh1ULTEIZ05r }}</p>
-<p><a href="https://youtu.be/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r">https://youtu.be/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r</a></p>
+      <description>Presenting my first talk at GitTogether Mumbai</description>
+      <content:encoded><![CDATA[<p>Presenting my first talk at GitTogether Mumbai</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]]></content:encoded>
     </item>
