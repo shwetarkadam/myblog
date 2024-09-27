@@ -12,6 +12,18 @@
     <language>en</language>
     <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Your Post Title</title>
+      <link>https://codeklutz.com/talk/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://codeklutz.com/talk/</guid>
+      <description>Presenting my first talk at GitTogether Mumbai</description>
+      <content:encoded><![CDATA[<p>Presenting my first talk at GitTogether Mumbai</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
@@ -1637,18 +1649,6 @@ A constructor is used to initialize instance variables When an object of an clas
 The Bad parts are made by me.</description>
       <content:encoded><![CDATA[The Good parts are made by me,
 The Bad parts are made by me.
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://codeklutz.com/talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/talk/</guid>
-      <description>Presenting my first talk at GitTogether Mumbai</description>
-      <content:encoded><![CDATA[<p>Presenting my first talk at GitTogether Mumbai</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=ZmsUPh1ULTEIZ05r" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]]></content:encoded>
     </item>
     
