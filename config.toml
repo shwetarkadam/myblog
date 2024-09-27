@@ -52,7 +52,12 @@ favicon = "/cat.gif"
   text = "CodeKlutz"
   icon = "/cat.gif"
   iconHeight = 40
-
+  
+# Enable HTML rendering in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows raw HTML like iframes in markdown
 
   [params.profileMode]
   enabled = false 
