@@ -1,3 +1,15 @@
+---
+title: "Your Post Title"
+date: 2024-09-27
+author: "Shweta Kadam"
+showToc: false            # Optional: if you want to hide the Table of Contents
+showReadingTime: false     # Hide reading time
+showWordCount: false       # Hide word count
+showAuthor: false          # Hide author
+disableSuggestChanges: true # Disable the "Suggest Changes" option
+---
+
+
 Presenting my first talk at GitTogether Mumbai 
 
 
