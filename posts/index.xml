@@ -52,11 +52,11 @@ In this case, only the client authenticates the server.</p>
 <p>If an API call(curl/postman) succeeds without passing any certificate, it&rsquo;s on 1-way ssl.</p>
 </blockquote>
 <p>So the situations might look like :</p>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>If one makes a curl call  and it succeeds without passing any client cert with flags such as &ndash;key and &ndash;cert. then it is on 1-way SSL.</p>
-<!-- raw HTML omitted -->
+ <!--list-separator-->
 <ul>
 <li>
 <p>If the Postman API call succeeds without passing any client certificate in Postman (Preferences -&gt; Certificates tab -&gt; Client certificate tab) with Enable SSL certificate verification toggled on, it is on 1-way SSL.</p>
@@ -129,7 +129,7 @@ So if a curl call succeeds without passing any flags, then it&rsquo;s not on 2 w
    * TLSv1.2 (IN), TLS alert, handshake failure (552):
    * error:1401E410:SSL routines:CONNECT_CR_FINISHED:sslv3 alert handshake failure
    * Closing connection 0
-</code></pre><p><strong><!-- raw HTML omitted -->The server would ask for a client certificate in this case<!-- raw HTML omitted --></strong></p>
+</code></pre><p><strong><span class="underline">The server would ask for a client certificate in this case</span></strong></p>
 <p>In some unusual cases; it&rsquo;s possible a server doesn&rsquo;t directly ask for it but the client needs to send it or gets rejected. The standard is: the server asks for it.</p>
 <h3 id="curl-fails-without-passing-any-client-cert--nss-is-used">curl fails without passing any client cert(NSS is used)</h3>
 <p>Similar to <code>/etc/ssl/cert.pem</code>, NSS(Network Security Services) as a trusted CA certificate location. Another example of trusted CA cert location is jdk cacerts for java applications.</p>
@@ -698,11 +698,11 @@ For example :</p>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><h2 id="where-and-why-would-you-use-it">Where and why would you use it?</h2>
 <p>There are a few reasons I could think of why I would use jq regularly:</p>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>Similarly like my situation above, if you want to avoid opening gui apps or online code beautifiers ,this is a great option.</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>Once can prettify a curl output with jq.</p>
@@ -711,7 +711,7 @@ For example :</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-healthcheck.com/healthcheck | jq .
 </span></span></span></code></pre></div></li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>jq is ubiquitous means it is pre-installed in most machines (even cloud vms such as aws and microsoft vms).</p>
@@ -719,15 +719,15 @@ For example :</p>
 You dont need to do the manual work of copy and paste and json and figuring it out later.</p>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>Also I think its pretty secure than the online third party websites developers tend to use to prettify json ,xml while working. Especially when dealing with secret private data which is sometimes pasted on to a random code beautifier website.</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>And pretty handy when you lose internet connection ;)</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>When used in shell scripts , it can save a lot of time and manual effort.</p>
@@ -788,11 +788,11 @@ For example :</p>
 </span></span><span class="line"><span class="cl">       <span class="p">}</span>
 </span></span></code></pre></div><h2 id="where-and-why-would-you-use-it">Where and why would you use it?</h2>
 <p>There are a few reasons I could think of why I would use jq regularly:</p>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>Similarly like my situation above, if you want to avoid opening gui apps or online code beautifiers ,this is a great option.</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>Once can prettify a curl output with jq.</p>
@@ -801,7 +801,7 @@ For example :</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-healthcheck.com/healthcheck | jq .
 </span></span></span></code></pre></div></li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>jq is ubiquitous means it is pre-installed in most machines (even cloud vms such as aws and microsoft vms).</p>
@@ -809,15 +809,15 @@ For example :</p>
 You dont need to do the manual work of copy and paste and json and figuring it out later.</p>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>Also I think its pretty secure than the online third party websites developers tend to use to prettify json ,xml while working. Especially when dealing with secret private data which is sometimes pasted on to a random code beautifier website.</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>And pretty handy when you lose internet connection ;)</li>
 </ul>
-<!-- raw HTML omitted -->
+<!--list-separator-->
 <ul>
 <li>
 <p>When used in shell scripts , it can save a lot of time and manual effort.</p>
