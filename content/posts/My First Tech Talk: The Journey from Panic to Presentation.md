@@ -10,7 +10,7 @@ draft = false
 
 I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.
 
-##How Do You Secure a Speaking Slot?
+## How Do You Secure a Speaking Slot?
 
 This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it's all about relevance.
 
@@ -31,8 +31,7 @@ Once the panic and excitement strikes through so does the preparation. Preparing
 
 Ah yes, feedback—every speaker’s best friend (and occasional frenemy). It’s the secret sauce to leveling up your presentation, and trust me, you’ll need lots of it! I took every nugget of constructive criticism and tweaked my talk like a codebase on release day.
 
-Now, let’s talk demos. the ultimate double-edged sword. Engineers love them but for presenters? A living nightmare! And guess what? I willingly walked into that nightmare. Yep, I gave a demo!
-
+Now, let’s talk demos. The ultimate double-edged sword. Engineers love them but for presenters? A living nightmare! And guess what? I willingly walked into that nightmare. Yep, I gave a demo!
 
 Why? Well, demos are like live-action thrillers—great for the audience but full of nerve-wracking moments for the speaker. Something is bound to go wrong (and spoiler: it did). Cue the sweaty palms and heart palpitations as things start to go wrong! But hey, the key is to stay calm, crack a joke or two, and power through the glitches.
 
