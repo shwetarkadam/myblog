@@ -10,7 +10,37 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> My First Tech Talk: The Journey from Panic to Presentation</title>
+      <link>https://codeklutz.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
+      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
+      <description>My First Tech Talk: The Journey from Panic to Presentation I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.
+How Do You Secure a Speaking Slot? This was the big question! It took me countless applications, several rejections, and a sprinkle of luck.</description>
+      <content:encoded><![CDATA[<h1 id="my-first-tech-talk-the-journey-from-panic-to-presentation">My First Tech Talk: The Journey from Panic to Presentation</h1>
+<p>I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.</p>
+<h2 id="how-do-you-secure-a-speaking-slot">How Do You Secure a Speaking Slot?</h2>
+<p>This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it&rsquo;s all about relevance.</p>
+<h2 id="what-happens-after-my-talk-was-selected">What happens after my talk was selected?</h2>
+<p>The talk has been selected &hellip;&hellip;so now what?
+The Panic strikes through!!
+But so does the cycle of preparation&hellip;&hellip;</p>
+<p>![GitTogether Tech Talk](/img/Screenshot 2024-10-02 at 21.14.56.png)</p>
+<h2 id="will-they-find-it-interesting">Will They Find It Interesting?</h2>
+<p>Creating a talk is one thing, delivering it in a way that keeps the audience engaged is another.
+Once the panic and excitement strikes through so does the preparation. Preparing the contents for a talk is very different from presenting it. The information you INTEND to convey has to reach the audience in a way they perceive it and it has to be relatable and interesting for them to continue to listen!</p>
+<h2 id="feedback-feedback-feedback-and-continuous-feedback">Feedback Feedback Feedback and Continuous Feedback!</h2>
+<p>Ah yes, feedback—every speaker’s best friend (and occasional frenemy). It’s the secret sauce to leveling up your presentation, and trust me, you’ll need lots of it! I took every nugget of constructive criticism and tweaked my talk like a codebase on release day.</p>
+<p>Now, let’s talk demos. The ultimate double-edged sword. Engineers love them but for presenters? A living nightmare! And guess what? I willingly walked into that nightmare. Yep, I gave a demo!</p>
+<p>Why? Well, demos are like live-action thrillers—great for the audience but full of nerve-wracking moments for the speaker. Something is bound to go wrong (and spoiler: it did). Cue the sweaty palms and heart palpitations as things start to go wrong! But hey, the key is to stay calm, crack a joke or two, and power through the glitches.</p>
+<p>In hindsight, the demo could’ve been smoother, but for my first big talk, it wasn’t a complete disaster. Want to witness the chaos? Here’s the link to the demo fail <a href="https://www.youtube.com/watch?v=j_D0SG0yMEk">Link</a> I’m open to feedback (and maybe a little sympathy)!</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Every developer should experience the thrill of presenting their work to an appreciative public audience. It&rsquo;s more than just sharing your knowledge—it’s a chance to push your limits, boost your confidence, and ignite a deeper passion for learning. Stepping onto that stage changes the way you see yourself as a developer, fueling your drive to grow and evolve. Plus, there’s nothing quite like the energy of connecting with others and realizing how far you’ve come on your journey!</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>

@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codeklutz.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
     <loc>https://codeklutz.com/</loc>
-    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/journey/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/learning/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/posts/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/presentation/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/public-speaking/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://codeklutz.com/tags/talk/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/heap/</loc>
     <lastmod>2023-08-15T21:24:00+05:30</lastmod>
@@ -17,13 +41,7 @@
     <loc>https://codeklutz.com/tags/leetcode/</loc>
     <lastmod>2023-08-15T21:24:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
-  </url><url>
     <loc>https://codeklutz.com/tags/priorityqueue/</loc>
-    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
     <lastmod>2023-08-15T21:24:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/til/</loc>
@@ -48,9 +66,6 @@
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/help/</loc>
-    <lastmod>2023-05-18T23:10:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/learning/</loc>
     <lastmod>2023-05-18T23:10:00+05:30</lastmod>
   </url><url>
     <loc>https://codeklutz.com/tags/softwareengineer/</loc>
