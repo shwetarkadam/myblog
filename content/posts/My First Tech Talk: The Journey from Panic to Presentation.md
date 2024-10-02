@@ -1,9 +1,11 @@
 +++
+
 title = " My First Tech Talk: The Journey from Panic to Presentation"
 author = ["Shweta Kadam"]
 date = 2024-10-02T21:41:00+05:30
 tags = ["learning", "public speaking", "presentation", "journey", "talk"]
 draft = false
+
 +++
 
 # My First Tech Talk: The Journey from Panic to Presentation
