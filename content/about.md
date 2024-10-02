@@ -16,7 +16,7 @@ Experience: 5 years
 
 Programming Languages: Java
 
-Databases: MySQL, MongoDB
+Databases: MySQL
 
 Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)
 
