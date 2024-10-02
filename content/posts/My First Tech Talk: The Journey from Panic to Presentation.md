@@ -20,7 +20,7 @@ The talk has been selected ......so now what?
 The Panic strikes through!!
 But so does the cycle of preparation......
 
-![GitTogether Tech Talk](img/Screenshot 2024-10-02 at 21.14.56.png)
+![GitTogether Tech Talk](/img/Screenshot 2024-10-02 at 21.14.56.png)
 
 ## Will They Find It Interesting?
 
