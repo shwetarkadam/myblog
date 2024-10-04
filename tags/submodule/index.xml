@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/submodule/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/submodule/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
-      <pubDate>Sun, 01 Jan 2023 00:30:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
       <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.

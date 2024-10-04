@@ -74,26 +74,9 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
     </item>
     
     <item>
-      <title>Beware of the side bug</title>
-      <link>https://codeklutz.com/posts/beware-of-the-side-bug/</link>
-      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://codeklutz.com/posts/beware-of-the-side-bug/</guid>
-      <description>Often while debugging when are browsing code getting familiar with the code base and the context it is trying to say.We notice and observe several things which may need refactoring such as dependency may be out of date , outdated design pattern, a better way to handle exceptions and adding comments where necessary.The urge to leave the code in a better state than it was
-Another situation could also be coming across a concept or bug for which you might have got the solution for but not understood it completely or would like to study it further.</description>
-      <content:encoded><![CDATA[<p>Often while debugging when are browsing code getting familiar with the code base and the context it is trying to say.We notice and observe several things which may need refactoring such as dependency may be out of date , outdated design pattern, a better way to handle exceptions and adding comments where necessary.The urge to leave the code in a better state than it was</p>
-<p>Another situation could also be coming across a concept or bug for which you might have got the solution for but not understood it completely or would like to study it further.</p>
-<p>While these things are what makes us feel good about ourselves.It is important to not lose sight of the main goal or bug you are trying to solve.</p>
-<p>One thing I find myself doing these days  is focusing on the prioritised issue at hand first.Ask a senior or engineer who has more context and information about the issue at hand.
-And simultaneously note down the topics which I didn&rsquo;t understand completely in another place (sublime or self slack) for me to refer later and learn once the work storm calms down.</p>
-<p>This is one way I could to get back to learning new things&hellip;..</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>When to ask for help as a Software Engineer?</title>
       <link>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
       <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
@@ -114,7 +97,7 @@ It does two things:-</p>
     <item>
       <title>Tackling procrastination and kubernetes study</title>
       <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
-      <pubDate>Fri, 25 Feb 2022 15:45:00 +0000</pubDate>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>

@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Mar 2023 23:03:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 23:03:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Angular as a Java Developer</title>
       <link>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</link>
-      <pubDate>Wed, 22 Mar 2023 23:03:00 +0000</pubDate>
+      <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</guid>
       <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
@@ -113,11 +113,11 @@ When a code change is made, HMR only updates the module that has been modified, 
     <item>
       <title>My 2022 Year Review📓</title>
       <link>https://codeklutz.com/posts/my-2022-year-review/</link>
-      <pubDate>Mon, 26 Dec 2022 01:49:00 +0000</pubDate>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/my-2022-year-review/</guid>
       <description>It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.
-Work New friends and mentors I joined my new work place in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
+Work New friends and mentors I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
 I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.
 Promoted to Software Engineer 2 The title says all and I am grateful for it.</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.</p>
@@ -127,7 +127,7 @@ Promoted to Software Engineer 2 The title says all and I am grateful for it.</de
 
 <h2 id="work">Work</h2>
 <h3 id="new-friends-and-mentors">New friends and mentors</h3>
-<p>I joined my new work place in September 2021 &amp; had the pleasure to meet some amazing developers and colleagues.</p>
+<p>I joined Boku in September 2021 &amp; had the pleasure to meet some amazing developers and colleagues.</p>
 <p>I got the opportunity to learn a lot while on the job, through mentors, environment &amp; infrastructure itself.</p>
 <h3 id="promoted-to-software-engineer-2">Promoted to Software Engineer 2</h3>
 <p>The title says all and I am grateful for it. Without such an awesome environment, I wouldn&rsquo;t have faced the challenges, support and mentorship that I did.</p>
@@ -178,7 +178,7 @@ But diagram making tends to be a long time consuming task. I am currently trying
     <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
       <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
-      <pubDate>Sun, 20 Nov 2022 18:48:00 +0000</pubDate>
+      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
       <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
@@ -193,17 +193,17 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">Since</span> <span class="n">var</span> <span class="n">is</span> <span class="n">a</span> <span class="n">generic</span> <span class="n">element</span> <span class="n">type</span><span class="o">,</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">array</span> <span class="o">[]</span> <span class="n">provides</span> <span class="n">an</span> <span class="n">error</span> <span class="n">since</span> <span class="n">rather</span> <span class="n">than</span> <span class="n">being</span> <span class="n">generic</span> <span class="n">we</span> <span class="n">are</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">an</span> <span class="n">array</span> <span class="n">type</span><span class="o">.</span>
 </span></span></code></pre></div><h2 id="c-style-arraypermalink">C style ArrayPermalink</h2>
 <p>What is a c style array? Java supports providing [] before and after the variable name in an array</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">[]</span><span class="n">arr</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">arr1</span><span class="o">[]=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="kt">int</span> <span class="o">[]</span><span class="n">arr</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl"> <span class="kt">int</span> <span class="n">arr1</span><span class="o">[]=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
 </span></span></code></pre></div><p>In C style array, we provide [] after the variable name that is ~int arr1[].</p>
 <p>So in Java, suppose we have the following code:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">arr1</span><span class="o">[],</span><span class="n">arr2</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl"><span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>        <span class="c1">//COMPILE ERROR : error: incompatible types: int[] cannot be converted to int
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">arr1</span><span class="o">[],</span><span class="n">arr2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>        <span class="c1">//COMPILE ERROR : error: incompatible types: int[] cannot be converted to int
 </span></span></span></code></pre></div><p>The above code will result in COMPILE ERROR for arr2 since arr2 is not an array but a primitive int variable. But if we want to want both arr1 and arr12 as array type we need to change the declaration to</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">[]</span> <span class="n">arr1</span><span class="o">,</span><span class="n">arr2</span><span class="o">;</span> <span class="c1">//Notice how [] are
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl"><span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="o">[]</span> <span class="n">arr1</span><span class="o">,</span><span class="n">arr2</span><span class="o">;</span> <span class="c1">//Notice how [] are
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
 </span></span></code></pre></div><h2 id="arrays-dot-aslist-and-primitives">Arrays.asList and Primitives</h2>
 <p>Let’s look at the following example :</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="o">[]</span> <span class="n">strArr</span><span class="o">={</span><span class="s">&#34;one&#34;</span><span class="o">,</span><span class="s">&#34;two&#34;</span><span class="o">,</span><span class="s">&#34;three&#34;</span><span class="o">};</span>
@@ -217,7 +217,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
 </span></span><span class="line"><span class="cl"><span class="nl">
 </span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="kc">true</span> <span class="kc">false</span>
 </span></span></code></pre></div><p>Signature of Arrays.asList is var-args or List of T’s.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="nf">asList</span><span class="o">(</span><span class="n">T</span><span class="o">...</span> <span class="n">a</span><span class="o">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">      <span class="kd">public</span> <span class="kd">static</span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="nf">asList</span><span class="o">(</span><span class="n">T</span><span class="o">...</span> <span class="n">a</span><span class="o">)</span>
 </span></span></code></pre></div><p>T is of generic type so that means it needs to reference a Type such as Integer,Float and not reference Array of Ints</p>
 <p>But next question is Can they boxed ? (Autoboxing: Converting primitive to Class Type example : int -&gt; Integer) Answer is no Array of ints -&gt; Cannot be boxed -&gt; Array of Integer</p>
 <blockquote>
@@ -242,7 +242,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">numbers</span> <span class="o">=</span> <span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(-</span><span class="mi">1</span><span class="o">,</span><span class="mi">0</span><span class="o">,</span><span class="mi">1</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">,</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span> <span class="n">map</span><span class="o">=</span><span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
 </span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="o">.</span><span class="na">forEach</span><span class="o">(</span><span class="n">number</span><span class="o">-&gt;</span> <span class="n">map</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="o">(</span><span class="n">number</span><span class="o">,</span><span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;())</span>
-</span></span><span class="line"><span class="cl">	       <span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">number</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">               <span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">number</span><span class="o">));</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="mi">0</span><span class="o">));</span>
 </span></span><span class="line"><span class="cl"><span class="nl">
 </span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="n">NullPointerException</span><span class="o">:</span> <span class="n">Exception</span> <span class="n">in</span> <span class="n">thread</span> <span class="err">“</span><span class="n">main</span><span class="err">”</span> <span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">NullPointerException</span> <span class="n">at</span> <span class="n">HelloWorld</span><span class="o">.</span><span class="na">lambda$main$0</span><span class="o">(</span><span class="n">HelloWorld</span><span class="o">.</span><span class="na">java</span><span class="o">:</span><span class="mi">33</span><span class="o">)</span>
@@ -253,7 +253,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     <item>
       <title>Tackling procrastination and kubernetes study</title>
       <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
-      <pubDate>Fri, 25 Feb 2022 15:45:00 +0000</pubDate>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
@@ -316,7 +316,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     <item>
       <title>Tech Recap Journal- January📓</title>
       <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
-      <pubDate>Tue, 01 Feb 2022 15:15:00 +0000</pubDate>
+      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
       <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.

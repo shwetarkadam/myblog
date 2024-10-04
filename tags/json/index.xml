@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL: jq</title>
       <link>https://codeklutz.com/posts/today-i-learnt-til-jq/</link>
-      <pubDate>Thu, 22 Dec 2022 21:45:00 +0000</pubDate>
+      <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-til-jq/</guid>
       <description>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option. But my mac cried and was freezing in instances begging for me to not open more application :( This is where I came across a nifty tool called jq
@@ -24,14 +24,14 @@ But my mac cried and was freezing in instances begging for me to not open more a
 This is where I came across a nifty tool called  <strong><strong>jq</strong></strong></p>
 <p>jq is a lightweight and flexible command-line JSON processor. It is like sed for JSON data. It can used to transform json data into more readableformat.
 For example :</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl">  <span class="err">❯</span> <span class="err">echo</span>  <span class="err">&#39;</span><span class="p">{</span><span class="nt">&#34;fullName&#34;</span><span class="p">:</span> <span class="p">{</span><span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;Bruce&#34;</span><span class="p">,</span><span class="nt">&#34;middleName&#34;</span><span class="p">:</span> <span class="s2">&#34;Clark&#34;</span><span class="p">,</span> <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Wayne&#34;</span> <span class="p">}}</span><span class="err">&#39;</span> <span class="err">|</span> <span class="err">jq</span> <span class="err">.</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;fullName&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;Bruce&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;middleName&#34;</span><span class="p">:</span> <span class="s2">&#34;Clark&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Wayne&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl">         <span class="err">❯</span> <span class="err">echo</span>  <span class="err">&#39;</span><span class="p">{</span><span class="nt">&#34;fullName&#34;</span><span class="p">:</span> <span class="p">{</span><span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;Bruce&#34;</span><span class="p">,</span><span class="nt">&#34;middleName&#34;</span><span class="p">:</span> <span class="s2">&#34;Clark&#34;</span><span class="p">,</span> <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Wayne&#34;</span> <span class="p">}}</span><span class="err">&#39;</span> <span class="err">|</span> <span class="err">jq</span> <span class="err">.</span>
+</span></span><span class="line"><span class="cl">       <span class="p">{</span>
+</span></span><span class="line"><span class="cl">         <span class="nt">&#34;fullName&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">           <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;Bruce&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">           <span class="nt">&#34;middleName&#34;</span><span class="p">:</span> <span class="s2">&#34;Clark&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">           <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Wayne&#34;</span>
+</span></span><span class="line"><span class="cl">         <span class="p">}</span>
+</span></span><span class="line"><span class="cl">       <span class="p">}</span>
 </span></span></code></pre></div><h2 id="where-and-why-would-you-use-it">Where and why would you use it?</h2>
 <p>There are a few reasons I could think of why I would use jq regularly:</p>
 <!--list-separator-->
@@ -43,8 +43,8 @@ For example :</p>
 <li>
 <p>Once can prettify a curl output with jq.</p>
 <p>This is a great option when you pretty json output on the go for example <code>healthcheck</code> urls of your application apis.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-url-you-are-calling.com | jq .
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-healthcheck.com/healthcheck | jq .
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl">        <span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-url-you-are-calling.com | jq .
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="err">curl</span> <span class="err">http:</span><span class="c1">//example-api-healthcheck.com/healthcheck | jq .
 </span></span></span></code></pre></div></li>
 </ul>
 <!--list-separator-->

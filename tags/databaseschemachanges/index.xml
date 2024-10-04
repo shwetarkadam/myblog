@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Nov 2022 15:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/databaseschemachanges/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 15:49:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/databaseschemachanges/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt: Database Version Control</title>
       <link>https://codeklutz.com/posts/today-i-learnt-database-version-control/</link>
-      <pubDate>Mon, 07 Nov 2022 15:49:00 +0000</pubDate>
+      <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/today-i-learnt-database-version-control/</guid>
       <description>Upon stumbling upon this motivating HN post by Simon Willison I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</description>
@@ -34,28 +34,28 @@ Applications such as liquidbase,flyway scripts come in handy Speaking of liquiba
 </blockquote>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="nt">&lt;databaseChangeLog</span>
-</span></span><span class="line"><span class="cl">      <span class="na">xmlns=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">xmlns:xsi=</span><span class="s">&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">xmlns:ext=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog-ext&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">xmlns:pro=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/pro&#34;</span>
-</span></span><span class="line"><span class="cl">      <span class="na">xsi:schemaLocation=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog
-</span></span></span><span class="line"><span class="cl"><span class="s">	      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
-</span></span></span><span class="line"><span class="cl"><span class="s">	      http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
-</span></span></span><span class="line"><span class="cl"><span class="s">	      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="na">xmlns=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="na">xmlns:xsi=</span><span class="s">&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="na">xmlns:ext=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog-ext&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="na">xmlns:pro=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/pro&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="na">xsi:schemaLocation=</span><span class="s">&#34;http://www.liquibase.org/xml/ns/dbchangelog
+</span></span></span><span class="line"><span class="cl"><span class="s">		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+</span></span></span><span class="line"><span class="cl"><span class="s">		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+</span></span></span><span class="line"><span class="cl"><span class="s">		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd&#34;</span><span class="nt">&gt;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">     <span class="nt">&lt;changeSet</span>  <span class="na">id=</span><span class="s">&#34;1&#34;</span>  <span class="na">author=</span><span class="s">&#34;XYZ&#34;</span><span class="nt">&gt;</span>
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;comment&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;comment&gt;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;/comment&gt;</span>
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;sql&gt;</span>
-</span></span><span class="line"><span class="cl">	INSERT INTO Exampledb.exampletable(&#39;id&#39;,&#39;name,&#39;serial&#39;)
-</span></span><span class="line"><span class="cl">	VALUES(&#34;1&#34;,&#34;test&#34;,&#34;serial&#34;);
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;/sql&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/comment&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;sql&gt;</span>
+</span></span><span class="line"><span class="cl">        INSERT INTO Exampledb.exampletable(&#39;id&#39;,&#39;name,&#39;serial&#39;)
+</span></span><span class="line"><span class="cl">        VALUES(&#34;1&#34;,&#34;test&#34;,&#34;serial&#34;);
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/sql&gt;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;rollback&gt;</span>
-</span></span><span class="line"><span class="cl">	DELETE FROM  Exampledb.exampletable where id=&#34;1&#34;;
-</span></span><span class="line"><span class="cl">	<span class="nt">&lt;/rollback&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;rollback&gt;</span>
+</span></span><span class="line"><span class="cl">        DELETE FROM  Exampledb.exampletable where id=&#34;1&#34;;
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/rollback&gt;</span>
 </span></span><span class="line"><span class="cl"> <span class="nt">&lt;/databaseChangeLog&gt;</span>
 </span></span></code></pre></div><p>This changelog file needs to be included in a master changelog file which consists a list of all change log files (Similar to how a git commit history consists of all commit ids)</p>
 ]]></content:encoded>

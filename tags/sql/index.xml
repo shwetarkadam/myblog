@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jan 2022 23:49:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 23:49:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
       <link>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
-      <pubDate>Wed, 12 Jan 2022 23:49:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
       <description>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.
@@ -54,7 +54,7 @@ I wanted to avoid writing the searching, comparing time logic (dates, in general
 </span></span><span class="line"><span class="cl">    <span class="nd">@Scheduled</span><span class="o">(</span><span class="n">cron</span><span class="o">=</span><span class="s">&#34;*/15 * * * * ?&#34;</span><span class="o">)</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">testScheduled</span><span class="o">()</span>
 </span></span><span class="line"><span class="cl">    <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed at every 15 seconds. Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed at every 15 seconds. Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><p>A guide for cron jobs: cron Image source :Java Techonline
@@ -70,7 +70,7 @@ I wanted to avoid writing the searching, comparing time logic (dates, in general
 </span></span><span class="line"><span class="cl">    <span class="nd">@Scheduled</span><span class="o">(</span><span class="n">fixedDelay</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">,</span> <span class="n">initialDelay</span> <span class="o">=</span> <span class="mi">5000</span><span class="o">)</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">testScheduled</span><span class="o">()</span>
 </span></span><span class="line"><span class="cl">    <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed with fixed delay and initial delay . Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed with fixed delay and initial delay . Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><p>Also Fixed Delay can take input in String and Integer. @Scheduled(fixedDelayString = “7000”) @Scheduled(fixedDelayString = 7000)
@@ -80,7 +80,7 @@ Fixed Rate:</p>
 </span></span><span class="line"><span class="cl">    <span class="nd">@Scheduled</span><span class="o">(</span><span class="n">fixedRate</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">)</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">testScheduled</span><span class="o">()</span>
 </span></span><span class="line"><span class="cl">    <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed with fixed rate . Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Method executed with fixed rate . Current time is :: &#34;</span><span class="o">+</span> <span class="k">new</span> <span class="n">Date</span><span class="o">());</span>
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><p>That’s all folks.Learning about events and cron jobs and where could be applied was interesting to learn when applied on some small practical application.</p>

@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/kubeapiserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/kubeapiserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tackling procrastination and kubernetes study</title>
       <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
-      <pubDate>Fri, 25 Feb 2022 15:45:00 +0000</pubDate>
+      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>

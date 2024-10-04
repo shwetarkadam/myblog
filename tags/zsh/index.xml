@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Jan 2022 23:41:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 23:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
       <link>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
-      <pubDate>Fri, 21 Jan 2022 23:41:00 +0000</pubDate>
+      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
       <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
@@ -62,10 +62,10 @@ Here is a small example of small WIP config for reference.</p>
 <p>This one Autocompletes while you type a command.This is useful especially when you type commands which you use daily but need to to try multiple times such as navigating and printing log at a specific long location. Git Clone the zsh-autocomplete plugin in the OhMyZsh plugin folder.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions
 </span></span></code></pre></div><p>Once that is done, add the plugin in the ~/.zshrc file&rsquo;s plugin list.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">  <span class="nv">plugins</span><span class="o">=(</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">plugins</span><span class="o">=(</span>
 </span></span><span class="line"><span class="cl"> …
 </span></span><span class="line"><span class="cl"> zsh-autosuggestions
-</span></span><span class="line"><span class="cl">  <span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="o">)</span>
 </span></span></code></pre></div><figure>
     <img loading="lazy" src="/img/zshautosuggest.PNG"/> 
 </figure>

@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jan 2022 22:53:00 +0000</lastBuildDate><atom:link href="https://codeklutz.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 22:53:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrating Swagger OpenAPI for easy API documentation in spring boot</title>
       <link>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
-      <pubDate>Sun, 16 Jan 2022 22:53:00 +0000</pubDate>
+      <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
       <description>These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.
@@ -64,64 +64,64 @@ Check <a href="http://localhost:8080/swagger">http://localhost:8080/swagger</a> 
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nd">@RestController</span>
 </span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainController</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">      <span class="nd">@Autowired</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">BookRepository</span> <span class="n">bookRepository</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@Autowired</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">BookRepository</span> <span class="n">bookRepository</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/test&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">String</span> <span class="nf">test</span><span class="o">()</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="k">new</span> <span class="n">String</span><span class="o">(</span><span class="s">&#34;Working from DOcker Bopoks proj &#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">      <span class="o">}</span>
-</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">fetchAllBooks</span><span class="o">()</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	      <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/test&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">String</span> <span class="nf">test</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="k">new</span> <span class="n">String</span><span class="o">(</span><span class="s">&#34;Working from DOcker Bopoks proj &#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">fetchAllBooks</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">();</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error occured in fetchAllBooks&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error occured in fetchAllBooks&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">books</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/{bookID}&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">Book</span> <span class="nf">fetchBookfromID</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;bookID&#34;</span><span class="o">)</span> <span class="n">Long</span> <span class="n">bookID</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	      <span class="n">Book</span> <span class="n">book</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="n">book</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">getById</span><span class="o">(</span><span class="n">bookID</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/{bookID}&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">Book</span> <span class="nf">fetchBookfromID</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;bookID&#34;</span><span class="o">)</span> <span class="n">Long</span> <span class="n">bookID</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">Book</span> <span class="n">book</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">book</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">getById</span><span class="o">(</span><span class="n">bookID</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in fetchBookfromID&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in fetchBookfromID&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">book</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">book</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/search/{title}&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">searchBookByTitle</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;title&#34;</span><span class="o">)</span> <span class="n">String</span> <span class="n">title</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">	      <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">try</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="c1">//System.out.println(title);
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		      <span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">fuzzySearchByTitle</span><span class="o">(</span><span class="n">title</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">		      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">books</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/search/{title}&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="nf">searchBookByTitle</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">&#34;title&#34;</span><span class="o">)</span> <span class="n">String</span> <span class="n">title</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">		<span class="k">try</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">//System.out.println(title);
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>			<span class="n">books</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">fuzzySearchByTitle</span><span class="o">(</span><span class="n">title</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">			<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">books</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in searchBookByTitle&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="n">books</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="k">throw</span> <span class="k">new</span> <span class="n">ResponseStatusException</span><span class="o">(</span><span class="n">HttpStatus</span><span class="o">.</span><span class="na">INTERNAL_SERVER_ERROR</span><span class="o">,</span> <span class="s">&#34;Error Occured in searchBookByTitle&#34;</span><span class="o">,</span> <span class="n">ex</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">books</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      <span class="nd">@PostMapping</span><span class="o">(</span><span class="s">&#34;/insertBooks&#34;</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">      <span class="kd">public</span> <span class="n">String</span> <span class="nf">insertBooks</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">&#34;/insertBooks&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="n">String</span> <span class="nf">insertBooks</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Book</span><span class="o">&gt;</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	      <span class="k">for</span> <span class="o">(</span><span class="n">Book</span> <span class="n">b</span> <span class="o">:</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">		      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">b</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
-</span></span><span class="line"><span class="cl">		      <span class="n">Book</span> <span class="n">b1</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">		      <span class="k">if</span> <span class="o">(</span><span class="n">b1</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
-</span></span><span class="line"><span class="cl">			      <span class="k">return</span> <span class="s">&#34;Book object is null&#34;</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	      <span class="o">}</span>
-</span></span><span class="line"><span class="cl">	      <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">      <span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="o">(</span><span class="n">Book</span> <span class="n">b</span> <span class="o">:</span> <span class="n">books</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">b</span><span class="o">.</span><span class="na">toString</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Book</span> <span class="n">b1</span> <span class="o">=</span> <span class="n">bookRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">b</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="o">(</span><span class="n">b1</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">				<span class="k">return</span> <span class="s">&#34;Book object is null&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">		<span class="o">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div><p>So the swagger ui look something like this.
 Also json docs will be available at <a href="http://localhost:8080/api">http://localhost:8080/api</a> springdoc.swagger-ui.operationsSorter=method sorts the API paths in order of their HTTP methods.
