@@ -3,6 +3,7 @@ showToc: false            # Optional: if you want to hide the Table of Contents
 showReadingTime: false     # Hide reading time
 showWordCount: false       # Hide word count
 showAuthor: false          # Hide author
+layout: single
 disableSuggestChanges: true # Disable the "Suggest Changes" option
 ---
 
