@@ -7,12 +7,9 @@ layout: single
 disableSuggestChanges: true # Disable the "Suggest Changes" option
 ---
 
-
 Presenting my first talk at GitTogether Mumbai 
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G3V7p1JB4ZY?si=JSzqv7zS0Goe_7tb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G3V7p1JB4ZY?si=ZV00lutxyK4K82nd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- Add your Google AdSense code here -->
 <div class="ad-container">
