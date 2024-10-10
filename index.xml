@@ -1402,24 +1402,24 @@ The Bad parts are made by me.
       
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/public/img/IMG_0472.jpeg" alt=""  />
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/img/IMG_0472.jpeg" alt=""  />
 </p>
 <h2 id="main-skills">Main Skills:</h2>
-<p>Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.</p>
+<p>Most proficient in Java, Spring, Angular and dabble a bit with Kubernetes.</p>
 <p>Experience: 5 years</p>
 <p>Programming Languages: Java</p>
 <p>Databases: MySQL</p>
-<p>Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)</p>
+<p>Infrastructure: Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins)</p>
 <p>Cloud: Amazon Web Services</p>
 <p>Operating Systems: macOS, Linux (Ubuntu), Windows 10</p>
 <p>Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbucket)</p>
 <h2 id="education">Education:</h2>
-<p>Engineering degree in Computer Branch from Mumbai University.
-Skills
+<p>Engineering degree in Computer Branch from Mumbai University.</p>
+<p>Skills:
 Technical: I fix more things than I break and create new things that don&rsquo;t break as often.
 Social: Great communication | pleasant to work with | works great by myself &amp; in a team.</p>
 <p>Check out my work
-Code on my Github
+Code on my GitHub
 I love
 Coding - Music - Anime - Writing.</p>
 <h2 id="links">Links</h2>
