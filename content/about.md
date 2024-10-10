@@ -6,11 +6,11 @@ summary: about
 showReadingTime: "false"
 showWordCount : "false"
 ---
-![](/public/img/IMG_0472.jpeg)
+![](/img/IMG_0472.jpeg)
 
 ## Main Skills:
 
-Most proficient in Java, Spring, Angular and dabble a bit with Kuberenetes.
+Most proficient in Java, Spring, Angular and dabble a bit with Kubernetes.
 
 Experience: 5 years
 
@@ -18,7 +18,7 @@ Programming Languages: Java
 
 Databases: MySQL
 
-Infrastructure: Docker, Kubernetes, Terraform, CI/CD (GitHub Actions, Jenkins)
+Infrastructure: Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins)
 
 Cloud: Amazon Web Services
 
@@ -28,12 +28,13 @@ Other: Command Line, Git, Agile, Scrum, Atlassian Suite (Jira, Confluence, Bitbu
 
 ## Education:
 Engineering degree in Computer Branch from Mumbai University.
-Skills
+
+Skills:
 Technical: I fix more things than I break and create new things that don't break as often. 
 Social: Great communication | pleasant to work with | works great by myself & in a team.
 
 Check out my work
-Code on my Github
+Code on my GitHub
 I love
 Coding - Music - Anime - Writing.
 
