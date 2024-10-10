@@ -6,7 +6,7 @@ summary: about
 showReadingTime: "false"
 showWordCount : "false"
 ---
-![About Me](../public/img/IMG_0472.jpeg)
+![](/public/img/IMG_0472.jpeg)
 
 ## Main Skills:
 
