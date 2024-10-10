@@ -188,11 +188,11 @@ url = "archives"
 weight = 6
 
 
-[[menu.main]]
-identifier = "Portfolio"
-name = "Portfolio"
-url = "https://shweta.io"
-weight = 31
+# [[menu.main]]
+# identifier = "Portfolio"
+# name = "Portfolio"
+# url = "https://shweta.io"
+# weight = 31
 
   
 [[menu.main]]
