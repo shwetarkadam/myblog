@@ -39,3 +39,8 @@ In hindsight, the demo could’ve been smoother, but for my first big talk, it w
 
 ## Final Thoughts
 Every developer should experience the thrill of presenting their work to an appreciative public audience. It's more than just sharing your knowledge—it’s a chance to push your limits, boost your confidence, and ignite a deeper passion for learning. Stepping onto that stage changes the way you see yourself as a developer, fueling your drive to grow and evolve. Plus, there’s nothing quite like the energy of connecting with others and realizing how far you’ve come on your journey!
+
+
+Do checkout my presentation link and feel free to provide any feedback via [email](hello@shweta.io) or on [Linkedin](https://www.linkedin.com/in/shwetarkadam/)!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=xC1OJBQE2eM9graJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
