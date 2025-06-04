@@ -175,11 +175,11 @@ name = "tags"
 url = "/tags/"
 weight = 20
 
-[[menu.main]]
-identifier = "Notes Digital Hub"
-name = "Notes Digital Hub"
-url = "https://notes.codeklutz.com"
-weight = 30
+# [[menu.main]]
+# identifier = "Notes Digital Hub"
+# name = "Notes Digital Hub"
+# url = "https://notes.codeklutz.com"
+# weight = 30
 
 [[menu.main]]
 identifier = "archive"
