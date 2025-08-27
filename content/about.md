@@ -6,9 +6,19 @@ summary: about
 showReadingTime: "false"
 showWordCount : "false"
 ---
+<div style="display:flex; align-items:flex-start; gap:2rem; flex-wrap:wrap;">
 
-<img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" width="520" style="border-radius:16px; display:block; margin:0 auto 1rem;" />
+  <!-- Left Column: Image -->
+  <div style="flex:1; min-width:250px; max-width:400px;">
+    <img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" style="width:100%; border-radius:12px;" />
+  </div>
 
+  <!-- Right Column: Content -->
+  <div style="flex:2; min-width:300px;">
+
+  ## Hi, I’m Shweta Kadam 👋  
+  Backend-first engineer with ~5 years of experience building and scaling fintech systems.  
+  Most at home with **Java + Spring**, but I also ship reliable services on **AWS, Docker, Kubernetes**.
 
 ## Main Skills:
 
@@ -47,3 +57,6 @@ Coding - Music - Anime - Writing.
 
 Contact Me
 hello@shweta.io  or [LinkedIn](https://www.linkedin.com/shwetarkadam)
+
+  </div>
+</div>
