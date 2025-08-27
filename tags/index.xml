@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2024 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>journey</title>
       <link>https://codeklutz.com/tags/journey/</link>
-      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/journey/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>learning</title>
       <link>https://codeklutz.com/tags/learning/</link>
-      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/learning/</guid>
       <description></description>
@@ -32,9 +32,19 @@
     </item>
     
     <item>
+      <title>n8n</title>
+      <link>https://codeklutz.com/tags/n8n/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/tags/n8n/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>presentation</title>
       <link>https://codeklutz.com/tags/presentation/</link>
-      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/presentation/</guid>
       <description></description>
@@ -44,7 +54,7 @@
     <item>
       <title>public speaking</title>
       <link>https://codeklutz.com/tags/public-speaking/</link>
-      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/public-speaking/</guid>
       <description></description>
@@ -54,7 +64,7 @@
     <item>
       <title>talk</title>
       <link>https://codeklutz.com/tags/talk/</link>
-      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/talk/</guid>
       <description></description>
@@ -62,19 +72,9 @@
     </item>
     
     <item>
-      <title>n8n</title>
-      <link>https://codeklutz.com/tags/n8n/</link>
-      <pubDate>Sat, 20 Apr 2024 21:41:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/n8n/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>vault</title>
       <link>https://codeklutz.com/tags/vault/</link>
-      <pubDate>Sat, 20 Apr 2024 21:41:00 +0530</pubDate>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/tags/vault/</guid>
       <description></description>

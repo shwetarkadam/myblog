@@ -10,7 +10,33 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2024 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
+      <link>https://codeklutz.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://codeklutz.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
+      <description>Exploring TLS Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
+      <content:encoded><![CDATA[<h2 id="exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Automation — A Proof of Concept with n8n and Vault</h2>
+<p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action</p>
+<p>The workflow I showcased was simple yet powerful:</p>
+<p>Monitoring expiry with early alerts</p>
+<p>Triggering automatic renewals via Vault’s PKI engine</p>
+<p>Deploying renewed certificates without manual steps</p>
+<p>Validating results in Vault for full transparency</p>
+<p>This wasn’t a slide deck—it was about demonstrating the ability such a system can provide: hands-off certificate lifecycle management, built entirely on open-source tools.</p>
+<p>Why n8n + Vault?</p>
+<p>n8n brings the flexibility of a visual automation platform—easy to extend, no coding required for most steps.</p>
+<p>Vault provides a battle-tested PKI engine with strong security guarantees.</p>
+<p>Together, they eliminate vendor lock-in, subscription costs, and opaque “black box” processes.</p>
+<p>Beyond the Demo</p>
+<p>While I shared this prototype in a lightning talk at Mumbai FOSS 2025, the real takeaway is that any team can replicate it today. Whether managing a handful of certs or rolling this out across multiple environments, the approach scales with your needs.</p>
+<p>As a bonus, this same session was also wait-listed for the Open Source Summit India 2025, highlighting the growing interest in practical, open-source security automation.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title> My First Tech Talk: The Journey from Panic to Presentation</title>
       <link>https://codeklutz.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
@@ -41,32 +67,6 @@ Once the panic and excitement strikes through so does the preparation. Preparing
 <p>Every developer should experience the thrill of presenting their work to an appreciative public audience. It&rsquo;s more than just sharing your knowledge—it’s a chance to push your limits, boost your confidence, and ignite a deeper passion for learning. Stepping onto that stage changes the way you see yourself as a developer, fueling your drive to grow and evolve. Plus, there’s nothing quite like the energy of connecting with others and realizing how far you’ve come on your journey!</p>
 <p>Do checkout my presentation link and feel free to provide any feedback via <a href="hello@shweta.io">email</a> or on <a href="https://www.linkedin.com/in/shwetarkadam/">Linkedin</a>!</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=xC1OJBQE2eM9graJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>https://codeklutz.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</link>
-      <pubDate>Sat, 20 Apr 2024 21:41:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
-      <description>Exploring TLS Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
-      <content:encoded><![CDATA[<h2 id="exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Automation — A Proof of Concept with n8n and Vault</h2>
-<p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
-The Prototype in Action</p>
-<p>The workflow I showcased was simple yet powerful:</p>
-<p>Monitoring expiry with early alerts</p>
-<p>Triggering automatic renewals via Vault’s PKI engine</p>
-<p>Deploying renewed certificates without manual steps</p>
-<p>Validating results in Vault for full transparency</p>
-<p>This wasn’t a slide deck—it was about demonstrating the ability such a system can provide: hands-off certificate lifecycle management, built entirely on open-source tools.</p>
-<p>Why n8n + Vault?</p>
-<p>n8n brings the flexibility of a visual automation platform—easy to extend, no coding required for most steps.</p>
-<p>Vault provides a battle-tested PKI engine with strong security guarantees.</p>
-<p>Together, they eliminate vendor lock-in, subscription costs, and opaque “black box” processes.</p>
-<p>Beyond the Demo</p>
-<p>While I shared this prototype in a lightning talk at Mumbai FOSS 2025, the real takeaway is that any team can replicate it today. Whether managing a handful of certs or rolling this out across multiple environments, the approach scales with your needs.</p>
-<p>As a bonus, this same session was also wait-listed for the Open Source Summit India 2025, highlighting the growing interest in practical, open-source security automation.</p>
 ]]></content:encoded>
     </item>
     
