@@ -6,7 +6,9 @@ summary: about
 showReadingTime: "false"
 showWordCount : "false"
 ---
-![](/img/IMG_0472.jpeg)
+
+<img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" width="520" style="border-radius:16px; display:block; margin:0 auto 1rem;" />
+
 
 ## Main Skills:
 
