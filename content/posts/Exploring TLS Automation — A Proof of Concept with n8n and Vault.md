@@ -1,7 +1,7 @@
 +++
 title = " Exploring TLS Automation — A Proof of Concept with n8n and Vault"
 author = ["Shweta Kadam"]
-date = 2024-04-20T21:41:00+05:30
+date = 2025-04-20T21:41:00+05:30
 tags = ["learning", "public speaking", "presentation", "journey", "talk","n8n","vault"]
 draft = false
 +++
