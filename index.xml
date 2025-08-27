@@ -1430,7 +1430,16 @@ The Bad parts are made by me.
       
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
-      <content:encoded><![CDATA[<img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" width="520" style="border-radius:16px; display:block; margin:0 auto 1rem;" />
+      <content:encoded><![CDATA[<div style="display:flex; align-items:flex-start; gap:2rem; flex-wrap:wrap;">
+  <!-- Left Column: Image -->
+  <div style="flex:1; min-width:250px; max-width:400px;">
+    <img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" style="width:100%; border-radius:12px;" />
+  </div>
+  <!-- Right Column: Content -->
+  <div style="flex:2; min-width:300px;">
+<h2 id="hi-im-shweta-kadam-">Hi, I’m Shweta Kadam 👋</h2>
+<p>Backend-first engineer with ~5 years of experience building and scaling fintech systems.<br>
+Most at home with <strong>Java + Spring</strong>, but I also ship reliable services on <strong>AWS, Docker, Kubernetes</strong>.</p>
 <h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java, Spring, Angular and dabble a bit with Kubernetes.</p>
 <p>Experience: 5 years</p>
@@ -1455,6 +1464,8 @@ Coding - Music - Anime - Writing.</p>
 <a href="https://codeklutz.com/index.xml">RSS Feed</a></p>
 <p>Contact Me
 <a href="mailto:hello@shweta.io">hello@shweta.io</a>  or <a href="https://www.linkedin.com/shwetarkadam">LinkedIn</a></p>
+  </div>
+</div>
 ]]></content:encoded>
     </item>
     
