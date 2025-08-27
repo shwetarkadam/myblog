@@ -1404,8 +1404,7 @@ The Bad parts are made by me.
       
       <guid>https://codeklutz.com/about/</guid>
       <description>about</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/img/IMG_0472.jpeg" alt=""  />
-</p>
+      <content:encoded><![CDATA[<img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" width="520" style="border-radius:16px; display:block; margin:0 auto 1rem;" />
 <h2 id="main-skills">Main Skills:</h2>
 <p>Most proficient in Java, Spring, Angular and dabble a bit with Kubernetes.</p>
 <p>Experience: 5 years</p>
