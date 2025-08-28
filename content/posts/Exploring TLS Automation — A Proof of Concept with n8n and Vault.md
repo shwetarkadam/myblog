@@ -7,7 +7,7 @@ draft = false
 +++
 
 
-## Exploring TLS Automation — A Proof of Concept with n8n and Vault
+## Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault
 
 Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action
