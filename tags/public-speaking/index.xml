@@ -17,8 +17,8 @@
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
       <guid>https://codeklutz.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
-      <description>Exploring TLS Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
-      <content:encoded><![CDATA[<h2 id="exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Automation — A Proof of Concept with n8n and Vault</h2>
+      <description>Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
+      <content:encoded><![CDATA[<h2 id="exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault</h2>
 <p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action</p>
 <p>The workflow I showcased was simple yet powerful:</p>
