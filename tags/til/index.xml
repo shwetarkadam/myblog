@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>til on Codeklutz</title>
-    <link>https://codeklutz.com/tags/til/</link>
-    <description>Recent content in til on Codeklutz</description>
+    <title>til on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/til/</link>
+    <description>Recent content in til on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
       <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
       <content:encoded><![CDATA[<p>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
 Some mini tricks I learnt by doing the problem <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/">https://leetcode.com/problems/kth-largest-element-in-a-stream/description/</a>
@@ -38,10 +38,10 @@ Priority Queue</p>
     
     <item>
       <title>Today I learnt : Kubectl commands for debugging</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
       <description>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
 To check logs kubectl logs -f pod_name Useful when you need to check logs inside a pod.
 To get the bin bash inside a pod kubectl --exec --stdin --tty podname --bin/bash This is useful command to check for certain versions or debugging which is done This command was helpful for determining Java versions inside the pod which was used in a particular environment.</description>
@@ -68,10 +68,10 @@ If your company uses Jenkins to make builds and then deploys them uses kubernete
     
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
       <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
 what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
 It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>
@@ -158,10 +158,10 @@ And then again created a submodule entry with my usernameAnd that&rsquo;s how th
     
     <item>
       <title>Today I learnt TIL: jq</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-jq/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-jq/</link>
       <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-jq/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-jq/</guid>
       <description>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option. But my mac cried and was freezing in instances begging for me to not open more application :( This is where I came across a nifty tool called jq
 jq is a lightweight and flexible command-line JSON processor. It is like sed for JSON data.</description>
       <content:encoded><![CDATA[<p>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
@@ -220,10 +220,10 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     
     <item>
       <title>Today I learnt (TIL): jq</title>
-      <link>https://codeklutz.com/posts/til-jq/</link>
+      <link>https://shwetakadam.com/posts/til-jq/</link>
       <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/til-jq/</guid>
+      <guid>https://shwetakadam.com/posts/til-jq/</guid>
       <description>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option. But my mac cried and was freezing in instances begging for me to not open more application :( This is where I came across a nifty tool called jq
 jq is a lightweight and flexible command-line JSON processor. It is like sed for JSON data.</description>
       <content:encoded><![CDATA[<p>Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
@@ -282,10 +282,10 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     
     <item>
       <title>Today I learnt:422 HTTP Error code</title>
-      <link>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt422-http-error-code/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt422-http-error-code/</guid>
       <description>Today while testing a soap API at work, I came across this HTTP error code called HTTP/1.1 422 Unprocessable Entity . According to MDN Web docs, it means the following :
 The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.</description>
       <content:encoded><![CDATA[<p>Today while testing a soap API at work, I came across this HTTP error code called <strong><strong>HTTP/1.1 422 Unprocessable Entity</strong></strong> . According to MDN Web docs, it means the following :</p>
@@ -310,10 +310,10 @@ According to <a href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">RFC</
     
     <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
       <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
 Today’s TIL : Crazy things to do with Java 11+
 Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
@@ -385,10 +385,10 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     
     <item>
       <title>Today I learnt: Database Version Control</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-database-version-control/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-database-version-control/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</guid>
       <description>Upon stumbling upon this motivating HN post by Simon Willison I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</description>
       <content:encoded><![CDATA[<p>Upon stumbling upon this motivating HN post by <a href="https://simonwillison.net/2022/Nov/6/what-to-blog-about/">Simon Willison</a> I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</p>
 <p>Starting with Today’s TIL : <strong><strong>Database Version Control</strong></strong></p>

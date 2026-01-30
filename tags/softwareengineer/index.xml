@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>softwareengineer on Codeklutz</title>
-    <link>https://codeklutz.com/tags/softwareengineer/</link>
-    <description>Recent content in softwareengineer on Codeklutz</description>
+    <title>softwareengineer on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/softwareengineer/</link>
+    <description>Recent content in softwareengineer on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/softwareengineer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/softwareengineer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Thinking Fast and Slow Concepts on Programming</title>
-      <link>https://codeklutz.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <link>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
       <description>Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!
 The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions.</description>
       <content:encoded><![CDATA[<p>Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!</p>
@@ -45,10 +45,10 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
     
     <item>
       <title>When to ask for help as a Software Engineer?</title>
-      <link>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <link>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
       <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
 Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
       <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.

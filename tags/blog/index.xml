@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blog on Codeklutz</title>
-    <link>https://codeklutz.com/tags/blog/</link>
-    <description>Recent content in blog on Codeklutz</description>
+    <title>blog on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/blog/</link>
+    <description>Recent content in blog on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Mar 2023 23:03:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 23:03:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Angular as a Java Developer</title>
-      <link>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</link>
+      <link>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/learning-angular-as-a-java-developer/</guid>
+      <guid>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</guid>
       <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
 What is Angular ? Framework to build client side applications.
 Why would you use Angular? Vanilla JQuery code gets harder to maintain,harder to test.
@@ -112,10 +112,10 @@ When a code change is made, HMR only updates the module that has been modified, 
     
     <item>
       <title>My 2022 Year Review📓</title>
-      <link>https://codeklutz.com/posts/my-2022-year-review/</link>
+      <link>https://shwetakadam.com/posts/my-2022-year-review/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/my-2022-year-review/</guid>
+      <guid>https://shwetakadam.com/posts/my-2022-year-review/</guid>
       <description>It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.
 Work New friends and mentors I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
 I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.
@@ -177,10 +177,10 @@ But diagram making tends to be a long time consuming task. I am currently trying
     
     <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
-      <link>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
       <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
 Today’s TIL : Crazy things to do with Java 11+
 Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
@@ -252,10 +252,10 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     
     <item>
       <title>Tackling procrastination and kubernetes study</title>
-      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <link>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
@@ -315,10 +315,10 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     
     <item>
       <title>Tech Recap Journal- January📓</title>
-      <link>https://codeklutz.com/posts/tech-recap-journal-january/</link>
+      <link>https://shwetakadam.com/posts/tech-recap-journal-january/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/tech-recap-journal-january/</guid>
+      <guid>https://shwetakadam.com/posts/tech-recap-journal-january/</guid>
       <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
 However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
 My Blog! codeklutz.com I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.</description>

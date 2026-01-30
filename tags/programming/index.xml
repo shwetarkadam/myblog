@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>programming on Codeklutz</title>
-    <link>https://codeklutz.com/tags/programming/</link>
-    <description>Recent content in programming on Codeklutz</description>
+    <title>programming on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/programming/</link>
+    <description>Recent content in programming on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 23:28:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polymorphism in Java</title>
-      <link>https://codeklutz.com/posts/polymorphism-in-java/</link>
+      <link>https://shwetakadam.com/posts/polymorphism-in-java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/polymorphism-in-java/</guid>
+      <guid>https://shwetakadam.com/posts/polymorphism-in-java/</guid>
       <description>Just revisiting and explaining myself Polymorphism concept here through a blog post. The words Polymorphism means multiple forms.
 In Java ,Polymorphism means multiple forms of an object. We shall divide this article into 3 sections.
 1.Syntax
@@ -98,10 +98,10 @@ If a method is called from a polymorphic object ,we follow a 2 step procedure: 1
     
     <item>
       <title>How constructors work in Java</title>
-      <link>https://codeklutz.com/posts/how-constructors-work-in-java/</link>
+      <link>https://shwetakadam.com/posts/how-constructors-work-in-java/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/how-constructors-work-in-java/</guid>
+      <guid>https://shwetakadam.com/posts/how-constructors-work-in-java/</guid>
       <description>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.
 A constructor is used to initialize instance variables When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error. By default every class has a constructor called default no argument constructor.</description>
       <content:encoded><![CDATA[<p>Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.</p>

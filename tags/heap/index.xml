@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>heap on Codeklutz</title>
-    <link>https://codeklutz.com/tags/heap/</link>
-    <description>Recent content in heap on Codeklutz</description>
+    <title>heap on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/heap/</link>
+    <description>Recent content in heap on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/heap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 21:24:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/heap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
-      <link>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
       <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
       <content:encoded><![CDATA[<p>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
 Some mini tricks I learnt by doing the problem <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/">https://leetcode.com/problems/kth-largest-element-in-a-stream/description/</a>
