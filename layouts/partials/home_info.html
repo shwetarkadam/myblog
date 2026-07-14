@@ -1,0 +1,93 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info scrap-hero">
+    <div class="scrap-grid">
+        <div class="scrap-left">
+            <p class="scrap-label">&#9733;&nbsp; portfolio &amp; developer&rsquo;s field journal &mdash; est. 2019</p>
+            <header class="entry-header">
+                <h1 class="scrap-title">Field notes from a <em>klutzy</em> engineer&rsquo;s desk.</h1>
+                <p class="scrap-byline">Shweta Kadam</p>
+            </header>
+            <div class="entry-content">
+                {{ .Content | markdownify }}
+            </div>
+            <div class="scrap-actions">
+                <a class="scrap-btn" href="/posts/">flip through the journal&nbsp;&#8594;</a>
+                <a class="scrap-btn scrap-btn-alt" href="mailto:hello@shwetakadam.com?subject=Resume%20request" title="Email me for my resume">email for resume</a>
+            </div>
+            <footer class="entry-footer">
+                {{ partial "social_icons.html" site.Params.socialIcons }}
+            </footer>
+        </div>
+        <div class="scrap-right">
+            <figure class="polaroid polaroid-flip">
+                <div class="flip-inner">
+                    <div class="flip-face flip-front">
+                        <img src="/cat.gif" alt="" />
+                        <figcaption>the assistant &#9825;</figcaption>
+                    </div>
+                    <div class="flip-face flip-back">
+                        <img src="/img/IMG_0472.jpeg" alt="Shweta Kadam" />
+                        <figcaption>hi, that&rsquo;s me &#9825;</figcaption>
+                    </div>
+                </div>
+            </figure>
+        </div>
+    </div>
+</article>
+{{- end -}}
+
+<div class="washi" aria-hidden="true">
+    <div class="washi-track">
+        <span>docker</span><i>&#9986;</i><span>java</span><i>&#9986;</i><span>spring boot</span><i>&#9986;</i><span>python</span><i>&#9986;</i><span>kubernetes</span><i>&#9986;</i><span>vault</span><i>&#9986;</i><span>n8n</span><i>&#9986;</i><span>rust</span><i>&#9986;</i>
+        <span>docker</span><i>&#9986;</i><span>java</span><i>&#9986;</i><span>spring boot</span><i>&#9986;</i><span>python</span><i>&#9986;</i><span>kubernetes</span><i>&#9986;</i><span>vault</span><i>&#9986;</i><span>n8n</span><i>&#9986;</i><span>rust</span><i>&#9986;</i>
+    </div>
+</div>
+
+<p class="scrap-section"><em>From the workbench</em> <span class="scrap-note">(currently gluing)</span></p>
+
+<article class="post-entry featured-entry">
+    <header class="entry-header">
+        <h2>clipd — a clipboard manager built in Rust <sup class="scrap-tag">featured</sup></h2>
+    </header>
+    <div class="entry-content">
+        <p>Multiple independent clipboard slots for macOS and Windows — copy several things at once, paste any of them on demand. Semantic search, OCR, an MCP server for AI assistants, and a one-line installer.</p>
+    </div>
+    <footer class="entry-footer">rust &middot; macos + windows &middot; clipd.sh &#8594;</footer>
+    <a class="entry-link" aria-label="clipd — clipd.sh" href="https://clipd.sh"></a>
+</article>
+
+<p class="scrap-section"><em>Latest pages</em> <span class="scrap-note">(paper-clipped on top)</span></p>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        var flip = document.querySelector('.polaroid-flip .flip-inner');
+        var flipWrap = document.querySelector('.polaroid-flip');
+        if (flip && flipWrap) {
+            var toggle = function () { flip.classList.toggle('is-back'); };
+            var timer = setInterval(toggle, 5000);
+            var restart = function () {
+                toggle();
+                clearInterval(timer);
+                timer = setInterval(toggle, 5000);
+            };
+            flipWrap.addEventListener('mouseenter', restart);
+            flipWrap.addEventListener('focusin', restart);
+        }
+
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                    e.target.classList.add('in-view');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.08 });
+        document.querySelectorAll('.post-entry, .scrap-section').forEach(function (el, i) {
+            el.classList.add('reveal');
+            el.style.transitionDelay = Math.min((i % 3) * 70, 210) + 'ms';
+            io.observe(el);
+        });
+    });
+</script>

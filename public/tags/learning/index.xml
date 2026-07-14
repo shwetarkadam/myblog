@@ -1,22 +1,141 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>learning on Codeklutz</title>
-    <link>https://codeklutz.com/tags/learning/</link>
-    <description>Recent content in learning on Codeklutz</description>
+    <title>Learning on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/learning/</link>
+    <description>Recent content in Learning on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
+      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
+&lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault</h2>
+<p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action</p>
+<p>The workflow I showcased was simple yet powerful:</p>
+<p>Monitoring expiry with early alerts</p>
+<p>Triggering automatic renewals via Vault’s PKI engine</p>
+<p>Deploying renewed certificates without manual steps</p>
+<p>Validating results in Vault for full transparency</p>
+<p>This wasn’t a slide deck—it was about demonstrating the ability such a system can provide: hands-off certificate lifecycle management, built entirely on open-source tools.</p>
+<p>Why n8n + Vault?</p>
+<p>n8n brings the flexibility of a visual automation platform—easy to extend, no coding required for most steps.</p>
+<p>Vault provides a battle-tested PKI engine with strong security guarantees.</p>
+<p>Together, they eliminate vendor lock-in, subscription costs, and opaque “black box” processes.</p>
+<p>Beyond the Demo</p>
+<p>While I shared this prototype in a lightning talk at Mumbai FOSS 2025, the real takeaway is that any team can replicate it today. Whether managing a handful of certs or rolling this out across multiple environments, the approach scales with your needs.</p>
+<p>As a bonus, this same session was also wait-listed for the Open Source Summit India 2025, highlighting the growing interest in practical, open-source security automation.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title> My First Tech Talk: The Journey from Panic to Presentation</title>
+      <link>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
+      <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
+      <description>&lt;h1 id=&#34;my-first-tech-talk-the-journey-from-panic-to-presentation&#34;&gt;My First Tech Talk: The Journey from Panic to Presentation&lt;/h1&gt;
+&lt;p&gt;I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-secure-a-speaking-slot&#34;&gt;How Do You Secure a Speaking Slot?&lt;/h2&gt;
+&lt;p&gt;This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it&amp;rsquo;s all about relevance.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="my-first-tech-talk-the-journey-from-panic-to-presentation">My First Tech Talk: The Journey from Panic to Presentation</h1>
+<p>I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.</p>
+<h2 id="how-do-you-secure-a-speaking-slot">How Do You Secure a Speaking Slot?</h2>
+<p>This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it&rsquo;s all about relevance.</p>
+<h2 id="what-happens-after-my-talk-was-selected">What happens after my talk was selected?</h2>
+<p>The talk has been selected &hellip;&hellip;so now what?
+The Panic strikes through!!
+But so does the cycle of preparation&hellip;&hellip;</p>
+<p><img loading="lazy" src="/img/presentation.png" alt=""  />
+</p>
+<h2 id="will-they-find-it-interesting">Will They Find It Interesting?</h2>
+<p>Creating a talk is one thing, delivering it in a way that keeps the audience engaged is another.
+Once the panic and excitement strikes through so does the preparation. Preparing the contents for a talk is very different from presenting it. The information you INTEND to convey has to reach the audience in a way they perceive it and it has to be relatable and interesting for them to continue to listen!</p>
+<h2 id="feedback-feedback-feedback-and-continuous-feedback">Feedback Feedback Feedback and Continuous Feedback!</h2>
+<p>Ah yes, feedback—every speaker’s best friend (and occasional frenemy). It’s the secret sauce to leveling up your presentation, and trust me, you’ll need lots of it! I took every nugget of constructive criticism and tweaked my talk like a codebase on release day.</p>
+<p>Now, let’s talk demos. The ultimate double-edged sword. Engineers love them but for presenters? A living nightmare! And guess what? I willingly walked into that nightmare. Yep, I gave a demo!</p>
+<p>Why? Well, demos are like live-action thrillers—great for the audience but full of nerve-wracking moments for the speaker. Something is bound to go wrong (and spoiler: it did). Cue the sweaty palms and heart palpitations as things start to go wrong! But hey, the key is to stay calm, crack a joke or two, and power through the glitches.</p>
+<p>In hindsight, the demo could’ve been smoother, but for my first big talk, it wasn’t a complete disaster. Want to witness the chaos? Here’s the link to the demo fail <a href="https://www.youtube.com/watch?v=j_D0SG0yMEk">Link</a> I’m open to feedback (and maybe a little sympathy)!</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>Every developer should experience the thrill of presenting their work to an appreciative public audience. It&rsquo;s more than just sharing your knowledge—it’s a chance to push your limits, boost your confidence, and ignite a deeper passion for learning. Stepping onto that stage changes the way you see yourself as a developer, fueling your drive to grow and evolve. Plus, there’s nothing quite like the energy of connecting with others and realizing how far you’ve come on your journey!</p>
+<p>Do checkout my presentation link and feel free to provide any feedback via <a href="hello@shweta.io">email</a> or on <a href="https://www.linkedin.com/in/shwetarkadam/">Linkedin</a>!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j_D0SG0yMEk?si=xC1OJBQE2eM9graJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Using Thinking Fast and Slow Concepts on Programming</title>
+      <link>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <description>&lt;p&gt;Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!&lt;/p&gt;
+&lt;p&gt;The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
+System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!</p>
+<p>The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
+System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.</p>
+<p>System 2 (Slow Thinking): This is the deliberate and analytical mode of thinking. It requires effort and is used in complex decision-making, requiring attention and logical thinking.</p>
+<p>As a programmer, we need to use System 2 a lot but sometimes in certain deadline situations, we tend to use System 1 a lot. Throughout the book, Kahneman discusses how these two systems influence our decisions and lead to various cognitive biases. Some key concepts include:</p>
+<p>Heuristics: Mental shortcuts that ease the cognitive load of making decisions.
+Prospect Theory: People value gains and losses differently, leading to irrational decision-making.
+The Anchoring Effect: Relying too heavily on the first piece of information seen (the &ldquo;anchor&rdquo;) when making decisions.
+Overconfidence Bias: The tendency to overestimate one’s abilities.
+Framing Effect: Decisions are influenced by the way information is presented.</p>
+<p>Here are some of the strategies that I thought were pretty useful from the book and could apply in my  daily work.</p>
+<p>Code Reviews: Engage in regular code reviews with peers. This practice encourages System 2 thinking by requiring you to explain and justify your coding decisions. It also helps identify biases or errors that might have been overlooked by the original coder.</p>
+<p>Pair Programming: This technique involves two programmers working together at one workstation/huddle. One writes the code while the other reviews each line as it is typed. The reviewer (navigator) uses System 2 thinking, providing immediate feedback and suggestions, while the driver can engage more in System 1, especially in familiar areas of coding.</p>
+<p>Test-Driven Development (TDD): TDD requires you to write tests before you write the actual code. This approach forces you to slow down and think about what you want to achieve (System 2) before getting involved in the coding itself (System 1).</p>
+<p>Refactoring with a Purpose: Systematically refactor code to improve its structure and readability without changing its functionality. This requires careful, analytical thinking to ensure that improvements are actual improvements and not just changes based on personal bias or preference.</p>
+<p>Using Linters and Static Analysis Tools: Tools that analyze your code for errors, potential bugs, or style issues can help counteract the overconfidence bias by providing a &ldquo;second opinion&rdquo; that challenges your assumptions about your own code&rsquo;s correctness.</p>
+<p>Heuristic Checklists: Develop or use existing checklists for code quality, security standards, and performance optimizations. This approach leverages structured thinking to ensure that common pitfalls and best practices are systematically considered.</p>
+<p>Mindful Debugging: When debugging, it&rsquo;s easy to quickly form a hypothesis and get tunnel vision. To counteract this, consciously explore multiple hypotheses and systematically verify or dismiss each one, ensuring that your initial assumptions don&rsquo;t blind you to other possibilities.</p>
+<p>Documentation and Comments: Writing clear documentation and code comments encourages you to think through your design and implementation choices. This reflective practice can help clarify your thoughts and expose any weak points in your reasoning.Though it should not be overused as people tend to write complicated code and cover it with comments and documentation.</p>
+<p>Regular Training on Cognitive Biases: Conduct sessions to educate yourself and your team on different types of cognitive biases and how they can affect programming and decision-making. This awareness can help everyone be more mindful of their thinking patterns and decision-making processes.</p>
+<p>Break Large Problems into Smaller Parts: When faced with a complex problem, break it down into smaller, manageable tasks. This strategy helps manage the cognitive load, allowing System 2 to engage more effectively without being overwhelmed.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>When to ask for help as a Software Engineer?</title>
+      <link>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <description>&lt;p&gt;We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.&lt;/p&gt;
+&lt;p&gt;Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.</p>
+<p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
+<p>The best resolution no matter how much hesitation or shame is to ASK NOW!
+It does two things:-</p>
+<ul>
+<li>Filters out your misunderstandings and gives you clarity.</li>
+<li>Always end up learning something new.</li>
+<li>Also if the point is in just the idea or analysis stage ,one can validate the effectiveness of an idea faster . How much important or effective an idea is as a solution to a problem or if there are better solutions.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tackling procrastination and kubernetes study</title>
-      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <link>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
-      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+      <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
 <p>You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.</p>
@@ -31,8 +150,7 @@
 <p>The master node!</p>
 <p>The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.</p>
 <blockquote>
-<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p>
-</blockquote>
+<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p></blockquote>
 <p>because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.</p>
 <h2 id="other-components">Other components:</h2>
 <p>When you install kubernetes in your system,you are actually installing the follwing components:</p>
@@ -51,8 +169,7 @@
 <h2 id="etcd">etcd</h2>
 <p>etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.</p>
 <blockquote>
-<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p>
-</blockquote>
+<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p></blockquote>
 <h2 id="scheduler">Scheduler</h2>
 <p>Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.</p>
 <h2 id="controllers">Controllers</h2>

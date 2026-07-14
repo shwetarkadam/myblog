@@ -1,0 +1,23 @@
+{{- define "main" }}
+
+<div class="tag-drawer">
+  <header class="tag-drawer-head">
+    <p class="scrap-label">&#9733;&nbsp; tag drawer &mdash; browse the journal by topic</p>
+    <h1 class="scrap-title" style="font-size: clamp(34px, 5vw, 56px); margin: 10px 0 0;">Filed by <em>topic</em>.</h1>
+  </header>
+
+  <ul class="tag-cloud">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+      <a href="{{ .Permalink }}" class="tag-chip">{{ .Name }}<span class="tag-count">{{ $count }}</span></a>
+    </li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</div>
+
+{{- end }}{{/* end main */ -}}

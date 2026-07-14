@@ -1,0 +1,39 @@
+{{- define "main" }}
+
+<div class="timeline">
+  <header class="timeline-head">
+    <p class="scrap-label">&#9733;&nbsp; the archive &mdash; a trail of everything, by date</p>
+    <h1 class="scrap-title" style="font-size: clamp(34px, 5vw, 56px); margin: 10px 0 0;">The <em>trail</em>.</h1>
+  </header>
+
+  {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{- if site.Params.ShowAllPagesInArchive }}
+  {{- $pages = site.RegularPages }}
+  {{- end }}
+
+  <div class="tl-spine">
+    {{- range $pages.GroupByPublishDate "2006" }}
+    {{- if ne .Key "0001" }}
+    <section class="tl-year">
+      <div class="tl-marker">
+        <span class="tl-marker-year">{{ replace .Key "0001" "" }}</span>
+        <span class="tl-marker-count">{{ len .Pages }}</span>
+      </div>
+      <div class="tl-entries">
+        {{- range .Pages }}
+        {{- if eq .Kind "page" }}
+        <a class="tl-entry" href="{{ .Permalink }}">
+          <span class="tl-date">{{ .Date.Format "Jan 02" }}</span>
+          <span class="tl-title">{{ .Title | markdownify }}{{ if .Draft }}&nbsp;<span class="entry-isdraft">[draft]</span>{{ end }}</span>
+          <span class="tl-time">{{ .ReadingTime }} min</span>
+        </a>
+        {{- end }}
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>
+
+{{- end }}{{/* end main */}}

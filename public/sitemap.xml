@@ -2,220 +2,330 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://codeklutz.com/</loc>
+    <loc>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/journey/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/learning/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/n8n/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/presentation/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/public-speaking/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/talk/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/vault/</loc>
+    <lastmod>2025-04-20T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</loc>
+    <lastmod>2024-10-02T21:41:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/heap/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/kthlargest/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/kthsmallest/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/leetcode/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/priorityqueue/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/til/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</loc>
+    <lastmod>2023-08-15T21:24:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/help/</loc>
+    <lastmod>2023-05-18T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/softwareengineer/</loc>
+    <lastmod>2023-05-18T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</loc>
+    <lastmod>2023-05-18T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/watercooler/</loc>
+    <lastmod>2023-05-18T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/debugging/</loc>
+    <lastmod>2023-03-03T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/kubectl/</loc>
+    <lastmod>2023-03-03T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</loc>
+    <lastmod>2023-03-03T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</loc>
+    <lastmod>2023-03-03T23:10:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/angular/</loc>
+    <lastmod>2023-03-03T23:03:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/blog/</loc>
+    <lastmod>2023-03-03T23:03:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/guide/</loc>
+    <lastmod>2023-03-03T23:03:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</loc>
+    <lastmod>2023-03-03T23:03:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/typescript/</loc>
+    <lastmod>2023-03-03T23:03:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/git/</loc>
+    <lastmod>2023-01-01T00:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/github/</loc>
+    <lastmod>2023-01-01T00:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/gitsubmodule/</loc>
+    <lastmod>2023-01-01T00:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/submodule/</loc>
+    <lastmod>2023-01-01T00:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</loc>
+    <lastmod>2023-01-01T00:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/2022/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/my-2022-year-review/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/retrospect/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/review/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/techreview/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/yearreview/</loc>
+    <lastmod>2022-12-26T01:49:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/jq/</loc>
+    <lastmod>2022-12-22T21:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/tags/json/</loc>
+    <lastmod>2022-12-22T21:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-til-jq/</loc>
+    <lastmod>2022-12-22T21:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://shwetakadam.com/posts/til-jq/</loc>
     <lastmod>2022-12-20T21:24:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/jq/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/json/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/til/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/til-jq/</loc>
-    <lastmod>2022-12-20T21:24:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/422/</loc>
+    <loc>https://shwetakadam.com/tags/422/</loc>
     <lastmod>2022-12-20T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/422unprocessableentity/</loc>
+    <loc>https://shwetakadam.com/tags/422unprocessableentity/</loc>
     <lastmod>2022-12-20T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/http/</loc>
+    <loc>https://shwetakadam.com/tags/http/</loc>
     <lastmod>2022-12-20T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/httperrorcode/</loc>
+    <loc>https://shwetakadam.com/tags/httperrorcode/</loc>
     <lastmod>2022-12-20T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/today-i-learnt422-http-error-code/</loc>
+    <loc>https://shwetakadam.com/posts/today-i-learnt422-http-error-code/</loc>
     <lastmod>2022-12-20T19:17:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/arrays/</loc>
+    <loc>https://shwetakadam.com/tags/arrays/</loc>
     <lastmod>2022-11-20T18:48:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/blog/</loc>
+    <loc>https://shwetakadam.com/tags/java11/</loc>
     <lastmod>2022-11-20T18:48:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/java11/</loc>
+    <loc>https://shwetakadam.com/tags/primitives/</loc>
     <lastmod>2022-11-20T18:48:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/primitives/</loc>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</loc>
     <lastmod>2022-11-20T18:48:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/today-i-learnt-interesting-things-in-java-11/</loc>
+    <loc>https://shwetakadam.com/tags/var/</loc>
     <lastmod>2022-11-20T18:48:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/var/</loc>
-    <lastmod>2022-11-20T18:48:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/databaseschemachanges/</loc>
+    <loc>https://shwetakadam.com/tags/databaseschemachanges/</loc>
     <lastmod>2022-11-07T15:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/databaseversioncontrol/</loc>
+    <loc>https://shwetakadam.com/tags/databaseversioncontrol/</loc>
     <lastmod>2022-11-07T15:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/flyway/</loc>
+    <loc>https://shwetakadam.com/tags/flyway/</loc>
     <lastmod>2022-11-07T15:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/liquibase/</loc>
+    <loc>https://shwetakadam.com/tags/liquibase/</loc>
     <lastmod>2022-11-07T15:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/today-i-learnt-database-version-control/</loc>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</loc>
     <lastmod>2022-11-07T15:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/basics/</loc>
+    <loc>https://shwetakadam.com/tags/basics/</loc>
     <lastmod>2022-02-25T15:45:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/kubeapiserver/</loc>
+    <loc>https://shwetakadam.com/tags/kubeapiserver/</loc>
     <lastmod>2022-02-25T15:45:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/kubernetes/</loc>
+    <loc>https://shwetakadam.com/tags/kubernetes/</loc>
     <lastmod>2022-02-25T15:45:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/learning/</loc>
+    <loc>https://shwetakadam.com/tags/notes/</loc>
     <lastmod>2022-02-25T15:45:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/notes/</loc>
+    <loc>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</loc>
     <lastmod>2022-02-25T15:45:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</loc>
-    <lastmod>2022-02-25T15:45:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/debugging/</loc>
+    <loc>https://shwetakadam.com/tags/domain/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/domain/</loc>
+    <loc>https://shwetakadam.com/tags/experiment/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/experiment/</loc>
+    <loc>https://shwetakadam.com/tags/lessions/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/lessions/</loc>
+    <loc>https://shwetakadam.com/tags/note/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/note/</loc>
+    <loc>https://shwetakadam.com/posts/tech-recap-journal--january/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/retrospect/</loc>
-    <lastmod>2022-02-01T15:15:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/posts/tech-recap-journal-january/</loc>
-    <lastmod>2022-02-01T15:15:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/config/</loc>
+    <loc>https://shwetakadam.com/tags/config/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/fzf/</loc>
+    <loc>https://shwetakadam.com/tags/fzf/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/git/</loc>
+    <loc>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</loc>
+    <loc>https://shwetakadam.com/tags/ohmyzsh/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/ohmyzsh/</loc>
+    <loc>https://shwetakadam.com/tags/powerlevel10k/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/powerlevel10k/</loc>
+    <loc>https://shwetakadam.com/tags/productivity/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/productivity/</loc>
+    <loc>https://shwetakadam.com/tags/wsl/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/wsl/</loc>
+    <loc>https://shwetakadam.com/tags/zsh/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/zsh/</loc>
-    <lastmod>2022-01-21T23:41:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/api/</loc>
+    <loc>https://shwetakadam.com/tags/api/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/apidocumentation/</loc>
+    <loc>https://shwetakadam.com/tags/apidocumentation/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</loc>
+    <loc>https://shwetakadam.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/restapi/</loc>
+    <loc>https://shwetakadam.com/tags/restapi/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/springboot/</loc>
+    <loc>https://shwetakadam.com/tags/springboot/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/swaggeropenapi/</loc>
+    <loc>https://shwetakadam.com/tags/swaggeropenapi/</loc>
     <lastmod>2022-01-16T22:53:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/cronjob/</loc>
+    <loc>https://shwetakadam.com/tags/cronjob/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/development/</loc>
+    <loc>https://shwetakadam.com/tags/development/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/events/</loc>
+    <loc>https://shwetakadam.com/tags/events/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/java/</loc>
+    <loc>https://shwetakadam.com/tags/java/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/mysql/</loc>
+    <loc>https://shwetakadam.com/tags/mysql/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/spring/</loc>
+    <loc>https://shwetakadam.com/tags/spring/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/sql/</loc>
+    <loc>https://shwetakadam.com/tags/sql/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</loc>
+    <loc>https://shwetakadam.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</loc>
     <lastmod>2022-01-12T23:49:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
+    <loc>https://shwetakadam.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</loc>
     <lastmod>2021-12-05T23:23:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/freehosting/</loc>
+    <loc>https://shwetakadam.com/tags/freehosting/</loc>
     <lastmod>2021-12-05T23:23:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/github/</loc>
+    <loc>https://shwetakadam.com/tags/githubactions/</loc>
     <lastmod>2021-12-05T23:23:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/githubactions/</loc>
+    <loc>https://shwetakadam.com/tags/portfolio/</loc>
     <lastmod>2021-12-05T23:23:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/portfolio/</loc>
-    <lastmod>2021-12-05T23:23:00+05:30</lastmod>
-  </url><url>
-    <loc>https://codeklutz.com/tags/polymorphism/</loc>
+    <loc>https://shwetakadam.com/tags/polymorphism/</loc>
     <lastmod>2021-07-14T23:28:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/polymorphism-in-java/</loc>
+    <loc>https://shwetakadam.com/posts/polymorphism-in-java/</loc>
     <lastmod>2021-07-14T23:28:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/programming/</loc>
+    <loc>https://shwetakadam.com/tags/programming/</loc>
     <lastmod>2021-07-14T23:28:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/concepts/</loc>
+    <loc>https://shwetakadam.com/tags/concepts/</loc>
     <lastmod>2021-06-14T21:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/tags/constructors/</loc>
+    <loc>https://shwetakadam.com/tags/constructors/</loc>
     <lastmod>2021-06-14T21:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/posts/how-constructors-work-in-java/</loc>
+    <loc>https://shwetakadam.com/posts/how-constructors-work-in-java/</loc>
     <lastmod>2021-06-14T21:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://codeklutz.com/archives/</loc>
+    <loc>https://shwetakadam.com/layouts/partials/extend_footer/</loc>
   </url><url>
-    <loc>https://codeklutz.com/categories/</loc>
+    <loc>https://shwetakadam.com/about/</loc>
   </url><url>
-    <loc>https://codeklutz.com/search/</loc>
+    <loc>https://shwetakadam.com/archives/</loc>
+  </url><url>
+    <loc>https://shwetakadam.com/categories/</loc>
+  </url><url>
+    <loc>https://shwetakadam.com/layouts/</loc>
+  </url><url>
+    <loc>https://shwetakadam.com/search/</loc>
+  </url><url>
+    <loc>https://shwetakadam.com/talk/</loc>
   </url>
 </urlset>

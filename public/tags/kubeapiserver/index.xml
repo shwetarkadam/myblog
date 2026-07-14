@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kubeapiserver on Codeklutz</title>
-    <link>https://codeklutz.com/tags/kubeapiserver/</link>
-    <description>Recent content in kubeapiserver on Codeklutz</description>
+    <title>Kubeapiserver on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/kubeapiserver/</link>
+    <description>Recent content in Kubeapiserver on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/kubeapiserver/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Feb 2022 15:45:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/kubeapiserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tackling procrastination and kubernetes study</title>
-      <link>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <link>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
-      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+      <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
 <p>You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.</p>
@@ -31,8 +32,7 @@
 <p>The master node!</p>
 <p>The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.</p>
 <blockquote>
-<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p>
-</blockquote>
+<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p></blockquote>
 <p>because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.</p>
 <h2 id="other-components">Other components:</h2>
 <p>When you install kubernetes in your system,you are actually installing the follwing components:</p>
@@ -51,8 +51,7 @@
 <h2 id="etcd">etcd</h2>
 <p>etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.</p>
 <blockquote>
-<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p>
-</blockquote>
+<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p></blockquote>
 <h2 id="scheduler">Scheduler</h2>
 <p>Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.</p>
 <h2 id="controllers">Controllers</h2>

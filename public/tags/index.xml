@@ -1,561 +1,802 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Codeklutz</title>
-    <link>https://codeklutz.com/tags/</link>
-    <description>Recent content in Tags on Codeklutz</description>
+    <title>Tags on Shweta Kadam</title>
+    <link>https://shwetakadam.com/tags/</link>
+    <description>Recent content in Tags on Shweta Kadam</description>
     <image>
-      <url>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://codeklutz.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 21:24:00 +0530</lastBuildDate><atom:link href="https://codeklutz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>jq</title>
-      <link>https://codeklutz.com/tags/jq/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <title>Journey</title>
+      <link>https://shwetakadam.com/tags/journey/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/jq/</guid>
+      <guid>https://shwetakadam.com/tags/journey/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>json</title>
-      <link>https://codeklutz.com/tags/json/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <title>Learning</title>
+      <link>https://shwetakadam.com/tags/learning/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/json/</guid>
+      <guid>https://shwetakadam.com/tags/learning/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>til</title>
-      <link>https://codeklutz.com/tags/til/</link>
-      <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
+      <title>N8n</title>
+      <link>https://shwetakadam.com/tags/n8n/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/til/</guid>
+      <guid>https://shwetakadam.com/tags/n8n/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>https://shwetakadam.com/tags/presentation/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/presentation/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Public Speaking</title>
+      <link>https://shwetakadam.com/tags/public-speaking/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/public-speaking/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Talk</title>
+      <link>https://shwetakadam.com/tags/talk/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/talk/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Vault</title>
+      <link>https://shwetakadam.com/tags/vault/</link>
+      <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/vault/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Heap</title>
+      <link>https://shwetakadam.com/tags/heap/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/heap/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Kthlargest</title>
+      <link>https://shwetakadam.com/tags/kthlargest/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/kthlargest/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Kthsmallest</title>
+      <link>https://shwetakadam.com/tags/kthsmallest/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/kthsmallest/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Leetcode</title>
+      <link>https://shwetakadam.com/tags/leetcode/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/leetcode/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Priorityqueue</title>
+      <link>https://shwetakadam.com/tags/priorityqueue/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/priorityqueue/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Til</title>
+      <link>https://shwetakadam.com/tags/til/</link>
+      <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/til/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Help</title>
+      <link>https://shwetakadam.com/tags/help/</link>
+      <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/help/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Softwareengineer</title>
+      <link>https://shwetakadam.com/tags/softwareengineer/</link>
+      <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/softwareengineer/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Watercooler</title>
+      <link>https://shwetakadam.com/tags/watercooler/</link>
+      <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/watercooler/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://shwetakadam.com/tags/debugging/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/debugging/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Kubectl</title>
+      <link>https://shwetakadam.com/tags/kubectl/</link>
+      <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/kubectl/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>https://shwetakadam.com/tags/angular/</link>
+      <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/angular/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://shwetakadam.com/tags/blog/</link>
+      <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Guide</title>
+      <link>https://shwetakadam.com/tags/guide/</link>
+      <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/guide/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>https://shwetakadam.com/tags/typescript/</link>
+      <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/typescript/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://shwetakadam.com/tags/git/</link>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/git/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://shwetakadam.com/tags/github/</link>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/github/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Gitsubmodule</title>
+      <link>https://shwetakadam.com/tags/gitsubmodule/</link>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/gitsubmodule/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Submodule</title>
+      <link>https://shwetakadam.com/tags/submodule/</link>
+      <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/submodule/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>2022</title>
+      <link>https://shwetakadam.com/tags/2022/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/2022/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Retrospect</title>
+      <link>https://shwetakadam.com/tags/retrospect/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/retrospect/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://shwetakadam.com/tags/review/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/review/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Techreview</title>
+      <link>https://shwetakadam.com/tags/techreview/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/techreview/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Yearreview</title>
+      <link>https://shwetakadam.com/tags/yearreview/</link>
+      <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/yearreview/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Jq</title>
+      <link>https://shwetakadam.com/tags/jq/</link>
+      <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/jq/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Json</title>
+      <link>https://shwetakadam.com/tags/json/</link>
+      <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
+      
+      <guid>https://shwetakadam.com/tags/json/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>422</title>
-      <link>https://codeklutz.com/tags/422/</link>
+      <link>https://shwetakadam.com/tags/422/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/422/</guid>
+      <guid>https://shwetakadam.com/tags/422/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>422unprocessableentity</title>
-      <link>https://codeklutz.com/tags/422unprocessableentity/</link>
+      <link>https://shwetakadam.com/tags/422unprocessableentity/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/422unprocessableentity/</guid>
+      <guid>https://shwetakadam.com/tags/422unprocessableentity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>http</title>
-      <link>https://codeklutz.com/tags/http/</link>
+      <title>Http</title>
+      <link>https://shwetakadam.com/tags/http/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/http/</guid>
+      <guid>https://shwetakadam.com/tags/http/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>httperrorcode</title>
-      <link>https://codeklutz.com/tags/httperrorcode/</link>
+      <title>Httperrorcode</title>
+      <link>https://shwetakadam.com/tags/httperrorcode/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/httperrorcode/</guid>
+      <guid>https://shwetakadam.com/tags/httperrorcode/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>arrays</title>
-      <link>https://codeklutz.com/tags/arrays/</link>
+      <title>Arrays</title>
+      <link>https://shwetakadam.com/tags/arrays/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/arrays/</guid>
+      <guid>https://shwetakadam.com/tags/arrays/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>blog</title>
-      <link>https://codeklutz.com/tags/blog/</link>
+      <title>Java11</title>
+      <link>https://shwetakadam.com/tags/java11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/blog/</guid>
+      <guid>https://shwetakadam.com/tags/java11/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>java11</title>
-      <link>https://codeklutz.com/tags/java11/</link>
+      <title>Primitives</title>
+      <link>https://shwetakadam.com/tags/primitives/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/java11/</guid>
+      <guid>https://shwetakadam.com/tags/primitives/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>primitives</title>
-      <link>https://codeklutz.com/tags/primitives/</link>
+      <title>Var</title>
+      <link>https://shwetakadam.com/tags/var/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/primitives/</guid>
+      <guid>https://shwetakadam.com/tags/var/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>var</title>
-      <link>https://codeklutz.com/tags/var/</link>
-      <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/var/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>databaseschemachanges</title>
-      <link>https://codeklutz.com/tags/databaseschemachanges/</link>
+      <title>Databaseschemachanges</title>
+      <link>https://shwetakadam.com/tags/databaseschemachanges/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/databaseschemachanges/</guid>
+      <guid>https://shwetakadam.com/tags/databaseschemachanges/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>databaseversioncontrol</title>
-      <link>https://codeklutz.com/tags/databaseversioncontrol/</link>
+      <title>Databaseversioncontrol</title>
+      <link>https://shwetakadam.com/tags/databaseversioncontrol/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/databaseversioncontrol/</guid>
+      <guid>https://shwetakadam.com/tags/databaseversioncontrol/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>flyway</title>
-      <link>https://codeklutz.com/tags/flyway/</link>
+      <title>Flyway</title>
+      <link>https://shwetakadam.com/tags/flyway/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/flyway/</guid>
+      <guid>https://shwetakadam.com/tags/flyway/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>liquibase</title>
-      <link>https://codeklutz.com/tags/liquibase/</link>
+      <title>Liquibase</title>
+      <link>https://shwetakadam.com/tags/liquibase/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/liquibase/</guid>
+      <guid>https://shwetakadam.com/tags/liquibase/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>basics</title>
-      <link>https://codeklutz.com/tags/basics/</link>
+      <title>Basics</title>
+      <link>https://shwetakadam.com/tags/basics/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/basics/</guid>
+      <guid>https://shwetakadam.com/tags/basics/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>kubeapiserver</title>
-      <link>https://codeklutz.com/tags/kubeapiserver/</link>
+      <title>Kubeapiserver</title>
+      <link>https://shwetakadam.com/tags/kubeapiserver/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/kubeapiserver/</guid>
+      <guid>https://shwetakadam.com/tags/kubeapiserver/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>kubernetes</title>
-      <link>https://codeklutz.com/tags/kubernetes/</link>
+      <title>Kubernetes</title>
+      <link>https://shwetakadam.com/tags/kubernetes/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/kubernetes/</guid>
+      <guid>https://shwetakadam.com/tags/kubernetes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>learning</title>
-      <link>https://codeklutz.com/tags/learning/</link>
+      <title>Notes</title>
+      <link>https://shwetakadam.com/tags/notes/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/learning/</guid>
+      <guid>https://shwetakadam.com/tags/notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>notes</title>
-      <link>https://codeklutz.com/tags/notes/</link>
-      <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/notes/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>debugging</title>
-      <link>https://codeklutz.com/tags/debugging/</link>
+      <title>Domain</title>
+      <link>https://shwetakadam.com/tags/domain/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/debugging/</guid>
+      <guid>https://shwetakadam.com/tags/domain/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>domain</title>
-      <link>https://codeklutz.com/tags/domain/</link>
+      <title>Experiment</title>
+      <link>https://shwetakadam.com/tags/experiment/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/domain/</guid>
+      <guid>https://shwetakadam.com/tags/experiment/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>experiment</title>
-      <link>https://codeklutz.com/tags/experiment/</link>
+      <title>Lessions</title>
+      <link>https://shwetakadam.com/tags/lessions/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/experiment/</guid>
+      <guid>https://shwetakadam.com/tags/lessions/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>lessions</title>
-      <link>https://codeklutz.com/tags/lessions/</link>
+      <title>Note</title>
+      <link>https://shwetakadam.com/tags/note/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/lessions/</guid>
+      <guid>https://shwetakadam.com/tags/note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>note</title>
-      <link>https://codeklutz.com/tags/note/</link>
-      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/note/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>retrospect</title>
-      <link>https://codeklutz.com/tags/retrospect/</link>
-      <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/retrospect/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>config</title>
-      <link>https://codeklutz.com/tags/config/</link>
+      <title>Config</title>
+      <link>https://shwetakadam.com/tags/config/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/config/</guid>
+      <guid>https://shwetakadam.com/tags/config/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>fzf</title>
-      <link>https://codeklutz.com/tags/fzf/</link>
+      <title>Fzf</title>
+      <link>https://shwetakadam.com/tags/fzf/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/fzf/</guid>
+      <guid>https://shwetakadam.com/tags/fzf/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://codeklutz.com/tags/git/</link>
+      <title>Ohmyzsh</title>
+      <link>https://shwetakadam.com/tags/ohmyzsh/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/git/</guid>
+      <guid>https://shwetakadam.com/tags/ohmyzsh/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>ohmyzsh</title>
-      <link>https://codeklutz.com/tags/ohmyzsh/</link>
+      <title>Powerlevel10k</title>
+      <link>https://shwetakadam.com/tags/powerlevel10k/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/ohmyzsh/</guid>
+      <guid>https://shwetakadam.com/tags/powerlevel10k/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>powerlevel10k</title>
-      <link>https://codeklutz.com/tags/powerlevel10k/</link>
+      <title>Productivity</title>
+      <link>https://shwetakadam.com/tags/productivity/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/powerlevel10k/</guid>
+      <guid>https://shwetakadam.com/tags/productivity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>productivity</title>
-      <link>https://codeklutz.com/tags/productivity/</link>
+      <title>Wsl</title>
+      <link>https://shwetakadam.com/tags/wsl/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/productivity/</guid>
+      <guid>https://shwetakadam.com/tags/wsl/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>wsl</title>
-      <link>https://codeklutz.com/tags/wsl/</link>
+      <title>Zsh</title>
+      <link>https://shwetakadam.com/tags/zsh/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/wsl/</guid>
+      <guid>https://shwetakadam.com/tags/zsh/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>zsh</title>
-      <link>https://codeklutz.com/tags/zsh/</link>
-      <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/zsh/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>api</title>
-      <link>https://codeklutz.com/tags/api/</link>
+      <title>Api</title>
+      <link>https://shwetakadam.com/tags/api/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/api/</guid>
+      <guid>https://shwetakadam.com/tags/api/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>apidocumentation</title>
-      <link>https://codeklutz.com/tags/apidocumentation/</link>
+      <title>Apidocumentation</title>
+      <link>https://shwetakadam.com/tags/apidocumentation/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/apidocumentation/</guid>
+      <guid>https://shwetakadam.com/tags/apidocumentation/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>restapi</title>
-      <link>https://codeklutz.com/tags/restapi/</link>
+      <title>Restapi</title>
+      <link>https://shwetakadam.com/tags/restapi/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/restapi/</guid>
+      <guid>https://shwetakadam.com/tags/restapi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>springboot</title>
-      <link>https://codeklutz.com/tags/springboot/</link>
+      <title>Springboot</title>
+      <link>https://shwetakadam.com/tags/springboot/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/springboot/</guid>
+      <guid>https://shwetakadam.com/tags/springboot/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>swaggeropenapi</title>
-      <link>https://codeklutz.com/tags/swaggeropenapi/</link>
+      <title>Swaggeropenapi</title>
+      <link>https://shwetakadam.com/tags/swaggeropenapi/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/swaggeropenapi/</guid>
+      <guid>https://shwetakadam.com/tags/swaggeropenapi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>cronjob</title>
-      <link>https://codeklutz.com/tags/cronjob/</link>
+      <title>Cronjob</title>
+      <link>https://shwetakadam.com/tags/cronjob/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/cronjob/</guid>
+      <guid>https://shwetakadam.com/tags/cronjob/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://codeklutz.com/tags/development/</link>
+      <title>Development</title>
+      <link>https://shwetakadam.com/tags/development/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/development/</guid>
+      <guid>https://shwetakadam.com/tags/development/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>events</title>
-      <link>https://codeklutz.com/tags/events/</link>
+      <title>Events</title>
+      <link>https://shwetakadam.com/tags/events/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/events/</guid>
+      <guid>https://shwetakadam.com/tags/events/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>java</title>
-      <link>https://codeklutz.com/tags/java/</link>
+      <title>Java</title>
+      <link>https://shwetakadam.com/tags/java/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/java/</guid>
+      <guid>https://shwetakadam.com/tags/java/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>mysql</title>
-      <link>https://codeklutz.com/tags/mysql/</link>
+      <title>Mysql</title>
+      <link>https://shwetakadam.com/tags/mysql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/mysql/</guid>
+      <guid>https://shwetakadam.com/tags/mysql/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>spring</title>
-      <link>https://codeklutz.com/tags/spring/</link>
+      <title>Spring</title>
+      <link>https://shwetakadam.com/tags/spring/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/spring/</guid>
+      <guid>https://shwetakadam.com/tags/spring/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>sql</title>
-      <link>https://codeklutz.com/tags/sql/</link>
+      <title>Sql</title>
+      <link>https://shwetakadam.com/tags/sql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/sql/</guid>
+      <guid>https://shwetakadam.com/tags/sql/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>freehosting</title>
-      <link>https://codeklutz.com/tags/freehosting/</link>
+      <title>Freehosting</title>
+      <link>https://shwetakadam.com/tags/freehosting/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/freehosting/</guid>
+      <guid>https://shwetakadam.com/tags/freehosting/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>github</title>
-      <link>https://codeklutz.com/tags/github/</link>
+      <title>Githubactions</title>
+      <link>https://shwetakadam.com/tags/githubactions/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/github/</guid>
+      <guid>https://shwetakadam.com/tags/githubactions/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>githubactions</title>
-      <link>https://codeklutz.com/tags/githubactions/</link>
+      <title>Portfolio</title>
+      <link>https://shwetakadam.com/tags/portfolio/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/githubactions/</guid>
+      <guid>https://shwetakadam.com/tags/portfolio/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>portfolio</title>
-      <link>https://codeklutz.com/tags/portfolio/</link>
-      <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
-      
-      <guid>https://codeklutz.com/tags/portfolio/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>polymorphism</title>
-      <link>https://codeklutz.com/tags/polymorphism/</link>
+      <title>Polymorphism</title>
+      <link>https://shwetakadam.com/tags/polymorphism/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/polymorphism/</guid>
+      <guid>https://shwetakadam.com/tags/polymorphism/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>programming</title>
-      <link>https://codeklutz.com/tags/programming/</link>
+      <title>Programming</title>
+      <link>https://shwetakadam.com/tags/programming/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/programming/</guid>
+      <guid>https://shwetakadam.com/tags/programming/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>concepts</title>
-      <link>https://codeklutz.com/tags/concepts/</link>
+      <title>Concepts</title>
+      <link>https://shwetakadam.com/tags/concepts/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/concepts/</guid>
+      <guid>https://shwetakadam.com/tags/concepts/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
-      <title>constructors</title>
-      <link>https://codeklutz.com/tags/constructors/</link>
+      <title>Constructors</title>
+      <link>https://shwetakadam.com/tags/constructors/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>https://codeklutz.com/tags/constructors/</guid>
+      <guid>https://shwetakadam.com/tags/constructors/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
