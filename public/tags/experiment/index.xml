@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Experiment on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/experiment/</link>
+    <link>http://localhost:1313/tags/experiment/</link>
     <description>Recent content in Experiment on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Feb 2022 15:15:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Feb 2022 15:15:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech Recap Journal- January📓</title>
-      <link>https://shwetakadam.com/posts/tech-recap-journal--january/</link>
+      <link>http://localhost:1313/posts/tech-recap-journal--january/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/tech-recap-journal--january/</guid>
+      <guid>http://localhost:1313/posts/tech-recap-journal--january/</guid>
       <description>&lt;p&gt;I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.&lt;/p&gt;
 &lt;p&gt;However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.&lt;/p&gt;
 &lt;h2 id=&#34;my-blog-codeklutz-dot-com&#34;&gt;My Blog! &lt;a href=&#34;https://codeklutz.com&#34;&gt;codeklutz.com&lt;/a&gt;&lt;/h2&gt;

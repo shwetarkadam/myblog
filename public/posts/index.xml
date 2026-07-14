@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Shweta Kadam</title>
-    <link>https://shwetakadam.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
+      <link>http://localhost:1313/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <guid>http://localhost:1313/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
       <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
 &lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action&lt;/p&gt;</description>
@@ -41,10 +41,10 @@ The Prototype in Action</p>
     
     <item>
       <title> My First Tech Talk: The Journey from Panic to Presentation</title>
-      <link>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
+      <link>http://localhost:1313/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
       <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
+      <guid>http://localhost:1313/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
       <description>&lt;h1 id=&#34;my-first-tech-talk-the-journey-from-panic-to-presentation&#34;&gt;My First Tech Talk: The Journey from Panic to Presentation&lt;/h1&gt;
 &lt;p&gt;I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.&lt;/p&gt;
 &lt;h2 id=&#34;how-do-you-secure-a-speaking-slot&#34;&gt;How Do You Secure a Speaking Slot?&lt;/h2&gt;
@@ -76,10 +76,10 @@ Once the panic and excitement strikes through so does the preparation. Preparing
     
     <item>
       <title>Today I learnt (TIL): Leetcode Mini Bite Heap and Priority Queue </title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
       <description>&lt;p&gt;I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
 Some mini tricks I learnt by doing the problem &lt;a href=&#34;https://leetcode.com/problems/kth-largest-element-in-a-stream/description/&#34;&gt;https://leetcode.com/problems/kth-largest-element-in-a-stream/description/&lt;/a&gt;
 When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap.
@@ -106,10 +106,10 @@ Priority Queue</p>
     
     <item>
       <title>Using Thinking Fast and Slow Concepts on Programming</title>
-      <link>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <link>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <guid>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
       <description>&lt;p&gt;Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!&lt;/p&gt;
 &lt;p&gt;The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
 System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.&lt;/p&gt;</description>
@@ -139,10 +139,10 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
     
     <item>
       <title>Today I learnt : Kubectl commands for debugging</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-kubectl-commands-for-debugging/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
       <description>&lt;p&gt;Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.&lt;/p&gt;
 &lt;h2 id=&#34;to-check-logs&#34;&gt;To check logs&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-kubectl&#34; data-lang=&#34;kubectl&#34;&gt;kubectl logs  -f pod_name
@@ -176,10 +176,10 @@ If your company uses Jenkins to make builds and then deploys them uses kubernete
     
     <item>
       <title>When to ask for help as a Software Engineer?</title>
-      <link>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <link>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <guid>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
       <description>&lt;p&gt;We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
 The feeling of doing some research before reaching out to someone.&lt;/p&gt;
 &lt;p&gt;Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.&lt;/p&gt;</description>
@@ -198,10 +198,10 @@ It does two things:-</p>
     
     <item>
       <title>Learning Angular as a Java Developer</title>
-      <link>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</link>
+      <link>http://localhost:1313/posts/learning-angular-as-a-java-developer/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</guid>
+      <guid>http://localhost:1313/posts/learning-angular-as-a-java-developer/</guid>
       <description>&lt;p&gt;Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-angular&#34;&gt;What is Angular ?&lt;/h2&gt;
 &lt;p&gt;Framework to build client side applications.&lt;/p&gt;
@@ -305,10 +305,10 @@ When a code change is made, HMR only updates the module that has been modified, 
     
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
       <description>&lt;p&gt;While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-a-git-submodule&#34;&gt;what is a git submodule?&lt;/h2&gt;
 &lt;p&gt;Git submodule is a way to include another repository in Git as a sub directory in one repository.&lt;/p&gt;
@@ -397,13 +397,13 @@ And then again created a submodule entry with my usernameAnd that&rsquo;s how th
     
     <item>
       <title>My 2022 Year Review📓</title>
-      <link>https://shwetakadam.com/posts/my-2022-year-review/</link>
+      <link>http://localhost:1313/posts/my-2022-year-review/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/my-2022-year-review/</guid>
+      <guid>http://localhost:1313/posts/my-2022-year-review/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://shwetakadam.com/img/giphy.webp&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/giphy.webp&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
@@ -469,10 +469,10 @@ But diagram making tends to be a long time consuming task. I am currently trying
     
     <item>
       <title>Today I learnt TIL: jq</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-til-jq/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-til-jq/</link>
       <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-til-jq/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-til-jq/</guid>
       <description>&lt;p&gt;Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
 But my mac cried and was freezing in instances begging for me to not open more application :(
 This is where I came across a nifty tool called  &lt;strong&gt;&lt;strong&gt;jq&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -534,10 +534,10 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     
     <item>
       <title>Today I learnt (TIL): jq</title>
-      <link>https://shwetakadam.com/posts/til-jq/</link>
+      <link>http://localhost:1313/posts/til-jq/</link>
       <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/til-jq/</guid>
+      <guid>http://localhost:1313/posts/til-jq/</guid>
       <description>&lt;p&gt;Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
 But my mac cried and was freezing in instances begging for me to not open more application :(
 This is where I came across a nifty tool called  &lt;strong&gt;&lt;strong&gt;jq&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -599,10 +599,10 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     
     <item>
       <title>Today I learnt:422 HTTP Error code</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt422-http-error-code/</link>
+      <link>http://localhost:1313/posts/today-i-learnt422-http-error-code/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt422-http-error-code/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt422-http-error-code/</guid>
       <description>&lt;p&gt;Today while testing a soap API at work, I came across this HTTP error code called &lt;strong&gt;&lt;strong&gt;HTTP/1.1 422 Unprocessable Entity&lt;/strong&gt;&lt;/strong&gt; . According to MDN Web docs, it means the following :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The HyperText Transfer Protocol (HTTP) 422 Unprocessable Entity response status code indicates that the server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.&lt;/p&gt;</description>
@@ -626,10 +626,10 @@ According to <a href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">RFC</
     
     <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-interesting-things-in-java-11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-interesting-things-in-java-11/</guid>
       <description>&lt;p&gt;I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.&lt;/p&gt;
 &lt;p&gt;Today’s TIL : &lt;strong&gt;&lt;strong&gt;Crazy things to do with Java 11+&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;initializing-array-and-var-keywordpermalink&#34;&gt;Initializing Array and var keywordPermalink&lt;/h2&gt;
@@ -701,10 +701,10 @@ According to <a href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">RFC</
     
     <item>
       <title>Today I learnt: Database Version Control</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-database-version-control/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-database-version-control/</guid>
       <description>&lt;p&gt;Upon stumbling upon this motivating HN post by &lt;a href=&#34;https://simonwillison.net/2022/Nov/6/what-to-blog-about/&#34;&gt;Simon Willison&lt;/a&gt; I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Upon stumbling upon this motivating HN post by <a href="https://simonwillison.net/2022/Nov/6/what-to-blog-about/">Simon Willison</a> I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</p>
 <p>Starting with Today’s TIL : <strong><strong>Database Version Control</strong></strong></p>
@@ -750,10 +750,10 @@ Applications such as liquidbase,flyway scripts come in handy Speaking of liquiba
     
     <item>
       <title>Tackling procrastination and kubernetes study</title>
-      <link>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <link>http://localhost:1313/posts/tackling-procrastination-and-kubernetes-study/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <guid>http://localhost:1313/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
@@ -811,10 +811,10 @@ Applications such as liquidbase,flyway scripts come in handy Speaking of liquiba
     
     <item>
       <title>Tech Recap Journal- January📓</title>
-      <link>https://shwetakadam.com/posts/tech-recap-journal--january/</link>
+      <link>http://localhost:1313/posts/tech-recap-journal--january/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/tech-recap-journal--january/</guid>
+      <guid>http://localhost:1313/posts/tech-recap-journal--january/</guid>
       <description>&lt;p&gt;I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.&lt;/p&gt;
 &lt;p&gt;However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.&lt;/p&gt;
 &lt;h2 id=&#34;my-blog-codeklutz-dot-com&#34;&gt;My Blog! &lt;a href=&#34;https://codeklutz.com&#34;&gt;codeklutz.com&lt;/a&gt;&lt;/h2&gt;
@@ -841,10 +841,10 @@ Also since it’s on the internet maybe someone might find it useful or insightf
     
     <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
-      <link>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</link>
+      <link>http://localhost:1313/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</guid>
+      <guid>http://localhost:1313/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</guid>
       <description>&lt;p&gt;avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭&lt;/p&gt;
 &lt;p&gt;But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭</p>
@@ -928,10 +928,10 @@ Here is a small example of small WIP config for reference.</p>
     
     <item>
       <title>Integrating Swagger OpenAPI for easy API documentation in spring boot</title>
-      <link>https://shwetakadam.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
+      <link>http://localhost:1313/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
+      <guid>http://localhost:1313/posts/integrating-swagger-openapi-for-easy-api-documentation-in-spring-boot/</guid>
       <description>&lt;p&gt;These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.&lt;/p&gt;
 &lt;p&gt;Both do the job brilliantly but what if I wanted some user who doesn’t want to install postman or use curl and still wants to test my live APIs thru the browser? I came across this &lt;strong&gt;&lt;strong&gt;swagger open API specification&lt;/strong&gt;&lt;/strong&gt;  and this is a really handy tool!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>These days I am more into creating backend projects which include microservices.But if anyone wants to test these services one needs postman or do the old classic way of curl command.</p>
@@ -1048,10 +1048,10 @@ Overall this is a much convenient way of setting up documentation for your apis 
     
     <item>
       <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
-      <link>https://shwetakadam.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
+      <link>http://localhost:1313/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
+      <guid>http://localhost:1313/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
       <description>&lt;p&gt;I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.&lt;/p&gt;
 &lt;p&gt;But first I shall tell you a little about my use case and why I thought about cron jobs in the first place…..&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.</p>
@@ -1123,10 +1123,10 @@ Fixed Rate:</p>
     
     <item>
       <title>Deploying my portfolio website for free on Github Pages using GitHub actions</title>
-      <link>https://shwetakadam.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>
+      <link>http://localhost:1313/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
+      <guid>http://localhost:1313/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
       <description>&lt;p&gt;I deployed my &lt;a href=&#34;https://shwetarkadam.github.io/portfolio/&#34;&gt;portfolio site&lt;/a&gt; and wanted to try out github actions and this is my experience of automating the deployment.
 This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I deployed my <a href="https://shwetarkadam.github.io/portfolio/">portfolio site</a> and wanted to try out github actions and this is my experience of automating the deployment.
@@ -1234,10 +1234,10 @@ Happy Learning.</p>
     
     <item>
       <title>Polymorphism in Java</title>
-      <link>https://shwetakadam.com/posts/polymorphism-in-java/</link>
+      <link>http://localhost:1313/posts/polymorphism-in-java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/polymorphism-in-java/</guid>
+      <guid>http://localhost:1313/posts/polymorphism-in-java/</guid>
       <description>&lt;p&gt;Just revisiting and explaining myself Polymorphism concept here through a blog post. The words Polymorphism means multiple forms.&lt;/p&gt;
 &lt;p&gt;In Java ,Polymorphism means multiple forms of an object. We shall divide this article into 3 sections.&lt;/p&gt;
 &lt;p&gt;1.Syntax&lt;/p&gt;
@@ -1321,10 +1321,10 @@ If a method is called from a polymorphic object ,we follow a 2 step procedure: 1
     
     <item>
       <title>How constructors work in Java</title>
-      <link>https://shwetakadam.com/posts/how-constructors-work-in-java/</link>
+      <link>http://localhost:1313/posts/how-constructors-work-in-java/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/how-constructors-work-in-java/</guid>
+      <guid>http://localhost:1313/posts/how-constructors-work-in-java/</guid>
       <description>&lt;p&gt;Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.&lt;/p&gt;
 &lt;h2 id=&#34;a-constructor-is-used-to-initialize-instance-variables&#34;&gt;A constructor is used to initialize instance variables&lt;/h2&gt;
 &lt;h2 id=&#34;when-an-object-of-an-class-is-created-jvm-goes-to-the-class-and-searches-for-that-matching-constructor-dot-if-constructor-is-not-present-it-gives-a-compile-error-dot&#34;&gt;When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error.&lt;/h2&gt;

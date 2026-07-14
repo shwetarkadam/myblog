@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Angular on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/angular/</link>
+    <link>http://localhost:1313/tags/angular/</link>
     <description>Recent content in Angular on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Mar 2023 23:03:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 23:03:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Angular as a Java Developer</title>
-      <link>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</link>
+      <link>http://localhost:1313/posts/learning-angular-as-a-java-developer/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</guid>
+      <guid>http://localhost:1313/posts/learning-angular-as-a-java-developer/</guid>
       <description>&lt;p&gt;Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-angular&#34;&gt;What is Angular ?&lt;/h2&gt;
 &lt;p&gt;Framework to build client side applications.&lt;/p&gt;

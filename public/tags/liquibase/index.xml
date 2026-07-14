@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Liquibase on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/liquibase/</link>
+    <link>http://localhost:1313/tags/liquibase/</link>
     <description>Recent content in Liquibase on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Nov 2022 15:49:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/liquibase/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 15:49:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/liquibase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt: Database Version Control</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-database-version-control/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-database-version-control/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-database-version-control/</guid>
       <description>&lt;p&gt;Upon stumbling upon this motivating HN post by &lt;a href=&#34;https://simonwillison.net/2022/Nov/6/what-to-blog-about/&#34;&gt;Simon Willison&lt;/a&gt; I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Upon stumbling upon this motivating HN post by <a href="https://simonwillison.net/2022/Nov/6/what-to-blog-about/">Simon Willison</a> I have been inspired to start a Today I learnt(TIL) series of my own. This seems like a doable promising idea where I do not have the self-imposed pressure of researching for a blog idea and making a seperate time to write that specific post. Wrting this TIL flows naturally in day-to-day work flow where I could just say “Hey I just learnt about this XYZ ,I should write about it”.</p>
 <p>Starting with Today’s TIL : <strong><strong>Database Version Control</strong></strong></p>

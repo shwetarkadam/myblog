@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Watercooler on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/watercooler/</link>
+    <link>http://localhost:1313/tags/watercooler/</link>
     <description>Recent content in Watercooler on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 May 2023 23:10:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/watercooler/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 23:10:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/watercooler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Thinking Fast and Slow Concepts on Programming</title>
-      <link>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <link>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <guid>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
       <description>&lt;p&gt;Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!&lt;/p&gt;
 &lt;p&gt;The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
 System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.&lt;/p&gt;</description>
@@ -46,10 +46,10 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
     
     <item>
       <title>When to ask for help as a Software Engineer?</title>
-      <link>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <link>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <guid>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
       <description>&lt;p&gt;We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
 The feeling of doing some research before reaching out to someone.&lt;/p&gt;
 &lt;p&gt;Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.&lt;/p&gt;</description>

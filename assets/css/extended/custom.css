@@ -187,6 +187,27 @@ body.list,
     padding-top: 12px;
 }
 
+.scrap-or {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--secondary);
+    margin: 12px 0 0;
+}
+
+.scrap-or a {
+    color: var(--accent);
+    font-weight: 700;
+    background-image: linear-gradient(var(--accent), var(--accent));
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    background-size: 100% 1.5px;
+    transition: background-size 0.3s var(--ease);
+}
+
+.scrap-or a:hover {
+    background-size: 0 1.5px;
+}
+
 /* ---- polaroid + stamp ---- */
 
 .scrap-right {

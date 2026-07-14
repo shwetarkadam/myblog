@@ -91,7 +91,7 @@ disableSuggestChanges: true
 
 <p class="scrap-section"><em>Say hi</em> <span class="scrap-note">(i reply!)</span></p>
 
-<p>Want my resume? <strong><a href="mailto:hello@shwetakadam.com?subject=Resume%20request">Email me</a></strong> and I&rsquo;ll send it over. You can also find me on <a href="https://github.com/shwetarkadam">GitHub</a> and <a href="https://www.linkedin.com/in/shwetarkadam/">LinkedIn</a>.</p>
+<p>Want my resume? <strong><a href="mailto:hello@shwetakadam.com?subject=Resume%20request">Email me</a></strong> and I&rsquo;ll send it over &mdash; or <strong><a href="https://www.linkedin.com/in/shwetarkadam/">reach out on LinkedIn</a></strong>. You can also find me on <a href="https://github.com/shwetarkadam">GitHub</a>.</p>
 
 <p style="margin-top: 22px;"><a class="scrap-btn" href="mailto:hello@shwetakadam.com?subject=Hello%20from%20your%20website">say hi&nbsp;&#8594;</a></p>
 

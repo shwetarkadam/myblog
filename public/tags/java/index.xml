@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Java on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/java/</link>
+    <link>http://localhost:1313/tags/java/</link>
     <description>Recent content in Java on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jan 2022 23:49:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 23:49:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Which would you go for? Spring boot cron job,scheduled tasks vs Events in Mysql.</title>
-      <link>https://shwetakadam.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
+      <link>http://localhost:1313/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
+      <guid>http://localhost:1313/posts/which-would-you-go-for-spring-boot-cron-jobscheduled-tasks-vs-events-in-mysql/</guid>
       <description>&lt;p&gt;I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.&lt;/p&gt;
 &lt;p&gt;But first I shall tell you a little about my use case and why I thought about cron jobs in the first place…..&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was recently studying about using cron jobs in spring boot for a particular use case for my small side project. I ended up not using the cron job but rather went the SQL way(will explain this in detail below). However,in the process I learnt a lot about cron jobs and scheduling in spring boot so this is just a small article about my learnings.</p>
@@ -88,10 +88,10 @@ Fixed Rate:</p>
     
     <item>
       <title>Polymorphism in Java</title>
-      <link>https://shwetakadam.com/posts/polymorphism-in-java/</link>
+      <link>http://localhost:1313/posts/polymorphism-in-java/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/polymorphism-in-java/</guid>
+      <guid>http://localhost:1313/posts/polymorphism-in-java/</guid>
       <description>&lt;p&gt;Just revisiting and explaining myself Polymorphism concept here through a blog post. The words Polymorphism means multiple forms.&lt;/p&gt;
 &lt;p&gt;In Java ,Polymorphism means multiple forms of an object. We shall divide this article into 3 sections.&lt;/p&gt;
 &lt;p&gt;1.Syntax&lt;/p&gt;
@@ -175,10 +175,10 @@ If a method is called from a polymorphic object ,we follow a 2 step procedure: 1
     
     <item>
       <title>How constructors work in Java</title>
-      <link>https://shwetakadam.com/posts/how-constructors-work-in-java/</link>
+      <link>http://localhost:1313/posts/how-constructors-work-in-java/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/how-constructors-work-in-java/</guid>
+      <guid>http://localhost:1313/posts/how-constructors-work-in-java/</guid>
       <description>&lt;p&gt;Constructors are used every time to initialize instance variables. There are some additional rules associated with constructors that are often asked in interviews.Hence revising those here through a blog post.&lt;/p&gt;
 &lt;h2 id=&#34;a-constructor-is-used-to-initialize-instance-variables&#34;&gt;A constructor is used to initialize instance variables&lt;/h2&gt;
 &lt;h2 id=&#34;when-an-object-of-an-class-is-created-jvm-goes-to-the-class-and-searches-for-that-matching-constructor-dot-if-constructor-is-not-present-it-gives-a-compile-error-dot&#34;&gt;When an object of an class is created,JVM goes to the class and searches for that matching constructor.If Constructor is NOT PRESENT it gives a compile error.&lt;/h2&gt;

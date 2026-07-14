@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Primitives on Shweta Kadam</title>
-    <link>https://shwetakadam.com/tags/primitives/</link>
+    <link>http://localhost:1313/tags/primitives/</link>
     <description>Recent content in Primitives on Shweta Kadam</description>
     <image>
-      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 18:48:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/primitives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 18:48:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/primitives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt: Interesting Things in Java 11</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</link>
+      <link>http://localhost:1313/posts/today-i-learnt-interesting-things-in-java-11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
+      <guid>http://localhost:1313/posts/today-i-learnt-interesting-things-in-java-11/</guid>
       <description>&lt;p&gt;I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.&lt;/p&gt;
 &lt;p&gt;Today’s TIL : &lt;strong&gt;&lt;strong&gt;Crazy things to do with Java 11+&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;initializing-array-and-var-keywordpermalink&#34;&gt;Initializing Array and var keywordPermalink&lt;/h2&gt;
