@@ -59,8 +59,8 @@ disableSuggestChanges: true
     </div>
     <p class="exp-role">Mobile payments &amp; platform security &middot; Mumbai</p>
     <ul class="exp-tenure">
-      <li><span class="exp-tenure-role">Software Development Engineer II</span><span class="exp-tenure-when">Feb 2022 &mdash; now</span></li>
-      <li><span class="exp-tenure-role">Software Development Engineer I</span><span class="exp-tenure-when">Sep 2021 &mdash; Feb 2022</span></li>
+      <li><span class="exp-tenure-role">Software Engineer II</span><span class="exp-tenure-when">Feb 2022 &mdash; now</span></li>
+      <li><span class="exp-tenure-role">Software Engineer I</span><span class="exp-tenure-when">Sep 2021 &mdash; Feb 2022</span></li>
     </ul>
   </li>
   <li>
