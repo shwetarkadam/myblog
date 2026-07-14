@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>n8n on Shweta Kadam</title>
+    <title>N8n on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/n8n/</link>
-    <description>Recent content in n8n on Shweta Kadam</description>
+    <description>Recent content in N8n on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,11 +13,13 @@
     <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/n8n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</link>
+      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
-      <description>Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
+      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
+&lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault</h2>
 <p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action</p>

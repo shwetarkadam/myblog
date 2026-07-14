@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kubectl on Shweta Kadam</title>
+    <title>Kubectl on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/kubectl/</link>
-    <description>Recent content in kubectl on Shweta Kadam</description>
+    <description>Recent content in Kubectl on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,9 +17,16 @@
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/today-i-learnt-kubectl-commands-for-debugging/</guid>
-      <description>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.
-To check logs kubectl logs -f pod_name Useful when you need to check logs inside a pod.
-To get the bin bash inside a pod kubectl --exec --stdin --tty podname --bin/bash This is useful command to check for certain versions or debugging which is done This command was helpful for determining Java versions inside the pod which was used in a particular environment.</description>
+      <description>&lt;p&gt;Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.&lt;/p&gt;
+&lt;h2 id=&#34;to-check-logs&#34;&gt;To check logs&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-kubectl&#34; data-lang=&#34;kubectl&#34;&gt;kubectl logs  -f pod_name
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Useful when you need to check logs inside a pod.&lt;/p&gt;
+&lt;h2 id=&#34;to-get-the-bin-bash-inside-a-pod&#34;&gt;To get the bin bash inside a pod&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-kubectl&#34; data-lang=&#34;kubectl&#34;&gt;kubectl --exec --stdin --tty podname --bin/bash
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This is useful command to check for certain versions or debugging which is done
+This command was helpful for determining Java versions inside the pod which was used in a particular environment.
+Anytime you want to run terminal commands such as &lt;code&gt;java --version&lt;/code&gt; Or something similar to execute commands which need a bash shell.This is a good approach.
+Helps to know which dependencies a pod uses.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learnt a few kubectl commands which I used to for debugging a few issues in testing environment at work.</p>
 <h2 id="to-check-logs">To check logs</h2>
 <pre tabindex="0"><code class="language-kubectl" data-lang="kubectl">kubectl logs  -f pod_name

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>git on Shweta Kadam</title>
+    <title>Git on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/git/</link>
-    <description>Recent content in git on Shweta Kadam</description>
+    <description>Recent content in Git on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,13 +13,15 @@
     <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
-      <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
-what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
-It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
+      <description>&lt;p&gt;While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-git-submodule&#34;&gt;what is a git submodule?&lt;/h2&gt;
+&lt;p&gt;Git submodule is a way to include another repository in Git as a sub directory in one repository.&lt;/p&gt;
+&lt;p&gt;It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory
+It is useful for track that repo&amp;rsquo;s  changes and use that project repo as a reference.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.</p>
 <h2 id="what-is-a-git-submodule">what is a git submodule?</h2>
 <p>Git submodule is a way to include another repository in Git as a sub directory in one repository.</p>
@@ -103,12 +105,12 @@ And then again created a submodule entry with my usernameAnd that&rsquo;s how th
     
     <item>
       <title>Making Peace with Windows!Installing wsl,zsh,powerlevel10k,fzf &amp; many more fun plugins for easy development</title>
-      <link>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</link>
+      <link>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</guid>
-      <description>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺ I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭
-But Thanks to WSL, windows terminal, and the beautiful zsh .</description>
+      <guid>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</guid>
+      <description>&lt;p&gt;avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭&lt;/p&gt;
+&lt;p&gt;But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>avigation, editing, development using terminal and zsh . But recently due to unforeseen updates, my bios was messed up big time which has led me unable to install Linux for the time being. But the work and learning never stops and nor shall I ! ☺  I don’t hate windows but it’s definitely not my first choice for development and coding after discovering Linux.🤭</p>
 <p>But Thanks to WSL, windows terminal, and the beautiful zsh .I can get that Linux experience on windows!</p>
 <p>So this is just a blog post on how I customized my terminal on windows 10 using wsl, windows terminal,zsh, and many more fun plugins which I use on my Linux as well as windows for development(work or home).

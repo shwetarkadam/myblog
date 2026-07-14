@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>github on Shweta Kadam</title>
+    <title>Github on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/github/</link>
-    <description>Recent content in github on Shweta Kadam</description>
+    <description>Recent content in Github on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,13 +13,15 @@
     <lastBuildDate>Sun, 01 Jan 2023 00:30:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL :GIT Modules &amp; How to effectively remove submodules</title>
-      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</guid>
-      <description>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.
-what is a git submodule? Git submodule is a way to include another repository in Git as a sub directory in one repository.
-It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory It is useful for track that repo&amp;rsquo;s changes and use that project repo as a reference.</description>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</guid>
+      <description>&lt;p&gt;While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-git-submodule&#34;&gt;what is a git submodule?&lt;/h2&gt;
+&lt;p&gt;Git submodule is a way to include another repository in Git as a sub directory in one repository.&lt;/p&gt;
+&lt;p&gt;It allows you to keep another repo(your own repo or someone else) in your repo as a subdirectory
+It is useful for track that repo&amp;rsquo;s  changes and use that project repo as a reference.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>While I migrating this website, I came across many issues. One such issue was git submodule.So here is a post on it.</p>
 <h2 id="what-is-a-git-submodule">what is a git submodule?</h2>
 <p>Git submodule is a way to include another repository in Git as a sub directory in one repository.</p>
@@ -107,7 +109,8 @@ And then again created a submodule entry with my usernameAnd that&rsquo;s how th
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/deploying-my-portfolio-website-for-free-on-github-pages-using-github-actions/</guid>
-      <description>I deployed my portfolio site and wanted to try out github actions and this is my experience of automating the deployment. This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.</description>
+      <description>&lt;p&gt;I deployed my &lt;a href=&#34;https://shwetarkadam.github.io/portfolio/&#34;&gt;portfolio site&lt;/a&gt; and wanted to try out github actions and this is my experience of automating the deployment.
+This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I deployed my <a href="https://shwetarkadam.github.io/portfolio/">portfolio site</a> and wanted to try out github actions and this is my experience of automating the deployment.
 This article is more focused on how you can use the GitHub actions and how easy it is to deploy your code to GitHub pages rather than the portfolio site code.So every time you make an update or build to your website ,the changes are automatically reflected and this automated deploying process makes work much faster.</p>
 <p>The way GitHub action works is you create actions in your repositories by creating one or more yaml files and these are called workflows.Workflows now can handle build tasks like CI CD. This means you use the action to test your code and push the site to the desired hosting platform (in this case GitHub pages ) when the main branch changes .
@@ -178,7 +181,7 @@ Now the file that does this is that deploy.yml file which we will use to create 
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install and 06Build</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">          npm install
-</span></span></span><span class="line"><span class="cl"><span class="sd">          npm run build</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">          npm run build</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">JamesIves/github-pages-deploy-action@releases/v3</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">

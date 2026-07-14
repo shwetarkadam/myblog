@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>public speaking on Shweta Kadam</title>
+    <title>Public Speaking on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/public-speaking/</link>
-    <description>Recent content in public speaking on Shweta Kadam</description>
+    <description>Recent content in Public Speaking on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,11 +13,13 @@
     <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/public-speaking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</link>
+      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
-      <description>Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
+      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
+&lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault</h2>
 <p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action</p>
@@ -43,8 +45,10 @@ The Prototype in Action</p>
       <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
-      <description>My First Tech Talk: The Journey from Panic to Presentation I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.
-How Do You Secure a Speaking Slot? This was the big question! It took me countless applications, several rejections, and a sprinkle of luck.</description>
+      <description>&lt;h1 id=&#34;my-first-tech-talk-the-journey-from-panic-to-presentation&#34;&gt;My First Tech Talk: The Journey from Panic to Presentation&lt;/h1&gt;
+&lt;p&gt;I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-secure-a-speaking-slot&#34;&gt;How Do You Secure a Speaking Slot?&lt;/h2&gt;
+&lt;p&gt;This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it&amp;rsquo;s all about relevance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="my-first-tech-talk-the-journey-from-panic-to-presentation">My First Tech Talk: The Journey from Panic to Presentation</h1>
 <p>I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.</p>
 <h2 id="how-do-you-secure-a-speaking-slot">How Do You Secure a Speaking Slot?</h2>

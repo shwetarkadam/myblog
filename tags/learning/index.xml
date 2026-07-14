@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>learning on Shweta Kadam</title>
+    <title>Learning on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/learning/</link>
-    <description>Recent content in learning on Shweta Kadam</description>
+    <description>Recent content in Learning on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,11 +13,13 @@
     <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</link>
+      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</guid>
-      <description>Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025. The Prototype in Action</description>
+      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
+&lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
+The Prototype in Action&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault">Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault</h2>
 <p>Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action</p>
@@ -43,8 +45,10 @@ The Prototype in Action</p>
       <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
-      <description>My First Tech Talk: The Journey from Panic to Presentation I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.
-How Do You Secure a Speaking Slot? This was the big question! It took me countless applications, several rejections, and a sprinkle of luck.</description>
+      <description>&lt;h1 id=&#34;my-first-tech-talk-the-journey-from-panic-to-presentation&#34;&gt;My First Tech Talk: The Journey from Panic to Presentation&lt;/h1&gt;
+&lt;p&gt;I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-secure-a-speaking-slot&#34;&gt;How Do You Secure a Speaking Slot?&lt;/h2&gt;
+&lt;p&gt;This was the big question! It took me countless applications, several rejections, and a sprinkle of luck. The trick? Pitch a talk that fits what the audience and organizers are looking for—it&amp;rsquo;s all about relevance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="my-first-tech-talk-the-journey-from-panic-to-presentation">My First Tech Talk: The Journey from Panic to Presentation</h1>
 <p>I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.</p>
 <h2 id="how-do-you-secure-a-speaking-slot">How Do You Secure a Speaking Slot?</h2>
@@ -76,8 +80,9 @@ Once the panic and excitement strikes through so does the preparation. Preparing
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
-      <description>Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!
-The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions.</description>
+      <description>&lt;p&gt;Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!&lt;/p&gt;
+&lt;p&gt;The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
+System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!</p>
 <p>The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
 System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.</p>
@@ -108,8 +113,9 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
-      <description>We have all experienced this often where we are stuck on an issue. We feel we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline. The feeling of doing some research before reaching out to someone.
-Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</description>
+      <description>&lt;p&gt;We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
+The feeling of doing some research before reaching out to someone.&lt;/p&gt;
+&lt;p&gt;Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
 The feeling of doing some research before reaching out to someone.</p>
 <p>Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.</p>
@@ -129,7 +135,7 @@ It does two things:-</p>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
-      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+      <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
 <p>You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.</p>
@@ -144,8 +150,7 @@ It does two things:-</p>
 <p>The master node!</p>
 <p>The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.</p>
 <blockquote>
-<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p>
-</blockquote>
+<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p></blockquote>
 <p>because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.</p>
 <h2 id="other-components">Other components:</h2>
 <p>When you install kubernetes in your system,you are actually installing the follwing components:</p>
@@ -164,8 +169,7 @@ It does two things:-</p>
 <h2 id="etcd">etcd</h2>
 <p>etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.</p>
 <blockquote>
-<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p>
-</blockquote>
+<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p></blockquote>
 <h2 id="scheduler">Scheduler</h2>
 <p>Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.</p>
 <h2 id="controllers">Controllers</h2>

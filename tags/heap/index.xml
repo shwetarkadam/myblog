@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>heap on Shweta Kadam</title>
+    <title>Heap on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/heap/</link>
-    <description>Recent content in heap on Shweta Kadam</description>
+    <description>Recent content in Heap on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,7 +17,12 @@
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/today-i-learnt-til-leetcode-mini-bite-heap-and-priority-queue/</guid>
-      <description>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing. Some mini tricks I learnt by doing the problem https://leetcode.com/problems/kth-largest-element-in-a-stream/description/ When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap. And for Kth largest element the opposite element (which is smallest in this case is on top).</description>
+      <description>&lt;p&gt;I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
+Some mini tricks I learnt by doing the problem &lt;a href=&#34;https://leetcode.com/problems/kth-largest-element-in-a-stream/description/&#34;&gt;https://leetcode.com/problems/kth-largest-element-in-a-stream/description/&lt;/a&gt;
+When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap.
+And for Kth largest element the opposite element (which is smallest in this case is on top).
+Typically when one says Heap, we usually remember the tree diagram on google. However when in it comes to solving DS leetcode style problem I found out just using a Priority queue is simply enough.
+In Priority Queue, you just add the elements and it gives them a priority and sorts it .&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I decided to write a blog after a long time of pondering and no ideas to write anything interesting about. So I just decided to write about leetcode today which Im doing.
 Some mini tricks I learnt by doing the problem <a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/">https://leetcode.com/problems/kth-largest-element-in-a-stream/description/</a>
 When the problem asks for kth smallest or kth largest, typically it is supposed to be solved using Heap.

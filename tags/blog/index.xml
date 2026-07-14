@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blog on Shweta Kadam</title>
+    <title>Blog on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/blog/</link>
-    <description>Recent content in blog on Shweta Kadam</description>
+    <description>Recent content in Blog on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,11 +17,19 @@
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</guid>
-      <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
-What is Angular ? Framework to build client side applications.
-Why would you use Angular? Vanilla JQuery code gets harder to maintain,harder to test.
-And like all most of the frameworks Junction, Angular provides:
-Angular gave our applications clean structure.</description>
+      <description>&lt;p&gt;Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-angular&#34;&gt;What is Angular ?&lt;/h2&gt;
+&lt;p&gt;Framework to build client side applications.&lt;/p&gt;
+&lt;h2 id=&#34;why-would-you-use-angular&#34;&gt;Why would you use Angular?&lt;/h2&gt;
+&lt;p&gt;Vanilla JQuery code gets harder to maintain,harder to test.&lt;/p&gt;
+&lt;p&gt;And like all most of the frameworks Junction, Angular provides:&lt;/p&gt;
+&lt;h3 id=&#34;angular-gave-our-applications-clean-structure-dot&#34;&gt;Angular gave our applications clean structure.&lt;/h3&gt;
+&lt;h3 id=&#34;includes-lots-of-reusable-code&#34;&gt;Includes lots of Reusable code&lt;/h3&gt;
+&lt;h3 id=&#34;makes-the-application-more-testable&#34;&gt;Makes the application more testable&lt;/h3&gt;
+&lt;h2 id=&#34;also-easier-to-co-relate-to-learn-from-java-perspective-because-of-2-features&#34;&gt;Also easier to co-relate to learn from Java perspective because of 2 features&lt;/h2&gt;
+&lt;h3 id=&#34;dependency-injection&#34;&gt;Dependency Injection&lt;/h3&gt;
+&lt;h3 id=&#34;typescript&#34;&gt;Typescript&lt;/h3&gt;
+&lt;p&gt;gives our plain JS applications some structure &amp;amp; enables static typing.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.</p>
 <h2 id="what-is-angular">What is Angular ?</h2>
 <p>Framework to build client side applications.</p>
@@ -41,65 +49,65 @@ Angular gave our applications clean structure.</description>
 (Presentation logic)                Data APIs Business</p>
 <p>Let&rsquo;s get familiar with some terms in Angular first. Below is small comparison to co relate between Java and angular.</p>
 <table>
-<thead>
-<tr>
-<th>What</th>
-<th>Java</th>
-<th>Angular</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dependency management</td>
-<td>Maven</td>
-<td>npm(node package manager )</td>
-</tr>
-<tr>
-<td>Build/package</td>
-<td>Maven</td>
-<td>webpack</td>
-</tr>
-<tr>
-<td>Library  Repo</td>
-<td>Maven Central</td>
-<td>npmjs.org</td>
-</tr>
-<tr>
-<td>Project Descriptor</td>
-<td>pom.xml</td>
-<td>package.json</td>
-</tr>
-<tr>
-<td>Programming language</td>
-<td>Java</td>
-<td>Typescript ,HTML</td>
-</tr>
-<tr>
-<td>Platform runtime</td>
-<td>JVM</td>
-<td>Browser/NodeJS</td>
-</tr>
-<tr>
-<td>Unit Testing</td>
-<td>Junit</td>
-<td>Karma/jasmine</td>
-</tr>
-<tr>
-<td>Reactive Programming</td>
-<td>RxJava</td>
-<td>RxJS</td>
-</tr>
-<tr>
-<td>Code style checks</td>
-<td>Sonar</td>
-<td>eslint</td>
-</tr>
-<tr>
-<td>Browser End-to-end testing</td>
-<td>Webdriver</td>
-<td>Protractor (Layer on top of selenium)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>What</th>
+          <th>Java</th>
+          <th>Angular</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Dependency management</td>
+          <td>Maven</td>
+          <td>npm(node package manager )</td>
+      </tr>
+      <tr>
+          <td>Build/package</td>
+          <td>Maven</td>
+          <td>webpack</td>
+      </tr>
+      <tr>
+          <td>Library  Repo</td>
+          <td>Maven Central</td>
+          <td>npmjs.org</td>
+      </tr>
+      <tr>
+          <td>Project Descriptor</td>
+          <td>pom.xml</td>
+          <td>package.json</td>
+      </tr>
+      <tr>
+          <td>Programming language</td>
+          <td>Java</td>
+          <td>Typescript ,HTML</td>
+      </tr>
+      <tr>
+          <td>Platform runtime</td>
+          <td>JVM</td>
+          <td>Browser/NodeJS</td>
+      </tr>
+      <tr>
+          <td>Unit Testing</td>
+          <td>Junit</td>
+          <td>Karma/jasmine</td>
+      </tr>
+      <tr>
+          <td>Reactive Programming</td>
+          <td>RxJava</td>
+          <td>RxJS</td>
+      </tr>
+      <tr>
+          <td>Code style checks</td>
+          <td>Sonar</td>
+          <td>eslint</td>
+      </tr>
+      <tr>
+          <td>Browser End-to-end testing</td>
+          <td>Webdriver</td>
+          <td>Protractor (Layer on top of selenium)</td>
+      </tr>
+  </tbody>
 </table>
 <p>Like java has a main file. Similarly in angular, there is a <code>main.ts</code> file which is the starting point of our application.It is present in bootstrapmodule(Appmodule).</p>
 <h2 id="webpack">Webpack</h2>
@@ -116,10 +124,17 @@ When a code change is made, HMR only updates the module that has been modified, 
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/my-2022-year-review/</guid>
-      <description>It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.
-Work New friends and mentors I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
-I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.
-Promoted to Software Engineer 2 The title says all and I am grateful for it.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://shwetakadam.com/img/giphy.webp&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
+&lt;h3 id=&#34;new-friends-and-mentors&#34;&gt;New friends and mentors&lt;/h3&gt;
+&lt;p&gt;I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.&lt;/p&gt;
+&lt;p&gt;I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.&lt;/p&gt;
+&lt;h3 id=&#34;promoted-to-software-engineer-2&#34;&gt;Promoted to Software Engineer 2&lt;/h3&gt;
+&lt;p&gt;The title says all and I am grateful for it. Without such an awesome environment, I wouldn&amp;rsquo;t have faced the challenges, support and mentorship that I did.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.</p>
 <figure>
     <img loading="lazy" src="/img/giphy.webp"/> 
@@ -181,72 +196,72 @@ But diagram making tends to be a long time consuming task. I am currently trying
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/today-i-learnt-interesting-things-in-java-11/</guid>
-      <description>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.
-Today’s TIL : Crazy things to do with Java 11+
-Initializing Array and var keywordPermalink Having the var keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :).</description>
+      <description>&lt;p&gt;I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.&lt;/p&gt;
+&lt;p&gt;Today’s TIL : &lt;strong&gt;&lt;strong&gt;Crazy things to do with Java 11+&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;initializing-array-and-var-keywordpermalink&#34;&gt;Initializing Array and var keywordPermalink&lt;/h2&gt;
+&lt;p&gt;Having the &lt;code&gt;var&lt;/code&gt; keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :). But we never thought we would use it to initialize such as&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I came across a fascinating Java talk on youtube by Devoxx 2022 Hanno Embregts. This article is about a few java snippets I encountered. The purpose of today’s TIL is to have a list of interesting things we could do in Java and not deep dive into each concept.</p>
 <p>Today’s TIL : <strong><strong>Crazy things to do with Java 11+</strong></strong></p>
 <h2 id="initializing-array-and-var-keywordpermalink">Initializing Array and var keywordPermalink</h2>
 <p>Having the <code>var</code> keyword in a statically typed language such as Java was fascinating in itself(an article on this in the future :). But we never thought we would use it to initialize such as</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">element</span> <span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>       <span class="c1">//WORKS
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">var</span> <span class="o">[]</span> <span class="n">element</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>      <span class="c1">// COMPILE ERROR :error: &#39;var&#39; is not allowed as an element type of an array
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">Since</span> <span class="n">var</span> <span class="n">is</span> <span class="n">a</span> <span class="n">generic</span> <span class="n">element</span> <span class="n">type</span><span class="o">,</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">array</span> <span class="o">[]</span> <span class="n">provides</span> <span class="n">an</span> <span class="n">error</span> <span class="n">since</span> <span class="n">rather</span> <span class="n">than</span> <span class="n">being</span> <span class="n">generic</span> <span class="n">we</span> <span class="n">are</span> <span class="n">giving</span> <span class="n">it</span> <span class="n">an</span> <span class="n">array</span> <span class="n">type</span><span class="o">.</span>
-</span></span></code></pre></div><h2 id="c-style-arraypermalink">C style ArrayPermalink</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="n">element</span><span class="w"> </span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="p">;</span><span class="w">       </span><span class="c1">//WORKS</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="err">[] </span><span class="n">element</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="p">;</span><span class="w">      </span><span class="c1">// COMPILE ERROR :error: &#39;var&#39; is not allowed as an element type of an array</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">Since</span><span class="w"> </span><span class="kd">var</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">generic</span><span class="w"> </span><span class="n">element</span><span class="w"> </span><span class="n">type</span><span class="p">,</span><span class="w"> </span><span class="n">giving</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="n">provides</span><span class="w"> </span><span class="n">an</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="n">since</span><span class="w"> </span><span class="n">rather</span><span class="w"> </span><span class="n">than</span><span class="w"> </span><span class="n">being</span><span class="w"> </span><span class="n">generic</span><span class="w"> </span><span class="n">we</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">giving</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="n">an</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="n">type</span><span class="p">.</span><span class="w">
+</span></span></span></code></pre></div><h2 id="c-style-arraypermalink">C style ArrayPermalink</h2>
 <p>What is a c style array? Java supports providing [] before and after the variable name in an array</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"> <span class="kt">int</span> <span class="o">[]</span><span class="n">arr</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl"> <span class="kt">int</span> <span class="n">arr1</span><span class="o">[]=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">2</span><span class="o">];</span>
-</span></span></code></pre></div><p>In C style array, we provide [] after the variable name that is ~int arr1[].</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="o">[]</span><span class="n">arr</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">arr1</span><span class="o">[]=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">2</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>In C style array, we provide [] after the variable name that is ~int arr1[].</p>
 <p>So in Java, suppose we have the following code:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">arr1</span><span class="o">[],</span><span class="n">arr2</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>        <span class="c1">//COMPILE ERROR : error: incompatible types: int[] cannot be converted to int
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">       </span><span class="kt">int</span><span class="w"> </span><span class="n">arr1</span><span class="o">[]</span><span class="p">,</span><span class="n">arr2</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">arr1</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">arr2</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">;</span><span class="w">        </span><span class="c1">//COMPILE ERROR : error: incompatible types: int[] cannot be converted to int</span><span class="w">
 </span></span></span></code></pre></div><p>The above code will result in COMPILE ERROR for arr2 since arr2 is not an array but a primitive int variable. But if we want to want both arr1 and arr12 as array type we need to change the declaration to</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">       <span class="kt">int</span> <span class="o">[]</span> <span class="n">arr1</span><span class="o">,</span><span class="n">arr2</span><span class="o">;</span> <span class="c1">//Notice how [] are
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>       <span class="n">arr1</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
-</span></span><span class="line"><span class="cl">       <span class="n">arr2</span><span class="o">=</span><span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">1</span><span class="o">];</span>
-</span></span></code></pre></div><h2 id="arrays-dot-aslist-and-primitives">Arrays.asList and Primitives</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">       </span><span class="kt">int</span><span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="n">arr1</span><span class="p">,</span><span class="n">arr2</span><span class="p">;</span><span class="w"> </span><span class="c1">//Notice how [] are</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">arr1</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">arr2</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h2 id="arrays-dot-aslist-and-primitives">Arrays.asList and Primitives</h2>
 <p>Let’s look at the following example :</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="o">[]</span> <span class="n">strArr</span><span class="o">={</span><span class="s">&#34;one&#34;</span><span class="o">,</span><span class="s">&#34;two&#34;</span><span class="o">,</span><span class="s">&#34;three&#34;</span><span class="o">};</span>
-</span></span><span class="line"><span class="cl"><span class="n">var</span> <span class="n">stringList</span><span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">strArr</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">[]</span> <span class="n">intArray</span> <span class="o">=</span> <span class="o">{</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">,</span><span class="mi">3</span><span class="o">};</span>
-</span></span><span class="line"><span class="cl"><span class="n">var</span> <span class="n">intList</span> <span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">intArray</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">stringList</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="s">&#34;one&#34;</span><span class="o">)+</span><span class="s">&#34; &#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">intList</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="mi">1</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="nl">
-</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="kc">true</span> <span class="kc">false</span>
-</span></span></code></pre></div><p>Signature of Arrays.asList is var-args or List of T’s.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">      <span class="kd">public</span> <span class="kd">static</span> <span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="nf">asList</span><span class="o">(</span><span class="n">T</span><span class="o">...</span> <span class="n">a</span><span class="o">)</span>
-</span></span></code></pre></div><p>T is of generic type so that means it needs to reference a Type such as Integer,Float and not reference Array of Ints</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span><span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="n">strArr</span><span class="o">=</span><span class="p">{</span><span class="s">&#34;one&#34;</span><span class="p">,</span><span class="s">&#34;two&#34;</span><span class="p">,</span><span class="s">&#34;three&#34;</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="n">stringList</span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">asList</span><span class="p">(</span><span class="n">strArr</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="n">intArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">1</span><span class="p">,</span><span class="n">2</span><span class="p">,</span><span class="n">3</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="n">intList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">asList</span><span class="p">(</span><span class="n">intArray</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">stringList</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="s">&#34;one&#34;</span><span class="p">)</span><span class="o">+</span><span class="s">&#34; &#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="n">intList</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="n">1</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">Output</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span></code></pre></div><p>Signature of Arrays.asList is var-args or List of T’s.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">      </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">asList</span><span class="p">(</span><span class="n">T</span><span class="p">...</span><span class="w"> </span><span class="n">a</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></div><p>T is of generic type so that means it needs to reference a Type such as Integer,Float and not reference Array of Ints</p>
 <p>But next question is Can they boxed ? (Autoboxing: Converting primitive to Class Type example : int -&gt; Integer) Answer is no Array of ints -&gt; Cannot be boxed -&gt; Array of Integer</p>
 <blockquote>
-<p>Don’t use Arrays.asList on primitives</p>
-</blockquote>
+<p>Don’t use Arrays.asList on primitives</p></blockquote>
 <h2 id="no-structural-changes-allowed-in-arraypermalink">No structural changes allowed in ArrayPermalink</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="o">[]</span> <span class="n">ints</span> <span class="o">={</span><span class="s">&#34;a&#34;</span><span class="o">,</span><span class="s">&#34;b&#34;</span><span class="o">,</span><span class="s">&#34;c&#34;</span><span class="o">,</span><span class="kc">null</span><span class="o">};</span>
-</span></span><span class="line"><span class="cl"><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">strings</span><span class="o">=</span> <span class="n">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="n">ints</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">strings</span><span class="o">.</span><span class="na">removeIf</span><span class="o">(</span><span class="n">Objects</span> <span class="o">::</span> <span class="n">isNull</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">strings</span><span class="o">.</span><span class="na">size</span><span class="o">());</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="n">Exception</span> <span class="n">in</span> <span class="n">thread</span> <span class="err">“</span><span class="n">main</span><span class="err">”</span> <span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">UnsupportedOperationException</span><span class="o">:</span> <span class="n">remove</span> <span class="n">at</span> <span class="n">java</span><span class="o">.</span><span class="na">base</span><span class="o">/</span><span class="n">java</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">Iterator</span><span class="o">.</span><span class="na">remove</span><span class="o">(</span><span class="n">Iterator</span><span class="o">.</span><span class="na">java</span><span class="o">:</span><span class="mi">102</span><span class="o">)</span>
-</span></span></code></pre></div><p>Because the array does not allow any structural changes to it</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span><span class="w"> </span><span class="o">[]</span><span class="w"> </span><span class="n">ints</span><span class="w"> </span><span class="o">=</span><span class="p">{</span><span class="s">&#34;a&#34;</span><span class="p">,</span><span class="s">&#34;b&#34;</span><span class="p">,</span><span class="s">&#34;c&#34;</span><span class="p">,</span><span class="kc">null</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">strings</span><span class="o">=</span><span class="w"> </span><span class="n">Arrays</span><span class="p">.</span><span class="na">asList</span><span class="p">(</span><span class="n">ints</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">strings</span><span class="p">.</span><span class="na">removeIf</span><span class="p">(</span><span class="n">Objects</span><span class="w"> </span><span class="p">::</span><span class="w"> </span><span class="n">isNull</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">strings</span><span class="p">.</span><span class="na">size</span><span class="p">());</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">Output</span><span class="p">:</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">thread</span><span class="w"> </span><span class="err">“</span><span class="n">main</span><span class="err">”</span><span class="w"> </span><span class="n">java</span><span class="p">.</span><span class="na">lang</span><span class="p">.</span><span class="na">UnsupportedOperationException</span><span class="p">:</span><span class="w"> </span><span class="n">remove</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="n">java</span><span class="p">.</span><span class="na">base</span><span class="o">/</span><span class="n">java</span><span class="p">.</span><span class="na">util</span><span class="p">.</span><span class="na">Iterator</span><span class="p">.</span><span class="na">remove</span><span class="p">(</span><span class="n">Iterator</span><span class="p">.</span><span class="na">java</span><span class="p">:</span><span class="n">102</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></div><p>Because the array does not allow any structural changes to it</p>
 <h2 id="a-unique-way-to-remove-null-values-from-map">A Unique way to remove null values from Map</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">,</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">=</span><span class="k">new</span> <span class="n">HashMap</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="mi">4</span><span class="o">,</span><span class="kc">null</span><span class="o">);</span> <span class="c1">//currently map has key:4 value: null
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">getOrDefault</span><span class="o">(</span><span class="mi">4</span><span class="o">,</span><span class="s">&#34;four&#34;</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="o">(</span><span class="mi">4</span><span class="o">,</span><span class="s">&#34;four&#34;</span><span class="o">);</span>     <span class="c1">//key key:4 value:four
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="mi">4</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="nl">
-</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="kc">null</span><span class="o">,</span><span class="n">four</span>
-</span></span></code></pre></div><p>##</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">numbers</span> <span class="o">=</span> <span class="n">List</span><span class="o">.</span><span class="na">of</span><span class="o">(-</span><span class="mi">1</span><span class="o">,</span><span class="mi">0</span><span class="o">,</span><span class="mi">1</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">,</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span> <span class="n">map</span><span class="o">=</span><span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
-</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="o">.</span><span class="na">forEach</span><span class="o">(</span><span class="n">number</span><span class="o">-&gt;</span> <span class="n">map</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="o">(</span><span class="n">number</span><span class="o">,</span><span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;())</span>
-</span></span><span class="line"><span class="cl">               <span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">number</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">map</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="mi">0</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="nl">
-</span></span></span><span class="line"><span class="cl"><span class="nl">Output:</span> <span class="n">NullPointerException</span><span class="o">:</span> <span class="n">Exception</span> <span class="n">in</span> <span class="n">thread</span> <span class="err">“</span><span class="n">main</span><span class="err">”</span> <span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">NullPointerException</span> <span class="n">at</span> <span class="n">HelloWorld</span><span class="o">.</span><span class="na">lambda$main$0</span><span class="o">(</span><span class="n">HelloWorld</span><span class="o">.</span><span class="na">java</span><span class="o">:</span><span class="mi">33</span><span class="o">)</span>
-</span></span></code></pre></div><p>Because map.putIfAbsent returns null if no value is present</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="p">,</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">map</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">map</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="n">4</span><span class="p">,</span><span class="kc">null</span><span class="p">);</span><span class="w"> </span><span class="c1">//currently map has key:4 value: null</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">map</span><span class="p">.</span><span class="na">getOrDefault</span><span class="p">(</span><span class="n">4</span><span class="p">,</span><span class="s">&#34;four&#34;</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">map</span><span class="p">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="n">4</span><span class="p">,</span><span class="s">&#34;four&#34;</span><span class="p">);</span><span class="w">     </span><span class="c1">//key key:4 value:four</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">map</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">4</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">Output</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="n">four</span><span class="w">
+</span></span></span></code></pre></div><p>##</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="n">numbers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">List</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="o">-</span><span class="n">1</span><span class="p">,</span><span class="n">0</span><span class="p">,</span><span class="n">1</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">Map</span><span class="o">&lt;</span><span class="n">Integer</span><span class="p">,</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">map</span><span class="o">=</span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">numbers</span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">number</span><span class="o">-&gt;</span><span class="w"> </span><span class="n">map</span><span class="p">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="n">number</span><span class="p">,</span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">())</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">               </span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">number</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">map</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">0</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nl">Output</span><span class="p">:</span><span class="w"> </span><span class="n">NullPointerException</span><span class="p">:</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">thread</span><span class="w"> </span><span class="err">“</span><span class="n">main</span><span class="err">”</span><span class="w"> </span><span class="n">java</span><span class="p">.</span><span class="na">lang</span><span class="p">.</span><span class="na">NullPointerException</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="n">HelloWorld</span><span class="p">.</span><span class="na">lambda$main$0</span><span class="p">(</span><span class="n">HelloWorld</span><span class="p">.</span><span class="na">java</span><span class="p">:</span><span class="n">33</span><span class="p">)</span><span class="w">
+</span></span></span></code></pre></div><p>Because map.putIfAbsent returns null if no value is present</p>
 ]]></content:encoded>
     </item>
     
@@ -256,7 +271,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
-      <description>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.</description>
+      <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>
 <p>You should be already familiar and comfortable with the concept of containers and container run-time such as docker as kubernetes is for managing different containers and their deployment at a large scale.Another point which is not mandatory but good to know would be basic docker commands like docker run etc.</p>
@@ -271,8 +286,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
 <p>The master node!</p>
 <p>The master node is another machine with kubernetes installed in it and it watches over the nodes and does the actusl orchestration of the worker nodes.</p>
 <blockquote>
-<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p>
-</blockquote>
+<p>Note that a cluster can have multiple master nodes depending on the size of the cluster.</p></blockquote>
 <p>because at the end of the day , a master node is a machine (which can crash) and for high availability we need to avoid that.</p>
 <h2 id="other-components">Other components:</h2>
 <p>When you install kubernetes in your system,you are actually installing the follwing components:</p>
@@ -291,8 +305,7 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
 <h2 id="etcd">etcd</h2>
 <p>etcd is a distributed key value store used to store data about how to manage the cluster.It is also resp0onsible to implement logs within the cluster to ensure there is no conflict between mulitple masters.</p>
 <blockquote>
-<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p>
-</blockquote>
+<p>Note that your application data is not stored in etcd only logs and information about the cluster.</p></blockquote>
 <h2 id="scheduler">Scheduler</h2>
 <p>Scheduler is responsible is distributing containers across multiple nodes.It looks for newly created containers and assigns them to nodes.</p>
 <h2 id="controllers">Controllers</h2>
@@ -315,13 +328,14 @@ Initializing Array and var keywordPermalink Having the var keyword in a statical
     
     <item>
       <title>Tech Recap Journal- January📓</title>
-      <link>https://shwetakadam.com/posts/tech-recap-journal-january/</link>
+      <link>https://shwetakadam.com/posts/tech-recap-journal--january/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>https://shwetakadam.com/posts/tech-recap-journal-january/</guid>
-      <description>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.
-However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.
-My Blog! codeklutz.com I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.</description>
+      <guid>https://shwetakadam.com/posts/tech-recap-journal--january/</guid>
+      <description>&lt;p&gt;I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.&lt;/p&gt;
+&lt;p&gt;However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.&lt;/p&gt;
+&lt;h2 id=&#34;my-blog-codeklutz-dot-com&#34;&gt;My Blog! &lt;a href=&#34;https://codeklutz.com&#34;&gt;codeklutz.com&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have been wanting to make my own tech blog for a while now but I needed something which didn’t necessary requires much code or db maintenance.I didn’t want to opt for WordPress for the same reason.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I tried a lot of things in January not necessarily everything learnt was used and and not every side project which I worked on got live.</p>
 <p>However I learnt many lessons from my own failures and gained more insights when I started some initiatives. So just a small gist of looking back on January and mid February.</p>
 <h2 id="my-blog-codeklutz-dot-com">My Blog! <a href="https://codeklutz.com">codeklutz.com</a></h2>

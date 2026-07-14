@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>review on Shweta Kadam</title>
+    <title>Review on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/review/</link>
-    <description>Recent content in review on Shweta Kadam</description>
+    <description>Recent content in Review on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,10 +17,17 @@
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/my-2022-year-review/</guid>
-      <description>It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.
-Work New friends and mentors I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.
-I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.
-Promoted to Software Engineer 2 The title says all and I am grateful for it.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://shwetakadam.com/img/giphy.webp&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
+&lt;h3 id=&#34;new-friends-and-mentors&#34;&gt;New friends and mentors&lt;/h3&gt;
+&lt;p&gt;I joined Boku in September 2021 &amp;amp; had the pleasure to meet some amazing developers and colleagues.&lt;/p&gt;
+&lt;p&gt;I got the opportunity to learn a lot while on the job, through mentors, environment &amp;amp; infrastructure itself.&lt;/p&gt;
+&lt;h3 id=&#34;promoted-to-software-engineer-2&#34;&gt;Promoted to Software Engineer 2&lt;/h3&gt;
+&lt;p&gt;The title says all and I am grateful for it. Without such an awesome environment, I wouldn&amp;rsquo;t have faced the challenges, support and mentorship that I did.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a fruitful and amazing year.And that means documenting my small journey as a blog post.</p>
 <figure>
     <img loading="lazy" src="/img/giphy.webp"/> 

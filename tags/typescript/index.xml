@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>typescript on Shweta Kadam</title>
+    <title>Typescript on Shweta Kadam</title>
     <link>https://shwetakadam.com/tags/typescript/</link>
-    <description>Recent content in typescript on Shweta Kadam</description>
+    <description>Recent content in Typescript on Shweta Kadam</description>
     <image>
       <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,11 +17,19 @@
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
       <guid>https://shwetakadam.com/posts/learning-angular-as-a-java-developer/</guid>
-      <description>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.
-What is Angular ? Framework to build client side applications.
-Why would you use Angular? Vanilla JQuery code gets harder to maintain,harder to test.
-And like all most of the frameworks Junction, Angular provides:
-Angular gave our applications clean structure.</description>
+      <description>&lt;p&gt;Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-angular&#34;&gt;What is Angular ?&lt;/h2&gt;
+&lt;p&gt;Framework to build client side applications.&lt;/p&gt;
+&lt;h2 id=&#34;why-would-you-use-angular&#34;&gt;Why would you use Angular?&lt;/h2&gt;
+&lt;p&gt;Vanilla JQuery code gets harder to maintain,harder to test.&lt;/p&gt;
+&lt;p&gt;And like all most of the frameworks Junction, Angular provides:&lt;/p&gt;
+&lt;h3 id=&#34;angular-gave-our-applications-clean-structure-dot&#34;&gt;Angular gave our applications clean structure.&lt;/h3&gt;
+&lt;h3 id=&#34;includes-lots-of-reusable-code&#34;&gt;Includes lots of Reusable code&lt;/h3&gt;
+&lt;h3 id=&#34;makes-the-application-more-testable&#34;&gt;Makes the application more testable&lt;/h3&gt;
+&lt;h2 id=&#34;also-easier-to-co-relate-to-learn-from-java-perspective-because-of-2-features&#34;&gt;Also easier to co-relate to learn from Java perspective because of 2 features&lt;/h2&gt;
+&lt;h3 id=&#34;dependency-injection&#34;&gt;Dependency Injection&lt;/h3&gt;
+&lt;h3 id=&#34;typescript&#34;&gt;Typescript&lt;/h3&gt;
+&lt;p&gt;gives our plain JS applications some structure &amp;amp; enables static typing.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently got an opportunity to work on angular project.With no previous experience in angular, I had some catch up to do in terms of web development.So here is a small blog post.</p>
 <h2 id="what-is-angular">What is Angular ?</h2>
 <p>Framework to build client side applications.</p>
@@ -41,65 +49,65 @@ Angular gave our applications clean structure.</description>
 (Presentation logic)                Data APIs Business</p>
 <p>Let&rsquo;s get familiar with some terms in Angular first. Below is small comparison to co relate between Java and angular.</p>
 <table>
-<thead>
-<tr>
-<th>What</th>
-<th>Java</th>
-<th>Angular</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dependency management</td>
-<td>Maven</td>
-<td>npm(node package manager )</td>
-</tr>
-<tr>
-<td>Build/package</td>
-<td>Maven</td>
-<td>webpack</td>
-</tr>
-<tr>
-<td>Library  Repo</td>
-<td>Maven Central</td>
-<td>npmjs.org</td>
-</tr>
-<tr>
-<td>Project Descriptor</td>
-<td>pom.xml</td>
-<td>package.json</td>
-</tr>
-<tr>
-<td>Programming language</td>
-<td>Java</td>
-<td>Typescript ,HTML</td>
-</tr>
-<tr>
-<td>Platform runtime</td>
-<td>JVM</td>
-<td>Browser/NodeJS</td>
-</tr>
-<tr>
-<td>Unit Testing</td>
-<td>Junit</td>
-<td>Karma/jasmine</td>
-</tr>
-<tr>
-<td>Reactive Programming</td>
-<td>RxJava</td>
-<td>RxJS</td>
-</tr>
-<tr>
-<td>Code style checks</td>
-<td>Sonar</td>
-<td>eslint</td>
-</tr>
-<tr>
-<td>Browser End-to-end testing</td>
-<td>Webdriver</td>
-<td>Protractor (Layer on top of selenium)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>What</th>
+          <th>Java</th>
+          <th>Angular</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Dependency management</td>
+          <td>Maven</td>
+          <td>npm(node package manager )</td>
+      </tr>
+      <tr>
+          <td>Build/package</td>
+          <td>Maven</td>
+          <td>webpack</td>
+      </tr>
+      <tr>
+          <td>Library  Repo</td>
+          <td>Maven Central</td>
+          <td>npmjs.org</td>
+      </tr>
+      <tr>
+          <td>Project Descriptor</td>
+          <td>pom.xml</td>
+          <td>package.json</td>
+      </tr>
+      <tr>
+          <td>Programming language</td>
+          <td>Java</td>
+          <td>Typescript ,HTML</td>
+      </tr>
+      <tr>
+          <td>Platform runtime</td>
+          <td>JVM</td>
+          <td>Browser/NodeJS</td>
+      </tr>
+      <tr>
+          <td>Unit Testing</td>
+          <td>Junit</td>
+          <td>Karma/jasmine</td>
+      </tr>
+      <tr>
+          <td>Reactive Programming</td>
+          <td>RxJava</td>
+          <td>RxJS</td>
+      </tr>
+      <tr>
+          <td>Code style checks</td>
+          <td>Sonar</td>
+          <td>eslint</td>
+      </tr>
+      <tr>
+          <td>Browser End-to-end testing</td>
+          <td>Webdriver</td>
+          <td>Protractor (Layer on top of selenium)</td>
+      </tr>
+  </tbody>
 </table>
 <p>Like java has a main file. Similarly in angular, there is a <code>main.ts</code> file which is the starting point of our application.It is present in bootstrapmodule(Appmodule).</p>
 <h2 id="webpack">Webpack</h2>

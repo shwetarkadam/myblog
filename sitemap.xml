@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shwetakadam.com/posts/exploring-tls-automation-a-proof-of-concept-with-n8n-and-vault/</loc>
+    <loc>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</loc>
     <lastmod>2025-04-20T21:41:00+05:30</lastmod>
   </url><url>
     <loc>https://shwetakadam.com/tags/journey/</loc>
@@ -110,7 +110,7 @@
     <loc>https://shwetakadam.com/tags/submodule/</loc>
     <lastmod>2023-01-01T00:30:00+05:30</lastmod>
   </url><url>
-    <loc>https://shwetakadam.com/posts/today-i-learnt-til-git-modules-how-to-effectively-remove-submodules/</loc>
+    <loc>https://shwetakadam.com/posts/today-i-learnt-til-git-modules--how-to-effectively-remove-submodules/</loc>
     <lastmod>2023-01-01T00:30:00+05:30</lastmod>
   </url><url>
     <loc>https://shwetakadam.com/tags/2022/</loc>
@@ -215,7 +215,7 @@
     <loc>https://shwetakadam.com/tags/note/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
-    <loc>https://shwetakadam.com/posts/tech-recap-journal-january/</loc>
+    <loc>https://shwetakadam.com/posts/tech-recap-journal--january/</loc>
     <lastmod>2022-02-01T15:15:00+05:30</lastmod>
   </url><url>
     <loc>https://shwetakadam.com/tags/config/</loc>
@@ -224,7 +224,7 @@
     <loc>https://shwetakadam.com/tags/fzf/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
-    <loc>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf-many-more-fun-plugins-for-easy-development/</loc>
+    <loc>https://shwetakadam.com/posts/making-peace-with-windowsinstalling-wslzshpowerlevel10kfzf--many-more-fun-plugins-for-easy-development/</loc>
     <lastmod>2022-01-21T23:41:00+05:30</lastmod>
   </url><url>
     <loc>https://shwetakadam.com/tags/ohmyzsh/</loc>
@@ -316,8 +316,6 @@
   </url><url>
     <loc>https://shwetakadam.com/layouts/partials/extend_footer/</loc>
   </url><url>
-    <loc>https://shwetakadam.com/talk/</loc>
-  </url><url>
     <loc>https://shwetakadam.com/about/</loc>
   </url><url>
     <loc>https://shwetakadam.com/archives/</loc>
@@ -327,5 +325,7 @@
     <loc>https://shwetakadam.com/layouts/</loc>
   </url><url>
     <loc>https://shwetakadam.com/search/</loc>
+  </url><url>
+    <loc>https://shwetakadam.com/talk/</loc>
   </url>
 </urlset>
