@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Json on Shweta Kadam</title>
-    <link>http://localhost:1313/tags/json/</link>
+    <link>https://shwetakadam.com/tags/json/</link>
     <description>Recent content in Json on Shweta Kadam</description>
     <image>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 21:45:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today I learnt TIL: jq</title>
-      <link>http://localhost:1313/posts/today-i-learnt-til-jq/</link>
+      <link>https://shwetakadam.com/posts/today-i-learnt-til-jq/</link>
       <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/today-i-learnt-til-jq/</guid>
+      <guid>https://shwetakadam.com/posts/today-i-learnt-til-jq/</guid>
       <description>&lt;p&gt;Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
 But my mac cried and was freezing in instances begging for me to not open more application :(
 This is where I came across a nifty tool called  &lt;strong&gt;&lt;strong&gt;jq&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -78,10 +78,10 @@ You dont need to do the manual work of copy and paste and json and figuring it o
     
     <item>
       <title>Today I learnt (TIL): jq</title>
-      <link>http://localhost:1313/posts/til-jq/</link>
+      <link>https://shwetakadam.com/posts/til-jq/</link>
       <pubDate>Tue, 20 Dec 2022 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/til-jq/</guid>
+      <guid>https://shwetakadam.com/posts/til-jq/</guid>
       <description>&lt;p&gt;Today at work once again I had to inspect a json body which was not beautified. Normally I turn to Postman and use the beautify option.
 But my mac cried and was freezing in instances begging for me to not open more application :(
 This is where I came across a nifty tool called  &lt;strong&gt;&lt;strong&gt;jq&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;

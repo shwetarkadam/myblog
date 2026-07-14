@@ -2,801 +2,801 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Shweta Kadam</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://shwetakadam.com/tags/</link>
     <description>Recent content in Tags on Shweta Kadam</description>
     <image>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journey</title>
-      <link>http://localhost:1313/tags/journey/</link>
+      <link>https://shwetakadam.com/tags/journey/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/journey/</guid>
+      <guid>https://shwetakadam.com/tags/journey/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>http://localhost:1313/tags/learning/</link>
+      <link>https://shwetakadam.com/tags/learning/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/learning/</guid>
+      <guid>https://shwetakadam.com/tags/learning/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>N8n</title>
-      <link>http://localhost:1313/tags/n8n/</link>
+      <link>https://shwetakadam.com/tags/n8n/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/n8n/</guid>
+      <guid>https://shwetakadam.com/tags/n8n/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Presentation</title>
-      <link>http://localhost:1313/tags/presentation/</link>
+      <link>https://shwetakadam.com/tags/presentation/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/presentation/</guid>
+      <guid>https://shwetakadam.com/tags/presentation/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Public Speaking</title>
-      <link>http://localhost:1313/tags/public-speaking/</link>
+      <link>https://shwetakadam.com/tags/public-speaking/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/public-speaking/</guid>
+      <guid>https://shwetakadam.com/tags/public-speaking/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Talk</title>
-      <link>http://localhost:1313/tags/talk/</link>
+      <link>https://shwetakadam.com/tags/talk/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/talk/</guid>
+      <guid>https://shwetakadam.com/tags/talk/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Vault</title>
-      <link>http://localhost:1313/tags/vault/</link>
+      <link>https://shwetakadam.com/tags/vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/vault/</guid>
+      <guid>https://shwetakadam.com/tags/vault/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Heap</title>
-      <link>http://localhost:1313/tags/heap/</link>
+      <link>https://shwetakadam.com/tags/heap/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/heap/</guid>
+      <guid>https://shwetakadam.com/tags/heap/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Kthlargest</title>
-      <link>http://localhost:1313/tags/kthlargest/</link>
+      <link>https://shwetakadam.com/tags/kthlargest/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/kthlargest/</guid>
+      <guid>https://shwetakadam.com/tags/kthlargest/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Kthsmallest</title>
-      <link>http://localhost:1313/tags/kthsmallest/</link>
+      <link>https://shwetakadam.com/tags/kthsmallest/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/kthsmallest/</guid>
+      <guid>https://shwetakadam.com/tags/kthsmallest/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Leetcode</title>
-      <link>http://localhost:1313/tags/leetcode/</link>
+      <link>https://shwetakadam.com/tags/leetcode/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/leetcode/</guid>
+      <guid>https://shwetakadam.com/tags/leetcode/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Priorityqueue</title>
-      <link>http://localhost:1313/tags/priorityqueue/</link>
+      <link>https://shwetakadam.com/tags/priorityqueue/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/priorityqueue/</guid>
+      <guid>https://shwetakadam.com/tags/priorityqueue/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Til</title>
-      <link>http://localhost:1313/tags/til/</link>
+      <link>https://shwetakadam.com/tags/til/</link>
       <pubDate>Tue, 15 Aug 2023 21:24:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/til/</guid>
+      <guid>https://shwetakadam.com/tags/til/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Help</title>
-      <link>http://localhost:1313/tags/help/</link>
+      <link>https://shwetakadam.com/tags/help/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/help/</guid>
+      <guid>https://shwetakadam.com/tags/help/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Softwareengineer</title>
-      <link>http://localhost:1313/tags/softwareengineer/</link>
+      <link>https://shwetakadam.com/tags/softwareengineer/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/softwareengineer/</guid>
+      <guid>https://shwetakadam.com/tags/softwareengineer/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Watercooler</title>
-      <link>http://localhost:1313/tags/watercooler/</link>
+      <link>https://shwetakadam.com/tags/watercooler/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/watercooler/</guid>
+      <guid>https://shwetakadam.com/tags/watercooler/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Debugging</title>
-      <link>http://localhost:1313/tags/debugging/</link>
+      <link>https://shwetakadam.com/tags/debugging/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/debugging/</guid>
+      <guid>https://shwetakadam.com/tags/debugging/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Kubectl</title>
-      <link>http://localhost:1313/tags/kubectl/</link>
+      <link>https://shwetakadam.com/tags/kubectl/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/kubectl/</guid>
+      <guid>https://shwetakadam.com/tags/kubectl/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Angular</title>
-      <link>http://localhost:1313/tags/angular/</link>
+      <link>https://shwetakadam.com/tags/angular/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/angular/</guid>
+      <guid>https://shwetakadam.com/tags/angular/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>https://shwetakadam.com/tags/blog/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://shwetakadam.com/tags/blog/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>http://localhost:1313/tags/guide/</link>
+      <link>https://shwetakadam.com/tags/guide/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/guide/</guid>
+      <guid>https://shwetakadam.com/tags/guide/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Typescript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
+      <link>https://shwetakadam.com/tags/typescript/</link>
       <pubDate>Fri, 03 Mar 2023 23:03:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/typescript/</guid>
+      <guid>https://shwetakadam.com/tags/typescript/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://shwetakadam.com/tags/git/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/git/</guid>
+      <guid>https://shwetakadam.com/tags/git/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
+      <link>https://shwetakadam.com/tags/github/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/github/</guid>
+      <guid>https://shwetakadam.com/tags/github/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Gitsubmodule</title>
-      <link>http://localhost:1313/tags/gitsubmodule/</link>
+      <link>https://shwetakadam.com/tags/gitsubmodule/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/gitsubmodule/</guid>
+      <guid>https://shwetakadam.com/tags/gitsubmodule/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Submodule</title>
-      <link>http://localhost:1313/tags/submodule/</link>
+      <link>https://shwetakadam.com/tags/submodule/</link>
       <pubDate>Sun, 01 Jan 2023 00:30:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/submodule/</guid>
+      <guid>https://shwetakadam.com/tags/submodule/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>2022</title>
-      <link>http://localhost:1313/tags/2022/</link>
+      <link>https://shwetakadam.com/tags/2022/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/2022/</guid>
+      <guid>https://shwetakadam.com/tags/2022/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Retrospect</title>
-      <link>http://localhost:1313/tags/retrospect/</link>
+      <link>https://shwetakadam.com/tags/retrospect/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/retrospect/</guid>
+      <guid>https://shwetakadam.com/tags/retrospect/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Review</title>
-      <link>http://localhost:1313/tags/review/</link>
+      <link>https://shwetakadam.com/tags/review/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/review/</guid>
+      <guid>https://shwetakadam.com/tags/review/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Techreview</title>
-      <link>http://localhost:1313/tags/techreview/</link>
+      <link>https://shwetakadam.com/tags/techreview/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/techreview/</guid>
+      <guid>https://shwetakadam.com/tags/techreview/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Yearreview</title>
-      <link>http://localhost:1313/tags/yearreview/</link>
+      <link>https://shwetakadam.com/tags/yearreview/</link>
       <pubDate>Mon, 26 Dec 2022 01:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/yearreview/</guid>
+      <guid>https://shwetakadam.com/tags/yearreview/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Jq</title>
-      <link>http://localhost:1313/tags/jq/</link>
+      <link>https://shwetakadam.com/tags/jq/</link>
       <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/jq/</guid>
+      <guid>https://shwetakadam.com/tags/jq/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Json</title>
-      <link>http://localhost:1313/tags/json/</link>
+      <link>https://shwetakadam.com/tags/json/</link>
       <pubDate>Thu, 22 Dec 2022 21:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/json/</guid>
+      <guid>https://shwetakadam.com/tags/json/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>422</title>
-      <link>http://localhost:1313/tags/422/</link>
+      <link>https://shwetakadam.com/tags/422/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/422/</guid>
+      <guid>https://shwetakadam.com/tags/422/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>422unprocessableentity</title>
-      <link>http://localhost:1313/tags/422unprocessableentity/</link>
+      <link>https://shwetakadam.com/tags/422unprocessableentity/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/422unprocessableentity/</guid>
+      <guid>https://shwetakadam.com/tags/422unprocessableentity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Http</title>
-      <link>http://localhost:1313/tags/http/</link>
+      <link>https://shwetakadam.com/tags/http/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/http/</guid>
+      <guid>https://shwetakadam.com/tags/http/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Httperrorcode</title>
-      <link>http://localhost:1313/tags/httperrorcode/</link>
+      <link>https://shwetakadam.com/tags/httperrorcode/</link>
       <pubDate>Tue, 20 Dec 2022 19:17:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/httperrorcode/</guid>
+      <guid>https://shwetakadam.com/tags/httperrorcode/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Arrays</title>
-      <link>http://localhost:1313/tags/arrays/</link>
+      <link>https://shwetakadam.com/tags/arrays/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/arrays/</guid>
+      <guid>https://shwetakadam.com/tags/arrays/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Java11</title>
-      <link>http://localhost:1313/tags/java11/</link>
+      <link>https://shwetakadam.com/tags/java11/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/java11/</guid>
+      <guid>https://shwetakadam.com/tags/java11/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Primitives</title>
-      <link>http://localhost:1313/tags/primitives/</link>
+      <link>https://shwetakadam.com/tags/primitives/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/primitives/</guid>
+      <guid>https://shwetakadam.com/tags/primitives/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Var</title>
-      <link>http://localhost:1313/tags/var/</link>
+      <link>https://shwetakadam.com/tags/var/</link>
       <pubDate>Sun, 20 Nov 2022 18:48:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/var/</guid>
+      <guid>https://shwetakadam.com/tags/var/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Databaseschemachanges</title>
-      <link>http://localhost:1313/tags/databaseschemachanges/</link>
+      <link>https://shwetakadam.com/tags/databaseschemachanges/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/databaseschemachanges/</guid>
+      <guid>https://shwetakadam.com/tags/databaseschemachanges/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Databaseversioncontrol</title>
-      <link>http://localhost:1313/tags/databaseversioncontrol/</link>
+      <link>https://shwetakadam.com/tags/databaseversioncontrol/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/databaseversioncontrol/</guid>
+      <guid>https://shwetakadam.com/tags/databaseversioncontrol/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Flyway</title>
-      <link>http://localhost:1313/tags/flyway/</link>
+      <link>https://shwetakadam.com/tags/flyway/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/flyway/</guid>
+      <guid>https://shwetakadam.com/tags/flyway/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Liquibase</title>
-      <link>http://localhost:1313/tags/liquibase/</link>
+      <link>https://shwetakadam.com/tags/liquibase/</link>
       <pubDate>Mon, 07 Nov 2022 15:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/liquibase/</guid>
+      <guid>https://shwetakadam.com/tags/liquibase/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Basics</title>
-      <link>http://localhost:1313/tags/basics/</link>
+      <link>https://shwetakadam.com/tags/basics/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/basics/</guid>
+      <guid>https://shwetakadam.com/tags/basics/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Kubeapiserver</title>
-      <link>http://localhost:1313/tags/kubeapiserver/</link>
+      <link>https://shwetakadam.com/tags/kubeapiserver/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/kubeapiserver/</guid>
+      <guid>https://shwetakadam.com/tags/kubeapiserver/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>http://localhost:1313/tags/kubernetes/</link>
+      <link>https://shwetakadam.com/tags/kubernetes/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <guid>https://shwetakadam.com/tags/kubernetes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Notes</title>
-      <link>http://localhost:1313/tags/notes/</link>
+      <link>https://shwetakadam.com/tags/notes/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/notes/</guid>
+      <guid>https://shwetakadam.com/tags/notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Domain</title>
-      <link>http://localhost:1313/tags/domain/</link>
+      <link>https://shwetakadam.com/tags/domain/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/domain/</guid>
+      <guid>https://shwetakadam.com/tags/domain/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Experiment</title>
-      <link>http://localhost:1313/tags/experiment/</link>
+      <link>https://shwetakadam.com/tags/experiment/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/experiment/</guid>
+      <guid>https://shwetakadam.com/tags/experiment/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Lessions</title>
-      <link>http://localhost:1313/tags/lessions/</link>
+      <link>https://shwetakadam.com/tags/lessions/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/lessions/</guid>
+      <guid>https://shwetakadam.com/tags/lessions/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Note</title>
-      <link>http://localhost:1313/tags/note/</link>
+      <link>https://shwetakadam.com/tags/note/</link>
       <pubDate>Tue, 01 Feb 2022 15:15:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/note/</guid>
+      <guid>https://shwetakadam.com/tags/note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Config</title>
-      <link>http://localhost:1313/tags/config/</link>
+      <link>https://shwetakadam.com/tags/config/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/config/</guid>
+      <guid>https://shwetakadam.com/tags/config/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Fzf</title>
-      <link>http://localhost:1313/tags/fzf/</link>
+      <link>https://shwetakadam.com/tags/fzf/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/fzf/</guid>
+      <guid>https://shwetakadam.com/tags/fzf/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Ohmyzsh</title>
-      <link>http://localhost:1313/tags/ohmyzsh/</link>
+      <link>https://shwetakadam.com/tags/ohmyzsh/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/ohmyzsh/</guid>
+      <guid>https://shwetakadam.com/tags/ohmyzsh/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Powerlevel10k</title>
-      <link>http://localhost:1313/tags/powerlevel10k/</link>
+      <link>https://shwetakadam.com/tags/powerlevel10k/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/powerlevel10k/</guid>
+      <guid>https://shwetakadam.com/tags/powerlevel10k/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>http://localhost:1313/tags/productivity/</link>
+      <link>https://shwetakadam.com/tags/productivity/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/productivity/</guid>
+      <guid>https://shwetakadam.com/tags/productivity/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Wsl</title>
-      <link>http://localhost:1313/tags/wsl/</link>
+      <link>https://shwetakadam.com/tags/wsl/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/wsl/</guid>
+      <guid>https://shwetakadam.com/tags/wsl/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Zsh</title>
-      <link>http://localhost:1313/tags/zsh/</link>
+      <link>https://shwetakadam.com/tags/zsh/</link>
       <pubDate>Fri, 21 Jan 2022 23:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/zsh/</guid>
+      <guid>https://shwetakadam.com/tags/zsh/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Api</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://shwetakadam.com/tags/api/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://shwetakadam.com/tags/api/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Apidocumentation</title>
-      <link>http://localhost:1313/tags/apidocumentation/</link>
+      <link>https://shwetakadam.com/tags/apidocumentation/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/apidocumentation/</guid>
+      <guid>https://shwetakadam.com/tags/apidocumentation/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Restapi</title>
-      <link>http://localhost:1313/tags/restapi/</link>
+      <link>https://shwetakadam.com/tags/restapi/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/restapi/</guid>
+      <guid>https://shwetakadam.com/tags/restapi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Springboot</title>
-      <link>http://localhost:1313/tags/springboot/</link>
+      <link>https://shwetakadam.com/tags/springboot/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/springboot/</guid>
+      <guid>https://shwetakadam.com/tags/springboot/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Swaggeropenapi</title>
-      <link>http://localhost:1313/tags/swaggeropenapi/</link>
+      <link>https://shwetakadam.com/tags/swaggeropenapi/</link>
       <pubDate>Sun, 16 Jan 2022 22:53:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/swaggeropenapi/</guid>
+      <guid>https://shwetakadam.com/tags/swaggeropenapi/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Cronjob</title>
-      <link>http://localhost:1313/tags/cronjob/</link>
+      <link>https://shwetakadam.com/tags/cronjob/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/cronjob/</guid>
+      <guid>https://shwetakadam.com/tags/cronjob/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/tags/development/</link>
+      <link>https://shwetakadam.com/tags/development/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/development/</guid>
+      <guid>https://shwetakadam.com/tags/development/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Events</title>
-      <link>http://localhost:1313/tags/events/</link>
+      <link>https://shwetakadam.com/tags/events/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/events/</guid>
+      <guid>https://shwetakadam.com/tags/events/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>https://shwetakadam.com/tags/java/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>https://shwetakadam.com/tags/java/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Mysql</title>
-      <link>http://localhost:1313/tags/mysql/</link>
+      <link>https://shwetakadam.com/tags/mysql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/mysql/</guid>
+      <guid>https://shwetakadam.com/tags/mysql/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>http://localhost:1313/tags/spring/</link>
+      <link>https://shwetakadam.com/tags/spring/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/spring/</guid>
+      <guid>https://shwetakadam.com/tags/spring/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>http://localhost:1313/tags/sql/</link>
+      <link>https://shwetakadam.com/tags/sql/</link>
       <pubDate>Wed, 12 Jan 2022 23:49:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/sql/</guid>
+      <guid>https://shwetakadam.com/tags/sql/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Freehosting</title>
-      <link>http://localhost:1313/tags/freehosting/</link>
+      <link>https://shwetakadam.com/tags/freehosting/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/freehosting/</guid>
+      <guid>https://shwetakadam.com/tags/freehosting/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Githubactions</title>
-      <link>http://localhost:1313/tags/githubactions/</link>
+      <link>https://shwetakadam.com/tags/githubactions/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/githubactions/</guid>
+      <guid>https://shwetakadam.com/tags/githubactions/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/tags/portfolio/</link>
+      <link>https://shwetakadam.com/tags/portfolio/</link>
       <pubDate>Sun, 05 Dec 2021 23:23:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/portfolio/</guid>
+      <guid>https://shwetakadam.com/tags/portfolio/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Polymorphism</title>
-      <link>http://localhost:1313/tags/polymorphism/</link>
+      <link>https://shwetakadam.com/tags/polymorphism/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/polymorphism/</guid>
+      <guid>https://shwetakadam.com/tags/polymorphism/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/tags/programming/</link>
+      <link>https://shwetakadam.com/tags/programming/</link>
       <pubDate>Wed, 14 Jul 2021 23:28:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/programming/</guid>
+      <guid>https://shwetakadam.com/tags/programming/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Concepts</title>
-      <link>http://localhost:1313/tags/concepts/</link>
+      <link>https://shwetakadam.com/tags/concepts/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/concepts/</guid>
+      <guid>https://shwetakadam.com/tags/concepts/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
     <item>
       <title>Constructors</title>
-      <link>http://localhost:1313/tags/constructors/</link>
+      <link>https://shwetakadam.com/tags/constructors/</link>
       <pubDate>Mon, 14 Jun 2021 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/tags/constructors/</guid>
+      <guid>https://shwetakadam.com/tags/constructors/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

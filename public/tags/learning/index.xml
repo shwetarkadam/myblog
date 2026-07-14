@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Learning on Shweta Kadam</title>
-    <link>http://localhost:1313/tags/learning/</link>
+    <link>https://shwetakadam.com/tags/learning/</link>
     <description>Recent content in Learning on Shweta Kadam</description>
     <image>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 21:41:00 +0530</lastBuildDate><atom:link href="https://shwetakadam.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Exploring TLS Automation — A Proof of Concept with n8n and Vault</title>
-      <link>http://localhost:1313/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
+      <link>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</link>
       <pubDate>Sun, 20 Apr 2025 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
+      <guid>https://shwetakadam.com/posts/exploring-tls-automation--a-proof-of-concept-with-n8n-and-vault/</guid>
       <description>&lt;h2 id=&#34;exploring-tls-cert-automation--a-proof-of-concept-with-n8n-and-vault&#34;&gt;Exploring TLS Cert Automation — A Proof of Concept with n8n and Vault&lt;/h2&gt;
 &lt;p&gt;Managing TLS certificates often means chasing expiry dates, setting reminders, and manually rotating certs—a process that’s fragile and prone to outages. To prove there’s a better way, I built a prototype combining n8n and HashiCorp Vault that demonstrates the power of automation, and had the opportunity to present this work as a talk at Mumbai FOSS 2025.
 The Prototype in Action&lt;/p&gt;</description>
@@ -41,10 +41,10 @@ The Prototype in Action</p>
     
     <item>
       <title> My First Tech Talk: The Journey from Panic to Presentation</title>
-      <link>http://localhost:1313/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
+      <link>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</link>
       <pubDate>Wed, 02 Oct 2024 21:41:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
+      <guid>https://shwetakadam.com/posts/my-first-tech-talk-the-journey-from-panic-to-presentation/</guid>
       <description>&lt;h1 id=&#34;my-first-tech-talk-the-journey-from-panic-to-presentation&#34;&gt;My First Tech Talk: The Journey from Panic to Presentation&lt;/h1&gt;
 &lt;p&gt;I recently had an opportunity to give a technical talk at GitTogether Mumbai. This is a small blog post based on my experience of giving a talk and a little behind-the-scenes turmoil written as a blog post.&lt;/p&gt;
 &lt;h2 id=&#34;how-do-you-secure-a-speaking-slot&#34;&gt;How Do You Secure a Speaking Slot?&lt;/h2&gt;
@@ -76,10 +76,10 @@ Once the panic and excitement strikes through so does the preparation. Preparing
     
     <item>
       <title>Using Thinking Fast and Slow Concepts on Programming</title>
-      <link>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
+      <link>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</link>
       <pubDate>Thu, 18 May 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
+      <guid>https://shwetakadam.com/posts/using-thinking-fast-and-slow-concepts-on-programming/</guid>
       <description>&lt;p&gt;Recently my friend gave me a Thkinking Fast and Slow Concepts book by Daniel Kahneman. I related to a lot of his. concepts and how it apply to my daily programming life a lot!&lt;/p&gt;
 &lt;p&gt;The book involves recognizing and managing cognitive biases while leveraging both intuitive and analytical thinking.the book explains 2 systems
 System 1 (Fast Thinking): This is the intuitive and automatic mode of thinking. It operates quickly and without much effort, making snap judgments and assumptions. It’s driven by emotion and instinct.&lt;/p&gt;</description>
@@ -109,10 +109,10 @@ Framing Effect: Decisions are influenced by the way information is presented.</p
     
     <item>
       <title>When to ask for help as a Software Engineer?</title>
-      <link>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</link>
+      <link>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</link>
       <pubDate>Fri, 03 Mar 2023 23:10:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
+      <guid>https://shwetakadam.com/posts/when-to-ask-for-help-as-a-software-engineer/</guid>
       <description>&lt;p&gt;We have all experienced this often where we are stuck on an issue. We feel  we have not earned the right to ask the doubt yet till we reach an imaginary threshold or baseline.
 The feeling of doing some research before reaching out to someone.&lt;/p&gt;
 &lt;p&gt;Then time passes and so does the feeling of shame.The shame of not being able to solve the doubt on my own and yet feeling the hesitation to reach out to a senior.&lt;/p&gt;</description>
@@ -131,10 +131,10 @@ It does two things:-</p>
     
     <item>
       <title>Tackling procrastination and kubernetes study</title>
-      <link>http://localhost:1313/posts/tackling-procrastination-and-kubernetes-study/</link>
+      <link>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</link>
       <pubDate>Fri, 25 Feb 2022 15:45:00 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/tackling-procrastination-and-kubernetes-study/</guid>
+      <guid>https://shwetakadam.com/posts/tackling-procrastination-and-kubernetes-study/</guid>
       <description>&lt;p&gt;After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a long series of procrastination and getting the hit of motivation from reading Atomic Habits(great book which I recommend others) ,I’m finally learning kubernetes basics.As a motivator to get better at writing and publish more posts as well as learn kubernetes.I have decided to publish 1 article every Sunday.I would like to post 2 posts per week but I want to start small and consistent. Once again I’m treating my blog as a journal to showcase how much I actually understand kubernetes.Also its quite handy to have my own notes on a site. So here is a blog post on kubernetes basics part 1.This will be a multi part series. Before we begin some pre requisites which one needs to know :-</p>
 <h2 id="pre-requisite">Pre requisite</h2>

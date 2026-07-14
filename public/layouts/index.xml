@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Layouts on Shweta Kadam</title>
-    <link>http://localhost:1313/layouts/</link>
+    <link>https://shwetakadam.com/layouts/</link>
     <description>Recent content in Layouts on Shweta Kadam</description>
     <image>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://shwetakadam.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/layouts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://shwetakadam.com/layouts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/layouts/partials/extend_footer/</link>
+      <link>https://shwetakadam.com/layouts/partials/extend_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/layouts/partials/extend_footer/</guid>
+      <guid>https://shwetakadam.com/layouts/partials/extend_footer/</guid>
       <description>The Good parts are made by me,
 The Bad parts are made by me.</description>
       <content:encoded><![CDATA[The Good parts are made by me,
