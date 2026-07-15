@@ -53,17 +53,34 @@ body.list,
 }
 
 #menu a[href^="mailto:"] {
+    display: inline-block;
+    line-height: 1.3;
+    vertical-align: middle;
     background: var(--accent);
     color: #fdf6e9;
-    padding: 7px 15px;
+    padding: 10px 16px;
     border-radius: 4px;
-    box-shadow: 2px 2px 0 var(--ink);
+    box-shadow: 2px 2px 0 rgba(58, 47, 35, 0.5);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dark #menu a[href^="mailto:"] {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.6);
 }
 
 #menu a[href^="mailto:"]:hover {
     transform: translate(1px, 1px);
-    box-shadow: 1px 1px 0 var(--ink);
+    box-shadow: 1px 1px 0 rgba(58, 47, 35, 0.5);
+}
+
+.dark #menu a[href^="mailto:"]:hover {
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+#menu a[href^="mailto:"]:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
 }
 
 /* ---- hero ---- */
