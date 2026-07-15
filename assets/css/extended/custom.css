@@ -53,13 +53,10 @@ body.list,
 }
 
 #menu a[href^="mailto:"] {
-    display: inline-block;
-    line-height: 1.3;
-    vertical-align: middle;
     background: var(--accent);
     color: #fdf6e9;
-    padding: 10px 16px;
-    border-radius: 4px;
+    padding: 7px 16px;
+    border-radius: 0 0 6px 6px;
     box-shadow: 2px 2px 0 rgba(58, 47, 35, 0.5);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
     -webkit-tap-highlight-color: transparent;
